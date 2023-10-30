@@ -1,0 +1,11 @@
+id: yc2_tsn_pdvc_lxmert+contrast_recipe_no_base_encoder_lr5e-5
+base_cfg_path: cfgs/yc2_tsn_pdvcl_lxmert+contrast_recipe_768_no_base_encoder_5e-5.yml
+
+caption_decoder_type: standard
+cap_nheads: 1
+cap_dec_n_points: 4
+cap_num_feature_levels: 4
+soft_attention: 1
+att_hid_size: 768
+
+ec_alpha: 1.0
