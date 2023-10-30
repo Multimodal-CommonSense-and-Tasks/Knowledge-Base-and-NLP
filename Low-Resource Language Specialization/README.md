@@ -187,3 +187,17 @@ Then use `scripts/analysis/get_hausdorff_and_datas.py` then `scripts/analysis/vi
 
 ### analysis (label discrep)
 Collect the label predictions. Then use `scripts/analysis/check_subword_frequencies.py` then `scripts/analysis/check_mispred_how.py`
+
+## Citation
+If you find this code helpful, please consider citing:
+```
+@article{Lee_Lee_Hwang_2023,
+	author = {Lee, Jaeseong and Lee, Dohyeon and Hwang, Seung-won},
+	doi = {10.1609/aaai.v37i11.26528},
+	journal = {Proceedings of the AAAI Conference on Artificial Intelligence},
+	title = {Script, Language, and Labels: Overcoming Three Discrepancies for Low-Resource Language Specialization},
+	url = {https://ojs.aaai.org/index.php/AAAI/article/view/26528},
+	volume = {37},
+	year = {2023}
+}
+```
