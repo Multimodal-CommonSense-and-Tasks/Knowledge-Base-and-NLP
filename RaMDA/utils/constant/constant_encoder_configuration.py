@@ -1,0 +1,36 @@
+encoder_name_dict = {
+    "sentence-transformers/gtr-t5-base": "GTR (Base)",
+    "sentence-transformers/gtr-t5-large": "GTR (Large)",
+    "OpenMatch/cocodr-large-msmarco": "COCO-DR (Large)",
+    "Luyu/co-condenser-marco": "coCondenser",
+    "Luyu/co-condenser-marco-retriever": "Finetuned coCondenser",
+    "distilbert-base-uncased": "DistilBERT",
+    "bert-base-uncased": "BERT (Base)",
+    "msmarco-distilbert-dot-v5": "Finetuned DistilBERT",
+    "msmarco-distilbert-base-tas-b": "TAS-B",
+    "bm25": "BM25", 
+}
+pooling_dict = {
+    "sentence-transformers/gtr-t5-base": "mean",
+    "sentence-transformers/gtr-t5-large": "mean",
+    "OpenMatch/cocodr-base-msmarco": "cls",
+    "OpenMatch/cocodr-large-msmarco": "cls",
+    "Luyu/co-condenser-marco": "cls",
+    "Luyu/co-condenser-marco-retriever": "cls",
+    "distilbert-base-uncased": "mean",
+    "bert-base-uncased": "mean",
+    "msmarco-distilbert-dot-v5": "mean",
+    "msmarco-distilbert-base-tas-b": "mean",
+}
+score_function_dict = {
+    "sentence-transformers/gtr-t5-base": "dot",
+    "sentence-transformers/gtr-t5-large": "dot",
+    "OpenMatch/cocodr-base-msmarco": "dot",
+    "OpenMatch/cocodr-large-msmarco": "dot",
+    "Luyu/co-condenser-marco": "dot",
+    "Luyu/co-condenser-marco-retriever": "dot",
+    "distilbert-base-uncased": "cos_sim",
+    "bert-base-uncased": "cos_sim",
+    "msmarco-distilbert-dot-v5": "dot",
+    "msmarco-distilbert-base-tas-b": "dot",
+}
