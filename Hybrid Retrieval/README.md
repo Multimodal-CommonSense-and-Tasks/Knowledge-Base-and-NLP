@@ -1,4 +1,4 @@
-# On Complementarity Objectives for Hybrid Retrieval
+# On Complementarity Objectives for Hybrid Retrieval (ACL 2023)
 
 ## Before Running
 We require to install DPR before running this code.
@@ -99,4 +99,22 @@ python train_extractive_reader.py \
 	gold_passages_src={path to data.gold_passages_info.nq_train file} \
 	gold_passages_src_dev={path to data.gold_passages_info.nq_dev file} \
 	output_dir={path to output dir}
+```
+
+## Citation
+If you find this code helpful, please consider citing:
+```
+@inproceedings{lee-etal-2023-complementarity,
+    title = "On Complementarity Objectives for Hybrid Retrieval",
+    author = "Lee, Dohyeon  and
+      Hwang, Seung-won  and
+      Lee, Kyungjae  and
+      Choi, Seungtaek  and
+      Park, Sunghyun",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    year = "2023",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.746",
+    doi = "10.18653/v1/2023.acl-long.746",
+}
 ```
