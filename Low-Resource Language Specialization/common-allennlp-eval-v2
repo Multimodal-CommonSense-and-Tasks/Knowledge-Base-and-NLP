@@ -1,0 +1,156 @@
+#!/bin/bash
+
+export MTL_DATA="./specializing-multilingual-data/data"
+export MTL_ALLENNLP_OUTPUTS="./batch16_lastckpt"
+readonly archive_dir="$MTL_ALLENNLP_OUTPUTS"
+readonly data_dir="$MTL_DATA"
+
+ARGS=( "$@" )
+COMMANDS="${ARGS[@]}"
+export FOLDS=${FINAL_FOLD:-4}
+
+for i in $COMMANDS; do
+    echo $i
+    if [[ $i == ms* ]]; then
+        # ms*
+        # e.g., msner_mtlalt_ug_tva_best
+        lang=`echo $i | cut -d"_" -f3`
+        base=`echo $i | cut -d"_" -f2`
+        task=`echo $i | cut -d"_" -f1`
+    else
+        # mtl, mtlud, mtlner, mtlpos, mtlhom, mtlalthom, mtlalt
+        # e.g., mtl_ug_tva_best
+        lang=`echo $i | cut -d"_" -f2`
+        task=`echo $i | cut -d"_" -f1`
+    fi
+
+    for fold in $(seq 0 $FOLDS); do
+        export out_dir="${i}${SUFFIX}.${fold}"
+        if [[ $FINAL_FOLD -gt 4 ]]; then
+          export SPLIT_SEED=$fold
+        else
+          export SPLIT_SEED=""
+        fi
+        archive="${archive_dir}/${out_dir}/model.tar.gz"
+
+        if [[ $task == "mtlner" || $task == "msner" ]]; then
+            test_file="${data_dir}/${lang}/panx/test"
+            allennlp evaluate $archive $test_file \
+                --data-key ner \
+                --output-file ${archive_dir}/${out_dir}/metrics_ner.json \
+                --cuda-device 0 \
+                --include-package modules-v2
+        fi
+
+        if [[ $task == "mtlpos" || $task == "mspos" ]]; then
+            data_key=`[[ $task == "mspos" && ($base == "mtlalt" || $base == "mtlalthom") ]] \
+                && echo "ud" || echo "pos"`
+
+            test_file="${data_dir}/${lang}/ud${SPLIT_SEED}/test.conllu"
+            allennlp evaluate $archive $test_file \
+                --data-key ${data_key} \
+                --output-file ${archive_dir}/${out_dir}/metrics_pos.json \
+                --cuda-device 0 \
+                --extend-namespace head_tags \
+                --extend-namespace head_indices \
+                --include-package modules-v2
+        fi
+
+        if [[ $task == "mtlud" || $task == "msud" ]]; then
+            test_file="${data_dir}/${lang}/ud${SPLIT_SEED}/test.conllu"
+            allennlp evaluate $archive $test_file \
+                --data-key ud \
+                --output-file ${archive_dir}/${out_dir}/metrics_ud.json \
+                --cuda-device 0 \
+                --include-package modules-v2 \
+                --extend-namespace head_tags \
+                --extend-namespace head_indices
+
+
+            allennlp predict $archive $test_file \
+                --use-dataset-reader \
+                --include-package modules-v2 \
+                --predictor dependency-parser \
+                --multitask-head ud \
+                --extend-namespace head_tags \
+                --extend-namespace head_indices \
+                --silent \
+                --cuda-device 0 \
+                --output-file ${archive_dir}/${out_dir}/test_predictions_ud.conllu
+
+            (python scripts/eval/conll18_ud_eval.py \
+                $test_file ${archive_dir}/${out_dir}/test_predictions_ud.conllu \
+                --skip-checks) \
+                > ${archive_dir}/${out_dir}/metrics_ud.txt
+        fi
+
+        if [[ $task == "mtl" || $task == "mtlhom" ]]; then
+            panx_test="${data_dir}/${lang}/panx/test"
+            ud_test="${data_dir}/${lang}/ud${SPLIT_SEED}/test.conllu"
+            if [[ $lang == "wo" ]]; then
+                json_input="{\"ud\":\"${ud_test}\",\"pos\":\"${ud_test}\"}"
+            else
+                json_input="{\"ud\":\"${ud_test}\",\"ner\":\"${panx_test}\",\"pos\":\"${ud_test}\"}"
+            fi
+            allennlp evaluate $archive $json_input \
+                --truly-multitask \
+                --output-file ${archive_dir}/${out_dir}/metrics_mtl.json \
+                --cuda-device 0 \
+                --extend-namespace head_tags \
+                --extend-namespace head_indices \
+                --include-package modules-v2
+
+            allennlp predict $archive $ud_test \
+                --use-dataset-reader \
+                --include-package modules-v2 \
+                --predictor dependency-parser \
+                --multitask-head ud \
+                --extend-namespace head_tags \
+                --extend-namespace head_indices \
+                --silent \
+                --cuda-device 0 \
+                --output-file ${archive_dir}/${out_dir}/test_predictions_ud.conllu
+
+            (python scripts/eval/conll18_ud_eval.py \
+                $ud_test ${archive_dir}/${out_dir}/test_predictions_ud.conllu \
+                --skip-checks) \
+                > ${archive_dir}/${out_dir}/metrics_ud.txt
+        fi
+
+        if [[ $task == "mtlalt" || $task == "mtlalthom" ]]; then
+            panx_test="${data_dir}/${lang}/panx/test"
+            ud_test="${data_dir}/${lang}/ud${SPLIT_SEED}/test.conllu"
+            if [[ $lang == "wo" ]]; then
+                json_input="{\"ud\":\"${ud_test}\"}"
+            else
+                json_input="{\"ud\":\"${ud_test}\",\"ner\":\"${panx_test}\"}"
+            fi
+            allennlp evaluate $archive $json_input \
+                --truly-multitask \
+                --output-file ${archive_dir}/${out_dir}/metrics_mtl.json \
+                --cuda-device 0 \
+                --extend-namespace head_tags \
+                --extend-namespace head_indices \
+                --include-package modules-v2
+
+            allennlp predict $archive $ud_test \
+                --use-dataset-reader \
+                --include-package modules-v2 \
+                --predictor dependency-parser \
+                --multitask-head ud \
+                --extend-namespace head_tags \
+                --extend-namespace head_indices \
+                --silent \
+                --cuda-device 0 \
+                --output-file ${archive_dir}/${out_dir}/test_predictions_ud.conllu
+
+            (python scripts/eval/conll18_ud_eval.py \
+                $ud_test ${archive_dir}/${out_dir}/test_predictions_ud.conllu \
+                --skip-checks) \
+                > ${archive_dir}/${out_dir}/metrics_ud.txt
+        fi
+        rm -r ${archive_dir}/${out_dir}/*.th
+        rm $archive
+    done
+
+done

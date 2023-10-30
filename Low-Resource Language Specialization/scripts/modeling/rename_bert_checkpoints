@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -euo pipefail
+
+readonly dir="$1"; shift
+readonly ct="$1"; shift
+readonly bert_config="$1"; shift
+readonly config="$1"; shift
+
+for i in $(seq 1 20); do
+    val=$(( $i * $ct ))
+    mkdir ${dir}/epoch_${i}
+    mv ${dir}/model.ckpt-${val}.* ${dir}/epoch_${i}
+    cp $config ${dir}/epoch_${i}/config.json
+    python convert_bert_to_hf.py \
+        --tf_checkpoint_path ${dir}/epoch_${i}/model.ckpt-${val} \
+        --bert_config_file $bert_config \
+        --pytorch_dump_path ${dir}/epoch_${i}/pytorch_model.bin
+done

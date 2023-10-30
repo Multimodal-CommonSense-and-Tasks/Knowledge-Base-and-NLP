@@ -1,0 +1,35 @@
+#!/bin/bash
+
+set -euo pipefail
+
+#for lang in be bg ga mhr mt ug ur vi wo mhrlatin uglatin uglatinnfkc xmf xmflatin; do
+#for lang in mhr ug mhrlatin uglatinnfkc xmf xmflatin ckb ckblatinnfkc km kmlatin; do
+for lang in ckb ckblatinnfc ; do
+    for epoch in best; do
+        config_name="../autogen/mtlner_${lang}_tva_${epoch}.jsonnet"
+        echo $config_name
+        echo "local t = import \"DO_NOT_ERASE_pathfinder.libsonnet\";"  \
+            > $config_name
+        echo "" >> $config_name
+        echo "t.build_mtl_ner(\"${lang}\", \"bert\", [\"vambert\", \"${epoch}\"])" >> $config_name
+    done
+done
+
+for lang in uglatinnfc ug myv myvrulatin mt mtarabbw; do
+    for epoch in best; do
+        config_name="../autogen/mtlud_${lang}_tva_${epoch}.jsonnet"
+        echo $config_name
+        echo "local t = import \"DO_NOT_ERASE_pathfinder.libsonnet\";"  \
+            > $config_name
+        echo "" >> $config_name
+        echo "t.build_mtl_ud(\"${lang}\", \"bert\", [\"vambert\", \"${epoch}\"])" >> $config_name
+
+        config_name="../autogen/mtlpos_${lang}_tva_${epoch}.jsonnet"
+        echo $config_name
+        echo "local t = import \"DO_NOT_ERASE_pathfinder.libsonnet\";"  \
+            > $config_name
+        echo "" >> $config_name
+        echo "t.build_mtl_pos(\"${lang}\", \"bert\", [\"vambert\", \"${epoch}\"])" >> $config_name
+
+    done
+done

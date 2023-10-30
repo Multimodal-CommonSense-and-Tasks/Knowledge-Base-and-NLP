@@ -1,0 +1,46 @@
+#!/bin/bash
+
+#source /path/to/miniconda3/etc/profile.d/conda.sh
+#source ~/.bashrc
+#conda activate lr-ssmba-multitask
+
+# set -euo pipefail
+
+cat $0
+echo "-----------------------"
+
+export MTL_BERT_OUTPUTS="."
+export MTL_DATA="./specializing-multilingual-data/data"
+export MTL_ALLENNLP_OUTPUTS="./batch16_lastckpt"
+export MTL_REPO_SHORTNAME="hyak"
+export REPO_DIR="."
+
+cd $REPO_DIR
+
+readonly output_dir="$MTL_ALLENNLP_OUTPUTS"
+
+mkdir -p $output_dir
+
+ARGS=( "$@" )
+COMMANDS="${ARGS[@]}"
+export FOLDS=${FINAL_FOLD:-4}
+
+for i in $COMMANDS; do
+    for s in $(seq 0 $FOLDS); do
+        if (( $FINAL_FOLD > 4 )); then
+          export DEV_SIZE=$(( $TOTAL_SIZE - $TOTAL_SIZE * ($FINAL_FOLD + 1) / ($FINAL_FOLD + 2) ))
+          export TRAIN_SIZE=$(( $TOTAL_SIZE - $DEV_SIZE - $TOTAL_SIZE * ($s + 1) / ($FINAL_FOLD + 2) + $TOTAL_SIZE * $s / ($FINAL_FOLD + 2) ))
+        fi
+        export SEED_SET="$s"
+        echo $i $s
+        export out_dir="${i}${SUFFIX}.${SEED_SET}"
+#        mkdir -p $output_dir/${out_dir}
+        touch $output_dir/${out_dir}/THIS_IS_RUNNING.txt
+        allennlp train config/autogen/${i}.jsonnet \
+            -s $output_dir/${out_dir} --include-package modules-v2 \
+            && touch $output_dir/${out_dir}/THIS_IS_GOOD.txt \
+            || touch $output_dir/${out_dir}/THIS_IS_BAD.txt
+        rm -f $output_dir/${out_dir}/THIS_IS_RUNNING.txt
+    done
+done
+ 

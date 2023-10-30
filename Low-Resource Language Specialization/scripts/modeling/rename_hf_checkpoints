@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -euo pipefail
+
+readonly dir="$1"; shift
+readonly ct="$1"; shift
+
+for i in $(seq 1 20); do
+    val=$(( $i * $ct ))
+    mv ${dir}/checkpoint-${val} ${dir}/epoch_${i}
+done

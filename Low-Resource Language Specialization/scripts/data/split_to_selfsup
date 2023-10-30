@@ -1,0 +1,30 @@
+#!/bin/bash
+
+set -euo pipefail
+
+readonly data_root="/m-pinotHD/echau18/lr-ssmba/data"
+readonly split_line="===END UNLABELED DATA==="
+
+for lang in be bg ga mhr mt ug ur vi wo; do
+    panx_train="${data_root}/${lang}/panx/train"
+    for aug_file in `ls ${data_root}/${lang}/panx/ssmba`; do
+        if [[ $aug_file != *"_unk"* ]]; then
+            output="${data_root}/${lang}/panx/ssmba/${aug_file}.train"
+            cat ${data_root}/${lang}/panx/ssmba/${aug_file} > $output
+            echo $split_line >> $output
+            echo "" >> $output
+            cat $panx_train >> $output
+        fi
+    done
+
+    ud_train="${data_root}/${lang}/ud/train.conllu"
+    for aug_file in `ls ${data_root}/${lang}/ud/ssmba`; do
+        if [[ $aug_file != *"_unk"* ]]; then
+            output="${data_root}/${lang}/ud/ssmba/${aug_file}.train.conllu"
+            cat ${data_root}/${lang}/ud/ssmba/${aug_file} > $output
+            echo $split_line >> $output
+            echo "" >> $output
+            cat $ud_train >> $output
+        fi
+    done
+done
