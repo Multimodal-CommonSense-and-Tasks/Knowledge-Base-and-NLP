@@ -1,0 +1,21 @@
+deepspeed --include localhost:0,1,2,3,4,5,6,7 --master_port 30000   src/train_knowledge_model/cop_train_clm.py \
+    --model_name_or_path facebook/opt-1.3b \
+    --output_dir /home/hjchae/nas2/EMNLP2023/MindMap/checkpoints/ty/opt_1_3b_ours \
+    --dataset  /home/hjchae/nas2/EMNLP2023/MindMap/data/filtering/final/cons05_help09 \
+    --do_train True \
+    --do_eval True --do_mmlu_eval False \
+    --source_max_len 1024 \
+    --target_max_len 400 \
+    --per_device_train_batch_size 8 \
+    --per_device_eval_batch_size 8 \
+    --gradient_accumulation_steps 4 \
+    --logging_steps 10 \
+    --max_steps 10000 \
+    --save_strategy epoch \
+    --data_seed 42 \
+    --save_total_limit 40 \
+    --evaluation_strategy epoch \
+    --eval_dataset_size 1024 \
+    --max_eval_samples 1000 \
+    --optim paged_adamw_32bit \
+    --report_to wandb --bits 16 --bf16 true \
