@@ -1,0 +1,18 @@
+# Torch & Huggingface family
+torch==1.13.1
+transformers==4.26.0
+sentence-transformers==2.2.2
+tokenizers==0.13.2
+datasets==2.9.0
+evaluate==0.4.0
+
+# NLP / string algorithms
+nltk==3.8.1
+diaparser==1.1.2
+ahocorapy==1.6.2
+
+# Evaluations
+evaluate==0.4.0
+bert_score==0.3.13
+sacrebleu==2.3.1
+git+https://github.com/lucadiliello/bleurt-pytorch.git
