@@ -1,0 +1,5 @@
+[[redirects]]
+from = "/api/*"
+  to = "http://0.0.0.0:8000/"
+  status = 200
+  force = true
