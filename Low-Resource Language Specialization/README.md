@@ -2,8 +2,25 @@
 
 This work is implemented based on [specializing-multilingual](https://github.com/ethch18/specializing-multilingual), [bert](https://github.com/google-research/bert), [allennlp](https://github.com/ethch18/allennlp/tree/bd4457431e818cc3650e195a2b65345ee3f7c7e9)
 
-## SL2 main exps (Table 1)
-### environments
+## Overview
+
+### Paper description and main idea:
+
+Although multilingual pretrained models (mPLMs) enabled support of various natural language processing in diverse languages, its limited coverage of 100+ languages lets 6500+ languages remain ‘unseen’. One common approach for an unseen language is specializing the model for it as target, by performing additional masked language modeling (MLM) with the target language corpus. However, we argue that, due to the discrepancy from multilingual MLM pretraining, a naive specialization as such can be suboptimal. Specifically, we pose three discrepancies to overcome.
+**Script** and **linguistic** discrepancy of the target language from the related seen languages, hinder a positive transfer, for which we propose to maximize representation similarity, unlike existing approaches maximizing overlaps. In addition, **label** space for MLM prediction can vary across languages, for which we propose to reinitialize top layers for a more effective adaptation. Experiments over four different language families and three tasks shows that our method improves the task performance of unseen languages with statistical significance, while previous approach fails to.
+
+![Overview Image](resources/overview.png)
+
+### Contribution:
+
+* We provide a different metric for previously proposed script discrepancy, and propose a novel concept of 'cross-script alignment' to mitigate it.
+* We reveal two more discrepancies (linguistic and label) and provide simple yet effective solutions for them.
+* Our method significantly outperforms baselines, in four diverse languages and three different tasks, while the previous approach to mitigate discrepancies fails to.
+
+## Code Running
+
+### SL2 main exps (Table 1)
+#### environments
 TPU VM for bert pretraining
 ```bash
 virtualenv cpuonly
@@ -28,7 +45,7 @@ chmod +x hyak-allennlp-train-v2-base
 chmod +x common-allennlp-eval-v2
 ```
 
-### download mBERT
+#### download mBERT
 ```bash
 curl -O https://storage.googleapis.com/bert_models/2018_11_23/multi_cased_L-12_H-768_A-12.zip
 unzip multi_cased_L-12_H-768_A-12.zip
@@ -39,7 +56,7 @@ done
 ```
 Then download [pytorch_model.bin](https://huggingface.co/bert-base-multilingual-cased/tree/main), place in `bert/mbert`
 
-### specializing tokenizer
+#### specializing tokenizer
 Set `target_lang`, `translit_lang` based on the name in `specializing-multilingual-data`. Set desired `count`, which is the number of tokens to add
 ```bash
 export target_lang=ug
@@ -77,7 +94,7 @@ python scripts/data/augment_bert.py --new_vocab=$base_path/5000-5-1000-${count}.
 python scripts/data/convert_torch_to_tf.py --model_name $vocab_augmented_bert --cache_dir $vocab_augmented_bert --tf_cache_dir $vocab_augmented_bert
 ```
 
-### cross-script alignment + reset_head
+#### cross-script alignment + reset_head
 We provided transliteration mapping `translit_dict`, which is simply orig_word - translit_word pair, with all the words in the wikipedia corpus of target language
 
 ```bash
@@ -91,7 +108,7 @@ python scripts/data/finetune_align_layers.py --lang $cache_suffix --align_tgt_mo
 ```
 If you don't want to reset head, you can set `--reset_head=False`
 
-### cross-ling alignment + reset_head
+#### cross-ling alignment + reset_head
 ```bash
 export OUTPUT_DIR=YOUR_OUTPUT_DIR
 export bert_init_base_path=YOUR_INPUT_PY_BERT
@@ -109,14 +126,14 @@ export data_args="--orig_corpus ${corpus_base}.${lang} --src_corpus ${corpus_bas
 python scripts/data/finetune_align_layers.py $basic_set $data_args --align_tgt_model_tok_cfg=${align_tgt} --lang ${cache_suffix}  --model_tok_cfg=${bert_init_base_path} --output_dir=${OUTPUT_DIR}
 ```
 
-### prepare them for tf bert pretrain
+#### prepare them for tf bert pretrain
 ```bash
 python scripts/data/convert_torch_to_tf.py --model_name $OUTPUT_DIR --cache_dir $OUTPUT_DIR --tf_cache_dir $OUTPUT_DIR
 gsutil -m cp -r $OUTPUT_DIR/\* GS_BUCKET_SAVE_PATH/
 ```
 now `GS_BUCKET_SAVE_PATH` will contain a .ckpt (which consists of 3 files with different suffixes) . We name it as `GS_BUCKET_INIT_CKPT`
 
-### bert pretrain on tf
+#### bert pretrain on tf
 Create tfrecord
 ```bash
 export tfrecord_on_gs_bucket=GS_BUCKET_TFRECORD_PATH
@@ -146,7 +163,7 @@ ${HOME}/cpuonly/bin/python scripts/modeling/convert_script.py --output_dir=/dev/
 ```
 Then the converted model will be placed in `/dev/shm/$local_save_dir/epoch_last`. Copy that to ngc docker
 
-### fine-tune
+#### fine-tune
 Modify [PATHFINDER](config/autogen/DO_NOT_ERASE_pathfinder.libsonnet) to point right mtl.libsonnet path
 
 Then, run followings (if you run on myv, make sure to set FINAL_FOLD and TOTAL_SIZE)
@@ -161,7 +178,7 @@ export PYTHONPATH=`pwd`
 ```
 You may change `mtlpos_ug_tva_best` as the following name in `config/autogen`
 
-### get p-value
+#### get p-value
 ```python
 from scipy import stats
 import numpy as np
@@ -170,25 +187,25 @@ others = np.array(others)
 greater = stats.ttest_1samp(current - others, 0, alternative='greater').pvalue
 ```
 
-## Other exps
-### alignments after specialization (Table 3)
+### Other exps
+#### alignments after specialization (Table 3)
 run cross-ling exp with additional params:
 `--align_tgt=SPECIALIZED_MODEL --reset_head=False --update_src_emb_also=True --reduce_word_strategy last --regularlize_on_orig_embeddings=True`
 
-### reinit more (Table 4)
+#### reinit more (Table 4)
 use `scripts/modeling/reinit_layers.py`
 
-### analysis (representation sim)
+#### analysis (representation sim)
 for visualization & hausdorff distance,
 ```bash
 pip install hausdorff plotly
 ```
 Then use `scripts/analysis/get_hausdorff_and_datas.py` then `scripts/analysis/vis_only_some.py`
 
-### analysis (label discrep)
+#### analysis (label discrep)
 Collect the label predictions. Then use `scripts/analysis/check_subword_frequencies.py` then `scripts/analysis/check_mispred_how.py`
 
-## Citation
+## Reference
 If you find this code helpful, please consider citing:
 ```
 @article{Lee_Lee_Hwang_2023,

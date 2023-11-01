@@ -1,4 +1,19 @@
-## Code Instruction
+## Overview
+
+### Paper description and main idea:
+
+Instructional videos make learning knowledge more efficient, by providing a detailed multimodal context of each procedure in instruction. A unique challenge posed by instructional videos is key-object degeneracy, where any single modality fails to sufficiently capture the key objects referred to in the procedure. For machine systems, such degeneracy can disturb the performance of a downstream task such as dense video captioning, leading to the generation of incorrect captions omitting key objects. To repair degeneracy, we propose a retrieval-based framework to augment the model representations in the presence of such key-object degeneracy. We validate the effectiveness and generalizability of our proposed framework over baselines using modalities with key-object degeneracy.
+
+![Overview Image](resources/overview.png)
+
+### Contribution:
+
+* We propose a temporal description retrieval task to find the procedural sentences procedurally aligned to each frame in instructional videos.
+* We propose a key object-aware frame contrastive learning objective (KOFCL) to improve temporal description retrieval.
+* We show the improved temporal description retrieval repairs degeneracy and improves DVC significantly.
+
+## Code Running
+
 This software includes code for temporal description retrieval and dense video captioning on youcook2.
 As we use lxmert encoding for video frames, we first explain how to use lxmert for youcook2.
 To use lxmert encodings, 
@@ -22,7 +37,7 @@ with
 config_path=cfgs/yc2_tsn_pdvc_lxmert+contrast_recipe_768_no_base_encoder_5e-5.yml
 ```
 
-## Citation
+## Reference
 If you find this code helpful, please consider citing:
 ```
 @inproceedings{jung-etal-2023-retrieval,

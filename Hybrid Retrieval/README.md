@@ -1,6 +1,21 @@
 # On Complementarity Objectives for Hybrid Retrieval (ACL 2023)
 
-## Before Running
+## Overview
+
+### Paper description and main idea:
+
+Dense retrieval has shown promising results in various information retrieval tasks, and hybrid retrieval, combined with the strength of sparse retrieval, has also been actively studied. A key challenge in hybrid retrieval is to make sparse and dense complementary to each other. Existing models have focused on dense models to capture "residual" features neglected in the sparse models. Our key distinction is to show how this notion of residual complementarity is limited, and propose a new objective, denoted as RoC (Ratio of Complementarity), which captures a fuller notion of complementarity. We propose a two-level orthogonality designed to improve RoC, then show that the improved RoC of our model, in turn, improves the performance of hybrid retrieval. Our method outperforms all state-of-the-art methods on three representative IR benchmarks: MSMARCO-Passage, Natural Questions, and TREC Robust04, with statistical significance. Our finding is also consistent in various adversarial settings.
+
+![Overview Image](resources/overview.png)
+
+### Contribution:
+
+* We study the problem of hybrid retrieval, where existing state-of-the-arts have pursued a partial notion of complementarity, and propose RoC, a metric that captures a fuller notion of the complementarity between sparse and dense models.
+* We then propose a simple but effective two-level orthogonality objective to enhance RoC and verify that optimizing RoC enhances both complementarity and retrieval, leads to outperforming state-of-the-arts in three representative IR benchmarks, MSMARCO-Passage, Natural Questions, and TREC Robust04, and generalizing to adversarial settings.
+
+## Code Running
+
+### Before Running
 We require to install DPR before running this code.
 
 ```bash
@@ -9,10 +24,10 @@ cd DPR
 pip install .
 ```
 
-## Data formats
+### Data formats
 We use same data format as DPR. Please visit https://github.com/facebookresearch/DPR for more details.
 
-## Retriever training
+### Retriever training
 ```bash
 python train_dense_encoder.py \
 train_datasets=[list of train datasets, comma separated without spaces] \
@@ -30,7 +45,7 @@ train=biencoder_local \
 output_dir={path to checkpoints dir}
 ```
 
-## Retriever inference
+### Retriever inference
 ```bash
 python generate_dense_embeddings.py \
 	model_file={path to biencoder checkpoint} \
@@ -39,7 +54,7 @@ python generate_dense_embeddings.py \
 	out_file={result files location + name PREFX}	
 ```
 
-## Retriever validation against the entire set of documents:
+### Retriever validation against the entire set of documents:
 ```bash
 python dense_retriever.py \
 	model_file={path to a checkpoint downloaded from our download_data.py as 'checkpoint.retriever.single.nq.bert-base-encoder'} \
@@ -60,7 +75,7 @@ python dense_retriever.py \
 	out_file={path to output json file with results} 
 ```
 
-## Reader model training
+### Reader model training
 ```bash
 python train_extractive_reader.py \
 	encoder.sequence_length=350 \
@@ -68,7 +83,7 @@ python train_extractive_reader.py \
 	dev_files={path to the retriever dev set results file}  \
 	output_dir={path to output dir}
 ```
-## Reader model inference
+### Reader model inference
 ```bash
 python train_extractive_reader.py \
   prediction_results_file={path to a file to write the results to} \
@@ -80,7 +95,7 @@ python train_extractive_reader.py \
   encoder.sequence_length=350
 ```
 
-### Evaluate retrieval accuracy and generate top passage results for each of the train/dev/test datasets.
+#### Evaluate retrieval accuracy and generate top passage results for each of the train/dev/test datasets.
 ```bash
 python dense_retriever.py \
 	model_file={path to the best checkpoint or use our proivded checkpoints (Resource names like checkpoint.retriever.*)  } \
@@ -90,7 +105,7 @@ python dense_retriever.py \
 	out_file={path to the output file}
 ```
 
-### 5. Reader training
+#### 5. Reader training
 ```bash
 python train_extractive_reader.py \
 	encoder.sequence_length=350 \
@@ -101,7 +116,7 @@ python train_extractive_reader.py \
 	output_dir={path to output dir}
 ```
 
-## Citation
+## Reference
 If you find this code helpful, please consider citing:
 ```
 @inproceedings{lee-etal-2023-complementarity,

@@ -1,15 +1,24 @@
-# RaMDA
-
-This PyTorch code was used in the experiments of the research paper
-* Jihyuk Kim, Minsoo Kim, Joonsuk Park, and Seung-won Hwang. Relevance-assisted Generation for Robust Zero-shot Retrieval. EMNLP'23 (industry track).
+# Relevance-assisted Generation for Robust Zero-shot Retrieval (RaMDA)
 
 Our implementation is adapted from [BEIR](https://github.com/beir-cellar/beir) and [SPLADE](https://github.com/naver/splade). Thanks to the contributors for releasing the code bases!
-
 The following codes are for an example BEIR dataset (`dataset=nfcorpus`), assuming that the dataset is stored in `data/beir/$dataset`. For other datasets, replace `dataset` variable with a target dataset among names listed in **Dataset** in [BEIR repo](https://github.com/beir-cellar/beir#beers-available-datasets), e.g., via `export dataset=scidocs`.
 
+## Overview
 
+### Paper description and main idea:
+Zero-shot retrieval tasks such as the BEIR benchmark reveal out-of-domain generalization as a key weakness of high-performance dense retrievers. As a solution, domain adaptation for dense retrievers has been actively studied. A notable approach is synthesizing domain-specific data, by generating pseudo queries (PQ), for fine-tuning with domain-specific relevance between PQ and documents. Our contribution is showing that key biases can cause sampled PQ to be irrelevant, negatively contributing to generalization. We propose to preempt their generation, by dividing the generation into simpler subtasks, of generating relevance explanations and guiding the generation to avoid negative generalization. Experiment results show that our proposed approach is more robust to domain shifts, validated on challenging BEIR zero-shot retrieval tasks.
 
-## Preliminary: segment documents in the corpus
+![Overview Image](resources/overview.png)
+
+### Contribution:
+
+* We analyze existing PQG and identify their term frequency bias and diversity bias.
+* We disentangle generation into relevance explanation and relevance-guided generation, for relevance-guided multi-query generation.
+* We showed that our relevance-guided generation is robust to distribution shifts, complements the document, and thus improves document representation.
+
+## Code Running
+
+### Preliminary: segment documents in the corpus
 
 ```bash
 export dataset=nfcorpus
@@ -26,7 +35,7 @@ python -m utils.segmentation \
 python -m utils.flatten_segmented_documents --data_path data/beir/$dataset/segmented
 ```
 
-## Pseudo-query generation
+### Pseudo-query generation
 
 ```bash
 # 1. Run SPLADE
@@ -61,7 +70,7 @@ rm -v data/beir/$dataset/qgen/qgen-queries.jsonl
 rm -r -v data/beir/$dataset/qgen/qgen-qrels
 ```
 
-## Run retrieval
+### Run retrieval
 
 **Step 1. Cache document embeddings**
 
@@ -89,6 +98,8 @@ python -m run_retrieval \
 * ranking results: `data/beir/$dataset/result/ranking.tsv`
 
 
-<!-- ## Citation
+## Reference
 
-to-do: add citation -->
+**This paper will be presented at EMNLP 2023 but is not published yet.**
+
+Jihyuk Kim, Minsoo Kim, Joonsuk Park, and Seung-won Hwang. Relevance-assisted Generation for Robust Zero-shot Retrieval. EMNLP 2023 (industry track), to appear.
