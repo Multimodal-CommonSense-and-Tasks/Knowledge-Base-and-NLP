@@ -1,0 +1,1693 @@
+# sent_id = bxr-ud3::781
+# text = Xamba lama Damba Ajušjejevšʹje zaluušuulyje delgüürnüüdej xaruulšad bološood bajnxaar, njutagaa busaža, üxer malaa težeegty geže xodo zaadag.
+1	Xamba	хамба	NOUN	_	Case=Nom	2	compound	_	_
+2	lama	лама	NOUN	_	Case=Nom	4	compound	_	_
+3	Damba	Дамба	PROPN	_	Case=Nom|Gender=Masc	19	nsubj	_	_
+4	Ajušjejevšʹje	Аюшеев	PROPN	_	Case=Nom|Gender=Masc	3	flat	_	_
+5	zaluušuulyje	залуушуул	NOUN	_	Case=Acc|Reflex=Yes	8	obj	_	_
+6	delgüürnüüdej	дэлгүүр	NOUN	_	Case=Gen|Number=Plur	7	nmod	_	_
+7	xaruulšad	харуулша	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
+8	bološood	болошо	VERB	_	Mood=Des|Number=Plur|Person=3	0	root	_	_
+9	bajnxaar	бай	AUX	_	_	8	aux	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	njutagaa	нютаг	NOUN	_	Case=Nom|Reflex=Yes	12	nmod	_	_
+12	busaža	буса	VERB	_	VerbForm=Coverb	16	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	üxer	үхэр	NOUN	_	Case=Nom	15	compound	_	_
+15	malaa	мал	NOUN	_	Case=Nom|Reflex=Yes	16	obj	_	_
+16	težeegty	тэжээ	VERB	_	VerbForm=Coverb	8	parataxis	_	_
+17	geže	гэ	VERB	_	VerbForm=Coverb	19	discourse	_	_
+18	xodo	ходо	ADV	_	_	19	advmod	_	_
+19	zaadag	заа	VERB	_	_	8	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = bxr-ud3::103
+# text = Maatti Tammineni, erdemteniije
+1	Maatti	Маатти	PROPN	_	Case=Nom|Gender=Masc	0	root	_	_
+2	Tammineni	Тамминэн	PROPN	_	Case=Acc	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	erdemteniije	эрдэмтэн	NOUN	_	Case=Acc	2	appos	_	_
+
+# sent_id = bxr-ud3::145
+# text = Bi zolgoob terentej, alaabxihaa garaad bajtaraa.
+1	Bi	би	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	zolgoob	золго	VERB	_	Mood=Des|Number=Sing|Person=1	0	root	_	_
+3	terentej	тэрэ	PRON	_	Case=Com|PronType=Dem	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	alaabxihaa	алаабхи	NOUN	_	Case=Abl	6	nmod	_	_
+6	garaad	гара	VERB	_	Mood=Des|Number=Plur|Person=3	2	xcomp	_	_
+7	bajtaraa	бай	AUX	_	_	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bxr-ud3::806
+# text = Tjeed baga bagaaršʹje haanʹ juume xežel bajxada hüülej hüülde xereg bütedeg xa jum.
+1	Tjeed	теэд	SCONJ	_	_	6	cc	_	_
+2	baga	бага	ADJ	_	_	6	advmod	_	_
+3	bagaaršʹje	багаар	ADV	_	_	2	fixed	_	_
+4	haanʹ	һаань	PART	_	_	6	mark	_	_
+5	juume	юумэн	NOUN	_	Case=Nom	6	obj	_	_
+6	xežel	хэ	VERB	_	VerbForm=Coverb	0	root	_	_
+7	bajxada	бай	AUX	_	Case=Dat|VerbForm=Ger	6	aux	_	_
+8	hüülej	һүүл	NOUN	_	Case=Gen	11	nmod	_	_
+9	hüülde	һүүлдэ	NOUN	_	Case=Nom	8	fixed	_	_
+10	xereg	хэрэг	NOUN	_	Case=Nom	11	obj	_	_
+11	bütedeg	бүтээ	VERB	_	_	6	parataxis	_	_
+12	xa	ха	PART	_	_	11	discourse	_	_
+13	jum	юм	AUX	_	Evident=Fh	11	discourse	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::315
+# text = Xool edjee šanalga.
+1	Xool	хоол	NOUN	_	Case=Nom	2	compound	_	_
+2	edjee	эдеэн	NOUN	_	Case=Nom	3	nmod	_	_
+3	šanalga	шаналга	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::729
+# text = Türel hajxan njutagtaa žargaltaj
+1	Türel	түрэл	ADJ	_	_	3	amod	_	_
+2	hajxan	һайхан	ADV	_	_	3	amod	_	_
+3	njutagtaa	нютаг	NOUN	_	Case=Dat|Reflex=Yes	4	nmod	_	_
+4	žargaltaj	жаргалтай	ADJ	_	_	0	root	_	_
+
+# sent_id = bxr-ud3::331
+# text = Gazar delxej gansaltajxan gelsedeg.
+1	Gazar	газар	NOUN	_	Case=Nom	2	nmod	_	_
+2	delxej	дэлхэй	NOUN	_	Case=Nom	3	nsubj	_	_
+3	gansaltajxan	гансалтайхан	ADJ	_	_	0	root	_	_
+4	gelsedeg	гэлсэ	VERB	_	_	3	parataxis	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::586
+# text = Orod burjaad xelyje xoližo, xešeelee üngergexe baataj bolonxojbdi.
+1	Orod	ород	ADJ	_	_	3	amod	_	_
+2	burjaad	буряад	ADJ	_	_	1	conj	_	_
+3	xelyje	хэлэн	NOUN	_	Case=Acc	4	obj	_	_
+4	xoližo	холи	VERB	_	VerbForm=Coverb	9	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	xešeelee	хэшээл	NOUN	_	Case=Nom|Reflex=Yes	7	obj	_	_
+7	üngergexe	үнгэргэ	VERB	_	_	9	xcomp	_	_
+8	baataj	баатай	AUX	_	Mood=Imp|VerbForm=Fin	7	aux	_	_
+9	bolonxojbdi	боло	VERB	_	Number=Plur|Person=1	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = bxr-ud3::426
+# text = Aguujexe Čingisxaanaj üri hadahad juugeeree adli, juugeeree ondoo geešebibdi, aradajngaa hülde, zanšal ali negemnaj saxiža jabaa gü, ali negeniinʹ aldaa gü gehen bodoloor šenželen üzehen bajnab, geže Dandar Žapovič xöörene.
+1	Aguujexe	агууехэ	ADJ	_	_	2	amod	_	_
+2	Čingisxaanaj	Чингисхаан	PROPN	_	Case=Gen|Gender=Masc	3	nmod	_	_
+3	üri	үри	NOUN	_	Case=Nom	6	nsubj	_	_
+4	hadahad	һадаһад	PART	_	_	6	discourse	_	_
+5	juugeeree	юу	PRON	_	_	6	nmod	_	Morf=Unknown
+6	adli	адли	ADV	_	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	juugeeree	юу	PRON	_	_	9	nmod	_	Morf=Unknown
+9	ondoo	ондо	ADJ	_	_	6	parataxis	_	_
+10	geešebibdi	гээшэби	PART	_	Number=Plur|Person=1	9	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	aradajngaa	арад	NOUN	_	Case=Gen|Reflex=Yes	13	nmod	_	_
+13	hülde	һүлдэ	NOUN	_	Case=Nom	19	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	6	punct	_	_
+15	zanšal	заншал	NOUN	_	Case=Nom	13	conj	_	_
+16	ali	али	CCONJ	_	_	19	advmod	_	_
+17	negemnaj	нэгэ	NUM	_	_	19	nsubj	_	Morf=Unknown
+18	saxiža	сахи	VERB	_	VerbForm=Coverb	19	xcomp	_	_
+19	jabaa	яба	VERB	_	Mood=Des|Number=Sing|Person=3	9	parataxis	_	_
+20	gü	гү	PART	_	Number=Sing|Person=3	19	discourse	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	6	punct	_	_
+22	ali	али	CCONJ	_	_	27	acl	_	_
+23	negeniinʹ	нэгэ	NOUN	_	Case=Gen	24	nsubj	_	_
+24	aldaa	алда	VERB	_	Mood=Des|Number=Sing|Person=3	22	fixed	_	_
+25	gü	гү	PART	_	Number=Sing|Person=3	24	discourse	_	_
+26	gehen	гэһэн	ADV	_	_	24	discourse	_	_
+27	bodoloor	бодол	NOUN	_	_	28	nmod	_	_
+28	šenželen	шэнжэл	VERB	_	VerbForm=Coverb	29	xcomp	_	_
+29	üzehen	үзэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	parataxis	_	_
+30	bajnab	бай	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	29	aux	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	6	punct	_	_
+32	geže	гэ	VERB	_	VerbForm=Coverb	35	discourse	_	_
+33	Dandar	Дандар	PROPN	_	Case=Nom|Gender=Masc	35	nsubj	_	_
+34	Žapovič	Жапович	PROPN	_	Case=Nom|Gender=Masc	33	flat	_	_
+35	xöörene	хөөрэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	29	parataxis	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::526
+# text = Xubiin olzo erxilegšed, njutagaarxidynʹ, nüxedynʹ, tanil ba dütyn zon ene xüngen beše ažaldanʹ tuhaldag, demžedeg geže tere Intjernjedte ööryngöö sajt deeree unšagšadtajaa xubaaldana.
+1	Xubiin	хубиин	ADJ	_	_	2	amod	_	_
+2	olzo	олзо	NOUN	_	Case=Nom	3	nmod	_	_
+3	erxilegšed	эрхилэгшэ	NOUN	_	Case=Nom|Number=Plur	17	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	njutagaarxidynʹ	нютагаархи	NOUN	_	Case=Gen|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	17	punct	_	_
+7	nüxedynʹ	нүхэр	NOUN	_	Case=Gen|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	17	punct	_	_
+9	tanil	танил	NOUN	_	Case=Nom	3	conj	_	_
+10	ba	ба	CCONJ	_	_	3	cc	_	_
+11	dütyn	дүтын	ADJ	_	_	12	amod	_	_
+12	zon	зон	NOUN	_	Case=Nom	3	conj	_	_
+13	ene	энэ	DET	_	PronType=Dem	16	det	_	_
+14	xüngen	хүнгэн	ADV	_	_	16	amod	_	_
+15	beše	бэшэ	ADV	_	_	14	advmod:neg	_	_
+16	ažaldanʹ	ажал	NOUN	_	Case=Dat|Number[psor]=Sing|Person[psor]=3	17	nmod	_	_
+17	tuhaldag	туһал	VERB	_	_	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	demžedeg	дэмжэ	VERB	_	_	17	conj	_	_
+20	geže	гэ	VERB	_	VerbForm=Coverb	17	discourse	_	_
+21	tere	тэрэ	PRON	_	Case=Nom|PronType=Dem	27	nsubj	_	_
+22	Intjernjedte	интернет	NOUN	_	Case=Dat|Number=Plur	27	nmod	_	_
+23	ööryngöö	өөрөө	PRON	_	Case=Gen|Reflex=Yes	24	det	_	_
+24	sajt	сайт	NOUN	_	Case=Nom	27	nmod	_	_
+25	deeree	дээрээ	ADP	_	_	24	case	_	_
+26	unšagšadtajaa	уншагша	NOUN	_	Case=Dat|Number=Plur	27	nmod	_	_
+27	xubaaldana	хубаалда	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	17	parataxis	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = bxr-ud3::497
+# text = Baga nahanhaa xojšo toonto njutagtaa xülöö šorojdožo, arjuun seber agaaraarnʹ amilža, em domto aršaan bulaghaanʹ undalža ündyhen jum.
+1	Baga	бага	ADJ	_	_	2	amod	_	_
+2	nahanhaa	наһан	NOUN	_	Case=Abl	7	nmod	_	_
+3	xojšo	хойшо	ADV	_	_	4	amod	_	_
+4	toonto	тоонто	NOUN	_	Case=Nom	5	amod	_	_
+5	njutagtaa	нютаг	NOUN	_	Case=Dat|Reflex=Yes	7	nmod	_	_
+6	xülöö	хүл	NOUN	_	Case=Nom|Reflex=Yes	7	nmod	_	_
+7	šorojdožo	шоройдо	VERB	_	VerbForm=Coverb	19	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	arjuun	арюун	NOUN	_	Case=Nom	11	amod	_	_
+10	seber	сэбэр	ADV	_	_	11	amod	_	_
+11	agaaraarnʹ	агаар	NOUN	_	Number[psor]=Sing|Person[psor]=3	12	nmod	_	_
+12	amilža	амил	VERB	_	VerbForm=Coverb	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	19	punct	_	_
+14	em	эм	NOUN	_	Case=Nom	15	compound	_	_
+15	domto	дом	NOUN	_	Case=Dat	17	nmod	_	_
+16	aršaan	аршаан	NOUN	_	Case=Nom	17	amod	_	_
+17	bulaghaanʹ	булаг	NOUN	_	Case=Abl|Number[psor]=Sing|Person[psor]=3	18	nmod	_	_
+18	undalža	ундал	VERB	_	VerbForm=Coverb	12	conj	_	_
+19	ündyhen	үнды	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	jum	юм	AUX	_	Evident=Fh	19	discourse	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = bxr-ud3::2
+# text = Tere xün alixanaar xaliraa gertee.
+1	Tere	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	xün	хүн	NOUN	_	Case=Nom	4	nsubj	_	_
+3	alixanaar	алиханаар	ADV	_	_	4	advmod	_	_
+4	xaliraa	халира	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	_
+5	gertee	гэр	NOUN	_	Case=Dat|Reflex=Yes	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::9
+# text = Gebešʹje, enešni münööder ošoxo.
+1	Gebešʹje	гэбэшье	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	enešni	энэ	PRON	_	Case=Nom|PronType=Dem	5	nsubj	_	_
+4	münööder	мүнөөдэр	ADV	_	_	5	advmod	_	_
+5	ošoxo	ошо	VERB	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::234
+# text = Šüleg zoxjoogšo Burjaad oronojngoo olon gazar njutaguudaar jabahan bajna.
+1	Šüleg	шүлэг	NOUN	_	Case=Nom	2	nmod	_	_
+2	zoxjoogšo	зохёогшо	NOUN	_	Case=Nom	8	nsubj	_	_
+3	Burjaad	буряад	ADJ	_	_	4	amod	_	_
+4	oronojngoo	орон	NOUN	_	Case=Gen|Reflex=Yes	7	nmod	_	_
+5	olon	олон	ADJ	_	_	6	amod	_	_
+6	gazar	газар	NOUN	_	Case=Nom	7	nmod	_	_
+7	njutaguudaar	нютаг	NOUN	_	Number=Plur	8	nmod	_	_
+8	jabahan	ябаһан	ADJ	_	_	0	root	_	_
+9	bajna	бай	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::628
+# text = Tjeed tere talaan Cypjelmada tudašoo bšuu.
+1	Tjeed	теэд	SCONJ	_	_	5	cc	_	_
+2	tere	тэрэ	DET	_	PronType=Dem	3	det	_	_
+3	talaan	талаан	NOUN	_	Case=Nom	5	nsubj	_	_
+4	Cypjelmada	Цыпелма	PROPN	_	Case=Dat|Gender=Fem	5	obj	_	_
+5	tudašoo	туда	VERB	_	VerbForm=Ger	0	root	_	_
+6	bšuu	бшуу	PART	_	_	5	discourse	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::738
+# text = Magdanaj egeel axa zaxa, dajnaj vjetjeran, 91 nahataj Valjerij Sjekrjetarjevič Xamarxanov nahanajngaa xani nüxer Ksjenija Xanxarjejevnataj 8 üxibüüdyje xümüüžüülže, münöö 18 ašanar, 11 gušanartaj bolonxoj.
+1	Magdanaj	Магда	PROPN	_	Case=Nom	4	nmod	_	_
+2	egeel	эгээл	ADV	_	_	3	advmod	_	_
+3	axa	аха	NOUN	_	Case=Nom	4	amod	_	_
+4	zaxa	заха	NOUN	_	Case=Nom	21	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	dajnaj	дайн	NOUN	_	Case=Gen	7	nmod	_	_
+7	vjetjeran	ветеран	NOUN	_	Case=Nom	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	21	punct	_	_
+9	91	91	NUM	_	NumType=Card	10	nummod	_	_
+10	nahataj	наһан	NOUN	_	Case=Com	13	nmod	_	_
+11	Valjerij	Валерий	PROPN	_	Case=Nom|Gender=Masc	7	appos	_	_
+12	Sjekrjetarjevič	Секретаревич	PROPN	_	Case=Nom|Gender=Masc	11	flat	_	_
+13	Xamarxanov	Хамарханов	PROPN	_	Case=Nom|Gender=Masc	12	flat	_	_
+14	nahanajngaa	наһан	NOUN	_	Case=Gen|Reflex=Yes	16	nmod	_	_
+15	xani	хани	NOUN	_	Case=Nom	16	compound	_	_
+16	nüxer	нүхэр	NOUN	_	Case=Nom	21	nmod	_	_
+17	Ksjenija	Ксения	PROPN	_	Case=Nom|Gender=Fem	16	appos	_	_
+18	Xanxarjejevnataj	Ханхареевич	PROPN	_	Case=Com|Gender=Fem	17	flat	_	_
+19	8	8	NUM	_	NumType=Card	20	nummod	_	_
+20	üxibüüdyje	үхибүүн	NOUN	_	Case=Acc|Number=Plur	21	nmod	_	_
+21	xümüüžüülže	хүмүүжүүл	VERB	_	VerbForm=Coverb	0	root	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	münöö	мүнөө	ADV	_	_	29	advmod	_	_
+24	18	18	NUM	_	NumType=Card	25	nummod	_	_
+25	ašanar	аша²	NOUN	_	Case=Nom|Number=Plur	29	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	11	11	NUM	_	NumType=Card	28	nummod	_	_
+28	gušanartaj	гушгушанаран	NOUN	_	Case=Dat	25	conj	_	_
+29	bolonxoj	боло	VERB	_	_	21	parataxis	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = bxr-ud3::728
+# text = Bide ambaar, tura (ger) juumejee šebxededeggüjbdi, xulgaj geže ügy.
+1	Bide	бидэ	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+2	ambaar	амбаар	NOUN	_	Case=Nom	9	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	tura	тура	NOUN	_	Case=Nom	2	conj	_	_
+5	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+6	ger	гэр	NOUN	_	Case=Nom	4	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	9	punct	_	_
+8	juumejee	юумэн	NOUN	_	Case=Nom|Reflex=Yes	9	nmod	_	_
+9	šebxededeggüjbdi	шэбхэдэ	VERB	_	Aspect=Hab|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	xulgaj	хулгай	NOUN	_	Case=Nom	9	parataxis	_	_
+12	geže	гэ	VERB	_	VerbForm=Coverb	11	discourse	_	_
+13	ügy	үгы	PART	_	_	11	advmod:neg	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = bxr-ud3::821
+# text = Muxar-Šeberej ajmagta ajanšalgašʹje xügžööxöör: tataarnuud, šemeešegüüd, burjaaduud ažahuudag xa jum.
+1	Muxar-Šeberej	Мухар-Шэбэр	PROPN	_	Case=Gen	2	nmod	_	_
+2	ajmagta	аймаг	NOUN	_	Case=Dat	4	nmod	_	_
+3	ajanšalgašʹje	аяншалга	NOUN	_	Case=Nom	4	obj	_	_
+4	xügžööxöör	хүгжөө	VERB	_	_	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+6	tataarnuud	татаар	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	šemeešegüüd	шэмээшэг	NOUN	_	Case=Nom|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	burjaaduud	буряад	NOUN	_	Case=Nom|Number=Plur	6	conj	_	_
+11	ažahuudag	ажаһуу	VERB	_	_	4	parataxis	_	_
+12	xa	ха	PART	_	_	11	discourse	_	_
+13	jum	юм	AUX	_	Evident=Fh	11	discourse	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::771
+# text = Sovjet üjede olonxi dasanguud handargagdaža, manajšʹje dasan xoxidohon.
+1	Sovjet	совет	ADJ	_	_	2	amod	_	_
+2	üjede	үе	NOUN	_	Case=Dat	5	nmod	_	_
+3	olonxi	олонхи	ADV	_	_	4	advmod	_	_
+4	dasanguud	дасан	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
+5	handargagdaža	һандарга	VERB	_	VerbForm=Coverb	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	manajšʹje	бидэ	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	8	det	_	_
+8	dasan	дасан	NOUN	_	Case=Nom	9	nsubj	_	_
+9	xoxidohon	хохидо	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = bxr-ud3::128
+# text = Tedener, nom bešeže bajhan zon, mün le tiigeže xelee.
+1	Tedener	тэдэ	PRON	_	Case=Nom|Number=Plur|PronType=Dem	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	6	punct	_	_
+3	nom	ном	NOUN	_	Case=Nom	4	obj	_	_
+4	bešeže	бэшэ	VERB	_	VerbForm=Coverb	6	acl	_	_
+5	bajhan	бай	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+6	zon	зон	NOUN	_	Case=Nom	1	acl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	mün	мүн	ADV	_	_	11	advmod	_	_
+9	le	лэ	PART	_	_	11	discourse	_	_
+10	tiigeže	тиигэжэ	ADV	_	_	11	obj	_	_
+11	xelee	хэ	VERB	_	Mood=Des|Number=Sing|Person=3|Voice=Rcp	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = bxr-ud3::67
+# text = Ene xün tüljee sabšalga exilee.
+1	Ene	энэ	DET	_	PronType=Dem	2	det	_	_
+2	xün	хүн	NOUN	_	Case=Nom	5	nsubj	_	_
+3	tüljee	түлеэн	NOUN	_	Case=Nom	4	nmod	_	_
+4	sabšalga	сабшалга	NOUN	_	Case=Nom	5	obj	_	_
+5	exilee	эхил	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::136
+# text = Egee tomo orjeolto bešen orjeoltonuudaj xojno bajgaa.
+1	Egee	эгээ	ADV	_	_	2	advmod	_	_
+2	tomo	томо	ADJ	_	_	3	amod	_	_
+3	orjeolto	ореолто	NOUN	_	Case=Nom	7	nsubj	_	_
+4	bešen	бэшэн	DET	_	PronType=Ind	5	det	_	_
+5	orjeoltonuudaj	ореолто	NOUN	_	Case=Gen|Number=Plur	7	nmod	_	_
+6	xojno	хойно	ADP	_	_	5	case	_	_
+7	bajgaa	бай	VERB	_	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::768
+# text = Mün Suulgahaa, Altašahaa, toonto njutag Zandinhaamni garbaltaj berxe, uragšaa hanaataj xünüüd ene xeregte xüse šadalaa elsüülenxej.
+1	Mün	мүн	ADV	_	_	10	advmod	_	_
+2	Suulgahaa	Суулга	PROPN	_	Case=Abl	9	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	19	punct	_	_
+4	Altašahaa	Алташан	PROPN	_	Case=Abl	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	19	punct	_	_
+6	toonto	тоонто	NOUN	_	Case=Nom	7	amod	_	_
+7	njutag	нютаг	NOUN	_	Case=Nom	8	compound	_	_
+8	Zandinhaamni	зандин	NOUN	_	Case=Abl	2	conj	_	_
+9	garbaltaj	гарбалтай	NOUN	_	Case=Nom	10	nmod	_	_
+10	berxe	бэрхэ	ADJ	_	_	14	acl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	19	punct	_	_
+12	uragšaa	урагшаа	ADV	_	_	19	advmod	_	_
+13	hanaataj	һанаатай	ADJ	_	_	14	amod	_	_
+14	xünüüd	хүн	NOUN	_	Case=Nom|Number=Plur	19	nsubj	_	_
+15	ene	энэ	DET	_	PronType=Dem	16	det	_	_
+16	xeregte	хэрэг	NOUN	_	Case=Dat	19	nmod	_	_
+17	xüse	хүсэ	NOUN	_	Case=Nom	18	nmod	_	_
+18	šadalaa	шадала	NOUN	_	Case=Nom|Reflex=Yes	19	obj	_	_
+19	elsüülenxej	элсүүлэн	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = bxr-ud3::295
+# text = Arba garan zuzaan debternüüd sonʹ šeleže hungaža huugaa beze.
+1	Arba	арбан	NUM	_	NumType=Card	4	nummod	_	_
+2	garan	гаран	ADP	_	_	1	case	_	_
+3	zuzaan	зузаан	ADJ	_	_	4	amod	_	_
+4	debternüüd	дэбтэр	NOUN	_	Case=Nom|Number=Plur	7	obj	_	_
+5	sonʹ	сонь	ADP	_	_	4	case	_	_
+6	šeleže	шэлэ	VERB	_	VerbForm=Coverb	7	compound	_	_
+7	hungaža	һунга	VERB	_	VerbForm=Coverb	8	xcomp	_	_
+8	huugaa	һуу	VERB	_	_	0	root	_	_
+9	beze	бэзэ	PART	_	_	8	discourse	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::257
+# text = Delxejn hajxaniije duulan ürgööš.
+1	Delxejn	дэлхэйн	NOUN	_	Case=Nom	2	nmod	_	_
+2	hajxaniije	һайхани	NOUN	_	Case=Acc	4	obj	_	_
+3	duulan	дуулан	NOUN	_	Case=Nom	4	nsubj	_	_
+4	ürgööš	үргэ	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::782
+# text = Enenʹ ton züb.
+1	Enenʹ	энэ	PRON	_	Case=Nom|Number[psor]=Sing|Person[psor]=3|PronType=Dem	3	nsubj	_	_
+2	ton	тон	NOUN	_	Case=Nom	3	advmod	_	_
+3	züb	зүб	ADV	_	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::720
+# text = Bide mongoloo edjeelüülxedee (erxüü burjaadaj mürgel), tere njutagaa durdanabdi.
+1	Bide	бидэ	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	mongoloo	монгол	NOUN	_	Case=Nom|Reflex=Yes	3	nmod	_	_
+3	edjeelüülxedee	эдеэлүүл	VERB	_	Case=Dat|Reflex=Yes|VerbForm=Ger	0	root	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	erxüü	эрхүү	ADJ	_	_	6	amod	_	_
+6	burjaadaj	буряад	NOUN	_	Case=Gen	7	nmod	_	_
+7	mürgel	мүргэл	NOUN	_	Case=Nom	3	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	_
+10	tere	тэрэ	DET	_	PronType=Dem	11	det	_	_
+11	njutagaa	нютаг	NOUN	_	Case=Nom|Reflex=Yes	12	obj	_	_
+12	durdanabdi	дурда	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=1|Tense=Aor|VerbForm=Fin	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = bxr-ud3::105
+# text = Terešni üdešendöö jerexeb geže xelee.
+1	Terešni	тэрэ	PRON	_	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	üdešendöö	үдэшэндөө	ADV	_	_	3	advmod	_	_
+3	jerexeb	ерэ	VERB	_	Case=Nom|VerbForm=Ger	0	root	_	_
+4	geže	гэ	VERB	_	VerbForm=Coverb	5	discourse	_	_
+5	xelee	хэ	VERB	_	Mood=Des|Number=Sing|Person=3|Voice=Rcp	3	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::250
+# text = Inag duranaj oxin üzegdene.
+1	Inag	инаг	NOUN	_	Case=Nom	2	amod	_	_
+2	duranaj	дуран	NOUN	_	Case=Gen	3	nmod	_	_
+3	oxin	охин	NOUN	_	Case=Nom	4	nsubj	_	_
+4	üzegdene	үзэгдэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::252
+# text = Jexel dorohoo bulgilhan aršaanda mete.
+1	Jexel	ехэл	ADV	_	_	2	advmod	_	_
+2	dorohoo	дороһоо	ADV	_	_	3	advmod	_	_
+3	bulgilhan	булгилһан	ADJ	_	_	4	amod	_	_
+4	aršaanda	аршаан	NOUN	_	Case=Dat	0	root	_	_
+5	mete	мэтэ	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::817
+# text = Boom njutagta gojo hajxan nuur bii, tende bajgaali xamgaalgyn debisxer emxidxexeer.
+1	Boom	Боом	PROPN	_	Case=Nom	2	compound	_	_
+2	njutagta	нютаг	NOUN	_	Case=Dat	6	nmod	_	_
+3	gojo	гоё	ADJ	_	_	5	amod	_	_
+4	hajxan	һайхан	ADV	_	_	5	amod	_	_
+5	nuur	нуур	NOUN	_	Case=Nom	6	nsubj	_	_
+6	bii	бии	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	tende	тэндэ	ADV	_	_	12	advmod	_	_
+9	bajgaali	байгаали	NOUN	_	Case=Nom	10	nmod	_	_
+10	xamgaalgyn	хамгаалга	NOUN	_	Case=Gen	11	nmod	_	_
+11	debisxer	дэбисхэр	NOUN	_	Case=Nom	12	obj	_	_
+12	emxidxexeer	эмхидхэ	VERB	_	_	6	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = bxr-ud3::64
+# text = Tümer morin, manaj xažuugaar šuumajsa garahan, jexel güjdeltejgöör jabaa.
+1	Tümer	түмэр	ADJ	_	_	11	nsubj	_	_
+2	morin	морин	NOUN	_	Case=Nom	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	manaj	бидэ	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	7	nmod	_	_
+5	xažuugaar	хажуугаар	ADP	_	_	4	case	_	_
+6	šuumajsa	шуумайса	ADV	_	_	7	advmod	_	_
+7	garahan	гара	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	jexel	ехэл	ADV	_	_	10	advmod	_	_
+10	güjdeltejgöör	гүйдэлтэйгөөр	ADV	_	_	11	advmod	_	_
+11	jabaa	яба	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = bxr-ud3::779
+# text = - Tügnyn tala üreželtej xürʹhetej, tobir targan mal težee gehendel, hajn belšeeritej.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	Tügnyn	Түгнын	PROPN	_	Case=Nom	3	nmod	_	_
+3	tala	тала	NOUN	_	Case=Nom	5	nmod	_	_
+4	üreželtej	үрэжэлтэй	ADJ	_	_	5	amod	_	_
+5	xürʹhetej	хүрьһэтэй	ADJ	_	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	tobir	тобир	ADJ	_	_	8	compound	_	_
+8	targan	тарган	ADJ	_	_	9	amod	_	_
+9	mal	мал	NOUN	_	Case=Nom	10	obj	_	_
+10	težee	тэжээ	VERB	_	Mood=Imp|VerbForm=Fin	5	parataxis	_	_
+11	gehendel	гэһэндэл	PART	_	_	10	discourse	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	5	punct	_	_
+13	hajn	һайн	ADJ	_	_	14	amod	_	_
+14	belšeeritej	бэлшээритэй	ADJ	_	_	10	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::133
+# text = Mattinaj tümer morin tomo, Pjekkinej tümer morindo oroxodoo.
+1	Mattinaj	Матти	PROPN	_	Case=Nom|Gender=Masc	3	nmod	_	_
+2	tümer	түмэр	ADJ	_	_	4	nsubj	_	_
+3	morin	морин	NOUN	_	Case=Nom	2	fixed	_	_
+4	tomo	томо	ADJ	_	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Pjekkinej	Пекка	PROPN	_	Case=Gen|Gender=Masc	8	nmod	_	_
+7	tümer	түмэр	ADJ	_	_	4	nmod	_	_
+8	morindo	морин	NOUN	_	Case=Dat	7	fixed	_	_
+9	oroxodoo	ороходоо	ADP	_	_	4	mark	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	discourse	_	_
+
+# sent_id = bxr-ud3::583
+# text = Ažalajmni exinde burjaad xelenej orjoo bajdalaar tabigdahan asuudalnuud negešʹje šiidxegdeegüj, ulam xesüü boložol bajdag.
+1	Ažalajmni	ажал	NOUN	_	Case=Gen	2	nmod	_	_
+2	exinde	эхин	NOUN	_	Case=Dat	10	nmod	_	_
+3	burjaad	буряад	ADJ	_	_	4	amod	_	_
+4	xelenej	хэлэн	NOUN	_	Case=Gen	6	nmod	_	_
+5	orjoo	орёо	ADJ	_	_	6	amod	_	_
+6	bajdalaar	байдал	NOUN	_	_	7	obj	_	_
+7	tabigdahan	табигда	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	_
+8	asuudalnuud	асуудал	NOUN	_	Case=Nom|Number=Plur	10	nsubj:pass	_	_
+9	negešʹje	нэгэшье	ADV	_	_	10	advmod	_	_
+10	šiidxegdeegüj	шиидхэхы	ADJ	_	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	ulam	улам	ADV	_	_	13	advmod	_	_
+13	xesüü	хэсүү	ADV	_	_	14	amod	_	_
+14	boložol	боложол	NOUN	_	Case=Nom	15	nsubj	_	_
+15	bajdag	бай	VERB	_	_	10	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = bxr-ud3::282
+# text = Neereešʹje, šüleg zoxjoogšo dotorojngoo ujangyje unšagšadtaa delgen xaruulna.
+1	Neereešʹje	нээрээ	ADV	_	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	šüleg	шүлэг	NOUN	_	Case=Nom	4	nmod	_	_
+4	zoxjoogšo	зохёогшо	NOUN	_	Case=Nom	9	nsubj	_	_
+5	dotorojngoo	дотор	NOUN	_	Case=Gen|Reflex=Yes	6	nmod	_	_
+6	ujangyje	уянга	NOUN	_	Case=Acc	9	obj	_	_
+7	unšagšadtaa	уншагша	NOUN	_	Case=Dat|Number=Plur|Reflex=Yes	9	iobj	_	_
+8	delgen	дэлгэн	ADV	_	_	9	advmod	_	_
+9	xaruulna	харуул	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = bxr-ud3::700
+# text = Jamar ontoxon šengi gazar bajdag jum!
+1	Jamar	ямар	DET	_	PronType=Int	2	det	_	_
+2	ontoxon	онтохон	NOUN	_	Case=Nom	5	nmod	_	_
+3	šengi	шэнги	ADV	_	_	5	advmod	_	_
+4	gazar	газар	NOUN	_	Case=Nom	5	nsubj	_	_
+5	bajdag	бай	VERB	_	_	0	root	_	_
+6	jum	юм	AUX	_	Evident=Fh	5	discourse	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::635
+# text = Magad, tiimehee münöö Dolžon düü basaganʹ Burjaad dramyn tjeatraj medeeže artistka bolonxoj xa??
+1	Magad	магад	ADV	_	_	13	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	tiimehee	тиимэһээ	SCONJ	_	_	13	advmod	_	_
+4	münöö	мүнөө	ADV	_	_	13	advmod	_	_
+5	Dolžon	Должон	PROPN	_	Case=Nom|Gender=Masc	7	compound	_	_
+6	düü	дүү	NOUN	_	Case=Nom	7	amod	_	_
+7	basaganʹ	басаган	NOUN	_	Case=Nom|Number[psor]=Sing|Person[psor]=3	13	nsubj	_	_
+8	Burjaad	буряад	ADJ	_	_	12	nmod	_	_
+9	dramyn	драма	NOUN	_	Case=Gen	8	flat	_	_
+10	tjeatraj	театр	NOUN	_	Case=Gen	9	flat	_	_
+11	medeeže	мэдээжэ	ADJ	_	_	12	amod	_	_
+12	artistka	артистка	NOUN	_	Case=Nom	13	obj	_	_
+13	bolonxoj	боло	VERB	_	_	0	root	_	_
+14	xa	ха	PART	_	_	13	discourse	_	SpaceAfter=No
+15	?	?	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	?	?	PUNCT	_	_	13	discourse	_	_
+
+# sent_id = bxr-ud3::16
+# text = Tere, xažuudaxi ajlaj noxoj, ežyje suxalduulaa.
+1	Tere	тэрэ	PRON	_	Case=Nom|PronType=Dem	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	xažuudaxi	хажуудахи	ADP	_	_	5	nmod:own	_	_
+4	ajlaj	айлай	NOUN	_	Case=Nom	3	fixed	_	_
+5	noxoj	нохой	NOUN	_	Case=Nom	1	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	ežyje	эжы	NOUN	_	Case=Nom|Reflex=Yes	8	obj	_	_
+8	suxalduulaa	сухалда	VERB	_	Mood=Des|Number=Sing|Person=3|Voice=Cau	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::495
+# text = Burjaad oronoj medeeže kinorježissjor, uran zuraaša – najruulagša Solbon Dondokovič Lygdjenov njutaghaa xolo olon želde xüdelhen xadaa toonto njutagajngaa tatasa, übge esegenerejngee ünete zaxjaa sedʹxelejngee gün ojoorto mederdeg bajgaa.
+1	Burjaad	буряад	NOUN	_	Case=Nom	2	nmod	_	_
+2	oronoj	орон	NOUN	_	Case=Gen	4	nmod	_	_
+3	medeeže	мэдээжэ	ADJ	_	_	4	amod	_	_
+4	kinorježissjor	кинорежиссёр	NOUN	_	Case=Nom	12	compound	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	uran	уран	ADJ	_	_	7	amod	_	_
+7	zuraaša	зурааша	NOUN	_	Case=Nom	8	compound	_	_
+8	–	–	PUNCT	_	_	9	compound	_	_
+9	najruulagša	найруулагша	NOUN	_	Case=Nom	12	nmod	_	_
+10	Solbon	Солбон	PROPN	_	Case=Nom|Gender=Masc	17	nsubj	_	_
+11	Dondokovič	Дондокович	PROPN	_	Case=Nom|Gender=Masc	10	flat	_	_
+12	Lygdjenov	Лыгденов	PROPN	_	Case=Nom|Gender=Masc	11	flat	_	_
+13	njutaghaa	нютаг	NOUN	_	Case=Abl	17	nmod	_	_
+14	xolo	холо	ADV	_	_	17	advmod	_	_
+15	olon	олон	ADJ	_	_	16	amod	_	_
+16	želde	жэл	NOUN	_	Case=Dat	17	nmod	_	_
+17	xüdelhen	хүдэл	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+18	xadaa	хадаа	ADV	_	_	17	discourse	_	_
+19	toonto	тоонто	NOUN	_	Case=Nom	20	amod	_	_
+20	njutagajngaa	нютаг	NOUN	_	Case=Gen|Reflex=Yes	21	nmod	_	_
+21	tatasa	татаса	NOUN	_	Case=Nom	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	übge	үбгэн	NOUN	_	Case=Nom	24	compound	_	_
+24	esegenerejngee	эсэгэ	NOUN	_	_	26	nmod	_	Morf=Unknown
+25	ünete	үнэтэй	ADJ	_	_	26	amod	_	_
+26	zaxjaa	захяа	NOUN	_	Case=Nom	27	nmod	_	_
+27	sedʹxelejngee	сэдьхэл	NOUN	_	Case=Gen|Reflex=Yes	29	nmod	_	_
+28	gün	гүн	ADJ	_	_	29	amod	_	_
+29	ojoorto	оёор	NOUN	_	Case=Dat	30	nmod	_	_
+30	mederdeg	мэдэр	VERB	_	_	17	parataxis	_	_
+31	bajgaa	бай	AUX	_	_	30	aux	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = bxr-ud3::221
+# text = Tere üjede axanarynʹ deede hurguuli düürgenxej bajgaa jum.
+1	Tere	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	üjede	үе	NOUN	_	Case=Dat	6	nmod	_	_
+3	axanarynʹ	аха	NOUN	_	_	6	nsubj	_	Morf=Unknown
+4	deede	дээдэ	ADJ	_	_	5	amod	_	_
+5	hurguuli	һургуули	NOUN	_	Case=Nom	6	nmod	_	_
+6	düürgenxej	дүүргэнхэй	ADJ	_	_	0	root	_	_
+7	bajgaa	бай	VERB	_	_	6	cop	_	_
+8	jum	юм	AUX	_	Evident=Fh	6	discourse	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::641
+# text = Ende ger büle gü, ali xatar gehen xojor xargy šelexe geed, ger büle, üri xüügedni-ažabajdalajmni amžalta geže šiidehen bajna.
+1	Ende	эндэ	ADV	_	_	11	advmod	_	_
+2	ger	гэр	NOUN	_	Case=Nom	3	nmod	_	_
+3	büle	бүлэ	NOUN	_	Case=Nom	10	nmod	_	_
+4	gü	гү	PART	_	Number=Sing|Person=3	3	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	11	punct	_	_
+6	ali	али	CCONJ	_	_	3	cc	_	_
+7	xatar	хатар	NOUN	_	Case=Nom	3	conj	_	_
+8	gehen	гэһэн	ADV	_	_	11	advmod	_	_
+9	xojor	хоёр	NUM	_	NumType=Card	10	nummod	_	_
+10	xargy	харгы	NOUN	_	Case=Nom	11	nmod	_	_
+11	šelexe	шэлэ	VERB	_	_	0	root	_	_
+12	geed	гээд	PART	_	_	11	discourse	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	ger	гэр	NOUN	_	Case=Nom	15	nmod	_	_
+15	büle	бүлэ	NOUN	_	Case=Nom	11	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	üri	үри	ADV	_	_	18	advmod	_	_
+18	xüügedni	хүүгэд	NOUN	_	Case=Nom	15	conj	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+20	ažabajdalajmni	ажабайдал	NOUN	_	Case=Gen	21	nmod	_	_
+21	amžalta	амжалта	NOUN	_	Case=Nom	23	nmod	_	_
+22	geže	гэ	VERB	_	VerbForm=Coverb	23	discourse	_	_
+23	šiidehen	шиидэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+24	bajna	бай	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	23	aux	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = bxr-ud3::599
+# text = Burjaad litjeraturyn nomuud xuušaranxaj geže hananagüjb.
+1	Burjaad	буряад	ADJ	_	_	2	amod	_	_
+2	litjeraturyn	литература	NOUN	_	Case=Gen	3	nmod	_	_
+3	nomuud	ном	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+4	xuušaranxaj	хуушар	VERB	_	_	0	root	_	_
+5	geže	гэ	VERB	_	VerbForm=Coverb	6	discourse	_	_
+6	hananagüjb	һана	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Aor|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::131
+# text = Usaltalgada orohon xün zondo tjerapi zuuršalagdahan bajna.
+1	Usaltalgada	усалталга	NOUN	_	Case=Dat	2	obj	_	_
+2	orohon	оро	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	_
+3	xün	хүн	NOUN	_	Case=Nom	4	nmod	_	_
+4	zondo	зон	NOUN	_	Case=Dat	6	iobj	_	_
+5	tjerapi	терапи	NOUN	_	Case=Nom	6	nsubj:pass	_	_
+6	zuuršalagdahan	зууршал	VERB	_	VerbForm=Coverb	0	root	_	_
+7	bajna	бай	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	6	aux:pass	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::856
+# text = Tiixedenʹ 6-daxi klassta huradag bi egeše xün geešeb geže, gertexinejngee sülöö tahalxagüjn tula Suulga sooguur jabaža, mašina, traktortaj zontoj xööreldeže, gertee buulguuldag bajgaab.
+1	Tiixedenʹ	тиихэдэнь	ADV	_	_	7	advmod	_	_
+2	6-daxi	6	NUM	_	NumType=Card	3	nummod	_	_
+3	klassta	класс	NOUN	_	Case=Dat	4	nmod	_	_
+4	huradag	һура	VERB	_	_	5	acl	_	_
+5	bi	би	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	egeše	эгэшэ	NOUN	_	Case=Nom	7	nmod	_	_
+7	xün	хүн	NOUN	_	Case=Nom	0	root	_	_
+8	geešeb	гээшэ	AUX	_	Number=Sing|Person=1	7	discourse	_	_
+9	geže	гэ	VERB	_	VerbForm=Coverb	7	discourse	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	gertexinejngee	гэртэхин	NOUN	_	Case=Gen|Reflex=Yes	13	iobj	_	_
+12	sülöö	сүлөө	NOUN	_	Case=Nom	13	obj	_	_
+13	tahalxagüjn	таһалха	VERB	_	_	7	parataxis	_	_
+14	tula	тула	ADP	_	_	13	case	_	_
+15	Suulga	Суулга	PROPN	_	Case=Nom	17	nmod	_	_
+16	sooguur	соогуур	ADP	_	_	15	case	_	_
+17	jabaža	яба	VERB	_	VerbForm=Coverb	13	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	7	punct	_	_
+19	mašina	машина	NOUN	_	Case=Nom	22	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	traktortaj	трактаар	NOUN	_	Case=Com	19	conj	_	_
+22	zontoj	зон	NOUN	_	Case=Com	23	nmod	_	_
+23	xööreldeže	хөөрэлдэ	VERB	_	VerbForm=Coverb	17	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	7	punct	_	_
+25	gertee	гэр	NOUN	_	Case=Dat|Reflex=Yes	26	nmod	_	_
+26	buulguuldag	буулга	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Cau	23	parataxis	_	_
+27	bajgaab	бай	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	26	aux	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::715
+# text = Jexe zugaaša, olon juume medexe xün.
+1	Jexe	ехэ	ADV	_	_	2	amod	_	_
+2	zugaaša	зугааша	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	olon	олон	ADJ	_	_	5	amod	_	_
+5	juume	юумэн	NOUN	_	Case=Nom	6	nmod	_	_
+6	medexe	мэдэ	VERB	_	_	7	acl	_	_
+7	xün	хүн	NOUN	_	Case=Nom	2	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::872
+# text = - Xün büxeniije xündelxe, zondoo tuhataj baj xeregtej.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	Xün	хүн	NOUN	_	Case=Nom	4	nmod	_	_
+3	büxeniije	бүхэ	PRON	_	Case=Acc|PronType=Dem	2	det	_	_
+4	xündelxe	хүндэл	VERB	_	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	zondoo	зон	NOUN	_	Case=Dat|Reflex=Yes	7	nmod	_	_
+7	tuhataj	туһатай	ADJ	_	_	8	xcomp	_	_
+8	baj	бай	VERB	_	Mood=Imp|VerbForm=Fin	4	parataxis	_	_
+9	xeregtej	хэрэг	NOUN	_	Case=Com	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::920
+# text = Terenej xelehen ügenüüd domog boložo delgerdeg bajgaa.
+1	Terenej	_	DET	_	_	3	det	_	Morf=Unknown
+2	xelehen	_	ADJ	_	_	3	amod	_	Morf=Unknown
+3	ügenüüd	үгэ	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
+4	domog	_	NOUN	_	_	5	nsubj	_	Morf=Unknown
+5	boložo	боло	VERB	_	VerbForm=Coverb	6	ccomp	_	_
+6	delgerdeg	_	ADJ	_	_	0	root	_	Morf=Unknown
+7	bajgaa	бай	VERB	_	_	6	cop	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::395
+# text = Zundaa 7 haryn dundaža tjempjeratura tus tusda 24-höö 32 °C, 0-hee 10 °C xürene.
+1	Zundaa	зун	NOUN	_	Case=Dat|Reflex=Yes	15	nmod	_	_
+2	7	7	NUM	_	NumType=Card	3	nummod	_	_
+3	haryn	һара	NOUN	_	Case=Gen	15	nmod	_	_
+4	dundaža	дундажа	ADJ	_	_	5	amod	_	_
+5	tjempjeratura	температура	NOUN	_	Case=Nom	15	nsubj	_	_
+6	tus	тус	PART	_	_	15	discourse	_	_
+7	tusda	тусда	PART	_	_	6	fixed	_	_
+8	24-höö	24	NUM	_	NumType=Card	10	nmod	_	_
+9	32	32	NUM	_	NumType=Card	10	nummod	_	_
+10	°C	°C	SYM	_	_	14	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	0-hee	0	NUM	_	NumType=Card	14	nmod	_	_
+13	10	10	NUM	_	NumType=Card	14	nummod	_	_
+14	°C	°C	SYM	_	_	15	nmod	_	_
+15	xürene	хүрэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = bxr-ud3::200
+# text = Alaabšanaar jabalgan.
+1	Alaabšanaar	алаабшанаар	NOUN	_	Case=Nom	2	nmod	_	_
+2	jabalgan	ябалган	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bxr-ud3::699
+# text = Üglöögüür bodoxodo, njutagaj üzesxelente gojo bajgaali, arjuun tungalag agaar bultaniijemnaj gajxuulaa.
+1	Üglöögüür	үглөөгүүр	NOUN	_	Case=Nom	2	nmod	_	_
+2	bodoxodo	бодо	VERB	_	Case=Dat|VerbForm=Ger	13	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	njutagaj	нютаг	NOUN	_	Case=Gen	5	nmod	_	_
+5	üzesxelente	үзэсхэлэн	NOUN	_	Case=Dat	7	nmod	_	_
+6	gojo	гоё	ADJ	_	_	7	amod	_	_
+7	bajgaali	байгаали	NOUN	_	Case=Nom	13	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	arjuun	арюун	NOUN	_	Case=Nom	11	amod	_	_
+10	tungalag	тунгалаг	ADJ	_	_	11	amod	_	_
+11	agaar	агаар	NOUN	_	Case=Nom	7	conj	_	_
+12	bultaniijemnaj	булта	PRON	_	Case=Acc|PronType=Ind	13	obj	_	_
+13	gajxuulaa	гайхуул	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = bxr-ud3::143
+# text = Sesegüüdej xamagaj hajxaniinʹ sonxyn xuluuda deere bajgaa.
+1	Sesegüüdej	сэсэг	NOUN	_	Case=Gen|Number=Plur	3	nmod	_	_
+2	xamagaj	хамагай	ADV	_	_	3	advmod	_	_
+3	hajxaniinʹ	һайхан	ADJ	_	_	7	nsubj	_	_
+4	sonxyn	сонхо	NOUN	_	Case=Gen	5	compound	_	_
+5	xuluuda	хулууда	NOUN	_	Case=Nom	7	nmod	_	_
+6	deere	дээрэ	ADP	_	_	5	case	_	_
+7	bajgaa	бай	VERB	_	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::864
+# text = Udaanʹ 1992 ondo «Inform Polisoo» neexedenʹ, «Burjatija» sonindo xüdelže bajhan bi nüxertejee xamtaraad, sonimnaj ene bolotor xügžöö.
+1	Udaanʹ	удаа	NOUN	_	Case=Nom|Number[psor]=Sing|Person[psor]=3	8	advmod	_	_
+2	1992	1992	NUM	_	NumType=Card	3	nummod	_	_
+3	ondo	он	NOUN	_	Case=Dat	8	nmod	_	_
+4	«	«	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Inform	Информ	PROPN	_	Case=Nom	8	obj	_	_
+6	Polisoo	Полис	PROPN	_	Case=Nom|Reflex=Yes	5	flat	_	SpaceAfter=No
+7	»	»	PUNCT	_	_	6	punct	_	_
+8	neexedenʹ	нээ	VERB	_	Case=Dat|Number[psor]=Sing|Person[psor]=3|VerbForm=Ger	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	«	«	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Burjatija	Бурятия	PROPN	_	Case=Nom	13	compound	_	SpaceAfter=No
+12	»	»	PUNCT	_	_	11	punct	_	_
+13	sonindo	сониндо	NOUN	_	Case=Nom	14	nmod	_	_
+14	xüdelže	хүдэл	VERB	_	VerbForm=Coverb	16	acl	_	_
+15	bajhan	бай	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+16	bi	би	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	nüxertejee	нүхэр	NOUN	_	_	18	nmod	_	Morf=Unknown
+18	xamtaraad	хамтар	VERB	_	Mood=Des|Number=Plur|Person=3	8	parataxis	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	sonimnaj	сонин	NOUN	_	Case=Nom	23	nsubj	_	_
+21	ene	энэ	PRON	_	Case=Nom|PronType=Dem	23	nmod	_	_
+22	bolotor	болотор	ADP	_	_	21	case	_	_
+23	xügžöö	хүгжөө	VERB	_	Mood=Imp|VerbForm=Fin	18	parataxis	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::617
+# text = Tedenej toodo Tangadaj Žargalaj 9 xüügedej gurbadaxi üxibüün Cypjelma Šalanovaje oruulbal, alduugüj.
+1	Tedenej	тэдэ	PRON	_	Case=Gen|Number=Plur|PronType=Dem	2	det	_	_
+2	toodo	тоодо	NOUN	_	Case=Nom	11	nmod	_	_
+3	Tangadaj	Тангад	PROPN	_	Case=Gen|Gender=Masc	6	nmod	_	_
+4	Žargalaj	Жаргал	PROPN	_	Case=Gen|Gender=Masc	3	flat	_	_
+5	9	9	NUM	_	NumType=Card	6	nummod	_	_
+6	xüügedej	хүүгэн	NOUN	_	Case=Gen|Number=Plur	8	nmod	_	_
+7	gurbadaxi	гурбан	NUM	_	Case=Nom|NumType=Card	8	nummod	_	_
+8	üxibüün	үхибүүн	NOUN	_	Case=Nom	10	compound	_	_
+9	Cypjelma	Цыпелма	PROPN	_	Case=Nom|Gender=Fem	11	obj	_	_
+10	Šalanovaje	Шаланов	PROPN	_	Case=Nom|Gender=Masc|Reflex=Yes	9	flat	_	_
+11	oruulbal	оруул	VERB	_	Mood=Cnd|VerbForm=Conv	13	csubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	alduugüj	алдуугүй	ADV	_	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = bxr-ud3::119
+# text = Düüren hün.
+1	Düüren	дүүрэн	ADJ	_	_	2	det	_	_
+2	hün	һүн	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bxr-ud3::875
+# text = Tede nahan soogoo xünde negešʹje muu juume xeže üzöögüj, xazagaj ügešʹje xeleegüj, argatajl haa, xünde tuhalxyje oroldoo.
+1	Tede	тэдэ	PRON	_	Case=Nom|Number=Plur|PronType=Dem	9	nsubj	_	_
+2	nahan	наһан	NOUN	_	Case=Nom	9	nmod	_	_
+3	soogoo	соогоо	ADP	_	_	2	case	_	_
+4	xünde	хүн	NOUN	_	Case=Dat	8	nmod	_	_
+5	negešʹje	нэгэшье	ADV	_	_	7	nummod	_	_
+6	muu	муу	ADJ	_	_	7	amod	_	_
+7	juume	юумэн	NOUN	_	Case=Nom	8	obj	_	_
+8	xeže	хэ	VERB	_	VerbForm=Coverb	9	xcomp	_	_
+9	üzöögüj	үзэ	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	xazagaj	хазагай	ADJ	_	_	12	amod	_	_
+12	ügešʹje	үгэ	NOUN	_	Case=Nom	13	obj	_	_
+13	xeleegüj	хэ	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Rcp	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	argatajl	арга	NOUN	_	_	20	nmod	_	Morf=Unknown
+16	haa	һаа	PART	_	_	15	mark	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	xünde	хүн	NOUN	_	Case=Dat	19	nmod	_	_
+19	tuhalxyje	туһал	VERB	_	Case=Acc|VerbForm=Ger	20	xcomp	_	_
+20	oroldoo	оролдо	VERB	_	Mood=Des|Number=Sing|Person=3	9	parataxis	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = bxr-ud3::859
+# text = - Xubi zajaamni geže hanagšab.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	Xubi	хуби	NOUN	_	Case=Nom	3	nmod	_	_
+3	zajaamni	заяан	NOUN	_	Case=Nom	0	root	_	_
+4	geže	гэ	VERB	_	VerbForm=Coverb	5	discourse	_	_
+5	hanagšab	һана	VERB	_	Case=Nom	3	parataxis	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::916
+# text = Ürgelže herjuun bajdagyjenʹ hanagšab.
+1	Ürgelže	_	ADV	_	_	2	advmod	_	Morf=Unknown
+2	herjuun	_	ADV	_	_	3	advmod	_	Morf=Unknown
+3	bajdagyjenʹ	_	VERB	_	_	4	parataxis	_	Morf=Unknown
+4	hanagšab	_	VERB	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::124
+# text = Xübüüdej negeniinʹ zugadaa.
+1	Xübüüdej	хүбүүн	NOUN	_	Case=Gen|Number=Plur	2	nmod	_	_
+2	negeniinʹ	нэгэн	PRON	_	_	3	nsubj	_	Morf=Unknown
+3	zugadaa	зуга	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::451
+# text = Ööhedyn gojo hajxan ordontoj bolobol, belig šadabaritaj tjeatr üšöö hajxan büteelnüüdeeree gansa Burjaad Rjespublikyn, Rossiin zoniije beše, mün büxedelxejn araduudyje bajasuulxa argataj xa jum!
+1	Ööhedyn	өөһэд	PRON	_	Case=Gen|Reflex=Yes	4	det	_	_
+2	gojo	гоё	ADJ	_	_	4	amod	_	_
+3	hajxan	һайхан	ADV	_	_	4	amod	_	_
+4	ordontoj	ордон	NOUN	_	Case=Com	5	nmod	_	_
+5	bolobol	боло	VERB	_	Mood=Cnd|VerbForm=Conv	25	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	belig	бэлиг	NOUN	_	Case=Nom	9	amod	_	_
+8	šadabaritaj	шадабаритай	ADJ	_	_	9	amod	_	_
+9	tjeatr	театр	NOUN	_	Case=Nom	24	nsubj	_	_
+10	üšöö	үшөө	ADV	_	_	11	advmod	_	_
+11	hajxan	һайхан	ADV	_	_	12	amod	_	_
+12	büteelnüüdeeree	бүтээл	NOUN	_	Number=Plur|Reflex=Yes	24	nmod	_	_
+13	gansa	ганса	ADV	_	_	18	advmod	_	_
+14	Burjaad	буряад	NOUN	_	Case=Nom	18	nmod	_	_
+15	Rjespublikyn	республика	NOUN	_	Case=Gen	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	25	punct	_	_
+17	Rossiin	России	PROPN	_	Case=Gen	15	conj	_	_
+18	zoniije	зон	NOUN	_	Case=Acc	5	parataxis	_	_
+19	beše	бэшэ	ADV	_	_	18	discourse	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	25	punct	_	_
+21	mün	мүн	ADV	_	_	22	amod	_	_
+22	büxedelxejn	бүхэдэлхэйн	NOUN	_	Case=Nom	23	nmod	_	_
+23	araduudyje	арад	NOUN	_	Case=Acc|Number=Plur	24	obj	_	_
+24	bajasuulxa	баясуул	VERB	_	_	25	acl	_	_
+25	argataj	аргатай	NOUN	_	Case=Nom	0	root	_	_
+26	xa	ха	PART	_	_	25	discourse	_	_
+27	jum	юм	AUX	_	Evident=Fh	25	discourse	_	SpaceAfter=No
+28	!	!	PUNCT	_	_	25	punct	_	_
+
+# sent_id = bxr-ud3::443
+# text = «Bajgal» tjeatraj uran hajxaniije xütelberilegše Žargal Žalsanov ene projektyn najruulagša, xatar tabigšad Irina Batorova, Arsalan Sandanov bolon ööröö Dandar Badlujev geed ažallaa.
+1	«	«	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Bajgal	Байгал	PROPN	_	Case=Nom	7	nmod	_	SpaceAfter=No
+3	»	»	PUNCT	_	_	2	punct	_	_
+4	tjeatraj	театр	NOUN	_	Case=Gen	2	flat	_	_
+5	uran	уран	ADJ	_	_	7	amod	_	_
+6	hajxaniije	һайхан	ADJ	_	_	7	amod	_	_
+7	xütelberilegše	хүтэлбэрилэгшэ	NOUN	_	Case=Nom	12	nsubj	_	_
+8	Žargal	Жаргал	PROPN	_	Case=Nom|Gender=Masc	7	appos	_	_
+9	Žalsanov	Жалсанов	PROPN	_	Case=Nom|Gender=Masc	8	flat	_	_
+10	ene	энэ	DET	_	PronType=Dem	11	det	_	_
+11	projektyn	проект	NOUN	_	Case=Gen	12	nmod	_	_
+12	najruulagša	найруулагша	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	xatar	хатар	NOUN	_	Case=Nom	15	nmod	_	_
+15	tabigšad	табигша	NOUN	_	Case=Nom|Number=Plur	26	nsubj	_	_
+16	Irina	Ирина	PROPN	_	Case=Nom|Gender=Fem	15	appos	_	_
+17	Batorova	Баторов	PROPN	_	Case=Nom|Gender=Fem	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	26	punct	_	_
+19	Arsalan	Арсалан	PROPN	_	Case=Nom|Gender=Masc	17	conj	_	_
+20	Sandanov	Санданов	PROPN	_	Case=Nom|Gender=Masc	19	flat	_	_
+21	bolon	болон	CCONJ	_	_	17	cc	_	_
+22	ööröö	өөрөө	PRON	_	Case=Nom|Reflex=Yes	24	det	_	_
+23	Dandar	Дандар	PROPN	_	Case=Nom|Gender=Masc	17	conj	_	_
+24	Badlujev	Бадлуев	PROPN	_	Case=Nom|Gender=Masc	23	flat	_	_
+25	geed	гээд	PART	_	_	26	discourse	_	_
+26	ažallaa	ажал	VERB	_	Mood=Des|Number=Sing|Person=3|Voice=Rcp	12	parataxis	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = bxr-ud3::545
+# text = Tulaldaanaj düüreter 30 sjekundyn ülööd baj üjede zaluu xübüün 1 ballaar šüüže jababa.
+1	Tulaldaanaj	тулалдаан	NOUN	_	Case=Gen	2	nmod	_	_
+2	düüreter	дүүрэтэр	NOUN	_	Case=Nom	5	nmod	_	_
+3	30	30	NUM	_	NumType=Card	4	nummod	_	_
+4	sjekundyn	секунд	NOUN	_	Case=Gen	5	nsubj	_	_
+5	ülööd	үлэшэ	VERB	_	VerbForm=Ger	7	acl	_	_
+6	baj	бай	AUX	_	Mood=Imp|VerbForm=Fin	5	aux	_	_
+7	üjede	үе	NOUN	_	Case=Dat	13	nmod	_	_
+8	zaluu	залуу	ADJ	_	_	9	amod	_	_
+9	xübüün	хүбүүн	NOUN	_	Case=Nom	13	nsubj	_	_
+10	1	1	NUM	_	NumType=Card	11	nummod	_	_
+11	ballaar	бал	NOUN	_	_	12	nmod	_	_
+12	šüüže	шүү	VERB	_	VerbForm=Coverb	13	xcomp	_	_
+13	jababa	яба	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = bxr-ud3::637
+# text = Hüüldenʹ olo daxin gastrolʹdo ansamblʹtajaa jereže, enel tajzan deeree xedy daxin xatarža, njutagajxidajngaa üšöö šanga xaluun alʹga tašalganda xürtehen le aab daa.
+1	Hüüldenʹ	һүүлдэнь	ADV	_	_	6	advmod	_	_
+2	olo	олон	ADJ	_	_	3	amod	_	_
+3	daxin	даха	NOUN	_	Case=Gen	6	nmod	_	_
+4	gastrolʹdo	гастроль	NOUN	_	Case=Dat	6	nmod	_	_
+5	ansamblʹtajaa	ансамбль	NOUN	_	Case=Dat	6	obj	_	_
+6	jereže	ерэ	VERB	_	VerbForm=Coverb	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	enel	энэ	DET	_	PronType=Dem	9	det	_	_
+9	tajzan	тайзан	NOUN	_	Case=Nom	13	nmod	_	_
+10	deeree	дээрээ	ADP	_	_	9	case	_	_
+11	xedy	хэды	ADV	_	PronType=Int	12	det	_	_
+12	daxin	даха	NOUN	_	Case=Gen	13	nmod	_	_
+13	xatarža	хатар	VERB	_	VerbForm=Coverb	6	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	njutagajxidajngaa	нютагайхида	NOUN	_	Case=Acc|Number=Plur	21	iobj	_	_
+16	üšöö	үшөө	ADV	_	_	21	advmod	_	_
+17	šanga	шанга	ADJ	_	_	20	amod	_	_
+18	xaluun	халуун	ADV	_	_	20	amod	_	_
+19	alʹga	альган	NOUN	_	Case=Nom	20	compound	_	_
+20	tašalganda	ташалган	NOUN	_	Case=Dat	21	obj	_	_
+21	xürtehen	хүртэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	parataxis	_	_
+22	le	лэ	PART	_	_	21	discourse	_	_
+23	aab	ааб	PART	_	_	21	discourse	_	_
+24	daa	даа	PART	_	_	21	discourse	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::12
+# text = Nomuud, xarandaašuud ba šugamuud.
+1	Nomuud	ном	NOUN	_	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	xarandaašuud	харандааш	NOUN	_	Case=Nom|Number=Plur	1	conj	_	_
+4	ba	ба	CCONJ	_	_	1	cc	_	_
+5	šugamuud	шугам	NOUN	_	Case=Nom|Number=Plur	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = bxr-ud3::109
+# text = Minii untalgyn xubsahan soo bajhan zaaniije bi buudažarxjoob.
+1	Minii	би	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	det	_	_
+2	untalgyn	унталга	NOUN	_	Case=Gen	3	compound	_	_
+3	xubsahan	хубсаһан	NOUN	_	Case=Nom	6	acl	_	_
+4	soo	соо	ADP	_	_	3	case	_	_
+5	bajhan	бай	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+6	zaaniije	заан	NOUN	_	Case=Acc	8	obj	_	_
+7	bi	би	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	buudažarxjoob	буудажархи	VERB	_	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::843
+# text = - Sexyjenʹ xelexede, bi šuran, türge mergen bešeb.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	Sexyjenʹ	сэхэ	NOUN	_	Case=Acc|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	xelexede	хэлэ	VERB	_	Case=Dat|VerbForm=Ger	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	bi	би	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	šuran	шуран	ADV	_	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	türge	түргэ	ADV	_	_	9	advmod	_	_
+9	mergen	мэргэн	NOUN	_	Case=Nom	6	conj	_	_
+10	bešeb	бэшэ	ADV	_	_	6	advmod:neg	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = bxr-ud3::435
+# text = Ene jexe impjeri tere üjede gansa gazar uha ezemdeže jabaa beše xarin büxy beligtej duušad, xataršad, uran zoxjoolšod, arxitjektornüüd geed, erdem beligtej zonuudyje sugluuldag bajgaa.
+1	Ene	энэ	DET	_	PronType=Dem	3	det	_	_
+2	jexe	ехэ	ADV	_	_	3	amod	_	_
+3	impjeri	импери	NOUN	_	Case=Nom	10	nsubj	_	_
+4	tere	тэрэ	DET	_	PronType=Dem	5	det	_	_
+5	üjede	үе	NOUN	_	Case=Dat	10	nmod	_	_
+6	gansa	ганса	ADV	_	_	9	advmod	_	_
+7	gazar	газар	NOUN	_	Case=Nom	9	obj	_	_
+8	uha	уһан	NOUN	_	Case=Nom	7	conj	_	_
+9	ezemdeže	эзэмдэ	VERB	_	VerbForm=Coverb	10	xcomp	_	_
+10	jabaa	яба	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	_
+11	beše	бэшэ	ADV	_	_	10	advmod:neg	_	_
+12	xarin	харин	ADP	_	_	10	parataxis	_	_
+13	büxy	бүхы	ADV	_	_	15	det	_	_
+14	beligtej	бэлигтэй	ADJ	_	_	15	amod	_	_
+15	duušad	дуушан	NOUN	_	Case=Nom|Number=Plur	28	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	xataršad	хатаршан	NOUN	_	Case=Nom|Number=Plur	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	28	punct	_	_
+19	uran	уран	ADJ	_	_	20	amod	_	_
+20	zoxjoolšod	зохёолшо	NOUN	_	Case=Nom|Number=Plur	15	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	28	punct	_	_
+22	arxitjektornüüd	архитектор	NOUN	_	Case=Nom|Number=Plur	15	conj	_	_
+23	geed	гээд	PART	_	_	22	discourse	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	_
+25	erdem	эрдэм	NOUN	_	Case=Nom	28	nmod	_	_
+26	beligtej	бэлигтэй	ADJ	_	_	27	amod	_	_
+27	zonuudyje	зон	NOUN	_	Case=Acc|Number=Plur	28	obj	_	_
+28	sugluuldag	суглуул	VERB	_	_	12	fixed	_	_
+29	bajgaa	бай	AUX	_	_	28	aux	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = bxr-ud3::825
+# text = Ažalgüjdene xa jum.
+1	Ažalgüjdene	ажал	NOUN	_	_	0	root	_	Morf=Unknown
+2	xa	ха	PART	_	_	1	discourse	_	_
+3	jum	юм	AUX	_	Evident=Fh	1	discourse	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = bxr-ud3::185
+# text = Jexenxidee enešni honirxoloj zergede nülöölelgdene.
+1	Jexenxidee	ехэнхидээ	ADV	_	_	5	advmod	_	_
+2	enešni	энэ	PRON	_	Case=Nom|PronType=Dem	5	nsubj	_	_
+3	honirxoloj	һонирхол	NOUN	_	Case=Gen	4	nmod	_	_
+4	zergede	зэргэ	NOUN	_	Case=Dat	5	obj	_	_
+5	nülöölelgdene	нүлөөлэл	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::612
+# text = Xenšʹje zaaža ügöö beše, jure ööröö mederže, zoxjoohon xataraa güjsedxene.
+1	Xenšʹje	хэншье	PRON	_	_	3	nsubj	_	Morf=Unknown
+2	zaaža	заа	VERB	_	VerbForm=Coverb	3	xcomp	_	_
+3	ügöö	үгэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+4	beše	бэшэ	ADV	_	_	3	discourse	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	jure	юрэ	ADV	_	_	8	advmod	_	_
+7	ööröö	өөрөө	PRON	_	Case=Nom|Reflex=Yes	8	nsubj	_	_
+8	mederže	мэдэр	VERB	_	VerbForm=Coverb	12	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	zoxjoohon	зохёоһон	ADJ	_	_	11	amod	_	_
+11	xataraa	хатар	NOUN	_	Case=Nom|Reflex=Yes	12	obj	_	_
+12	güjsedxene	гүйсэдхэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = bxr-ud3::7
+# text = Erdemten Matti Tamminen münööder ljekci unšana.
+1	Erdemten	эрдэмтэн	NOUN	_	Case=Nom	6	nsubj	_	_
+2	Matti	Матти	PROPN	_	Case=Nom|Gender=Masc	1	appos	_	_
+3	Tamminen	Тамминэн	PROPN	_	Case=Nom	2	flat	_	_
+4	münööder	мүнөөдэр	ADV	_	_	6	advmod	_	_
+5	ljekci	лекци	NOUN	_	Case=Nom	6	obj	_	_
+6	unšana	унша	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::32
+# text = hee, abaryt daa!
+1	hee	һээ	INTJ	_	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	abaryt	абар	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	daa	даа	PART	_	_	3	discourse	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::178
+# text = Maanadta beše eldeb janzyn bolomžotoj onuud bii.
+1	Maanadta	бидэ	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	nmod	_	_
+2	beše	бэшэ	ADV	_	_	6	amod	_	_
+3	eldeb	элдэб	ADJ	_	_	4	compound	_	_
+4	janzyn	янзын	ADJ	_	_	6	amod	_	_
+5	bolomžotoj	боломо	ADJ	_	_	6	amod	_	_
+6	onuud	он	NOUN	_	Case=Nom|Number=Plur	7	nsubj	_	_
+7	bii	бии	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::470
+# text = Burjaad xele mededeg bajxada, ešxebter hen
+1	Burjaad	буряад	ADJ	_	_	2	amod	_	_
+2	xele	хэлэн	NOUN	_	Case=Nom	3	nmod	_	_
+3	mededeg	мэдэ	VERB	_	_	4	xcomp	_	_
+4	bajxada	бай	VERB	_	Case=Dat|VerbForm=Ger	6	csubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ešxebter	эшхэбтэр	ADV	_	_	0	root	_	_
+7	hen	һэн	PART	_	_	6	discourse	_	_
+
+# sent_id = bxr-ud3::450
+# text = Gansal ööhedyn bajra bajšangüj, ende tende arjende-tülberi xeže, ažallaža jabaxadanʹ, xajšaa jum?
+1	Gansal	гансал	ADV	_	_	4	advmod	_	_
+2	ööhedyn	өөһэд	PRON	_	Case=Gen|Reflex=Yes	3	det	_	_
+3	bajra	байра	NOUN	_	Case=Nom	4	nsubj	_	_
+4	bajšangüj	байша	VERB	_	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	ende	эндэ	ADV	_	_	8	advmod	_	_
+7	tende	тэндэ	ADV	_	_	6	fixed	_	_
+8	arjende	арендэ	NOUN	_	Case=Nom	4	parataxis	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	tülberi	түлбэри	NOUN	_	Case=Nom	11	obj	_	_
+11	xeže	хэ	VERB	_	VerbForm=Coverb	8	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	ažallaža	ажалла	VERB	_	VerbForm=Coverb	14	xcomp	_	_
+14	jabaxadanʹ	яба	VERB	_	Case=Dat|Number[psor]=Sing|Person[psor]=3|VerbForm=Ger	8	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	xajšaa	хайшаа	ADV	_	_	14	advcl	_	_
+17	jum	юм	AUX	_	Evident=Fh	16	discourse	_	SpaceAfter=No
+18	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::630
+# text = Xataraj učiliščijaa düürgeže, «Bajgal» ansambliin xataršan bolohon jum.
+1	Xataraj	хатар	NOUN	_	Case=Gen	2	nmod	_	_
+2	učiliščijaa	училищи	NOUN	_	Case=Nom|Reflex=Yes	3	obj	_	_
+3	düürgeže	дүүргэ	VERB	_	VerbForm=Coverb	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	«	«	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Bajgal	Байгал	PROPN	_	Case=Nom	8	compound	_	SpaceAfter=No
+7	»	»	PUNCT	_	_	6	punct	_	_
+8	ansambliin	ансамбль	NOUN	_	Case=Gen	9	nmod	_	_
+9	xataršan	хатаршан	NOUN	_	Case=Nom	10	obj	_	_
+10	bolohon	боло	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+11	jum	юм	AUX	_	Evident=Fh	10	discourse	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::328
+# text = Dalaad onuudta üxibüüdte zorjuulagdahan zoxjeolnuud üsööröö.
+1	Dalaad	далан	NUM	_	NumType=Card	2	nummod	_	_
+2	onuudta	он	NOUN	_	Case=Dat|Number=Plur	6	nmod	_	_
+3	üxibüüdte	үхибүүн	NOUN	_	Case=Dat|Number=Plur	4	nmod	_	_
+4	zorjuulagdahan	зорюулагдаһан	ADJ	_	_	5	acl	_	_
+5	zoxjeolnuud	зохёол	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
+6	üsööröö	үсөөр	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::673
+# text = Üngeregše zuun želej 80-jaad – 90-eed onuudta Erxüügej gürenej univjersitjedej ojuutad tere xizaar ruu xele bešegej bolon aman zoxjooloj praktikada oloor ošodog hen.
+1	Üngeregše	үнгэрэгшэ	ADJ	_	_	3	amod	_	_
+2	zuun	зуун	NUM	_	NumType=Card	3	nummod	_	_
+3	želej	жэл	NOUN	_	Case=Gen	7	nmod	_	_
+4	80-jaad	80	NUM	_	NumType=Card	7	nummod	_	_
+5	–	–	PUNCT	_	_	4	punct	_	_
+6	90-eed	90	NUM	_	NumType=Card	4	nummod	_	_
+7	onuudta	он	NOUN	_	Case=Dat|Number=Plur	22	nmod	_	_
+8	Erxüügej	Эрхүүгэй	PROPN	_	Case=Nom	11	nmod	_	_
+9	gürenej	гүрэнэй	NOUN	_	Case=Nom	8	flat	_	_
+10	univjersitjedej	университет	NOUN	_	Case=Gen|Number=Plur	9	flat	_	_
+11	ojuutad	оюутан	NOUN	_	Case=Nom|Number=Plur	22	nsubj	_	_
+12	tere	тэрэ	DET	_	PronType=Dem	13	det	_	_
+13	xizaar	хизаар	NOUN	_	Case=Nom	22	nmod	_	_
+14	ruu	руу	ADP	_	_	13	case	_	_
+15	xele	хэлэн	NOUN	_	Case=Nom	16	nmod	_	_
+16	bešegej	бэшэг	NOUN	_	Case=Gen	20	nmod	_	_
+17	bolon	болон	CCONJ	_	_	16	cc	_	_
+18	aman	аман	NOUN	_	Case=Nom	19	amod	_	_
+19	zoxjooloj	зохёол	NOUN	_	Case=Gen	16	conj	_	_
+20	praktikada	практика	NOUN	_	Case=Dat	22	nmod	_	_
+21	oloor	олоор	NOUN	_	Case=Nom	22	advmod	_	_
+22	ošodog	ошо	VERB	_	_	0	root	_	_
+23	hen	һэн	PART	_	_	22	discourse	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = bxr-ud3::118
+# text = Gurban litr.
+1	Gurban	гурбан	NUM	_	NumType=Card	2	nummod	_	_
+2	litr	литр	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bxr-ud3::651
+# text = - Zaluudaa ööröö xataraab, münöö ediršüülde xatar zaaža bajxadaa, jexe bajartajb, - geže tere mederne.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	Zaluudaa	залуу	NOUN	_	Case=Dat|Reflex=Yes	4	nmod	_	_
+3	ööröö	өөрөө	PRON	_	Case=Nom|Reflex=Yes	4	nsubj	_	_
+4	xataraab	хатар	VERB	_	Mood=Des|Number=Sing|Person=1	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	münöö	мүнөө	ADV	_	_	9	advmod	_	_
+7	ediršüülde	эдиршүүл	NOUN	_	Case=Dat	9	nmod	_	_
+8	xatar	хатар	NOUN	_	Case=Nom	9	obj	_	_
+9	zaaža	заа	VERB	_	VerbForm=Coverb	10	xcomp	_	_
+10	bajxadaa	бай	VERB	_	Case=Dat|Reflex=Yes|VerbForm=Ger	13	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	jexe	ехэ	ADV	_	_	13	advmod	_	_
+13	bajartajb	баярла	VERB	_	_	4	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	-	-	PUNCT	_	_	4	punct	_	_
+16	geže	гэ	VERB	_	VerbForm=Coverb	18	discourse	_	_
+17	tere	тэрэ	PRON	_	Case=Nom|PronType=Dem	18	nsubj	_	_
+18	mederne	мэдэр	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	13	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::556
+# text = Xarin münööderej asuudal burjaad xelenej bajdal tuxaj.
+1	Xarin	харин	ADP	_	_	6	advmod	_	_
+2	münööderej	мүнөөдэрэй	ADJ	_	_	3	amod	_	_
+3	asuudal	асуудал	NOUN	_	Case=Nom	6	nsubj	_	_
+4	burjaad	буряад	ADJ	_	_	5	amod	_	_
+5	xelenej	хэлэн	NOUN	_	Case=Gen	6	nmod	_	_
+6	bajdal	байдал	NOUN	_	Case=Nom	0	root	_	_
+7	tuxaj	тухай	ADP	_	_	6	case	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::141
+# text = Abarga šalgaruulxa temseen – Virtanjenej zurgaadaxi.
+1	Abarga	абарга	ADJ	_	_	2	compound	_	_
+2	šalgaruulxa	шалгаруулха	NOUN	_	Case=Nom	3	compound	_	_
+3	temseen	тэмсээн	NOUN	_	Case=Nom	6	nsubj	_	_
+4	–	–	PUNCT	_	_	3	punct	_	_
+5	Virtanjenej	Виртанен	PROPN	_	Case=Gen	6	nmod:own	_	_
+6	zurgaadaxi	зурган	ADJ	_	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::678
+# text = Gansal tiixede 70-aad nahataj jabahan übged, xügšed burxandaa mordoo.
+1	Gansal	гансал	ADV	_	_	10	advmod	_	_
+2	tiixede	тиихэдэ	ADV	_	_	5	advmod	_	_
+3	70-aad	70	NUM	_	NumType=Card	4	nummod	_	_
+4	nahataj	наһан	NOUN	_	Case=Com	5	nmod	_	_
+5	jabahan	яба	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	_
+6	übged	үбгэн	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	xügšed	хүгшэн	NOUN	_	Case=Nom|Number=Plur	6	conj	_	_
+9	burxandaa	бурхан	NOUN	_	Case=Dat|Reflex=Yes	10	nmod	_	_
+10	mordoo	мордо	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = bxr-ud3::576
+# text = Ajmag soogoo ündehen hurguuli geže toologdodog.
+1	Ajmag	аймаг	NOUN	_	Case=Nom	6	nmod	_	_
+2	soogoo	соогоо	ADP	_	_	1	case	_	_
+3	ündehen	үндэһэн	NOUN	_	Case=Nom	4	amod	_	_
+4	hurguuli	һургуули	NOUN	_	Case=Nom	6	nsubj	_	_
+5	geže	гэ	VERB	_	VerbForm=Coverb	6	discourse	_	_
+6	toologdodog	тоологдо	VERB	_	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::749
+# text = Pavjel Borisovič xügšen abahaa damžuulagdahan togoonoj arxi nerexe xeregselee xaruulba, jexe honirxobobdi.
+1	Pavjel	Павел	PROPN	_	Case=Nom|Gender=Masc	10	nsubj	_	_
+2	Borisovič	Борисович	PROPN	_	Case=Nom|Gender=Masc	1	flat	_	_
+3	xügšen	хүгшэн	NOUN	_	Case=Nom	4	nmod	_	_
+4	abahaa	аба	NOUN	_	Case=Abl	5	xcomp	_	_
+5	damžuulagdahan	дамжуулагда	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	_
+6	togoonoj	тогоон	NOUN	_	Case=Gen	7	nmod	_	_
+7	arxi	архи	NOUN	_	Case=Nom	8	nmod	_	_
+8	nerexe	нэрэ	VERB	_	_	9	acl	_	_
+9	xeregselee	хэрэгсэл	NOUN	_	Case=Nom|Reflex=Yes	10	nmod	_	_
+10	xaruulba	харуул	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	jexe	ехэ	ADV	_	_	13	advmod	_	_
+13	honirxobobdi	һонирхо	VERB	_	_	10	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = bxr-ud3::264
+# text = Šamtaj gansal zolgoob.
+1	Šamtaj	ши	PRON	_	Case=Com|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+2	gansal	гансал	ADV	_	_	3	advmod	_	_
+3	zolgoob	золго	VERB	_	Mood=Des|Number=Sing|Person=1	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::773
+# text = Xarin Zandinda dasanaj huurida subarga büteegdenxej.
+1	Xarin	харин	CCONJ	_	_	6	cc	_	_
+2	Zandinda	зандин	PROPN	_	Case=Dat	3	nmod	_	_
+3	dasanaj	дасан	NOUN	_	Case=Nom	4	nmod	_	_
+4	huurida	һуурин	NOUN	_	Case=Dat	6	nmod	_	_
+5	subarga	субарга	NOUN	_	Case=Nom	6	nsubj	_	_
+6	büteegdenxej	бүтээ	VERB	_	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::925
+# text = Kondratʹjevaj oroldolgoor Mongoloj tjeatrnuudaj tajzan deere 12 züžeg tabigdaa.
+1	Kondratʹjevaj	_	PROPN	_	_	2	nmod	_	Morf=Unknown
+2	oroldolgoor	оролдолго	NOUN	_	_	9	nmod	_	_
+3	Mongoloj	Монгол	PROPN	_	Case=Gen	4	nmod	_	_
+4	tjeatrnuudaj	театр	NOUN	_	Case=Gen|Number=Plur	5	nmod	_	_
+5	tajzan	тайзан	NOUN	_	Case=Nom	9	nmod	_	_
+6	deere	дээрэ	ADP	_	_	5	case	_	_
+7	12	12	NUM	_	NumType=Card	8	nummod	_	_
+8	züžeg	зүжэг	NOUN	_	Case=Nom	9	nsubj:pass	_	_
+9	tabigdaa	табигда	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = bxr-ud3::734
+# text = Ene hajxan njutagaj zon tuxaj xöörengüj baj argamgüj.
+1	Ene	энэ	DET	_	PronType=Dem	3	det	_	_
+2	hajxan	һайхан	ADV	_	_	3	amod	_	_
+3	njutagaj	нютаг	NOUN	_	Case=Gen	4	nmod	_	_
+4	zon	зон	NOUN	_	Case=Nom	6	nmod	_	_
+5	tuxaj	тухай	ADP	_	_	4	case	_	_
+6	xöörengüj	хөөрэ	VERB	_	_	8	xcomp	_	_
+7	baj	бай	AUX	_	Mood=Imp|VerbForm=Fin	6	aux	_	_
+8	argamgüj	аргал	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::853
+# text = Tere üjede 6 nahataj bi ežydee tuhalxa geže počtyjenʹ taraadag hem.
+1	Tere	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	üjede	үе	NOUN	_	Case=Dat	10	nmod	_	_
+3	6	6	NUM	_	NumType=Card	4	nummod	_	_
+4	nahataj	наһан	NOUN	_	Case=Com	5	nmod	_	_
+5	bi	би	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+6	ežydee	эжы	NOUN	_	Case=Dat|Reflex=Yes	7	obj	_	_
+7	tuhalxa	туһал	VERB	_	_	10	xcomp	_	_
+8	geže	гэ	VERB	_	VerbForm=Coverb	7	discourse	_	_
+9	počtyjenʹ	почта	NOUN	_	Case=Acc|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
+10	taraadag	тара	VERB	_	_	0	root	_	_
+11	hem	һэм	AUX	_	Number=Sing|Person=3	10	discourse	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = bxr-ud3::187
+# text = Matti hogtuu bajgaa.
+1	Matti	Матти	PROPN	_	Case=Nom|Gender=Masc	2	nsubj	_	_
+2	hogtuu	һогтуу	ADJ	_	_	0	root	_	_
+3	bajgaa	бай	VERB	_	_	2	cop	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::281
+# text = Durlahan namajje ojlgoogüj duugaj xoohon tala bajgaaš.
+1	Durlahan	дурлаһан	ADJ	_	_	2	amod	_	_
+2	namajje	би	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	ojlgoogüj	ойлгоогүй	ADJ	_	_	0	root	_	_
+4	duugaj	дуугай	ADJ	_	_	6	amod	_	_
+5	xoohon	хооһон	ADJ	_	_	6	amod	_	_
+6	tala	тала	NOUN	_	Case=Nom	7	nsubj	_	_
+7	bajgaaš	бай	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::367
+# text = Xabaraj ajalganuud duuldana tojrood.
+1	Xabaraj	хабар	NOUN	_	Case=Gen	2	nmod	_	_
+2	ajalganuud	аялга	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	_
+3	duuldana	дуулда	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+4	tojrood	тойроод	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::854
+# text = Udaanʹ gertexinejngee Suulgyn sovxozoj Gašjejn tahagta xonindo xüdelže exilxedenʹ, xojor düünertejee Suulgyn intjernadta bajraar huradag bolood, amaraltyn üdernüüdte gertee ošoxo mašina bederdeg bajgaab.
+1	Udaanʹ	удаа	NOUN	_	Case=Nom|Number[psor]=Sing|Person[psor]=3	9	advmod	_	_
+2	gertexinejngee	гэртэхин	NOUN	_	Case=Gen|Reflex=Yes	9	nmod	_	_
+3	Suulgyn	Суулга	PROPN	_	Case=Gen	4	nmod	_	_
+4	sovxozoj	совхоз	NOUN	_	Case=Gen	6	nmod	_	_
+5	Gašjejn	Гашейн	PROPN	_	Case=Nom	6	nmod	_	_
+6	tahagta	таһаг	NOUN	_	Case=Dat	8	nmod	_	_
+7	xonindo	хонин	NOUN	_	Case=Dat	8	obj	_	_
+8	xüdelže	хүдэл	VERB	_	VerbForm=Coverb	9	xcomp	_	_
+9	exilxedenʹ	эхил	VERB	_	Case=Dat|Number[psor]=Sing|Person[psor]=3|VerbForm=Ger	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	xojor	хоёр	NUM	_	NumType=Card	12	nummod	_	_
+12	düünertejee	дүүнэр	NOUN	_	Case=Acc	16	nmod	_	_
+13	Suulgyn	Суулга	PROPN	_	Case=Gen	14	nmod	_	_
+14	intjernadta	интернад	NOUN	_	Case=Dat	15	nmod	_	_
+15	bajraar	байра	NOUN	_	_	16	nmod	_	_
+16	huradag	һура	VERB	_	_	9	parataxis	_	_
+17	bolood	боло	VERB	_	Mood=Des|Number=Plur|Person=3	16	aux	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	9	punct	_	_
+19	amaraltyn	амаралтын	ADJ	_	_	20	amod	_	_
+20	üdernüüdte	үдэр	NOUN	_	Case=Dat|Number=Plur	22	nmod	_	_
+21	gertee	гэр	NOUN	_	Case=Dat|Reflex=Yes	22	nmod	_	_
+22	ošoxo	ошо	VERB	_	_	24	xcomp	_	_
+23	mašina	машина	NOUN	_	Case=Nom	24	obj	_	_
+24	bederdeg	бэдэр	VERB	_	_	16	parataxis	_	_
+25	bajgaab	бай	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = bxr-ud3::563
+# text = Üxibüüdyje baga nahanhaanʹ le türel xelendenʹ hurgaxa xeregtej xa jum.
+1	Üxibüüdyje	үхибүүн	NOUN	_	Case=Acc|Number=Plur	7	iobj	_	_
+2	baga	бага	ADJ	_	_	3	amod	_	_
+3	nahanhaanʹ	наһан	NOUN	_	Case=Abl|Number[psor]=Sing|Person[psor]=3	7	nmod	_	_
+4	le	лэ	PART	_	_	7	discourse	_	_
+5	türel	түрэл	ADJ	_	_	6	amod	_	_
+6	xelendenʹ	хэлэн	NOUN	_	Case=Dat|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
+7	hurgaxa	һурга	VERB	_	_	0	root	_	_
+8	xeregtej	хэрэг	NOUN	_	Case=Com	7	aux	_	_
+9	xa	ха	PART	_	_	7	discourse	_	_
+10	jum	юм	AUX	_	Evident=Fh	7	discourse	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::255
+# text = Dulaan amisxaalaar namajje herjuuleeš.
+1	Dulaan	дулаан	ADJ	_	_	2	amod	_	_
+2	amisxaalaar	амисхаалаар	NOUN	_	Case=Nom	4	nsubj	_	_
+3	namajje	би	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	herjuuleeš	һэрюул	VERB	_	Mood=Des|Number=Sing|Person=2	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::326
+# text = Tünxenej uran zoxjoolšodoj xütelberitej zolgoo.
+1	Tünxenej	Түнхэн	PROPN	_	Case=Gen	3	nmod:own	_	_
+2	uran	уран	ADJ	_	_	3	amod	_	_
+3	zoxjoolšodoj	зохеолшон	NOUN	_	Case=Gen|Number=Plur	4	nmod	_	_
+4	xütelberitej	хүтэлбэри	NOUN	_	Case=Com	5	nmod	_	_
+5	zolgoo	зол	VERB	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::770
+# text = Tiixedenʹ tereniije Suulgada daxin bodxoogoo.
+1	Tiixedenʹ	тиихэдэнь	ADV	_	_	5	advmod	_	_
+2	tereniije	тэрэ	PRON	_	Case=Acc|PronType=Dem	5	obj	_	_
+3	Suulgada	Суулга	PROPN	_	Case=Dat	5	nmod	_	_
+4	daxin	дахин	ADV	_	_	5	advmod	_	_
+5	bodxoogoo	бодхоо	VERB	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::195
+# text = Matikajnen (mjanga juhen zuun düšen gurban ondo türehen)-mergeželeeree avtor bolono.
+1	Matikajnen	Матикайнэн	PROPN	_	Case=Nom	13	nsubj	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	mjanga	мянган	NUM	_	NumType=Card	4	compound	_	_
+4	juhen	юһэн	NUM	_	NumType=Card	5	compound	_	_
+5	zuun	зуун	NUM	_	NumType=Card	6	compound	_	_
+6	düšen	дүшэн	NUM	_	NumType=Card	7	compound	_	_
+7	gurban	гурбан	NUM	_	NumType=Card	8	nummod	_	_
+8	ondo	он	NOUN	_	Case=Dat	9	nmod	_	_
+9	türehen	түрэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	appos	_	SpaceAfter=No
+10	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	mergeželeeree	мэргэжэл	NOUN	_	Reflex=Yes	13	nmod	_	_
+13	avtor	автор	NOUN	_	Case=Nom	0	root	_	_
+14	bolono	боло	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	13	cop	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = bxr-ud3::594
+# text = Münöö bide jexe bajartajbdi.
+1	Münöö	мүнөө	ADV	_	_	4	advmod	_	_
+2	bide	бидэ	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	jexe	ехэ	ADV	_	_	4	advmod	_	_
+4	bajartajbdi	баяртай	ADJ	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::827
+# text = Tedenej hanal bodolyje xubilgaxa, malša, tarjaaša zoniije xündetej bolgoxo šuxala.
+1	Tedenej	тэдэ	PRON	_	Case=Gen|Number=Plur|PronType=Dem	3	det	_	_
+2	hanal	һанал	NOUN	_	Case=Nom	3	compound	_	_
+3	bodolyje	бодол	NOUN	_	Case=Acc|Reflex=Yes	4	obj	_	_
+4	xubilgaxa	хубилга	VERB	_	_	12	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	malša	малша	NOUN	_	Case=Nom	9	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	tarjaaša	таряашан	NOUN	_	Case=Nom	6	conj	_	_
+9	zoniije	зон	NOUN	_	Case=Acc	11	obj	_	_
+10	xündetej	хүндэтэй	ADJ	_	_	11	xcomp	_	_
+11	bolgoxo	болго	VERB	_	_	12	csubj	_	_
+12	šuxala	шухала	ADV	_	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = bxr-ud3::698
+# text = Gertee juhen xüniije bultyjemnaj sajluulža, tere doroo übged, xügšedyje sugluulža, ažal xüdelmerimnaj exilhen jum.
+1	Gertee	гэр	NOUN	_	Case=Dat|Reflex=Yes	5	nmod	_	_
+2	juhen	юһэн	NUM	_	NumType=Card	3	nummod	_	_
+3	xüniije	хүн	NOUN	_	Case=Acc	5	obj	_	_
+4	bultyjemnaj	булта	PRON	_	Case=Acc|PronType=Ind	3	appos	_	_
+5	sajluulža	сайла	VERB	_	VerbForm=Coverb|Voice=Cau	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	tere	тэрэ	PRON	_	Case=Nom|PronType=Dem	12	advmod	_	_
+8	doroo	дороо	ADV	_	_	7	fixed	_	_
+9	übged	үбгэн	NOUN	_	Case=Nom|Number=Plur	16	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	xügšedyje	хүгшэн	NOUN	_	Case=Acc|Number=Plur	9	conj	_	_
+12	sugluulža	суглуул	VERB	_	VerbForm=Coverb	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	ažal	ажал	NOUN	_	Case=Nom	15	compound	_	_
+15	xüdelmerimnaj	хүдэлмэри	NOUN	_	Case=Nom	16	nsubj	_	_
+16	exilhen	эхил	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+17	jum	юм	AUX	_	Evident=Fh	16	discourse	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::850
+# text = Zügöör münöö xen negende tiimeš-iimeš geže xelexejee jaaradaggüjb, xodo bejee barixaš, xüniije šoo üzedeggüjb.
+1	Zügöör	зүгөөр	ADV	_	_	8	advmod	_	_
+2	münöö	мүнөө	ADV	_	_	8	advmod	_	_
+3	xen	хэн	NOUN	_	Case=Nom	7	obj	_	_
+4	negende	нэгэн	NUM	_	NumType=Card	3	nummod	_	_
+5	tiimeš-iimeš	тиимэш-иимэш	ADV	_	_	7	advmod	_	_
+6	geže	гэ	VERB	_	VerbForm=Coverb	7	discourse	_	_
+7	xelexejee	хэлэ	VERB	_	_	8	xcomp	_	_
+8	jaaradaggüjb	яара	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	xodo	ходо	ADV	_	_	12	advmod	_	_
+11	bejee	бэе	NOUN	_	Case=Acc	12	nmod	_	_
+12	barixaš	бари	VERB	_	Case=Nom|VerbForm=Ger	8	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	xüniije	хүн	NOUN	_	Case=Acc	16	iobj	_	_
+15	šoo	шоо	NOUN	_	Case=Nom	16	obj	_	_
+16	üzedeggüjb	үзэ	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::382
+# text = Zonoj etigel hergeexyn tulada Burxan Bagša gujltyjenʹ togtooxo baataj bolobo.
+1	Zonoj	зон	NOUN	_	Case=Gen	2	nmod	_	_
+2	etigel	этигэл	NOUN	_	Case=Nom	3	nmod	_	_
+3	hergeexyn	һэргээхын	NOUN	_	Case=Nom	4	obj	_	_
+4	tulada	тула	VERB	_	VerbForm=Ger	0	root	_	_
+5	Burxan	Бурхан	PROPN	_	Case=Nom|Gender=Masc	8	nsubj	_	_
+6	Bagša	багша	NOUN	_	Case=Nom	5	flat	_	_
+7	gujltyjenʹ	гуйлта	NOUN	_	Case=Acc|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
+8	togtooxo	тогтоо	VERB	_	_	4	ccomp	_	_
+9	baataj	баатай	AUX	_	Mood=Imp|VerbForm=Fin	8	aux	_	_
+10	bolobo	боло	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::620
+# text = Tereenhee exilže, Cypjelma Žargalova (Šalanova) hurguuliingaa xataraj bagša mete basagadta zaaža, öörööšʹje xatarža exilee hen.
+1	Tereenhee	тэрэ	PRON	_	Case=Abl|PronType=Dem	2	nmod	_	_
+2	exilže	эхил	VERB	_	VerbForm=Coverb	18	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Cypjelma	Цыпелма	PROPN	_	Case=Nom|Gender=Fem	14	nsubj	_	_
+5	Žargalova	Жаргалов	PROPN	_	Case=Nom|Gender=Fem	4	flat	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	Šalanova	Шаланов	PROPN	_	Case=Nom|Gender=Fem	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	14	punct	_	_
+9	hurguuliingaa	һургуули	NOUN	_	Case=Gen|Reflex=Yes	10	nmod	_	_
+10	xataraj	хатар	NOUN	_	Case=Gen	11	nmod	_	_
+11	bagša	багша	NOUN	_	Case=Nom	5	appos	_	_
+12	mete	мэтэ	ADV	_	_	14	advmod	_	_
+13	basagadta	басаган	NOUN	_	Case=Dat|Number=Plur	14	obj	_	_
+14	zaaža	заа	VERB	_	VerbForm=Coverb	18	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	öörööšʹje	өөрөө	PRON	_	Case=Nom|Reflex=Yes	18	nsubj	_	_
+17	xatarža	хатар	VERB	_	VerbForm=Coverb	18	xcomp	_	_
+18	exilee	эхил	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	_
+19	hen	һэн	PART	_	_	18	discourse	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = bxr-ud3::873
+# text = Ene dürimyje bi gertexinejngee žešeegeer xodo saxixajaa oroldodogbi.
+1	Ene	энэ	DET	_	PronType=Dem	2	det	_	_
+2	dürimyje	дүрим	NOUN	_	Case=Acc|Reflex=Yes	7	obj	_	_
+3	bi	би	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+4	gertexinejngee	гэртэхин	NOUN	_	Case=Gen|Reflex=Yes	5	nmod	_	_
+5	žešeegeer	жэшээ	NOUN	_	_	7	nmod	_	_
+6	xodo	ходо	ADV	_	_	8	advmod	_	_
+7	saxixajaa	сахи	VERB	_	Case=Acc|VerbForm=Ger	8	xcomp	_	_
+8	oroldodogbi	оролдо	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::753
+# text = Martagdašagüj namaraj üdernüüdyje maanarta beleglehen šedite gazaraj, sedʹxel zürxenejngöö seber arjuuntaj maanaraar xubaaldahan xündemüüše tenjuun xünüüdtej xezee üšöö zolgoxobib daa.
+1	Martagdašagüj	мартагдашагүй	ADJ	_	_	3	amod	_	_
+2	namaraj	намар	NOUN	_	Case=Gen	3	nmod	_	_
+3	üdernüüdyje	үдэр	NOUN	_	Case=Acc|Number=Plur	5	nsubj	_	_
+4	maanarta	бидэ	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+5	beleglehen	бэлэглэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	_
+6	šedite	шэдитэ	ADJ	_	_	7	amod	_	_
+7	gazaraj	газар	NOUN	_	Case=Gen	20	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	sedʹxel	сэдьхэл	NOUN	_	Case=Nom	10	nmod	_	_
+10	zürxenejngöö	зүрхэн	NOUN	_	Case=Gen|Reflex=Yes	12	nmod	_	_
+11	seber	сэбэр	ADV	_	_	12	amod	_	_
+12	arjuuntaj	арюун	NOUN	_	Case=Com	14	nmod	_	_
+13	maanaraar	бидэ	PRON	_	Number=Plur|Person=1|PronType=Prs	14	obj	_	_
+14	xubaaldahan	хубаалда	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl	_	_
+15	xündemüüše	хүндэмүүшэ	ADJ	_	_	17	nmod	_	_
+16	tenjuun	тэнюун	ADJ	_	_	17	amod	_	_
+17	xünüüdtej	хүн	NOUN	_	Case=Com|Number=Plur	7	conj	_	_
+18	xezee	хэзээ	ADV	_	PronType=Int	20	advmod	_	_
+19	üšöö	үшөө	ADV	_	_	20	advmod	_	_
+20	zolgoxobib	золгохо	VERB	_	_	0	root	_	_
+21	daa	даа	PART	_	_	20	discourse	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = bxr-ud3::640
+# text = Ojuutan jabaxa üjedöö Xuramxaan ajmag toontotoj Ulaan-Üdede ažahuudag xübüünde xadamda garaža, gurban xübüüdyje mündelhen.
+1	Ojuutan	оюутан	NOUN	_	Case=Nom	2	nsubj	_	_
+2	jabaxa	яба	VERB	_	_	3	acl	_	_
+3	üjedöö	үе	NOUN	_	Case=Dat|Reflex=Yes	11	nmod	_	_
+4	Xuramxaan	Хурамхаан	PROPN	_	Case=Nom	6	nmod	_	_
+5	ajmag	аймаг	NOUN	_	Case=Nom	4	flat	_	_
+6	toontotoj	тоонто	NOUN	_	Case=Com	9	nmod	_	_
+7	Ulaan-Üdede	Улаан-Үдэ	PROPN	_	Case=Dat	8	nmod	_	_
+8	ažahuudag	ажаһуу	VERB	_	_	9	acl	_	_
+9	xübüünde	хүбүүн	NOUN	_	Case=Dat	11	nmod	_	_
+10	xadamda	хадам	NOUN	_	Case=Dat	0	root	_	_
+11	garaža	гара	VERB	_	VerbForm=Coverb	10	fixed	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	gurban	гурбан	NUM	_	NumType=Card	14	nummod	_	_
+14	xübüüdyje	хүбүүн	NOUN	_	Case=Acc|Number=Plur	15	obj	_	_
+15	mündelhen	мүндэл	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = bxr-ud3::671
+# text = Iime sojoloj gulamta büxy manaj güren soošʹje üsöön baj.
+1	Iime	иимэ	ADV	_	_	3	det	_	_
+2	sojoloj	соёл	NOUN	_	Case=Gen	3	nmod	_	_
+3	gulamta	гуламта	NOUN	_	Case=Nom	8	nsubj	_	_
+4	büxy	бүхы	ADV	_	_	6	det	_	_
+5	manaj	бидэ	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	6	det	_	_
+6	güren	гүрэн	NOUN	_	Case=Nom	8	nmod	_	_
+7	soošʹje	соошье	ADP	_	_	6	case	_	_
+8	üsöön	үсөөн	ADV	_	_	0	root	_	_
+9	baj	бай	VERB	_	Mood=Imp|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::590
+# text = Burjaad xelenej xügželtyn xüšerxen bajdal gansa bagšanar deere toxožorxixo beše, xarin bügede, zasag türe, niite zon bulta negeden šiidxexe xeregtej.
+1	Burjaad	буряад	ADJ	_	_	2	amod	_	_
+2	xelenej	хэлэн	NOUN	_	Case=Gen	3	nmod	_	_
+3	xügželtyn	хүгжэлтэ	NOUN	_	Case=Gen	5	nmod	_	_
+4	xüšerxen	хүшэрхэн	ADJ	_	_	5	amod	_	_
+5	bajdal	байдал	NOUN	_	Case=Nom	9	nsubj	_	_
+6	gansa	ганса	ADV	_	_	9	advmod	_	_
+7	bagšanar	багша	NOUN	_	Case=Nom|Number=Plur	9	nmod	_	_
+8	deere	дээрэ	ADP	_	_	7	case	_	_
+9	toxožorxixo	тохо	VERB	_	_	0	root	_	Morf=Unknown
+10	beše	бэшэ	ADV	_	_	9	advmod:neg	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	xarin	харин	ADP	_	_	22	advmod	_	_
+13	bügede	бүгэдэн	PRON	_	Case=Nom|PronType=Dem	16	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	zasag	засаг	NOUN	_	Case=Nom	16	compound	_	_
+16	türe	түрэ	NOUN	_	Case=Nom	22	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	niite	ниитын	ADJ	_	_	19	amod	_	_
+19	zon	зон	NOUN	_	Case=Nom	16	appos	_	_
+20	bulta	булта	DET	_	PronType=Ind	21	det	_	_
+21	negeden	нэгэдэ	VERB	_	_	19	conj	_	_
+22	šiidxexe	шиидхэ	VERB	_	_	9	ccomp	_	_
+23	xeregtej	хэрэг	NOUN	_	Case=Com	22	aux	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = bxr-ud3::785
+# text = Njutagaa hergeexyn tula nen türüün xün zonoo busaaxa xeregtej.
+1	Njutagaa	нютаг	NOUN	_	Case=Nom|Reflex=Yes	2	obj	_	_
+2	hergeexyn	һэргээ	VERB	_	_	8	nmod	_	Morf=Unknown
+3	tula	тула	ADP	_	_	2	case	_	_
+4	nen	нэн	PART	_	_	8	discourse	_	_
+5	türüün	түрүүн	ADV	_	_	8	advmod	_	_
+6	xün	хүн	NOUN	_	Case=Nom	7	compound	_	_
+7	zonoo	зон	NOUN	_	Case=Nom|Reflex=Yes	8	obj	_	_
+8	busaaxa	буса	VERB	_	VerbForm=Coverb	0	root	_	_
+9	xeregtej	хэрэг	NOUN	_	Case=Com	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::670
+# text = Šene eriltyn gerelte gojo zal xaragšadaj anxaral tataa.
+1	Šene	шэнэ	ADJ	_	_	2	amod	_	_
+2	eriltyn	эрилтэ	NOUN	_	Case=Gen	5	nmod	_	_
+3	gerelte	гэрэлтэ	ADJ	_	_	5	amod	_	_
+4	gojo	гоё	ADJ	_	_	5	amod	_	_
+5	zal	зал	NOUN	_	Case=Nom	8	nsubj	_	_
+6	xaragšadaj	харагша	NOUN	_	Case=Gen|Number=Plur	7	nmod	_	_
+7	anxaral	анхарал	NOUN	_	Case=Nom	8	obj	_	_
+8	tataa	тата	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::710
+# text = Exired-Bulagadaj Baruun Bajangaza njutaghaa taraašad
+1	Exired-Bulagadaj	Эхирэд-Булагад	PROPN	_	Case=Gen	4	compound	_	_
+2	Baruun	баруун	ADJ	_	_	1	flat	_	_
+3	Bajangaza	Баянгаза	PROPN	_	Case=Nom	2	flat	_	_
+4	njutaghaa	нютаг	NOUN	_	Case=Abl	5	nmod	_	_
+5	taraašad	тара	VERB	_	VerbForm=Ger	0	root	_	_
+

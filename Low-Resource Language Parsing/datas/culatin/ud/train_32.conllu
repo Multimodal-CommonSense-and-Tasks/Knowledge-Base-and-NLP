@@ -1,0 +1,448 @@
+# source = Codex Marianus, Mark 14
+# text = edinŭ otŭ oboju na desęte omočii sŭ mŭnojǫ vŭ solilo
+# sent_id = 37186
+1	edinŭ	ѥдинъ	NUM	Ma	Case=Nom|Gender=Masc|Number=Sing	0	root	_	ref=MARK_14.20
+2	otŭ	отъ	ADP	R-	_	3	case	_	ref=MARK_14.20
+3	oboju	оба	NUM	Ma	Case=Gen|Gender=Masc|Number=Dual	1	nmod	_	ref=MARK_14.20
+4	na	на	ADP	R-	_	5	case	_	ref=MARK_14.20
+5	desęte	десѧть	NUM	Ma	Case=Loc|Gender=Fem,Masc|Number=Sing	3	nummod	_	ref=MARK_14.20
+6	omočii	омочити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Weak|Tense=Past|VerbForm=Part|Voice=Act	1	acl	_	ref=MARK_14.20
+7	sŭ	съ	ADP	R-	_	8	case	_	ref=MARK_14.20
+8	mŭnojǫ	азъ	PRON	Pp	Case=Ins|Number=Sing|Person=1|PronType=Prs	6	obl	_	ref=MARK_14.20
+9	vŭ	въ	ADP	R-	_	10	case	_	ref=MARK_14.20
+10	solilo	солило	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	ref=MARK_14.20
+
+# source = Codex Marianus, Matthew 19
+# text = reče emu i҃s
+# sent_id = 50930
+1	reče	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_19.21
+2	emu	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	ref=MATT_19.21
+3	i҃s	исоусъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=MATT_19.21
+
+# source = Codex Marianus, Luke 24
+# text = ꙇ҅ približišę sę vĭ vesĭ vĭ njǫže iděašete ꙇ tŭ tvorěaše sę dale iti
+# sent_id = 41560
+1	ꙇ҅	и	CCONJ	C-	_	2	cc	_	ref=LUKE_24.28
+2	približišę	приближити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_24.28
+3	sę	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	expl	_	ref=LUKE_24.28
+4	vĭ	въ	ADP	R-	_	5	case	_	ref=LUKE_24.28
+5	vesĭ	вьсь	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	ref=LUKE_24.28
+6	vĭ	въ	ADP	R-	_	7	case	_	ref=LUKE_24.28
+7	njǫže	иже	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	8	obl	_	ref=LUKE_24.28
+8	iděašete	ити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Dual|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl	_	ref=LUKE_24.28
+9	ꙇ	и	CCONJ	C-	_	2	cc	_	ref=LUKE_24.28
+10	tŭ	тъ	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	ref=LUKE_24.28
+11	tvorěaše	творити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=LUKE_24.28
+12	sę	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	expl	_	ref=LUKE_24.28
+13	dale	далече	ADV	Df	Degree=Cmp	14	advmod	_	ref=LUKE_24.28
+14	iti	ити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	11	xcomp	_	ref=LUKE_24.28
+
+# source = Codex Marianus, Matthew 20
+# text = ꙇ g҃la imŭ
+# sent_id = 50936
+1	ꙇ	и	CCONJ	C-	_	2	cc	_	ref=MATT_20.6
+2	g҃la	глаголати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_20.6
+3	imŭ	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	ref=MATT_20.6
+
+# source = Codex Marianus, Mark 12
+# text = ne zĭriši bo na lice č҃lvkomŭ nŭ vy istinǫ pǫti b҃žiju učiši
+# sent_id = 37046
+1	ne	не	ADV	Df	Polarity=Neg	2	advmod	_	ref=MARK_12.14
+2	zĭriši	зьрѣти	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_12.14
+3	bo	бо	ADV	Df	_	2	discourse	_	ref=MARK_12.14
+4	na	на	ADP	R-	_	5	case	_	ref=MARK_12.14
+5	lice	лице	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	ref=MARK_12.14
+6	č҃lvkomŭ	чловѣкъ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	ref=MARK_12.14
+7	nŭ	нъ	CCONJ	C-	_	2	cc	_	ref=MARK_12.14
+8	vy	въ	ADP	R-	_	9	case	_	ref=MARK_12.14
+9	istinǫ	истина	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	ref=MARK_12.14
+10	pǫti	пѫть	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	ref=MARK_12.14
+11	b҃žiju	божии	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Strength=Strong	10	amod	_	ref=MARK_12.14
+12	učiši	оучити	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	ref=MARK_12.14
+
+# source = Codex Marianus, Matthew 26
+# text = ꙇ҃s že mlŭčaaše
+# sent_id = 39685
+1	ꙇ҃s	исоусъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=MATT_26.63
+2	že	же	ADV	Df	_	3	discourse	_	ref=MATT_26.63
+3	mlŭčaaše	мльчати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_26.63
+
+# source = Codex Marianus, Matthew 9
+# text = ꙇ rǫgaxo sę emu
+# sent_id = 38577
+1	ꙇ	и	CCONJ	C-	_	2	cc	_	ref=MATT_9.24
+2	rǫgaxo	рѫгати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_9.24
+3	sę	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	expl	_	ref=MATT_9.24
+4	emu	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	ref=MATT_9.24
+
+# source = Codex Marianus, Luke 21
+# text = Prěžde že sixŭ vsxŭ vŭzložętŭ na vy rǫky svoję i iždenǫtŭ prědajǫšte na sonĭmišta i temŭnicę vedomy kŭ cěsaremŭ i vldⷦ҇mŭ imene moego radi
+# sent_id = 41308
+1	Prěžde	прѣжде	ADP	R-	_	3	case	_	ref=LUKE_21.12
+2	že	же	ADV	Df	_	5	discourse	_	ref=LUKE_21.12
+3	sixŭ	сь	ADJ	Pd	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	ref=LUKE_21.12
+4	vsxŭ	вьсь	DET	Px	Case=Gen|Number=Plur	3	det	_	ref=LUKE_21.12
+5	vŭzložętŭ	възложити	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_21.12
+6	na	на	ADP	R-	_	7	case	_	ref=LUKE_21.12
+7	vy	вꙑ	PRON	Pp	Case=Acc|Number=Plur|Person=2|PronType=Prs	5	obl	_	ref=LUKE_21.12
+8	rǫky	рѫка	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	ref=LUKE_21.12
+9	svoję	свои	ADJ	Pt	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=3|Poss=Yes|Reflex=Yes	8	nmod	_	ref=LUKE_21.12
+10	i	и	CCONJ	C-	_	5	cc	_	ref=LUKE_21.12
+11	iždenǫtŭ	изгънати	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	ref=LUKE_21.12
+12	prědajǫšte	прѣдаꙗти	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	ref=LUKE_21.12
+13	na	на	ADP	R-	_	14	case	_	ref=LUKE_21.12
+14	sonĭmišta	съньмище	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	ref=LUKE_21.12
+15	i	и	CCONJ	C-	_	14	cc	_	ref=LUKE_21.12
+16	temŭnicę	тьмьница	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	14	conj	_	ref=LUKE_21.12
+17	vedomy	вести	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Pass	11	advcl	_	ref=LUKE_21.12|LId=1
+18	kŭ	къ	ADP	R-	_	19	case	_	ref=LUKE_21.12
+19	cěsaremŭ	цѣсарь	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	17	obl	_	ref=LUKE_21.12
+20	i	и	CCONJ	C-	_	19	cc	_	ref=LUKE_21.12
+21	vldⷦ҇mŭ	владꙑка	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	19	conj	_	ref=LUKE_21.12
+22	imene	имѧ	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	17	obl	_	ref=LUKE_21.12
+23	moego	мои	ADJ	Ps	Case=Gen|Gender=Masc,Neut|Number=Sing|Person=1|Poss=Yes	22	nmod	_	ref=LUKE_21.12
+24	radi	ради	ADP	R-	_	22	case	_	ref=LUKE_21.12
+
+# source = Codex Marianus, Mark 3
+# text = ꙇ mŭnogo prěštaaše imŭ da ne avě tvorętŭ ego
+# sent_id = 36480
+1	ꙇ	и	CCONJ	C-	_	3	cc	_	ref=MARK_3.12
+2	mŭnogo	мъного	ADV	Df	Degree=Pos	3	advmod	_	ref=MARK_3.12
+3	prěštaaše	прѣтити	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_3.12
+4	imŭ	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	iobj	_	ref=MARK_3.12
+5	da	да	SCONJ	G-	_	8	mark	_	ref=MARK_3.12
+6	ne	не	ADV	Df	Polarity=Neg	8	advmod	_	ref=MARK_3.12
+7	avě	авѣ	ADV	Df	_	8	advmod	_	ref=MARK_3.12
+8	tvorętŭ	творити	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	ref=MARK_3.12
+9	ego	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	ref=MARK_3.12
+
+# source = Codex Marianus, John 2
+# text = eže ašte g҃letŭ vamŭ sŭtvorite
+# sent_id = 41674
+1	eže	иже	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	3	obj	_	ref=JOHN_2.5
+2	ašte	аще	ADV	Df	_	1	advmod	_	ref=JOHN_2.5
+3	g҃letŭ	глаголати	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	obj	_	ref=JOHN_2.5
+4	vamŭ	вꙑ	PRON	Pp	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	ref=JOHN_2.5
+5	sŭtvorite	сътворити	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_2.5
+
+# source = Codex Marianus, Matthew 20
+# text = možeta li piti čašǫ jǫʹže azŭ imamŭ piti li krŭštenie eže azŭ krŭštajǫ sę krŭstiti sę
+# sent_id = 39223
+1	možeta	мощи	VERB	V-	Mood=Ind|Number=Dual|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_20.22
+2	li	ли	ADV	Du	PronType=Int	1	advmod	_	ref=MATT_20.22
+3	piti	пити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	ref=MATT_20.22
+4	čašǫ	чаша	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	ref=MATT_20.22
+5	jǫʹže	иже	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	8	obj	_	ref=MATT_20.22
+6	azŭ	азъ	PRON	Pp	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	ref=MATT_20.22
+7	imamŭ	имѣти	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	ref=MATT_20.22
+8	piti	пити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	xcomp	_	ref=MATT_20.22
+9	li	ли	CCONJ	C-	_	3	cc	_	ref=MATT_20.22
+10	krŭštenie	крьщениѥ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	ref=MATT_20.22
+11	eže	иже	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	13	obj	_	ref=MATT_20.22
+12	azŭ	азъ	PRON	Pp	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	ref=MATT_20.22
+13	krŭštajǫ	крьщати	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl	_	ref=MATT_20.22
+14	sę	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	expl	_	ref=MATT_20.22
+15	krŭstiti	крьстити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	3	conj	_	ref=MATT_20.22
+16	sę	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	expl	_	ref=MATT_20.22
+
+# source = Codex Marianus, Luke 11
+# text = Nŭ gore vamŭ farisěemŭ ěko desętinǫ daate otŭ męty i piganŭ i vĭsěkogo zeliě ꙇ mimo xodite sǫdŭ ꙇ ljubŭvŭ b҃žijǫ
+# sent_id = 40706
+1	Nŭ	нъ	CCONJ	C-	_	2	cc	_	ref=LUKE_11.42
+2	gore	горѥ	INTJ	I-	_	0	root	_	ref=LUKE_11.42
+3	vamŭ	вꙑ	PRON	Pp	Case=Dat|Number=Plur|Person=2|PronType=Prs	2	iobj	_	ref=LUKE_11.42
+4	farisěemŭ	фарисеи	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	3	appos	_	ref=LUKE_11.42
+5	ěko	ꙗко	SCONJ	G-	_	7	mark	_	ref=LUKE_11.42
+6	desętinǫ	десѧтина	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	ref=LUKE_11.42
+7	daate	даꙗти	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=LUKE_11.42
+8	otŭ	отъ	ADP	R-	_	9	case	_	ref=LUKE_11.42
+9	męty	мѧта	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	ref=LUKE_11.42
+10	i	и	CCONJ	C-	_	9	cc	_	ref=LUKE_11.42
+11	piganŭ	пиганъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	9	conj	_	ref=LUKE_11.42
+12	i	и	CCONJ	C-	_	9	cc	_	ref=LUKE_11.42
+13	vĭsěkogo	вьсꙗкъ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing|Strength=Strong	14	amod	_	ref=LUKE_11.42
+14	zeliě	зелиѥ	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	9	conj	_	ref=LUKE_11.42
+15	ꙇ	и	CCONJ	C-	_	7	cc	_	ref=LUKE_11.42
+16	mimo	мимоходити	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	ref=LUKE_11.42
+17	xodite	ходите	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	fixed	_	ref=LUKE_11.42
+18	sǫdŭ	сѫдъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	16	iobj	_	ref=LUKE_11.42
+19	ꙇ	и	CCONJ	C-	_	18	cc	_	ref=LUKE_11.42
+20	ljubŭvŭ	любꙑ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	ref=LUKE_11.42
+21	b҃žijǫ	божии	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Strength=Strong	20	nmod	_	ref=LUKE_11.42
+
+# source = Codex Marianus, Matthew 19
+# text = vy šedŭšei po mŭně vŭ pakybytii egda sędetŭ s҃nŭ č҃lvsky na prěstolě slavy svoeję҅ Sędete i vy na dŭvoju na desęte prěstolu sǫdęšte oběma na desęte kolěnoma i҃zdrailvma
+# sent_id = 39184
+1	vy	вꙑ	PRON	Pp	Case=Nom|Number=Plur|Person=2|PronType=Prs	15	dislocated	_	ref=MATT_19.28
+2	šedŭšei	ити	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Weak|Tense=Past|VerbForm=Part|Voice=Act	1	acl	_	ref=MATT_19.28
+3	po	по	ADP	R-	_	4	case	_	ref=MATT_19.28
+4	mŭně	азъ	PRON	Pp	Case=Loc|Number=Sing|Person=1|PronType=Prs	2	obl	_	ref=MATT_19.28
+5	vŭ	въ	ADP	R-	_	6	case	_	ref=MATT_19.28
+6	pakybytii	пакꙑбꙑтиѥ	NOUN	Nb	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	ref=MATT_19.28
+7	egda	ѥгда	ADV	Dq	PronType=Rel	8	advmod	_	ref=MATT_19.28
+8	sędetŭ	сѣсти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	ref=MATT_19.28
+9	s҃nŭ	сꙑнъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	ref=MATT_19.28|LId=1
+10	č҃lvsky	чловѣчьскъ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Strength=Weak	9	amod	_	ref=MATT_19.28
+11	na	на	ADP	R-	_	12	case	_	ref=MATT_19.28
+12	prěstolě	прѣстолъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	ref=MATT_19.28
+13	slavy	слава	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	ref=MATT_19.28
+14	svoeję҅	свои	ADJ	Pt	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	13	nmod	_	ref=MATT_19.28
+15	Sędete	сѣсти	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_19.28
+16	i	и	ADV	Df	_	17	advmod	_	ref=MATT_19.28
+17	vy	вꙑ	PRON	Pp	Case=Nom|Number=Plur|Person=2|PronType=Prs	15	nsubj	_	ref=MATT_19.28
+18	na	на	ADP	R-	_	22	case	_	ref=MATT_19.28
+19	dŭvoju	дъва	NUM	Ma	Case=Loc|Number=Dual	22	nummod	_	ref=MATT_19.28
+20	na	на	ADP	R-	_	21	case	_	ref=MATT_19.28
+21	desęte	десѧть	NUM	Ma	Case=Loc|Gender=Fem,Masc|Number=Sing	19	nummod	_	ref=MATT_19.28
+22	prěstolu	прѣстолъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Dual	15	obl	_	ref=MATT_19.28
+23	sǫdęšte	сѫдити	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	15	advcl	_	ref=MATT_19.28
+24	oběma	оба	NUM	Ma	Case=Dat|Gender=Masc|Number=Dual	27	nummod	_	ref=MATT_19.28
+25	na	на	ADP	R-	_	26	case	_	ref=MATT_19.28
+26	desęte	десѧть	NUM	Ma	Case=Loc|Gender=Fem,Masc|Number=Sing	24	nummod	_	ref=MATT_19.28
+27	kolěnoma	колѣно	NOUN	Nb	Case=Dat|Gender=Neut|Number=Dual	23	iobj	_	ref=MATT_19.28
+28	i҃zdrailvma	издраилѥвъ	ADJ	A-	Case=Dat|Degree=Pos|Number=Dual	27	amod	_	ref=MATT_19.28
+
+# source = Codex Marianus, Mark 13
+# text = da ne prišedŭ vĭnezaapǫ obręštetŭ vy sŭpęštę
+# sent_id = 37152
+1	da	да	SCONJ	G-	_	5	mark	_	ref=MARK_13.36
+2	ne	не	ADV	Df	Polarity=Neg	5	advmod	_	ref=MARK_13.36
+3	prišedŭ	прити	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	ref=MARK_13.36
+4	vĭnezaapǫ	вънезаапѫ	ADV	Df	_	3	advmod	_	ref=MARK_13.36
+5	obręštetŭ	обрѣсти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_13.36
+6	vy	вꙑ	PRON	Pp	Case=Acc|Number=Plur|Person=2|PronType=Prs	5	obj	_	ref=MARK_13.36
+7	sŭpęštę	съпати	VERB	V-	Case=Acc|Gender=Fem,Masc|Number=Plur|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	5	xcomp	_	ref=MARK_13.36
+
+# source = Codex Marianus, John 8
+# text = reče ei i҃s
+# sent_id = 51916
+1	reče	рещи	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_8.11
+2	ei	и	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	iobj	_	ref=JOHN_8.11
+3	i҃s	исоусъ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	ref=JOHN_8.11
+
+# source = Codex Marianus, Matthew 26
+# text = g҃lxǫ že
+# sent_id = 51124
+1	g҃lxǫ	глаголати	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_26.5
+2	že	же	ADV	Df	_	1	discourse	_	ref=MATT_26.5
+
+# source = Codex Marianus, Mark 12
+# text = ꙇ pojęsę jǫʹ sedmĭ i ne ostavišę sěmene
+# sent_id = 37064
+1	ꙇ	и	CCONJ	C-	_	2	cc	_	ref=MARK_12.22
+2	pojęsę	поѩти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_12.22
+3	jǫʹ	и	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	ref=MARK_12.22
+4	sedmĭ	седмь	NUM	Ma	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	ref=MARK_12.22
+5	i	и	CCONJ	C-	_	2	cc	_	ref=MARK_12.22
+6	ne	не	ADV	Df	Polarity=Neg	7	advmod	_	ref=MARK_12.22
+7	ostavišę	оставити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=MARK_12.22
+8	sěmene	сѣмѧ	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	7	obj	_	ref=MARK_12.22
+
+# source = Codex Marianus, Matthew 11
+# text = se iže mękŭka nosętŭ vŭ domoxŭ c҃srixŭ sǫtŭ
+# sent_id = 38667
+1	se	се	INTJ	I-	_	6	vocative	_	ref=MATT_11.8
+2	iže	иже	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	4	nsubj	_	ref=MATT_11.8
+3	mękŭka	мѧкъкъ	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Strength=Strong	4	obj	_	ref=MATT_11.8
+4	nosętŭ	носити	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	nsubj	_	ref=MATT_11.8
+5	vŭ	въ	ADP	R-	_	6	case	_	ref=MATT_11.8
+6	domoxŭ	домъ	NOUN	Nb	Case=Loc|Gender=Masc|Number=Plur	0	root	_	ref=MATT_11.8
+7	c҃srixŭ	цѣсарь	ADJ	A-	Case=Loc|Degree=Pos|Number=Plur|Strength=Strong	6	advmod	_	ref=MATT_11.8
+8	sǫtŭ	бꙑти	AUX	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	ref=MATT_11.8
+
+# source = Codex Marianus, John 16
+# text = o pravĭdě že ěko kŭ otĭcju idǫ ꙇ kŭ tomu ne vidite mene
+# sent_id = 42717
+1	o	о	ADP	R-	_	2	case	_	ref=JOHN_16.10
+2	pravĭdě	правьда	NOUN	Nb	Case=Loc|Gender=Fem|Number=Sing	0	root	_	ref=JOHN_16.10
+3	že	же	ADV	Df	_	2	discourse	_	ref=JOHN_16.10
+4	ěko	ꙗко	SCONJ	G-	_	7	mark	_	ref=JOHN_16.10
+5	kŭ	къ	ADP	R-	_	6	case	_	ref=JOHN_16.10
+6	otĭcju	отьць	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	ref=JOHN_16.10
+7	idǫ	ити	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=JOHN_16.10
+8	ꙇ	и	CCONJ	C-	_	7	cc	_	ref=JOHN_16.10
+9	kŭ	къ	ADP	R-	_	10	case	_	ref=JOHN_16.10
+10	tomu	тъ	ADJ	Pd	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	ref=JOHN_16.10
+11	ne	не	ADV	Df	Polarity=Neg	12	advmod	_	ref=JOHN_16.10
+12	vidite	видѣти	VERB	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	ref=JOHN_16.10
+13	mene	азъ	PRON	Pp	Case=Gen|Number=Sing|Person=1|PronType=Prs	12	dep	_	ref=JOHN_16.10
+
+# source = Codex Marianus, Luke 6
+# text = ne osǫždaite da ne osǫdętŭ vasŭ
+# sent_id = 40269
+1	ne	не	ADV	Df	Polarity=Neg	2	advmod	_	ref=LUKE_6.37
+2	osǫždaite	осѫждати	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.37
+3	da	да	SCONJ	G-	_	5	mark	_	ref=LUKE_6.37
+4	ne	не	ADV	Df	Polarity=Neg	5	advmod	_	ref=LUKE_6.37
+5	osǫdętŭ	осѫдити	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=LUKE_6.37
+6	vasŭ	вꙑ	PRON	Pp	Case=Gen|Number=Plur|Person=2|PronType=Prs	5	obj	_	ref=LUKE_6.37
+
+# source = Codex Marianus, Matthew 27
+# text = ne dostoino estŭ vŭložiti ego vŭ karvanǫ poneže cěna krŭve estŭ
+# sent_id = 39723
+1	ne	недостоинъ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	0	root	_	ref=MATT_27.6
+2	dostoino	достоино	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Strength=Strong	1	fixed	_	ref=MATT_27.6
+3	estŭ	бꙑти	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	ref=MATT_27.6
+4	vŭložiti	въложити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	ccomp	_	ref=MATT_27.6
+5	ego	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	ref=MATT_27.6
+6	vŭ	въ	ADP	R-	_	7	case	_	ref=MATT_27.6
+7	karvanǫ	каръвана	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	ref=MATT_27.6
+8	poneže	понеже	SCONJ	G-	_	9	mark	_	ref=MATT_27.6
+9	cěna	цѣна	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	advcl	_	ref=MATT_27.6
+10	krŭve	кръвь	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	ref=MATT_27.6
+11	estŭ	бꙑти	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	ref=MATT_27.6
+
+# source = Codex Marianus, Luke 24
+# text = tŭgda otvrŭze imŭ umŭ da razumějǫtŭ kŭnigy
+# sent_id = 41583
+1	tŭgda	тъгда	ADV	Df	_	2	advmod	_	ref=LUKE_24.45
+2	otvrŭze	отврѣсти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_24.45
+3	imŭ	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	det	_	ref=LUKE_24.45
+4	umŭ	оумъ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	ref=LUKE_24.45
+5	da	да	SCONJ	G-	_	6	mark	_	ref=LUKE_24.45
+6	razumějǫtŭ	разоумѣти	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	ref=LUKE_24.45
+7	kŭnigy	кънигꙑ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	ref=LUKE_24.45
+
+# source = Codex Marianus, Mark 12
+# text = učitelju mosii napisa namŭ ěko ašte komu bratrŭ umĭretŭ ꙇ ostavitŭ ženǫ a čędŭ ne ostavitŭ da poimetŭ bratrŭ ženǫ ego ꙇ vĭskrěsitŭ sěmę bratra svoego
+# sent_id = 37059
+1	učitelju	оучитель	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	ref=MARK_12.19
+2	mosii	моси	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	ref=MARK_12.19
+3	napisa	напьсати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_12.19
+4	namŭ	мꙑ	PRON	Pp	Case=Dat|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	iobj	_	ref=MARK_12.19
+5	ěko	ꙗко	SCONJ	G-	_	18	mark	_	ref=MARK_12.19
+6	ašte	аще	SCONJ	G-	_	9	mark	_	ref=MARK_12.19
+7	komu	къто	DET	Px	Case=Dat|Gender=Masc|Number=Sing	8	det	_	ref=MARK_12.19
+8	bratrŭ	братръ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	ref=MARK_12.19
+9	umĭretŭ	оумрѣти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	ref=MARK_12.19
+10	ꙇ	и	CCONJ	C-	_	9	cc	_	ref=MARK_12.19
+11	ostavitŭ	оставити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	ref=MARK_12.19
+12	ženǫ	жена	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	ref=MARK_12.19
+13	a	а	CCONJ	C-	_	9	cc	_	ref=MARK_12.19
+14	čędŭ	чѧдо	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	16	obj	_	ref=MARK_12.19
+15	ne	не	ADV	Df	Polarity=Neg	16	advmod	_	ref=MARK_12.19
+16	ostavitŭ	оставити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	ref=MARK_12.19
+17	da	да	ADV	Df	_	18	advmod	_	ref=MARK_12.19
+18	poimetŭ	поѩти	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	ref=MARK_12.19
+19	bratrŭ	братръ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	ref=MARK_12.19
+20	ženǫ	жена	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	ref=MARK_12.19
+21	ego	и	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	det	_	ref=MARK_12.19
+22	ꙇ	и	CCONJ	C-	_	18	cc	_	ref=MARK_12.19
+23	vĭskrěsitŭ	въскрѣсити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	ref=MARK_12.19
+24	sěmę	сѣмѧ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	ref=MARK_12.19
+25	bratra	братръ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	ref=MARK_12.19
+26	svoego	свои	ADJ	Pt	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|Reflex=Yes	25	nmod	_	ref=MARK_12.19
+
+# source = Codex Marianus, Luke 6
+# text = ne otŭ trŭniě bo češǫtŭ smokŭvi ni otŭ kǫpiny grozda obemljǫtŭ
+# sent_id = 40285
+1	ne	не	ADV	Df	Polarity=Neg	5	advmod	_	ref=LUKE_6.44
+2	otŭ	отъ	ADP	R-	_	3	case	_	ref=LUKE_6.44
+3	trŭniě	трьниѥ	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	ref=LUKE_6.44
+4	bo	бо	ADV	Df	_	5	discourse	_	ref=LUKE_6.44
+5	češǫtŭ	чесати	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_6.44
+6	smokŭvi	смокꙑ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	ref=LUKE_6.44
+7	ni	ни	CCONJ	C-	_	5	cc	_	ref=LUKE_6.44
+8	otŭ	отъ	ADP	R-	_	9	case	_	ref=LUKE_6.44
+9	kǫpiny	кѫпина	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	11	obl	_	ref=LUKE_6.44
+10	grozda	гроздъ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	11	obj	_	ref=LUKE_6.44
+11	obemljǫtŭ	обимати	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	ref=LUKE_6.44
+
+# source = Codex Marianus, John 4
+# text = bě bo umiraję
+# sent_id = 41836
+1	bě	бꙑти	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	ref=JOHN_4.47
+2	bo	бо	ADV	Df	_	3	discourse	_	ref=JOHN_4.47
+3	umiraję	оумирати	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	ref=JOHN_4.47
+
+# source = Codex Marianus, John 4
+# text = ne imamŭ mǫža
+# sent_id = 41784
+1	ne	не	ADV	Df	Polarity=Neg	2	advmod	_	ref=JOHN_4.17
+2	imamŭ	имѣти	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=JOHN_4.17
+3	mǫža	мѫжь	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	ref=JOHN_4.17
+
+# source = Codex Marianus, Mark 13
+# text = nŭ ꙇ҅zbŭranyxŭ radi jęže izbŭra prěkratitŭ dĭni
+# sent_id = 37133
+1	nŭ	нъ	CCONJ	C-	_	6	cc	_	ref=MARK_13.20
+2	ꙇ҅zbŭranyxŭ	избьрати	VERB	V-	Case=Gen|Gender=Masc|Number=Plur|Strength=Weak|Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	ref=MARK_13.20
+3	radi	ради	ADP	R-	_	2	case	_	ref=MARK_13.20
+4	jęže	иже	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	5	obj	_	ref=MARK_13.20
+5	izbŭra	избьрати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	acl	_	ref=MARK_13.20
+6	prěkratitŭ	прѣкратити	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_13.20
+7	dĭni	дьнь	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	ref=MARK_13.20
+
+# source = Codex Marianus, Matthew 9
+# text = věrueta li ěko mogǫ se sŭtvoriti
+# sent_id = 38582
+1	věrueta	вѣровати	VERB	V-	Mood=Ind|Number=Dual|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=MATT_9.28
+2	li	ли	ADV	Du	PronType=Int	1	advmod	_	ref=MATT_9.28
+3	ěko	ꙗко	SCONJ	G-	_	4	mark	_	ref=MATT_9.28
+4	mogǫ	мощи	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	ref=MATT_9.28
+5	se	сь	ADJ	Pd	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	ref=MATT_9.28
+6	sŭtvoriti	сътворити	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	ref=MATT_9.28
+
+# source = Codex Marianus, Mark 12
+# text = ꙇ pridjǫ sadukei kŭ nemu iže g҃lgljǫtŭ ne byti vĭskrěšeniju i vŭprosišę i g҃ljǫšte
+# sent_id = 37058
+1	ꙇ	и	CCONJ	C-	_	2	cc	_	ref=MARK_12.18
+2	pridjǫ	прити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_12.18
+3	sadukei	садоукеи	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	ref=MARK_12.18
+4	kŭ	къ	ADP	R-	_	5	case	_	ref=MARK_12.18
+5	nemu	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	ref=MARK_12.18
+6	iže	иже	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	7	nsubj	_	ref=MARK_12.18
+7	g҃lgljǫtŭ	глаголати	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	ref=MARK_12.18
+8	ne	не	ADV	Df	Polarity=Neg	9	advmod	_	ref=MARK_12.18
+9	byti	бꙑти	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	ccomp	_	ref=MARK_12.18
+10	vĭskrěšeniju	въскрѣшениѥ	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	9	nsubj	_	ref=MARK_12.18
+11	i	и	CCONJ	C-	_	2	cc	_	ref=MARK_12.18
+12	vŭprosišę	въпросити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	ref=MARK_12.18
+13	i	и	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	ref=MARK_12.18
+14	g҃ljǫšte	глаголати	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Strong|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl	_	ref=MARK_12.18
+
+# source = Codex Marianus, Luke 12
+# text = vĭsěxŭ bo sixŭ ję҃zci mira sego ištǫtŭ
+# sent_id = 40769
+1	vĭsěxŭ	вьсь	DET	Px	Case=Gen|Number=Plur	3	det	_	ref=LUKE_12.30
+2	bo	бо	ADV	Df	_	7	discourse	_	ref=LUKE_12.30
+3	sixŭ	сь	ADJ	Pd	Case=Gen|Gender=Neut|Number=Plur	7	iobj	_	ref=LUKE_12.30
+4	ję҃zci	ѩзꙑкъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	ref=LUKE_12.30
+5	mira	миръ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	ref=LUKE_12.30|LId=2
+6	sego	сь	DET	Pd	Case=Gen|Gender=Masc,Neut|Number=Sing	5	det	_	ref=LUKE_12.30
+7	ištǫtŭ	искати	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_12.30
+
+# source = Codex Marianus, Luke 15
+# text = ꙇ҅ privedŭše telecŭ upitěny zakolite i ědŭše da veselimŭ sę ěko s҃nŭ moi sĭ mrŭtvŭ bě i ožive ꙇzgyblŭ bě i obrěte sę
+# sent_id = 40948
+1	ꙇ҅	и	CCONJ	C-	_	5	cc	_	ref=LUKE_15.23
+2	privedŭše	привести	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	ref=LUKE_15.23
+3	telecŭ	тельць	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	ref=LUKE_15.23
+4	upitěny	оупитѣнъ	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Strength=Weak	3	amod	_	ref=LUKE_15.23
+5	zakolite	заклати	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	ref=LUKE_15.23
+6	i	и	CCONJ	C-	_	5	cc	_	ref=LUKE_15.23
+7	ědŭše	ꙗсти	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Strength=Strong|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	_	ref=LUKE_15.23
+8	da	да	ADV	Df	_	9	advmod	_	ref=LUKE_15.23
+9	veselimŭ	веселити	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	ref=LUKE_15.23
+10	sę	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	expl	_	ref=LUKE_15.23
+11	ěko	ꙗко	SCONJ	G-	_	15	mark	_	ref=LUKE_15.24
+12	s҃nŭ	сꙑнъ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	ref=LUKE_15.24|LId=1
+13	moi	мои	ADJ	Ps	Case=Nom|Gender=Masc|Number=Sing|Person=1|Poss=Yes	12	nmod	_	ref=LUKE_15.24
+14	sĭ	сь	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	12	det	_	ref=LUKE_15.24
+15	mrŭtvŭ	мрьтвъ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Strength=Strong	9	advcl	_	ref=LUKE_15.24
+16	bě	бꙑти	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	ref=LUKE_15.24
+17	i	и	CCONJ	C-	_	15	cc	_	ref=LUKE_15.24
+18	ožive	ожити	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	ref=LUKE_15.24
+19	ꙇzgyblŭ	изгꙑбнѫти	VERB	V-	Aspect=Res|Case=Nom|Gender=Masc|Number=Sing|Strength=Strong|VerbForm=Part|Voice=Act	15	conj	_	ref=LUKE_15.24
+20	bě	бꙑти	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	aux	_	ref=LUKE_15.24
+21	i	и	CCONJ	C-	_	19	cc	_	ref=LUKE_15.24
+22	obrěte	обрѣсти	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	ref=LUKE_15.24
+23	sę	себе	PRON	Pk	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	expl	_	ref=LUKE_15.24
+
+# source = Codex Marianus, Mark 10
+# text = ꙇ g҃la imŭ
+# sent_id = 50439
+1	ꙇ	и	CCONJ	C-	_	2	cc	_	ref=MARK_10.14
+2	g҃la	глаголати	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ref=MARK_10.14
+3	imŭ	и	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	ref=MARK_10.14
+

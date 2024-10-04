@@ -1,0 +1,210 @@
+# sent_id = bxr-ud3::895
+# text = Минии һанахада, бороо орожо байна.
+1	Минии	би	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	det	_	_
+2	һанахада	һанаха	NOUN	_	Case=Dat	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	бороо	бороо	NOUN	_	Case=Nom	5	nsubj	_	_
+5	орожо	оро	VERB	_	VerbForm=Coverb	0	root	_	_
+6	байна	бай	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	5	aux	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::896
+# text = Тэрэ хүн архи тамхияа хаяжа үзэбэ.
+1	Тэрэ	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	хүн	хүн	NOUN	_	Case=Nom	6	nsubj	_	_
+3	архи	архи	NOUN	_	Case=Nom	5	obj	_	_
+4	тамхияа	тамхи	NOUN	_	Case=Nom|Reflex=Yes	3	conj	_	_
+5	хаяжа	хая	VERB	_	VerbForm=Coverb	6	xcomp	_	_
+6	үзэбэ	үзэ	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::897
+# text = Ошохоо һанана гүш?
+1	Ошохоо	ошо	VERB	_	Case=Nom|Reflex=Yes|VerbForm=Ger	2	xcomp	_	_
+2	һанана	һана	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+3	гүш	гү	PART	_	Number=Sing|Person=2	2	discourse	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bxr-ud3::898
+# text = Сэм, сонхо онгойлго!
+1	Сэм	Сэм	PROPN	_	Case=Nom|Gender=Masc	4	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	сонхо	сонхо	NOUN	_	Case=Nom	4	obj	_	_
+4	онгойлго	онгойлго	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::899
+# text = Тэрэ һамган үбгэеэ машинаа угаагыш гэжэ баалаба.
+1	Тэрэ	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	һамган	һамган	NOUN	_	Case=Nom	7	nsubj	_	_
+3	үбгэеэ	үбгэн	NOUN	_	Case=Nom|Reflex=Yes	7	iobj	_	_
+4	машинаа	машина	NOUN	_	Case=Nom|Reflex=Yes	5	obj	_	_
+5	угаагыш	үгэ	VERB	_	_	7	xcomp	_	_
+6	гэжэ	гэ	VERB	_	VerbForm=Coverb	7	discourse	_	_
+7	баалаба	баала	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::900
+# text = Петиин хүршэ хорёогоо шэрдэбэ.
+1	Петиин	Пети	PROPN	_	Case=Gen|Gender=Masc	2	nmod:own	_	_
+2	хүршэ	хүршэ	NOUN	_	Case=Nom	4	nsubj	_	_
+3	хорёогоо	хорёо	NOUN	_	Case=Nom|Reflex=Yes	4	obj	_	_
+4	шэрдэбэ	шэрдэ	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::901
+# text = Минии баабай шиниихиһээ бэрхэ.
+1	Минии	би	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	det	_	_
+2	баабай	баабай	NOUN	_	Case=Nom	4	nsubj	_	_
+3	шиниихиһээ	ши	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	nmod	_	_
+4	бэрхэ	бэрхэ	ADJ	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::902
+# text = Мэри – хүрэл, Питер – мүнгэн, харин Джейн – алтан медаль тус тус абаба.
+1	Мэри	Мэри	PROPN	_	Case=Nom|Gender=Fem	10	orphan	_	_
+2	–	–	PUNCT	_	_	16	punct	_	_
+3	хүрэл	хүрэл	NOUN	_	Case=Nom	12	orphan	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	16	punct	_	_
+5	Питер	Питер	PROPN	_	Case=Nom|Gender=Masc	10	orphan	_	_
+6	–	–	PUNCT	_	_	16	punct	_	_
+7	мүнгэн	мүнгэн	NOUN	_	Case=Nom	12	orphan	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	16	punct	_	_
+9	харин	харин	CCONJ	_	_	16	cc	_	_
+10	Джейн	Джейн	PROPN	_	Case=Nom|Gender=Fem	16	nsubj	_	_
+11	–	–	PUNCT	_	_	10	punct	_	_
+12	алтан	алтан	NOUN	_	Case=Nom	13	amod	_	_
+13	медаль	медаль	NOUN	_	Case=Nom	16	obj	_	_
+14	тус	тус	PART	_	_	16	discourse	_	_
+15	тус	тус	PART	_	_	14	fixed	_	_
+16	абаба	аба	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = bxr-ud3::903
+# text = Игаузу гээшэ томо гүрэн гү, бага гү?
+1	Игаузу	Игаузу	PROPN	_	Case=Nom	4	nsubj	_	_
+2	гээшэ	гээшэ	VERB	_	Mood=Imp|VerbForm=Fin	4	discourse	_	_
+3	томо	томо	ADJ	_	_	4	amod	_	_
+4	гүрэн	гүрэн	NOUN	_	Case=Nom	0	root	_	_
+5	гү	гү	PART	_	Number=Sing|Person=3	4	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	бага	бага	ADJ	_	_	4	amod	_	_
+8	гү	гү	PART	_	Number=Sing|Person=3	4	discourse	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::904
+# text = Питер Смит, Мэри Браун хоёрой алииеньшье шэлэхын аргагүй байба.
+1	Питер	Питер	PROPN	_	Case=Nom|Gender=Masc	8	obj	_	_
+2	Смит	Смит	PROPN	_	Case=Nom	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Мэри	Мэри	PROPN	_	Case=Nom|Gender=Fem	2	conj	_	_
+5	Браун	Браун	PROPN	_	Case=Nom	4	flat	_	_
+6	хоёрой	хоёрой	CCONJ	_	_	5	cc	_	_
+7	алииеньшье	алииеньшье	PRON	_	_	5	appos	_	Morf=Unknown
+8	шэлэхын	шэлэ	VERB	_	Case=Gen|VerbForm=Ger	9	xcomp	_	_
+9	аргагүй	арга	ADJ	_	_	0	root	_	_
+10	байба	бай	AUX	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = bxr-ud3::905
+# text = Хэнэйшье бэшэһэн хынь оройдоо мэдэнэгүй.
+1	Хэнэйшье	хэнэй	PRON	_	_	2	nsubj	_	Morf=Unknown
+2	бэшэһэн	бэшэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	хынь	хынь	PART	_	_	5	nsubj	_	_
+4	оройдоо	оройдоо	ADV	_	_	5	advmod	_	_
+5	мэдэнэгүй	мэдэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::906
+# text = Юугээ харанабши?
+1	Юугээ	юу	PRON	_	_	2	obj	_	Morf=Unknown
+2	харанабши	хара	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bxr-ud3::907
+# text = Хэзээ ерэжэ шадахаяа мэдэнэ гүш?
+1	Хэзээ	хэзээ	ADV	_	PronType=Int	2	advmod	_	_
+2	ерэжэ	ерэ	VERB	_	VerbForm=Coverb	3	xcomp	_	_
+3	шадахаяа	шада	VERB	_	Case=Acc|VerbForm=Ger	4	advcl	_	_
+4	мэдэнэ	мэдэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+5	гүш	гү	PART	_	Number=Sing|Person=2	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::908
+# text = Тэрэ хүн машина абаа, харин дүүнь оройдоол велосипед абажа шадаа.
+1	Тэрэ	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	хүн	хүн	NOUN	_	Case=Nom	4	nsubj	_	_
+3	машина	машина	NOUN	_	Case=Nom	4	obj	_	_
+4	абаа	аба	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	харин	харин	CCONJ	_	_	2	cc	_	_
+7	дүүнь	дүү	NOUN	_	Case=Nom|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	_
+8	оройдоол	оройдоол	ADV	_	_	10	advmod	_	_
+9	велосипед	велосипед	NOUN	_	Case=Nom	10	obj	_	_
+10	абажа	аба	VERB	_	VerbForm=Coverb	4	conj	_	_
+11	шадаа	шада	AUX	_	Mood=Des|Number=Sing|Person=3	10	aux	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = bxr-ud3::909
+# text = Питер Мэри хоёр тэбэрилдээд, таһалгаһаа гараба.
+1	Питер	Питер	PROPN	_	Case=Nom|Gender=Masc	7	nsubj	_	_
+2	Мэри	Мэри	PROPN	_	Case=Nom|Gender=Fem	1	conj	_	_
+3	хоёр	хоёр	CCONJ	_	_	2	cc	_	_
+4	тэбэрилдээд	тэбэрил	VERB	_	VerbForm=Coverb	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	таһалгаһаа	таһалга	NOUN	_	Case=Abl	7	nmod	_	_
+7	гараба	гара	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::910
+# text = Үһэеэ заһуулха хүн аад, тэрэ үдэр юундэ хынь бү мэдэ, залхуунь хүрэбэ.
+1	Үһэеэ	үһэн	NOUN	_	Case=Nom|Reflex=Yes	2	obj	_	_
+2	заһуулха	заһуул	VERB	_	_	0	root	_	_
+3	хүн	хүн	NOUN	_	Case=Nom	2	nsubj	_	_
+4	аад	аад	CCONJ	_	_	2	cc	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	тэрэ	тэрэ	DET	_	PronType=Dem	7	det	_	_
+7	үдэр	үдэр	NOUN	_	Case=Nom	14	nmod	_	_
+8	юундэ	юундэ	ADV	_	PronType=Int	11	mark	_	_
+9	хынь	хынь	PART	_	_	11	discourse	_	_
+10	бү	бү	PART	_	_	11	advmod:neg	_	_
+11	мэдэ	мэдэ	VERB	_	Mood=Imp|VerbForm=Fin	14	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	залхуунь	залхуунь	NOUN	_	Case=Nom	14	nsubj	_	_
+14	хүрэбэ	хүрэ	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = bxr-ud3::911
+# text = Ехэ хурдаар гүйхэдэнь хүсэжэ ядааб.
+1	Ехэ	ехэ	ADV	_	_	2	advmod	_	_
+2	хурдаар	хурдаар	ADV	_	_	3	advmod	_	_
+3	гүйхэдэнь	гүй	VERB	_	Case=Dat|Number[psor]=Sing|Person[psor]=3|VerbForm=Ger	4	ccomp	_	_
+4	хүсэжэ	хүсэ	VERB	_	VerbForm=Coverb	0	root	_	_
+5	ядааб	яда	AUX	_	Mood=Des|Number=Sing|Person=1	4	aux	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::912
+# text = Энэ Пётрой бэшэг, үсэгэлдэр асаржа үгөө һэн.
+1	Энэ	энэ	PRON	_	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	Пётрой	Пётр	PROPN	_	Case=Gen|Gender=Masc	3	nmod:own	_	_
+3	бэшэг	бэшэг	NOUN	_	Case=Nom	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	үсэгэлдэр	үсэгэлдэр	ADV	_	_	7	advmod	_	_
+6	асаржа	асар	VERB	_	VerbForm=Coverb	7	compound	_	_
+7	үгөө	үгэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+8	һэн	һэн	PART	_	_	7	discourse	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::913
+# text = Тэрэ басаган Франциин ниислэл хото Париста өөдөө болоо һэн.
+1	Тэрэ	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	басаган	басаган	NOUN	_	Case=Nom	8	nsubj	_	_
+3	Франциин	Франци	PROPN	_	Case=Gen	5	nmod:own	_	_
+4	ниислэл	ниислэл	NOUN	_	Case=Nom	5	compound	_	_
+5	хото	хото	NOUN	_	Case=Nom	6	nmod	_	_
+6	Париста	Парис	PROPN	_	Case=Dat	8	nmod	_	_
+7	өөдөө	өөдөө	PRON	_	Case=Nom|Reflex=Yes	8	compound	_	_
+8	болоо	боло	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	_
+9	һэн	һэн	PART	_	_	8	discourse	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+

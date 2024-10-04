@@ -1,0 +1,268 @@
+# sent_id = data_UD-third_apple_2-x01-s16
+# text = yh msəkin mnaw badanb balto ʾayčéw .
+# translit = jəhə məsəkinə mənäwə bädänəbə bäləto 'äjəčewə .
+1	yh	ይህ	DET	DET	_	2	det	_	Translit=jəhə|LTranslit=jəhə
+2	msəkin	ምስኪን	NOUN	NOUN	_	6	nsubj	_	Translit=məsəkinə|LTranslit=məsəkinə
+3	mnaw	ምነው	PRON	PRON	_	6	discourse	_	Translit=mənäwə|LTranslit=mənäwə
+4-5	badanb	_	_	_	_	_	_	_	_
+4	ba	በ	ADP	ADP	_	5	case	_	Translit=bä|LTranslit=bä
+5	danb	ደንብ	NOUN	NOUN	_	6	advmod	_	Translit=dänəbə|LTranslit=dänəbə
+6-7	balto	_	_	_	_	_	_	_	_
+6	balt	በልት	VERB	VERB	_	8	advmod	_	Translit=bälətə|LTranslit=bälətə
+7	ʾo	ኦ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	6	expl	_	Translit='o|LTranslit='o
+8-10	ʾayčéw	_	_	_	_	_	_	_	_
+8	ʾayt	አይት	VERB	VERB	_	0	root	_	Translit='äjətə|LTranslit='äjətə
+9	ʾé	ኤ	PRON	SUBJC	Number=Sing|Person=1	8	nsubj	_	Translit='e|LTranslit='e
+10	w	ው	PART	PART	_	8	discourse	_	Translit=wə|LTranslit=wə
+11	.	።	PUNCT	PUNCT	_	8	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-third_apple_2-x20-s14
+# text = ḥṡān mämtāt yaċkāné  drgit naw .
+# translit = ħədzanə mämətatə jäćəkane dərəgitə näwə .
+1	ḥṡān	ሕፃን	NOUN	NOUN	_	2	obj	_	Translit=ħədzanə|LTranslit=ħədzanə
+2	mämtāt	መምታት	NOUN	NOUN	VerbForm=Vnoun	5	csubj	_	Translit=mämətatə|LTranslit=mämətatə
+3-4	yaċkāné	_	_	_	_	_	_	_	_
+3	ya	የ	PART	RLP	_	4	case	_	Translit=jä|LTranslit=jä
+4	ċkāné	ጭካኔ	NOUN	NOUN	_	5	acl	_	Translit=ćəkane|LTranslit=ćəkane
+5	drgit	ድርጊት	NOUN	NOUN	_	0	root	_	Translit=dərəgitə|LTranslit=dərəgitə
+6-7	naw	_	_	_	_	_	_	_	_
+6	n	ን	AUX	AUX	_	5	cop	_	Translit=nə|LTranslit=nə
+7	ăw	ኧው	PRON	SUBJC	Number=Sing|Person=3	5	expl	_	Translit='ăwə|LTranslit='ăwə
+8	.	።	PUNCT	PUNCT	_	5	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-x10-s15
+# text = kāsā baré kagazālāt baẖwālā ʾalmāz ʾaradačw .
+# translit = kasa bäre kägäzalatə bächwala 'äləmazə 'ärädäčəwə .
+1	kāsā	ካሳ	PROPN	PROPN	_	4	nsubj	_	Translit=kasa|LTranslit=kasa
+2	baré	በሬ	NOUN	NOUN	_	4	obj	_	Translit=bäre|LTranslit=bäre
+3-7	kagazālāt	_	_	_	_	_	_	_	_
+3	ka	ከ	ADP	ADP	_	4	mark	_	Translit=kä|LTranslit=kä
+4	gazā	ገዛ	VERB	VERB	_	10	advcl	_	Translit=gäza|LTranslit=gäza
+5	ă	ኧ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	4	expl	_	Translit='ă|LTranslit='ă
+6	l	ል	ADP	ADP	Case=Ben	4	case	_	Translit=lə|LTranslit=lə
+7	ʾāt	ኣት	PRON	OBJC	Gender=Fem|Number=Sing|Person=3	4	expl	_	Translit='atə|LTranslit='atə
+8	baẖwālā	በኋላ	ADP	ADP	_	4	mark	_	Translit=bächwala|LTranslit=bächwala
+9	ʾalmāz	አልማዝ	PROPN	PROPN	_	10	nsubj	_	Translit='äləmazə|LTranslit='äləmazə
+10-12	ʾaradačw	_	_	_	_	_	_	_	_
+10	ʾarad	አረድ	VERB	VERB	_	0	root	_	Translit='ärädə|LTranslit='ärädə
+11	ăč	ኧች	PRON	SUBJC	Gender=Fem|Number=Sing|Person=3	10	expl	_	Translit='ăčə|LTranslit='ăčə
+12	w	ው	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	10	expl	_	Translit=wə|LTranslit=wə
+13	.	።	PUNCT	PUNCT	_	10	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-x02-s1
+# text = ʾeziyā bčāhn bāthéd ʾewadālahu .
+# translit = 'əzija bəčahənə batəhedə 'əwädalähu .
+1	ʾeziyā	እዚያ	ADV	ADV	_	2	advmod	_	Translit='əzija|LTranslit='əzija
+2-4	bčāhn	_	_	_	_	_	_	_	_
+2	bčā	ብቻ	ADV	ADV	_	8	advmod	_	Translit=bəča|LTranslit=bəča
+3	h	ህ	PRON	POSM	Gender=Masc|Number=Sing|Person=2|Poss=Yes	2	nmod	_	Translit=hə|LTranslit=hə
+4	n	ን	PART	ACC	_	2	case	_	Translit=nə|LTranslit=nə
+5-8	bāthéd	_	_	_	_	_	_	_	_
+5	b	ብ	SCONJ	SCONJ	_	8	mark	_	Translit=bə|LTranslit=bə
+6	ʾāl	ኣል	PART	NEG	Polarity=Neg	8	advmod	_	Translit='alə|LTranslit='alə
+7	t	ት	PRON	SUBJC	Gender=Fem|Number=Sing|Person=3	8	nsubj	_	Translit=tə|LTranslit=tə
+8	héd	ሄድ	VERB	VERB	_	10	xcomp	_	Translit=hedə|LTranslit=hedə
+9-12	ʾewadālahu	_	_	_	_	_	_	_	_
+9	ʾe	እ	PRON	SUBJC	Number=Sing|Person=1	10	nsubj	_	Translit='ə|LTranslit='ə
+10	wad	ወድ	VERB	VERB	_	0	root	_	Translit=wädə|LTranslit=wädə
+11	ʾāl	ኣል	AUX	AUX	_	10	aux	_	Translit='alə|LTranslit='alə
+12	ăhu	ኧሁ	PRON	SUBJC	Number=Sing|Person=1	10	expl	_	Translit='ăhu|LTranslit='ăhu
+13	.	።	PUNCT	PUNCT	_	10	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-x15-s18
+# text = kaċarasək baẖwālā ʾené  gār ʾendtmäṭā !
+# translit = käćäräsəkə bächwala 'əne garə 'ənədətəmäţa !
+1-3	kaċarasək	_	_	_	_	_	_	_	_
+1	ka	ከ	ADP	ADP	_	2	mark	_	Translit=kä|LTranslit=kä
+2	ċarasə	ጨረስ	VERB	VERB	_	9	advcl	_	Translit=ćäräsə|LTranslit=ćäräsə
+3	k	ክ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=2	2	nsubj	_	Translit=kə|LTranslit=kə
+4	baẖwālā	በኋላ	ADP	ADP	_	2	case	_	Translit=bächwala|LTranslit=bächwala
+5	ʾené	እኔ	PRON	PRON	_	9	obl	_	Translit='əne|LTranslit='əne
+6	gār	ጋር	ADP	ADP	_	5	case	_	Translit=garə|LTranslit=garə
+7-9	ʾendtmäṭā	_	_	_	_	_	_	_	_
+7	ʾend	እንድ	SCONJ	SCONJ	_	9	mark	_	Translit='ənədə|LTranslit='ənədə
+8	t	ት	PRON	SUBJC	Gender=Masc|Number=Sing|Person=2	9	nsubj	_	Translit=tə|LTranslit=tə
+9	mäṭā	መጣ	VERB	VERB	Mood=Jus	0	root	_	Translit=mäţa|LTranslit=mäţa
+10	!	!	PUNCT	PUNCT	_	9	punct	_	Translit=!|LTranslit=!
+
+# sent_id = data_UD-third_apple_2-x27-s16
+# text = ʾenātyawā ʾašāngulitočun lalǧoču ʾakafāfalač .
+# translit = 'ənatəjäwa 'äšanəgulitočunə lälədžoču 'äkäfafäläčə .
+1-3	ʾenātyawā	_	_	_	_	_	_	_	_
+1	ʾenāt	እናት	NOUN	NOUN	_	10	nsubj	_	Translit='ənatə|LTranslit='ənatə
+2	ʾeya	እየ	DET	DET	_	1	det	_	Translit='əjä|LTranslit='əjä
+3	wā	ዋ	DET	DET	_	1	det	_	Translit=wa|LTranslit=wa
+4-6	ʾašāngulitočun	_	_	_	_	_	_	_	_
+4	ʾašāngulitoč	አሻንጉሊቶች	NOUN	NOUN	Number=Plur	10	obj	_	Translit='äšanəgulitočə|LTranslit='äšanəgulitočə
+5	ʾu	ኡ	DET	DET	_	4	det	_	Translit='u|LTranslit='u
+6	n	ን	PART	ACC	_	4	case	_	Translit=nə|LTranslit=nə
+7-9	lalǧoču	_	_	_	_	_	_	_	_
+7	la	ለ	ADP	ADP	_	8	case	_	Translit=lä|LTranslit=lä
+8	lǧoč	ልጆች	NOUN	NOUN	_	10	obl	_	Translit=lədžočə|LTranslit=lədžočə
+9	ʾu	ኡ	DET	DET	_	8	det	_	Translit='u|LTranslit='u
+10-11	ʾakafāfalač	_	_	_	_	_	_	_	_
+10	ʾakafāfal	አከፋፈል	VERB	VERB	_	0	root	_	Translit='äkäfafälə|LTranslit='äkäfafälə
+11	ăč	ኧች	PRON	SUBJC	Gender=Fem|Number=Sing|Person=3	10	expl	_	Translit='ăčə|LTranslit='ăčə
+12	.	።	PUNCT	PUNCT	_	10	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-third_apple_2-x23-s13
+# text = ʻaśr br gwadalañ .
+# translit = `äśərə bərə gwädäläňə .
+1	ʻaśr	ዐሥር	NUM	NUM	NumType=Card	2	nummod	_	Translit=`äśərə|LTranslit=`äśərə
+2	br	ብር	NOUN	NOUN	_	3	nsubj	_	Translit=bərə|LTranslit=bərə
+3-4	gwadalañ	_	_	_	_	_	_	_	_
+3	gwadala	ጐደለ	VERB	VERB	_	0	root	_	Translit=gwädälä|LTranslit=gwädälä
+4	ñ	ኝ	PRON	OBJC	Number=Sing|Person=1	3	obj	_	Translit=ňə|LTranslit=ňə
+5	.	።	PUNCT	PUNCT	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-x01-s1
+# text = ʾesəkimäṭā drasə ṭabaqhut .
+# translit = 'əsəkimäţa dəräsə ţäbäqəhutə .
+1-4	ʾesəkimäṭā	_	_	_	_	_	_	_	_
+1	ʾesəka	እስከ	SCONJ	SCONJ	_	3	mark	_	Translit='əsəkä|LTranslit='əsəkä
+2	y	ይ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	3	expl	_	Translit=jə|LTranslit=jə
+3	mäṭā	መጣ	VERB	VERB	_	6	advcl	_	Translit=mäţa|LTranslit=mäţa
+4	ă	ኧ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	Translit='ă|LTranslit='ă
+5	drasə	ድረስ	SCONJ	SCONJ	_	3	mark	_	Translit=dəräsə|LTranslit=dəräsə
+6-8	ṭabaqhut	_	_	_	_	_	_	_	_
+6	ṭabaq	ጠበቅ	VERB	VERB	_	0	root	_	Translit=ţäbäqə|LTranslit=ţäbäqə
+7	hu	ሁ	PRON	SUBJC	Gender=Com|Number=Sing|Person=1	6	nsubj	_	Translit=hu|LTranslit=hu
+8	t	ት	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	6	obj	_	Translit=tə|LTranslit=tə
+9	.	።	PUNCT	PUNCT	_	6	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-third_apple_2-x17-s18
+# text = səndé ʾehl naw , gabsənā ṭéfm ʾendihu .
+# translit = sənəde 'əhələ näwə , gäbəsəna ţefəmə 'ənədihu .
+1	səndé	ስንዴ	NOUN	NOUN	_	2	nsubj	_	Translit=sənəde|LTranslit=sənəde
+2	ʾehl	እህል	NOUN	NOUN	_	0	root	_	Translit='əhələ|LTranslit='əhələ
+3-4	naw	_	_	_	_	_	_	_	_
+3	n	ን	AUX	AUX	_	2	cop	_	Translit=nə|LTranslit=nə
+4	ăw	ኧው	PRON	SUBJC	Number=Sing|Person=3	2	expl	_	Translit='ăwə|LTranslit='ăwə
+5	,	፣	PUNCT	PUNCT	_	2	punct	_	Translit=,|LTranslit=,
+6-7	gabsənā	_	_	_	_	_	_	_	_
+6	gabsə	ገብስ	NOUN	NOUN	_	2	conj	_	Translit=gäbəsə|LTranslit=gäbəsə
+7	nā	ና	CCONJ	CCONJ	_	6	cc	_	Translit=na|LTranslit=na
+8-9	ṭéfm	_	_	_	_	_	_	_	_
+8	ṭéf	ጤፍ	NOUN	NOUN	_	6	conj	_	Translit=ţefə|LTranslit=ţefə
+9	m	ም	CCONJ	CCONJ	_	8	cc	_	Translit=mə|LTranslit=mə
+10	ʾendihu	እንዲሁ	ADV	ADV	_	2	advmod	_	Translit='ənədihu|LTranslit='ənədihu
+11	.	።	PUNCT	PUNCT	_	2	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-Sleepwalking-26-s12
+# text = tamāri bét ʾasəkédkut .
+# translit = tämari betə 'äsəkedəkutə .
+1	tamāri	ተማሪ	NOUN	NOUN	_	2	compound	_	Translit=tämari|LTranslit=tämari
+2	bét	ቤት	NOUN	NOUN	_	3	obl	_	Translit=betə|LTranslit=betə
+3-5	ʾasəkédkut	_	_	_	_	_	_	_	_
+3	ʾasəkéd	አስኬድ	VERB	VERB	Voice=Cau	0	root	_	Translit='äsəkedə|LTranslit='äsəkedə
+4	ku	ኩ	PRON	SUBJC	Number=Sing|Person=1	3	nsubj	_	Translit=ku|LTranslit=ku
+5	t	ት	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	3	obj	_	Translit=tə|LTranslit=tə
+6	.	።	PUNCT	PUNCT	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-third_apple_2-x02-s13
+# text = märétu tanqaṭaqaṭa .
+# translit = märetu tänəqäţäqäţä .
+1-2	märétu	_	_	_	_	_	_	_	_
+1	märét	መሬት	NOUN	NOUN	_	3	nsubj:pass	_	Translit=märetə|LTranslit=märetə
+2	ʾu	ኡ	DET	DET	_	1	det	_	Translit='u|LTranslit='u
+3-4	tanqaṭaqaṭa	_	_	_	_	_	_	_	_
+3	tanqaṭaqaṭ	ተንቀጠቀጥ	VERB	VERB	Voice=Pass	0	root	_	Translit=tänəqäţäqäţə|LTranslit=tänəqäţäqäţə
+4	ă	ኧ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	3	expl	_	Translit='ă|LTranslit='ă
+5	.	።	PUNCT	PUNCT	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-third_apple_2-x19-s5
+# text = tarārāwn mäwṭāt bzu ṭrat yṭayqāl .
+# translit = tärarawənə mäwəţatə bəzu ţərätə jəţäjəqalə .
+1-3	tarārāwn	_	_	_	_	_	_	_	_
+1	tarārā	ተራራ	NOUN	NOUN	_	4	xcomp	_	Translit=tärara|LTranslit=tärara
+2	ʾu	ኡ	DET	DET	_	1	det	_	Translit='u|LTranslit='u
+3	n	ን	PART	ACC	_	1	case	_	Translit=nə|LTranslit=nə
+4	mäwṭāt	መውጣት	NOUN	NOUN	VerbForm=Vnoun	8	csubj	_	Translit=mäwəţatə|LTranslit=mäwəţatə
+5	bzu	ብዙ	ADJ	ADJ	_	6	amod	_	Translit=bəzu|LTranslit=bəzu
+6	ṭrat	ጥረት	NOUN	NOUN	_	8	obj	_	Translit=ţərätə|LTranslit=ţərätə
+7-9	yṭayqāl	_	_	_	_	_	_	_	_
+7	y	ይ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	8	expl	_	Translit=jə|LTranslit=jə
+8	ṭayq	ጠይቅ	VERB	VERB	_	0	root	_	Translit=ţäjəqə|LTranslit=ţäjəqə
+9	ʾāl	ኣል	AUX	AUX	_	8	aux	_	Translit='alə|LTranslit='alə
+10	.	።	PUNCT	PUNCT	_	8	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-x18-s3
+# text = ʻālamu kālhéda tasəfāyém ʾayhédm .
+# translit = `alämu kaləhedä täsəfajemə 'äjəhedəmə .
+1	ʻālamu	ዓለሙ	PROPN	PROPN	_	4	nsubj	_	Translit=`alämu|LTranslit=`alämu
+2-5	kālhéda	_	_	_	_	_	_	_	_
+2	ka	ከ	SCONJ	SCONJ	_	4	mark	_	Translit=kä|LTranslit=kä
+3	ʾāl	ኣል	PART	NEG	Polarity=Neg	4	advmod	_	Translit='alə|LTranslit='alə
+4	héd	ሄድ	VERB	VERB	_	10	advcl	_	Translit=hedə|LTranslit=hedə
+5	ă	ኧ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	4	expl	_	Translit='ă|LTranslit='ă
+6-7	tasəfāyém	_	_	_	_	_	_	_	_
+6	tasəfāyé	ተስፋዬ	PROPN	PROPN	_	10	nsubj	_	Translit=täsəfaje|LTranslit=täsəfaje
+7	m	ም	ADV	ADV	_	10	advmod	_	Translit=mə|LTranslit=mə
+8-11	ʾayhédm	_	_	_	_	_	_	_	_
+8	ʾāl	ኣል	PART	NEG	Polarity=Neg	10	advmod	_	Translit='alə|LTranslit='alə
+9	y	ይ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	10	expl	_	Translit=jə|LTranslit=jə
+10	héd	ሄድ	VERB	VERB	_	0	root	_	Translit=hedə|LTranslit=hedə
+11	m	ም	PART	NCM	_	10	discourse	_	Translit=mə|LTranslit=mə
+12	.	።	PUNCT	PUNCT	_	10	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-x18-s4
+# text = ʾayzafnmm ʾaydansəmm .
+# translit = 'äjəzäfənəməmə 'äjədänəsəməmə .
+1-5	ʾayzafnmm	_	_	_	_	_	_	_	_
+1	ʾāl	ኣል	PART	NEG	Polarity=Neg	3	advmod	_	Translit='alə|LTranslit='alə
+2	y	ይ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	Translit=jə|LTranslit=jə
+3	zafn	ዘፍን	VERB	VERB	_	0	root	_	Translit=zäfənə|LTranslit=zäfənə
+4	m	ም	PART	NCM	_	3	discourse	_	Translit=mə|LTranslit=mə
+5	m	ም	CCONJ	CCONJ	_	3	cc	_	Translit=mə|LTranslit=mə
+6-10	ʾaydansəmm	_	_	_	_	_	_	_	_
+6	ʾāl	ኣል	PART	NEG	Polarity=Neg	8	advmod	_	Translit='alə|LTranslit='alə
+7	y	ይ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	Translit=jə|LTranslit=jə
+8	dansə	ደንስ	VERB	VERB	_	3	conj	_	Translit=dänəsə|LTranslit=dänəsə
+9	m	ም	PART	NCM	_	8	discourse	_	Translit=mə|LTranslit=mə
+10	m	ም	CCONJ	CCONJ	_	8	cc	_	Translit=mə|LTranslit=mə
+11	.	።	PUNCT	PUNCT	_	3	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-third_apple_2-x05-s15
+# text = kāsā zénāwn laʾalam nagarāt .
+# translit = kasa zenawənə lä'älämə nägäratə .
+1	kāsā	ካሳ	PROPN	PROPN	_	7	nsubj	_	Translit=kasa|LTranslit=kasa
+2-4	zénāwn	_	_	_	_	_	_	_	_
+2	zénā	ዜና	NOUN	NOUN	_	7	obj	_	Translit=zena|LTranslit=zena
+3	w	ው	DET	DET	_	2	det	_	Translit=wə|LTranslit=wə
+4	n	ን	PART	ACC	_	2	case	_	Translit=nə|LTranslit=nə
+5-6	laʾalam	_	_	_	_	_	_	_	_
+5	la	ለ	ADP	ADP	_	6	case	_	Translit=lä|LTranslit=lä
+6	ʾalam	አለም	PROPN	PROPN	_	7	obl	_	Translit='älämə|LTranslit='älämə
+7-9	nagarāt	_	_	_	_	_	_	_	_
+7	gar	ገር	VERB	VERB	_	0	root	_	Translit=gärə|LTranslit=gärə
+8	ă	ኧ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	7	expl	_	Translit='ă|LTranslit='ă
+9	ʾāt	ኣት	PRON	OBJC	Gender=Fem|Number=Sing|Person=3	7	expl	_	Translit='atə|LTranslit='atə
+10	.	።	PUNCT	PUNCT	_	7	punct	_	Translit=.|LTranslit=.
+
+# sent_id = data_UD-third_apple_2-x22-s20
+# text = yhn śrā yamsarāw ʾantan lamāsədasat yāhl naw .
+# translit = jəhənə śəra jäməsärawə 'änətänə lämasədäsätə jahələ näwə .
+1-2	yhn	_	_	_	_	_	_	_	_
+1	yh	ይህ	DET	DET	_	3	det	_	Translit=jəhə|LTranslit=jəhə
+2	n	ን	PART	ACC	_	1	case	_	Translit=nə|LTranslit=nə
+3	śrā	ሥራ	NOUN	NOUN	_	7	obj	_	Translit=śəra|LTranslit=śəra
+4-8	yamsarāw	_	_	_	_	_	_	_	_
+4	ya	የ	PART	RLP	_	7	mark	_	Translit=jä|LTranslit=jä
+5	ʾem	እም	PART	IRLP	_	7	mark	_	Translit='əmə|LTranslit='əmə
+6	ʾe	እ	PRON	SUBJC	Number=Sing|Person=1	7	nsubj	_	Translit='ə|LTranslit='ə
+7	sarā	ሰራ	VERB	VERB	_	14	ccomp	_	Translit=sära|LTranslit=sära
+8	w	ው	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	7	expl	_	Translit=wə|LTranslit=wə
+9-10	ʾantan	_	_	_	_	_	_	_	_
+9	ʾanta	አንተ	PRON	PRON	_	12	obj	_	Translit='änətä|LTranslit='änətä
+10	n	ን	PART	ACC	_	9	case	_	Translit=nə|LTranslit=nə
+11-12	lamāsədasat	_	_	_	_	_	_	_	_
+11	la	ለ	ADP	ADP	_	12	case	_	Translit=lä|LTranslit=lä
+12	māsədasat	ማስደሰት	NOUN	NOUN	VerbForm=Vnoun	14	obl	_	Translit=masədäsätə|LTranslit=masədäsätə
+13-14	yāhl	_	_	_	_	_	_	_	_
+13	y	ይ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=3	14	expl	_	Translit=jə|LTranslit=jə
+14	ʾāhl	ኣህል	VERB	VERB	_	0	root	_	Translit='ahələ|LTranslit='ahələ
+15-16	naw	_	_	_	_	_	_	_	_
+15	n	ን	AUX	AUX	_	14	aux	_	Translit=nə|LTranslit=nə
+16	ăw	ኧው	PRON	SUBJC	Number=Sing|Person=3	14	expl	_	Translit='ăwə|LTranslit='ăwə
+17	.	።	PUNCT	PUNCT	_	14	punct	_	Translit=.|LTranslit=.
+

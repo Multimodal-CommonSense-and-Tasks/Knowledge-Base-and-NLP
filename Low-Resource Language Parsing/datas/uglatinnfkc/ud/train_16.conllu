@@ -1,0 +1,222 @@
+# sent_id = s1846
+# text = - nurğun yillar ilgiri bu yer bük - baraqsan derexler bilen qaplanğan quruqluq iken.
+1	-	-	PUNCT	Y	_	13	punct	_	Translit=-
+2	nurğun	نۇرغۇن	NOUN	A	Case=Nom	3	amod	_	Translit=nurghun
+3	yillar	يىل	NOUN	N	Case=Nom|Number=Plur	4	amod	_	Translit=yillar
+4	ilgiri	ئىلگىرى	NOUN	D	Case=Nom	13	advmod	_	Translit=ilgiri
+5	bu	بۇ	PRON	P	Case=Nom|PronType=Dem	6	det	_	Translit=bu
+6	yer	يەر	NOUN	N	Case=Nom	13	nsubj	_	Translit=yer
+7	bük	بۈك	ADJ	A	_	9	compound:redup	_	Translit=bük
+8	-	-	PUNCT	Y	_	7	punct	_	Translit=-
+9	baraqsan	باراقسان	ADJ	A	_	10	amod	_	Translit=baraqsan
+10	derexler	دەرەخ	NOUN	N	Case=Nom|Number=Plur	12	obl	_	Translit=derexler
+11	bilen	بىلەن	ADP	R	_	10	case	_	Translit=bilen
+12	qaplanğan	_	VERB	V	_	13	acl	_	Translit=qaplanghan|Morf=Unknown
+13	quruqluq	قۇرۇقلۇق	NOUN	N	Case=Nom	0	root	_	Translit=quruqluq
+14	iken	_	AUX	V	_	13	cop	_	SpaceAfter=No|Translit=iken|Morf=Unknown
+15	.	.	PUNCT	Y	_	14	punct	_	Translit=.
+
+# sent_id = s3404
+# text = biraq, bu qol tuyuqsiz çüşüp këtiptu,
+1	biraq	بىراق	CCONJ	C	_	6	cc	_	SpaceAfter=No|Translit=biraq
+2	,	،	PUNCT	Y	_	1	punct	_	Translit=,
+3	bu	بۇ	PRON	P	Case=Nom|PronType=Dem	4	det	_	Translit=bu
+4	qol	قول	NOUN	N	Case=Nom	6	nsubj	_	Translit=qol
+5	tuyuqsiz	تۇيۇقسىز	ADV	D	_	6	advmod	_	Translit=tuyuqsiz
+6	çüşüp	چۈش	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=chüshüp
+7	këtiptu	_	VERB	V	_	6	case	_	SpaceAfter=No|Translit=këtiptu|Morf=Unknown
+8	,	،	PUNCT	Y	_	7	punct	_	Translit=,
+
+# sent_id = s3312
+# text = ay şaridin ëlip këlingen topa-tozanğa baktëriye çëçilğanda, baktëriyiler biraqla ölüp tügigen,
+1	ay	ئاي	NOUN	N	Case=Nom	2	compound	_	Translit=ay
+2	şaridin	_	NOUN	N	_	4	obl	_	Translit=sharidin|Morf=Unknown
+3	ëlip	ئال	VERB	V	Aspect=Perf|VerbForm=Conv	4	compound:lvc	_	Translit=ëlip
+4	këlingen	_	VERB	V	_	5	acl	_	Translit=këlingen|Morf=Unknown
+5	topa-tozanğa	_	VERB	V	_	7	obl	_	Translit=topa-tozangha|Morf=Unknown
+6	baktëriye	باكتېرىيە	NOUN	N	Case=Nom	7	obj	_	Translit=baktëriye
+7	çëçilğanda	_	VERB	V	_	12	obl	_	SpaceAfter=No|Translit=chëchilghanda|Morf=Unknown
+8	,	،	PUNCT	Y	_	7	punct	_	Translit=,
+9	baktëriyiler	باكتېرىيە	NOUN	N	Case=Nom|Number=Plur	12	nsubj	_	Translit=baktëriyiler
+10	biraqla	بىراقلا	ADV	D	_	12	advmod	_	Translit=biraqla
+11	ölüp	ئۆل	VERB	V	Aspect=Perf|VerbForm=Conv	12	advmod	_	Translit=ölüp
+12	tügigen	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=tügigen|Morf=Unknown
+13	,	،	PUNCT	Y	_	12	punct	_	Translit=,
+
+# sent_id = s3091
+# text = _ dada, bu qaysi tağ?
+1	_	_	PUNCT	Y	_	6	punct	_	Translit=_|Morf=Unknown
+2	dada	دادا	NOUN	N	Case=Nom	6	vocative	_	SpaceAfter=No|Translit=dada
+3	,	،	PUNCT	Y	_	2	punct	_	Translit=,
+4	bu	بۇ	PRON	P	Case=Nom|PronType=Dem	6	nsubj	_	Translit=bu
+5	qaysi	قايسى	DET	P	PronType=Int	6	det	_	Translit=qaysi
+6	tağ	تاغ	NOUN	N	Case=Nom	0	root	_	SpaceAfter=No|Translit=tagh
+7	?	؟	PUNCT	Y	_	6	punct	_	Translit=?
+
+# sent_id = s2044
+# text = biz unisaqmu şundaq boldi, unimisaqmu şundaq boldi.
+1	biz	بىز	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	Translit=biz
+2	unisaqmu	ئۇنى	VERB	N	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	4	advcl	_	Translit=unisaqmu
+3	şundaq	شۇنداق	DET	P	_	4	det	_	Translit=shundaq
+4	boldi	بول	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	parataxis	_	SpaceAfter=No|Translit=boldi
+5	,	،	PUNCT	Y	_	4	punct	_	Translit=,
+6	unimisaqmu	ئۇنى	VERB	N	Mood=Cnd|Number=Sing|Person=1|Polarity=Neg|VerbForm=Conv	8	advcl	_	Translit=unimisaqmu
+7	şundaq	شۇنداق	DET	P	_	8	det	_	Translit=shundaq
+8	boldi	بول	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=boldi
+9	.	.	PUNCT	Y	_	8	punct	_	Translit=.
+
+# sent_id = s2228
+# text = aptomobillar köpeymekte, yollar këngeytilmekte, stërëoluq kövrük, yer asti ötüşme yollar yasalmaqta.
+1	aptomobillar	ئاپتوموبىل	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	Translit=aptomobillar
+2	köpeymekte	_	VERB	V	_	5	parataxis	_	SpaceAfter=No|Translit=köpeymekte|Morf=Unknown
+3	,	،	PUNCT	Y	_	2	punct	_	Translit=,
+4	yollar	يول	NOUN	N	Case=Nom|Number=Plur	5	obj	_	Translit=yollar
+5	këngeytilmekte	_	VERB	V	_	14	parataxis	_	SpaceAfter=No|Translit=këngeytilmekte|Morf=Unknown
+6	,	،	PUNCT	Y	_	5	punct	_	Translit=,
+7	stërëoluq	_	NOUN	N	_	8	amod	_	Translit=stërëoluq|Morf=Unknown
+8	kövrük	كۆۋرۈك	NOUN	N	Case=Nom	14	obj	_	SpaceAfter=No|Translit=köwrük
+9	,	،	PUNCT	Y	_	8	punct	_	Translit=,
+10	yer	يەر	NOUN	N	Case=Nom	11	compound	_	Translit=yer
+11	asti	ئاست	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	12	compound	_	Translit=asti
+12	ötüşme	_	NOUN	N	_	13	compound	_	Translit=ötüshme|Morf=Unknown
+13	yollar	يول	NOUN	N	Case=Nom|Number=Plur	14	obj	_	Translit=yollar
+14	yasalmaqta	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=yasalmaqta|Morf=Unknown
+15	.	.	PUNCT	Y	_	14	punct	_	Translit=.
+
+# sent_id = s2260
+# text = u qorunğan halda sinip işikini çekti.
+1	u	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Translit=u
+2	qorunğan	قورۇن	VERB	V	Case=Nom|Tense=Past|VerbForm=Ger	6	obl	_	Translit=qorunghan
+3	halda	ھال	NOUN	N	Case=Loc	2	case	_	Translit=halda
+4	sinip	سىنىپ	NOUN	N	Case=Nom	5	nmod	_	Translit=sinip
+5	işikini	ئىشىك	NOUN	N	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	6	obj	_	Translit=ishikini
+6	çekti	چەك	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=chekti
+7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s2449
+# text = lëtkining maşinisida evetimen,
+1	lëtkining	_	NOUN	N	_	2	nmod:poss	_	Translit=lëtkining|Morf=Unknown
+2	maşinisida	ماشىنا	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	3	obl	_	Translit=mashinisida
+3	evetimen	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=ewetimen|Morf=Unknown
+4	,	،	PUNCT	Y	_	3	punct	_	Translit=,
+
+# sent_id = s2893
+# text = şuning bilen arçër tetqiq qilişni başlivetti.
+1	şuning	_	CCONJ	C	_	2	compound	_	Translit=shuning|Morf=Missing,1
+2	bilen	بىلەن	ADP	C	_	6	cc	_	Translit=bilen
+3	arçër	_	NOUN	N	_	6	nsubj	_	Translit=archër|Morf=Unknown
+4	tetqiq	_	NOUN	N	_	5	compound	_	Translit=tetqiq|Morf=Unknown
+5	qilişni	قىل	VERB	V	Case=Acc|VerbForm=Ger	6	obj	_	Translit=qilishni
+6	başlivetti	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=bashliwetti|Morf=Unknown
+7	.	.	PUNCT	Y	_	6	punct	_	Translit=.
+
+# sent_id = s1869
+# text = igilinişçe, haytidiki cunggo mebliğide qurulğan apparatlardiki 18 cunggo puqrasining hemmisi tën aman iken.
+1	igilinişçe	_	NOUN	N	_	13	discourse	_	SpaceAfter=No|Translit=igilinishche|Morf=Unknown
+2	,	،	PUNCT	Y	_	1	punct	_	Translit=,
+3	haytidiki	_	NOUN	N	_	7	amod	_	Translit=haytidiki|Morf=Unknown
+4	cunggo	جۇڭگو	PROPN	N	Case=Nom	5	nmod	_	Translit=junggo
+5	mebliğide	مەبلەغ	NOUN	N	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	6	obl	_	Translit=meblighide
+6	qurulğan	_	VERB	V	_	7	acl	_	Translit=qurulghan|Morf=Unknown
+7	apparatlardiki	ئاپپارات	NOUN	N	Case=Nom|Number=Plur	10	amod	_	Translit=apparatlardiki
+8	18	18	NUM	M	NumType=Ord	10	nummod	_	Translit=18
+9	cunggo	جۇڭگو	PROPN	N	Case=Nom	10	nmod	_	Translit=junggo
+10	puqrasining	_	NOUN	N	_	11	nmod:poss	_	Translit=puqrasining|Morf=Unknown
+11	hemmisi	_	PRON	P	_	13	nsubj	_	Translit=hemmisi|Morf=Unknown
+12	tën	_	NOUN	N	_	13	compound:redup	_	Translit=tën|Morf=Unknown
+13	aman	ئامان	NOUN	A	Case=Nom	0	root	_	Translit=aman
+14	iken	_	AUX	V	_	13	cop	_	SpaceAfter=No|Translit=iken|Morf=Unknown
+15	.	.	PUNCT	Y	_	14	punct	_	Translit=.
+
+# sent_id = s3324
+# text = insanlar sirliq ay şari toğrisida davamliq izdenmekte.
+1	insanlar	ئىنسان	NOUN	N	Case=Nom|Number=Plur	7	nsubj	_	Translit=insanlar
+2	sirliq	سىرلىق	ADJ	A	_	4	amod	_	Translit=sirliq
+3	ay	ئاي	NOUN	N	Case=Nom	4	compound	_	Translit=ay
+4	şari	_	VERB	V	_	7	obl	_	Translit=shari|Morf=Unknown
+5	toğrisida	_	ADP	R	_	4	case	_	Translit=toghrisida|Morf=Missing,2
+6	davamliq	داۋاملىق	ADJ	A	Case=Nom	7	advmod	_	Translit=dawamliq
+7	izdenmekte	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=izdenmekte|Morf=Unknown
+8	.	.	PUNCT	Y	_	7	punct	_	Translit=.
+
+# sent_id = s1810
+# text = maymun birdem oylinip bëqip deptu:
+1	maymun	مايمۇن	NOUN	N	Case=Nom	5	nsubj	_	Translit=maymun
+2	birdem	بىردەم	NOUN	D	Case=Nom	3	advmod	_	Translit=birdem
+3	oylinip	_	VERB	V	_	5	advcl	_	Translit=oylinip|Morf=Unknown
+4	bëqip	باق	VERB	V	Aspect=Perf|VerbForm=Conv	3	aux	_	Translit=bëqip
+5	deptu	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=deptu|Morf=Unknown
+6	:	:	PUNCT	Y	_	5	punct	_	Translit=:
+
+# sent_id = s2728
+# text = u tusattin sekrep turup ketti.
+1	u	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Translit=u
+2	tusattin	_	VERB	V	_	4	advmod	_	Translit=tusattin|Morf=Unknown
+3	sekrep	_	VERB	V	_	4	advmod	_	Translit=sekrep|Morf=Unknown
+4	turup	تۇر	VERB	V	Aspect=Perf|VerbForm=Cov	0	root	_	Translit=turup
+5	ketti	كەت	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	SpaceAfter=No|Translit=ketti
+6	.	.	PUNCT	Y	_	5	punct	_	Translit=.
+
+# sent_id = s2186
+# text = şir külümsirigen halda: _ emdi növet almişişning haciti qalmidi, men şuni cakarlaymenki, bügündin başlap, maymun hayvanat padişahi bolidu! _ deptu.
+1	şir	شىر	ADJ	N	Case=Nom	25	nsubj	_	Translit=shir
+2	külümsirigen	_	VERB	V	_	25	obl	_	Translit=külümsirigen|Morf=Unknown
+3	halda	ھال	NOUN	N	Case=Loc	2	case	_	SpaceAfter=No|Translit=halda
+4	:	:	PUNCT	Y	_	3	punct	_	Translit=:
+5	_	_	PUNCT	Y	_	3	punct	_	Translit=_|Morf=Unknown
+6	emdi	ئەمدى	NOUN	D	Case=Nom	10	advmod	_	Translit=emdi
+7	növet	نۆۋەت	NOUN	Q	Case=Nom	8	obj	_	Translit=nöwet
+8	almişişning	ئالماش	VERB	V	Case=Gen|VerbForm=Ger	9	nmod:poss	_	Translit=almishishning
+9	haciti	ھاجەت	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	Translit=hajiti
+10	qalmidi	قال	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	21	parataxis	_	SpaceAfter=No|Translit=qalmidi
+11	,	،	PUNCT	Y	_	10	punct	_	Translit=,
+12	men	مەن	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Translit=men
+13	şuni	_	PRON	P	_	14	obj	_	Translit=shuni|Morf=Unknown
+14	cakarlaymenki	_	VERB	V	_	21	parataxis	_	SpaceAfter=No|Translit=jakarlaymenki|Morf=Unknown
+15	,	،	PUNCT	Y	_	14	punct	_	Translit=,
+16	bügündin	_	NOUN	N	_	17	nmod:abl	_	Translit=bügündin|Morf=Unknown
+17	başlap	باشلاپ	NOUN	V	Case=Nom	21	advmod	_	SpaceAfter=No|Translit=bashlap
+18	,	،	PUNCT	Y	_	17	punct	_	Translit=,
+19	maymun	مايمۇن	NOUN	N	Case=Nom	21	nsubj	_	Translit=maymun
+20	hayvanat	ھايۋانات	NOUN	N	Case=Nom	21	nmod:clas	_	Translit=haywanat
+21	padişahi	_	NOUN	N	_	25	ccomp	_	Translit=padishahi|Morf=Unknown
+22	bolidu	بول	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	21	cop	_	SpaceAfter=No|Translit=bolidu
+23	!	!	PUNCT	N	_	22	punct	_	Translit=!
+24	_	_	PUNCT	Y	_	22	punct	_	Translit=_|Morf=Unknown
+25	deptu	_	VERB	V	_	0	root	_	SpaceAfter=No|Translit=deptu|Morf=Unknown
+26	.	.	PUNCT	Y	_	25	punct	_	Translit=.
+
+# sent_id = s3385
+# text = u ağrip qalğanda anisining qariğanliqi üçün: 0 fënnig;
+1	u	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Translit=u
+2	ağrip	_	VERB	V	_	3	compound	_	Translit=aghrip|Morf=Unknown
+3	qalğanda	قال	VERB	V	Case=Loc|Tense=Past|VerbForm=Ger	5	obl	_	Translit=qalghanda
+4	anisining	ئانا	NOUN	N	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod:poss	_	Translit=anisining
+5	qariğanliqi	_	VERB	V	_	9	nmod	_	Translit=qarighanliqi|Morf=Unknown
+6	üçün	ئۈچۈن	ADP	C	_	5	case	_	SpaceAfter=No|Translit=üchün
+7	:	:	PUNCT	Y	_	6	punct	_	Translit=:
+8	0	0	NUM	M	NumType=Ord	9	nummod	_	Translit=0
+9	fënnig	_	NOUN	N	_	0	root	_	SpaceAfter=No|Translit=fënnig|Morf=Unknown
+10	;	_	PUNCT	Y	_	9	punct	_	Translit=;|Morf=Unknown
+
+# sent_id = s2107
+# text = u araldiki haşaratlarning bezilirining qaniti çong, bezilirining qaniti yoq ikenlikini körüp, bekla ğelitilik hës qilidu.
+1	u	ئۇ	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	Translit=u
+2	araldiki	ئارال	NOUN	N	Case=Nom	3	amod	_	Translit=araldiki
+3	haşaratlarning	_	NOUN	N	_	4	nmod:poss	_	Translit=hasharatlarning|Morf=Unknown
+4	bezilirining	بەزى	ADJ	N	Case=Gen|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod:poss	_	Translit=bezilirining
+5	qaniti	قانات	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	6	nsubj	_	Translit=qaniti
+6	çong	چوڭ	ADJ	A	Case=Nom	12	csubj	_	SpaceAfter=No|Translit=chong
+7	,	،	PUNCT	Y	_	6	punct	_	Translit=,
+8	bezilirining	بەزى	ADJ	P	Case=Gen|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	9	nmod:poss	_	Translit=bezilirining
+9	qaniti	قانات	NOUN	N	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	10	nsubj	_	Translit=qaniti
+10	yoq	يوق	ADJ	A	_	6	conj	_	Translit=yoq
+11	ikenlikini	_	AUX	V	_	10	cop	_	Translit=ikenlikini|Morf=Unknown
+12	körüp	كۆر	VERB	V	Aspect=Perf|VerbForm=Conv	17	advmod	_	SpaceAfter=No|Translit=körüp
+13	,	،	PUNCT	Y	_	12	punct	_	Translit=,
+14	bekla	_	ADV	D	_	15	advmod	_	Translit=bekla|Morf=Unknown
+15	ğelitilik	_	NOUN	N	_	17	obj	_	Translit=ghelitilik|Morf=Unknown
+16	hës	ھېس	NOUN	N	Case=Nom	17	compound	_	Translit=hës
+17	qilidu	قىل	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No|Translit=qilidu
+18	.	.	PUNCT	Y	_	17	punct	_	Translit=.
+

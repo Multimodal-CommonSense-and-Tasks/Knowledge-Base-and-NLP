@@ -1,0 +1,2538 @@
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:7488
+# text = Langsonzo šinelʹ.
+# text_en = With a trench coat on him.
+1	Langsonzo	лангсо	ADP	Adp	Case=Ine|Number[psor]=Sing|Person[psor]=3	2	nmod	_	GTtags=Ine,PxSg3|1q-1:22.1,16=_
+2	šinelʹ	шинель	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+3	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:4376
+# text = Buti bu a vasolo tarkatne — tyc peštjavlizʹ vesenʹ netne kedtnede.
+# text_en = If those places were not so far away, the Erzyas would fill them with hides.
+# text_fi = Olisivatpa nuo paikat lähempänä, niin voisi täyttää kaikki paikat niillä nahoilla.
+1	Buti	бути	SCONJ	CS	Mood=Cnd	8	mark	_	GTtags=Cond
+2	bu	бу	AUX	Pcle	Case=Nom|Definite=Ind|Number=Sing	8	aux:cnd	_	GTtags=Sg,Nom,Indef
+3	a	а	AUX	Pcle	Polarity=Neg	4	aux:neg	_	GTtags=Neg
+4	vasolo	васоло	ADV	Adv	AdvType=Loc|Case=Loc	5	advmod	_	GTtags=Spat,Loc
+5	tarkatne	тарка	NOUN	N	Case=Nom|Definite=Def|Number=Plur	8	nsubj	_	GTtags=Sem/Inanim_Cnt,Pl,Nom,Def
+6	—	—	PUNCT	CLB	_	8	punct	_	_
+7	tyc	тыц	PART	Pcle	Case=Nom|Definite=Ind|Number=Sing	8	advmod	_	GTtags=Sg,Nom,Indef
+8	peštjavlizʹ	пештямс	VERB	V	Mood=Cnj|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3	0	root	_	GTtags=Conj,ScPl3,OcSg3
+9	vesenʹ	весе	PRON	Pron	Case=Gen|Definite=Ind|Number=Plur,Sing|PronType=Tot	8	obj	_	GTtags=Tot,SP,Gen,Indef
+10	netne	неть	PRON	Pron	Case=Nom|Definite=Def|Number=Plur|PronType=Dem	11	det	_	GTtags=Dem,Pl,Nom,Def
+11	kedtnede	кедь	NOUN	N	Case=Abl|Definite=Def|Number=Plur	8	obl	_	GTtags=Sem/Body_part,Pl,Abl,Def|SpaceAfter=No
+12	.	.	PUNCT	CLB	_	8	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5139
+# text = Kov purdams?
+# text_en = Which way to turn?
+1	Kov	ков	ADV	Adv	Case=Lat|PronType=Int	2	obl	_	GTtags=Interr,Lat
+2	purdams	пурдамс	VERB	V	Valency=2|VerbForm=Inf	0	root	_	GTtags=TV,Inf|SpaceAfter=No
+3	?	?	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:235
+# text = Kečaj molʹsʹ pilʹgalonzo acazʹ čevte kumbontʹ langa, ansjak kurok lotkasʹ nejemede mazyčintʹkak, pertʹpelʹksentʹkak.
+# text_en = Kechai walk along the soft tapestry, but soon he forgot its beauty and everything around him, too.
+# text_fi = Ketšai käveli maahan sijattua pehmeää mattoa pitkin, mutta pian hän lakkasi näkemästä sekä kauneutta että ympärillään olevaa maisemaa.
+1	Kečaj	Кечай	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	GTtags=Ant_Mal,Sg,Nom,Indef
+2	molʹsʹ	молемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,ScSg3
+3	pilʹgalonzo	пильгало	ADV	Adv	AdvType=Loc|Case=Loc|Number[psor]=Sing|Person[psor]=3	4	advmod	_	GTtags=Spat,Loc,PxSg3
+4	acazʹ	ацамс	VERB	V	Derivation=Ozj|VerbForm=Conv	6	acl	_	GTtags=Der/Озь,Ger
+5	čevte	чевте	ADJ	A	_	6	amod	_	_
+6	kumbontʹ	кумбо	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	obl	_	GTtags=Sem/Inanim_Cnt,Sg,Gen,Def
+7	langa	ланга	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	6	case	_	GTtags=Sem/Relat,SP,Prl,Indef|SpaceAfter=No
+8	,	,	PUNCT	CLB	_	11	punct	_	_
+9	ansjak	ансяк	ADV	Adv	_	11	advmod	_	_
+10	kurok	курок	ADV	Adv	AdvType=Tim	11	advmod	_	GTtags=Sem/Time_dur
+11	lotkasʹ	лоткамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	2	conj	_	GTtags=Ind,Prt1,ScSg3
+12	nejemede	неемс	VERB	V	Case=Abl|Valency=2|VerbForm=Inf	11	xcomp	_	GTtags=TV,Inf,Abl
+13	mazyčintʹkak	мазычи	NOUN	N	Case=Gen|Clitic=Gak|Definite=Def|Number=Sing	12	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Gen,Def,Clt/Gak|SpaceAfter=No
+14	,	,	PUNCT	CLB	_	15	punct	_	_
+15	pertʹpelʹksentʹkak	пертьпелькс	NOUN	N	Case=Gen|Clitic=Gak|Definite=Def|Number=Sing	13	conj	_	GTtags=Sem/Inanim_Cnt,Sg,Gen,Def,Clt/Gak|SpaceAfter=No
+16	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:226
+# text = Tetjatne pek kežijavtnestʹ Fedorov langs, martonzo sjovnomo sakšnostʹ.
+1	Tetjatne	тетя	NOUN	N	Case=Nom|Definite=Def|Number=Plur	3	nsubj	_	GTtags=Sem/Kin,Pl,Nom,Def
+2	pek	пек	ADV	Adv	AdvType=Deg	3	advmod	_	GTtags=Degree
+3	kežijavtnestʹ	кежиявтнемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3
+4	Fedorov	Фёдоров	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	3	obl	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef
+5	langs	лангс	ADP	Adp	AdvType=Loc|Case=Ill	4	case	_	GTtags=Spat,Ill|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	9	punct	_	_
+7	martonzo	марто	ADP	Adp	Number[psor]=Sing|Person[psor]=3	9	obl	_	GTtags=COM,PxSg3
+8	sjovnomo	сёвномс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	9	xcomp	_	GTtags=TV,Inf,Loc
+9	sakšnostʹ	самс	VERB	V	Derivation=OkshnOms|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	3	conj	_	GTtags=IV,Der/ОкшнОмс,V,IV,Ind,Prt1,ScPl3|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:107
+# text = Mikol karmasʹ suvozejentʹ vanʹsʹkavtomo.
+1	Mikol	Микол	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	GTtags=Ant_Mal,Prop,Sg,Nom,Indef
+2	karmasʹ	кармамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+3	suvozejentʹ	сувозей	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obj	_	GTtags=Sg,Gen,Def
+4	vanʹsʹkavtomo	ваньськавтомо	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	2	xcomp	_	GTtags=TV,Inf,Loc|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:217
+# text = Mikol vany — potmar alo levksenze marto psaka madezʹ ašti.
+1	Mikol	Микол	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	GTtags=Prop,Ant_Mal,Sg,Nom,Indef
+2	vany	ваномс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3
+3	—	—	PUNCT	PUNCT	_	10	punct	_	_
+4	potmar	потмар	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	obl	_	GTtags=Sg,Nom,Indef
+5	alo	ало	ADP	Adp	AdvType=Loc|Case=Loc	4	case	_	GTtags=Spat,Loc
+6	levksenze	левкс	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	obl	_	GTtags=Pl,Gen,PxSg3
+7	marto	марто	ADP	Adp	_	6	case	_	GTtags=COM
+8	psaka	псака	NOUN	N	Animacy=Anim|Case=Nom|Definite=Ind|Number=Sing	10	nsubj	_	GTtags=Sem/Ani,Sg,Nom,Indef
+9	madezʹ	мадемс	VERB	V	Derivation=Ozj|Valency=1|VerbForm=Conv	10	advcl	_	GTtags=IV,Der/Озь,Ger
+10	ašti	аштемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	2	conj	_	GTtags=IV,Ind,Prs,ScSg3|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:275
+# text = Kavonest kece vintovkat, karksozost sodozʹ kavtonʹ-kavtonʹ granat.
+1	Kavonest	кавонест	NUM	Num	Number[psor]=Plur|NumType=Sets|Person[psor]=3	0	root	_	GTtags=AssocColl,PxPl3
+2	kece	кедьсэ	ADP	Adp	AdvType=Loc|Case=Ine	1	case	_	GTtags=Spat,Ine
+3	vintovkat	винтовка	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	1	nsubj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	6	punct	_	_
+5	karksozost	каркс	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	6	obl	_	GTtags=SP,Ill,PxPl3
+6	sodozʹ	содомс	VERB	V	Derivation=Ozj|Valency=2|VerbForm=Conv	1	conj	_	GTtags=TV,Der/Озь,Ger
+7	kavtonʹ-kavtonʹ	кавтонь-кавтонь	NUM	Num	NumType=Dist	8	nummod	_	GTtags=Distr
+8	granat	гранат	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	nsubj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:3981
+# text = Peškedjat leksemste.
+# text_en = Just breath it, and it fills you up.
+# text_fi = Sitä hengittämällä tulee kylläiseksi.
+1	Peškedjat	пешкедемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres	0	root	_	GTtags=Ind,Prs,ScSg2
+2	leksemste	лексемс	VERB	V	Case=Ela|Definite=Ind|VerbForm=Conv	1	advcl	_	GTtags=mstOInf,Ela,Indef|SpaceAfter=No
+3	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:426
+# text = Mon kommunistan.
+# text_en = I'm a communist.
+1	Mon	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg1,Nom
+2-3	kommunistan	_	_	_	_	_	_	_	SpaceAfter=No
+2	kommunist	коммунист	NOUN	N	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Hum,Sg,Nom,Indef
+3	an	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=1|Tense=Pres	2	cop	_	GTtags=Prs,ScSg1
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:72
+# text = Tajgaso kitne arastʹ.
+1	Tajgaso	тайга	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	0	root	_	GTtags=SP,Ine,Indef
+2	kitne	ки	NOUN	N	Case=Nom|Definite=Def|Number=Plur	1	nsubj	_	GTtags=Hom1,Pl,Nom,Def
+3	arastʹ	арась	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Polarity=Neg|Tense=Pres	1	cop	_	GTtags=Neg,Cop,Ind,Prs,ScPl3|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:316
+# text = A večkevitʹ tenze ne lomatne, keževtʹ, saxorostkak uli, Palʹkonenʹ a maksytʹ.
+1	A	а	AUX	Pcle	Polarity=Neg	2	aux:neg	_	GTtags=Neg
+2	večkevitʹ	вечкевемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3
+3	tenze	сон	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	2	obl:agent	_	GTtags=Pers,Sg3,Dat,Short
+4	ne	не	DET	Det	PronType=Dem	5	det	_	GTtags=Dem,Attr
+5	lomatne	ломань	NOUN	N	Case=Nom|Definite=Def|Number=Plur	2	nsubj	_	GTtags=Err/Orth,Pl,Nom,Def|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7-8	keževtʹ	_	_	_	_	_	_	_	SpaceAfter=No
+7	keževtʹ	кежев	ADJ	A	_	2	conj	_	_
+8	tʹ	оль	AUX	Cop	Number[subj]=Plur|Person[subj]=3|Tense=Pres	7	cop	_	GTtags=Prs,ScPl3
+9	,	,	PUNCT	CLB	_	10	punct	_	_
+10	saxorostkak	сахор	NOUN	N	Case=Nom|Clitic=Gak|Number=Sing|Number[psor]=Plur|Person[psor]=3	2	conj	_	GTtags=Sg,Nom,PxPl3,Clt/Gak
+11	uli	улемс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	10	cop	_	GTtags=IV,Ind,Prs,ScSg3|SpaceAfter=No
+12	,	,	PUNCT	CLB	_	15	punct	_	_
+13	Palʹkonenʹ	Палько	PROPN	N	Case=Dat|Definite=Ind|Number=Plur,Sing	15	obl	_	GTtags=Prop,Sem/Sur,SP,Dat,Indef
+14	a	а	AUX	Pcle	Polarity=Neg	15	aux:neg	_	GTtags=Neg
+15	maksytʹ	максомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	2	conj	_	GTtags=TV,Ind,Prs,ScPl3|SpaceAfter=No
+16	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:9
+# text = Atjatne kadyzʹ Mikolonʹ ojmseme, kočkastʹ lija predsedatelʹ.
+1	Atjatne	атя	NOUN	N	Case=Nom|Definite=Def|Number=Plur	2	nsubj	_	GTtags=Pl,Nom,Def
+2	kadyzʹ	кадомс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3,OcSg3
+3	Mikolonʹ	Микол	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Giv|Number=Plur,Sing	2	obj	_	GTtags=Prop,Ant_Mal,SP,Gen,Indef
+4	ojmseme	оймсемс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	2	xcomp:ds	_	GTtags=IV,Inf,Loc|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	6	punct	_	_
+6	kočkastʹ	кочкамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	2	conj	_	GTtags=TV,Ind,Prt1,ScPl3
+7	lija	лия	DET	Det	Case=Nom|Definite=Ind|Number=Sing	8	det	_	GTtags=Sg,Nom,Indef
+8	predsedatelʹ	председатель	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	obj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:78
+# text = ― Ugu! gu! gu!..
+1	―	―	PUNCT	PUNCT	_	2	punct	_	_
+2	Ugu	угу	INTJ	Interj	_	0	root	_	GTtags=_|SpaceAfter=No
+3	!	!	PUNCT	CLB	_	2	punct	_	_
+4	gu	гу	INTJ	Interj	_	2	fixed	_	GTtags=_|SpaceAfter=No
+5	!	!	PUNCT	CLB	_	4	punct	_	_
+6	gu	гу	INTJ	Interj	_	2	fixed	_	GTtags=_|SpaceAfter=No
+7	!..	^excl..	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:105
+# text = ― Konat a molitʹ martonzo ― ledni, uli-parost sajni.
+# text_en = The ones that don't go with him he shoots and takes their belongings.
+1	―	―	PUNCT	PUNCT	_	4	punct	_	_
+2	Konat	кона	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur	4	nsubj	_	GTtags=Pl,Nom,Indef|Gloss=the-ones
+3	a	а	AUX	Pcle	Polarity=Neg	4	aux:neg	_	GTtags=Neg|Gloss=not
+4	molitʹ	молемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	7	ccomp	_	GTtags=IV,Ind,Prs,ScPl3|Gloss=go
+5	martonzo	марто	ADP	Adp	Number[psor]=Sing|Person[psor]=3	4	obl	_	GTtags=COM,PxSg3|Gloss=with
+6	―	―	PUNCT	PUNCT	_	7	punct	_	_
+7	ledni	леднемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3|Gloss=shoot|SpaceAfter=No
+8	,	,	PUNCT	CLB	_	10	punct	_	_
+9	uli-parost	ули-паро	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=3	10	obj	_	GTtags=Pl,Gen,PxPl3|Gloss=wealth
+10	sajni	сайнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	7	conj	_	GTtags=TV,Ind,Prs,ScSg3|Gloss=take|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:190
+# text = Ki a večksynze kizenʹ vasenʹ čitnenʹ?
+1	Ki	кие	PRON	Pron	Animacy=Hum|Case=Nom|Number=Sing|PronType=Int	3	nsubj	_	GTtags=Interr,Hum,Sg,Nom|Gloss=who
+2	a	а	AUX	Pcle	Polarity=Neg	3	aux:neg	_	GTtags=Neg|Gloss=not
+3	večksynze	вечкемс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3,OcPl3|Gloss=love
+4	kizenʹ	кизэ	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	6	nmod	_	GTtags=SP,Gen,Indef|Gloss=summer
+5	vasenʹ	васень	ADJ	A	_	6	amod	_	GTtags=_|Gloss=first
+6	čitnenʹ	чи	NOUN	N	Case=Gen|Definite=Def|Number=Plur	3	obj	_	GTtags=Pl,Gen,Def|Gloss=day|SpaceAfter=No
+7	?	?	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:32
+# text = ― Ox, pek seredjan!..
+1	―	―	PUNCT	PUNCT	_	5	punct	_	_
+2	Ox	ох	INTJ	Interj	_	5	discourse	_	GTtags=_|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	2	punct	_	_
+4	pek	пек	ADV	Adv	AdvType=Deg	5	advmod	_	GTtags=Degree
+5	seredjan	сэредемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg1|SpaceAfter=No
+6	!..	^excl..	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:94
+# text = Lomanesʹ serej, zdorov, sakalonzo raužot.
+1	Lomanesʹ	ломань	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Def
+2-3	serej	_	_	_	_	_	_	_	SpaceAfter=No
+2	serej	сэрей	ADJ	A	_	0	root	_	_
+3	_	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=3|Tense=Pres	2	cop	_	GTtags=Prs,ScSg3
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5-6	zdorov	_	_	_	_	_	_	_	SpaceAfter=No
+5	zdorov	здоров	ADJ	A	_	2	conj	_	_
+6	_	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=3|Tense=Pres	5	cop	_	GTtags=Prs,ScSg3
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	sakalonzo	сакал	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	GTtags=Pl,Nom,PxSg3
+9-10	raužot	_	_	_	_	_	_	_	SpaceAfter=No
+9	raužo	раужо	ADJ	A	_	2	conj	_	_
+10	t	оль	AUX	Cop	Number[subj]=Plur|Person[subj]=3|Tense=Pres	9	cop	_	GTtags=Prs,ScPl3
+11	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:220
+# text = Iljatʹ tokše.
+1	Iljatʹ	иля	AUX	Aux	Mood=Proh|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=2	2	aux:neg	_	_
+2	tokše	токшемс	VERB	V	Connegative=Yes|Valency=2	0	root	_	GTtags=TV,ConNeg|SpaceAfter=No
+3	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:266
+# text = Menʹ-buti od valt, od arsemat: pazosʹ, kelja, arasʹ dy araselʹgak, poptne, kelja, šanžavt, cerʹkovasʹ, kelja, narodonʹ manʹšema tarka...
+1	Menʹ-buti	мезе-бути	PRON	Pron	Case=Gen|Definite=Ind|Number=Plur,Sing|PronType=Ind	3	det	_	GTtags=Indef,SP,Gen,Indef
+2	od	од	ADJ	A	_	3	amod	_	_
+3	valt	вал	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	6	punct	_	_
+5	od	од	ADJ	A	_	6	amod	_	_
+6	arsemat	арсема	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	3	conj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+7	:	:	PUNCT	CLB	_	3	punct	_	_
+8	pazosʹ	паз	NOUN	N	Case=Nom|Definite=Def|Number=Sing	12	nsubj	_	GTtags=Sg,Nom,Def|SpaceAfter=No
+9	,	,	PUNCT	CLB	_	10	punct	_	_
+10	kelja	келя	ADV	Adv	Evident=Nfh	12	advmod	_	GTtags=EvidNfh|SpaceAfter=No
+11	,	,	PUNCT	CLB	_	10	punct	_	_
+12	arasʹ	арась	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Pres	3	appos	_	GTtags=Neg,Cop,Ind,Prs,ScSg3
+13	dy	ды	CCONJ	CC	_	14	cc	_	_
+14	araselʹgak	арась	AUX	V	Clitic=Gak|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Prt2	12	conj	_	GTtags=Neg,Cop,Ind,Prt2,ScSg3,Clt/Gak|SpaceAfter=No
+15	,	,	PUNCT	CLB	_	20	punct	_	_
+16	poptne	поп	NOUN	N	Case=Nom|Definite=Def|Number=Plur	20	nsubj	_	GTtags=Pl,Nom,Def|SpaceAfter=No
+17	,	,	PUNCT	CLB	_	18	punct	_	_
+18	kelja	келя	ADV	Adv	Evident=Nfh	20	advmod	_	GTtags=EvidNfh|SpaceAfter=No
+19	,	,	PUNCT	CLB	_	18	punct	_	_
+20	šanžavt	шанжав	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	12	conj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+21	,	,	PUNCT	CLB	_	22	punct	_	_
+22	cerʹkovasʹ	церькова	NOUN	N	Case=Nom|Definite=Def|Number=Sing	28	nsubj	_	GTtags=Sem/Plc,Sg,Nom,Def|SpaceAfter=No
+23	,	,	PUNCT	CLB	_	24	punct	_	_
+24	kelja	келя	ADV	Adv	Evident=Nfh	28	advmod	_	GTtags=EvidNfh|SpaceAfter=No
+25	,	,	PUNCT	CLB	_	24	punct	_	_
+26	narodonʹ	народ	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	28	nmod	_	GTtags=SP,Gen,Indef
+27	manʹšema	маньшемс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Valency=2|VerbForm=Vnoun	28	compound	_	GTtags=TV,NomAct,N,Sg,Nom,Indef
+28	tarka	тарка	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	12	conj	_	GTtags=Sem/Plc,Sg,Nom,Indef|SpaceAfter=No
+29	...	...	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:72
+# text = Arak se jonov, — nevtsʹ son Kečajnenʹ tarka.
+# text_en = Step over there, Kechai's grandfather said, and showed him a place to stand.
+# text_fi = Istu vähän tuonnemmas, vanha mies osoitti Ketšaille istumapaikan.
+1	Arak	арамс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2	0	root	_	GTtags=Imprt,ScSg2
+2	se	се	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	3	det	_	GTtags=Dem,Sg,Nom,Indef
+3	jonov	ёно	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	1	obl	_	GTtags=Sem/Relat,SP,Lat,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	1	punct	_	_
+5	—	—	PUNCT	CLB	_	6	punct	_	_
+6	nevtsʹ	невтемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	1	parataxis	_	GTtags=TV,Ind,Prt1,ScSg3
+7	son	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	GTtags=Pers,Sg3,Nom
+8	Kečajnenʹ	Кечай	PROPN	N	Case=Dat|Definite=Ind|Number=Plur,Sing	6	obl	_	GTtags=SP,Dat,Indef
+9	tarka	тарка	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:54
+# text = Arʹsezevsʹ semijadonzo.
+1	Arʹsezevsʹ	арсезевемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+2	semijadonzo	семия	NOUN	N	Case=Abl|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	1	obl	_	GTtags=SP,Abl,PxSg3|SpaceAfter=No
+3	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:412
+# text = Mikol vansy ulʹcjavantʹ čiitʹ jaksterearmeject.
+1	Mikol	Микол	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	GTtags=Prop,Ant_Mal,Sg,Nom,Indef
+2	vansy	ваномс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3,OcSg3
+3	ulʹcjavantʹ	ульця	NOUN	N	Case=Prl|Definite=Def|Number=Sing	4	obl	_	GTtags=Sem/Plc,Sg,Prl,Def
+4	čiitʹ	чиемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	2	ccomp	_	GTtags=IV,Ind,Prs,ScPl3
+5	jaksterearmeject	якстереармеец	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	4	nsubj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:55
+# text = Erʹva tarkanok minʹ ods tejtjano.
+1	Erʹva	эрьва	DET	Det	_	2	det	_	GTtags=Tot
+2	tarkanok	тарка	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=1	5	obj	_	GTtags=Sem/Plc,Pl,Gen,PxPl1
+3	minʹ	мон	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	GTtags=Pers,Pl1,Nom
+4	ods	одс	ADV	Adv	Case=Ill	5	advmod	_	GTtags=Mult,Ill
+5	tejtjano	теемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl1|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:326
+# text = Netʹ vana a večkevitʹ.
+1	Netʹ	неть	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	4	nsubj	_	GTtags=Dem,Pl,Nom,Indef
+2	vana	вана	INTJ	Interj	_	4	discourse	_	_
+3	a	а	AUX	Pcle	Polarity=Neg	4	aux:neg	_	GTtags=Neg
+4	večkevitʹ	вечкевемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3547
+# text = Istjat staka tarkat Erjamonʹ kintʹ langso vastnevitʹ avolʹ čurosto.
+1	Istjat	истямо	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	3	det	_	GTtags=Dem,Pl,Nom,Indef
+2	staka	стака	ADJ	A	_	3	amod	_	_
+3	tarkat	тарка	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	7	nsubj	_	GTtags=Sem/Plc,Pl,Nom,Indef
+4	Erjamonʹ	эрямо	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=SP,Gen,Indef
+5	kintʹ	ки	NOUN	N	Case=Gen|Definite=Def|Number=Sing	7	obl	_	GTtags=Sg,Gen,Def
+6	langso	лангсо	ADP	Adp	Case=Ine	5	case	_	GTtags=Ine
+7	vastnevitʹ	вастневемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3
+8	avolʹ	аволь	AUX	Pcle	PartType=Emp|Polarity=Neg	9	aux:neg	_	GTtags=Neg,Intensive
+9	čurosto	чуросто	ADV	Adv	AdvType=Tim	7	advmod	_	GTtags=Mult|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:11259
+# text = — Ilja sova, Ramko leljakaj.
+1	—	—	PUNCT	CLB	_	3	punct	_	_
+2	Ilja	иля	AUX	AUX	Mood=Proh|Number[subj]=Sing|Person[subj]=2	3	aux:neg	_	GTtags=Proh,ScSg2
+3	sova	совамс	VERB	V	Connegative=Yes|Valency=1	0	root	_	GTtags=IV,ConNeg|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	6	punct	_	_
+5	Ramko	Рамко	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	3	vocative	_	GTtags=Prop,Ant_Mal,Sg,Nom,Indef
+6	leljakaj	лелякай	NOUN	N	Derivation=Kaj	5	flat:name	_	GTtags=Sem/Kin,Der/кай,Voc|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4898
+# text = Koda ton kočkat jovtneminetnenʹ?
+1	Koda	кода	ADV	Adv	AdvType=Man|PronType=Int	3	advmod	_	GTtags=Interr,Manner
+2	ton	тон	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	GTtags=Pers,Sg2,Nom
+3	kočkat	кочкамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg2
+4	jovtneminetnenʹ	ёвтнемине	NOUN	N	Case=Gen|Definite=Def|Number=Plur	3	obj	_	GTtags=Pl,Gen,Def|SpaceAfter=No
+5	?	?	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:197
+# text = Marja stolʹ ekšese ozado, varʹgat kody.
+# text_en = Marya is at the table sitting, she's knitting gloves.
+1	Marja	Маря	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Fem|NameType=Giv|Number=Sing	2	nsubj	_	GTtags=Prop,Ant_Fem,Sg,Nom,Indef|Gloss=Marya
+2	stolʹ	столь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|Gloss=table
+3	ekšese	экшсэ	ADP	Adp	AdvType=Loc|Case=Ine	2	case	_	GTtags=Spat,Ine|Gloss=at
+4	ozado	озадо	ADV	Adv	AdvType=Sta	2	xcomp	_	GTtags=Pred2|Gloss=in-sitting-position|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	7	punct	_	_
+6	varʹgat	варьга	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	7	obj	_	GTtags=Pl,Nom,Indef|Gloss=glove
+7	kody	кодамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	2	conj	_	GTtags=TV,Ind,Prs,ScSg3|Gloss=knit|SpaceAfter=No
+8	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:2995
+# text = Kodat ansjak arastʹ kudo jurtsost.
+# text_en = You should see the variety they have at home.
+# text_fi = Millaisia löytyikään kotoa.
+1	Kodat	Кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Plur	3	nsubj	_	GTtags=Pl,Nom,Indef
+2	ansjak	ансяк	ADV	Adv	_	3	advmod	_	_
+3	arastʹ	арамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
+4	kudo	кудо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	compound	_	GTtags=Sem/Build,N,Sg,Nom,Indef
+5	jurtsost	юрт	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	3	obl	_	GTtags=Sem/Inanim_Cnt,SP,Ine,PxPl3|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:1510
+# text = Valozentʹ targamga parcunontʹ tapama.
+# text_en = In order to get the cast out you have to break the mould.
+# text_fi = Valosta esille otettaesa muotti piti rikkoa.
+1-2	Valozentʹ	_	_	_	_	_	_	_	_
+1	Valoz	валомс	VERB	V	Derivation=Ozj|VerbForm=Conv	2	advcl	_	GTtags=Der/Озь,Ger
+2	jentʹ	ось	PRON	Pron	Case=Gen|Definite=Def|Number=Sing	3	obj	_	GTtags=Sg,Gen,Def
+3	targamga	таргамс	VERB	V	Case=Prl|Definite=Ind|VerbForm=Vnoun	5	advcl	_	GTtags=mgaInf,Prl,Indef
+4	parcunontʹ	парцун	NOUN	N	Case=Gen|Definite=Def|Number=Sing	5	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Gen,Def
+5	tapama	тапамс	VERB	V	Derivation=Oma|VerbForm=Conv	0	root	_	GTtags=Oblig|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:124
+# text = — Velesenek tynk velenʹ lomatʹ ulʹnestʹ, jovtnestʹ.
+1	—	—	PUNCT	PUNCT	_	2	punct	_	_
+2	Velesenek	веле	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=1	0	root	_	GTtags=Sem/Plc,SP,Ine,PxPl1
+3	tynk	тон	PRON	Pron	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	nmod	_	GTtags=Pers,Pl2,Gen
+4	velenʹ	веле	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=Sem/Plc,SP,Gen,Indef
+5	lomatʹ	ломань	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	2	nsubj	_	GTtags=Pl,Nom,Indef,Err/Orth
+6	ulʹnestʹ	ульнемс	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	2	cop	_	GTtags=IV,Ind,Prt1,ScPl3|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	8	punct	_	_
+8	jovtnestʹ	ёвтнемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	2	conj	_	GTtags=TV,Ind,Prt1,ScPl3|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:2525
+# text = Ansjak zjardo anokstyze prjanzo čopačatnede vanstomo, seste saize lato aldo iljovonʹ kodazʹ šožda kujmentʹ, povodize kutʹmerezenze, kapodize nurʹka nedʹ marto jortnema sjalgonzo dy syrgasʹ sjovonʹ melʹga.
+# text_en = Only when he had prepaired his amulets to protect him from the beasts did he take the light reed basket from under the lean-to. He hung it on his back snatched up his short-shafted spear and headed off after the clay.
+# text_fi = Vasta silloin, kun hän oli valmistanut suojeluksensa petoja vastaan, hän otti räystään alta kevyen vesoista kudotun kontin ja pani sen selkäänsä, hän otti lyhytvartisen keihänsä ja lähti savea hakemaan.
+1	Ansjak	ансяк	ADV	Adv	_	2	advmod	_	_
+2	zjardo	зярдо	SCONJ	CS	AdvType=Tim	3	mark	_	GTtags=Sem/Time_dur
+3	anokstyze	анокстамс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	9	advcl	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3|SubjRef=1:10.7,2|ObjRef=1:11.1,4
+4	prjanzo	пря	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	GTtags=Sem/Body_part,Sg,Gen,PxSg3
+5	čopačatnede	чопача	NOUN	N	Case=Abl|Definite=Def|Number=Plur	6	obl	_	GTtags=Sem/Inanim_Cnt,Pl,Abl,Def
+6	vanstomo	ванстомс	VERB	V	Case=Loc|VerbForm=Inf	3	xcomp	_	GTtags=Inf,Loc|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	3	punct	_	_
+8	seste	сестэ	ADV	Adv	AdvType=Tim|PronType=Dem	9	advmod	_	GTtags=Dem,Sem/Time
+9	saize	саемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3|SubjRef=1:10.7,2|ObjRef=1:11.1,15
+10	lato	лато	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	obl	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+11	aldo	алдо	ADP	Po	AdpType=Post	10	case	_	GTtags=Sem/Relat,Po
+12	iljovonʹ	илёв	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	15	nmod	_	GTtags=Sem/Inanim_Cnt,SP,Gen,Indef
+13	kodazʹ	кодамс	VERB	V	Derivation=Ozj|VerbForm=Conv	15	acl	_	GTtags=Der/Озь,Ger
+14	šožda	шожда	ADJ	A	_	15	amod	_	_
+15	kujmentʹ	куйме	NOUN	N	Case=Gen|Definite=Def|Number=Sing	9	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Gen,Def|SpaceAfter=No
+16	,	,	PUNCT	CLB	_	17	punct	_	_
+17	povodize	поводемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	9	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3|SubjRef=1:10.7,2|ObjRef=1:11.1,15
+18	kutʹmerezenze	кутьмере	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	17	obl	_	GTtags=Sem/Body_part,SP,Ill,PxSg3|SpaceAfter=No
+19	,	,	PUNCT	CLB	_	20	punct	_	_
+20	kapodize	каподемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	9	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3|SubjRef=1:10.7,2|ObjRef=1:11.1,25
+21	nurʹka	нурька	ADJ	A	_	22	amod	_	_
+22	nedʹ	недь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	25	nmod	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+23	marto	марто	ADP	Adp	AdpType=Post	22	case	_	GTtags=Po
+24	jortnema	ёртнема	NOUN	N	Case=Nom|Definite=Ind|Number=Sing|VerbForm=Vnoun	25	compound	_	GTtags=NomAct,Sg,Nom,Indef
+25	sjalgonzo	сялго	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obj	_	GTtags=Sem/Wpn,Sg,Gen,PxSg3|PqxRef=1:10.7,2
+26	dy	ды	CCONJ	CC	_	27	cc	_	_
+27	syrgasʹ	сыргамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	9	conj	_	GTtags=Ind,Prt1,ScSg3|SubjRef=1:10.7,2
+28	sjovonʹ	сёвонь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	27	obl	_	GTtags=Sem/Inanim,Sem/NCnt,Sg,Nom,Indef
+29	melʹga	мельга	ADP	Adp	AdpType=Post	28	case	_	GTtags=Po|SpaceAfter=No
+30	.	.	PUNCT	CLB	_	9	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:3068
+# text = Tedide vana savsʹ molems Morgonenʹgak.
+# text_en = This year, even Morgo had to go along.
+# text_fi = Tänä vuonnahan piti Morgonkin mennä.
+1	Tedide	тедиде	ADV	Adv	AdvType=Tim	4	advmod	_	GTtags=Dial,Sem/Time_dur
+2	vana	вана	PART	Pcle	_	4	discourse	_	_
+3	savsʹ	савомс	AUX	V	Derivation=OvtOms|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	4	aux	_	GTtags=Der/ОвОмс,IV,Ind,Prt1,ScSg3
+4	molems	молемс	VERB	V	VerbForm=Inf	0	root	_	GTtags=Inf
+5	Morgonenʹgak	Морго	PROPN	N	Case=Dat|Definite=Ind|Number=Plur,Sing	4	nsubj	_	GTtags=Sem/Ant_Mal,SP,Dat,Indef|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:4635
+# text = Syrtjazʹ kšninʹ pšti pejelʹ prjaso karama erʹva pelʹksentenʹ senʹ, meze arsjat valoms.
+# text_en = Each one must be carved with the sharp tip of an iron knife to make all the details wanted for casting
+# text_fi = Hehkutetun rautateräisen veitsen kärjellä piti kaivertaa joka osaan se, minkä aikoi valaa.
+1	Syrtjazʹ	сыртямс	VERB	V	Derivation=Ozj|VerbForm=Conv	2	acl	_	GTtags=Der/Озь,Ger
+2	kšninʹ	кшни	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	4	nmod	_	GTtags=Sem/Mat,SP,Gen,Indef
+3	pšti	пшти	ADJ	A	_	4	amod	_	_
+4	pejelʹ	пеель	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	obl	_	GTtags=Sem/Tool,Sg,Nom,Indef
+5	prjaso	пря	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	4	case	_	GTtags=Sem/Body_part,SP,Ine,Indef
+6	karama	карамс	VERB	V	Derivation=Oma|VerbForm=Conv	0	root	_	GTtags=Oblig
+7	erʹva	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	8	det	_	GTtags=Sg,Nom,Indef
+8	pelʹksentenʹ	пелькс	NOUN	N	Case=Dat|Definite=Def|Number=Sing	6	obl	_	GTtags=Sg,Dat,Def
+9	senʹ	се	PRON	Pron	Case=Gen|PronType=Ind	6	obj	_	GTtags=Indef,Gen|SpaceAfter=No
+10	,	,	PUNCT	CLB	_	12	punct	_	_
+11	meze	мезе	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	13	obj	_	GTtags=Relat,Sg,Nom
+12	arsjat	арсемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=2|Tense=Pres	9	acl:relcl	_	GTtags=Ind,Prs,ScSg2
+13	valoms	валомс	VERB	V	VerbForm=Inf	12	xcomp	_	GTtags=Inf|SpaceAfter=No
+14	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:8454
+# text = Algaksozo pštidezʹ, natʹ, avasʹ alkuks kudo šlilʹ.
+1	Algaksozo	алгакс	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	GTtags=Sg,Nom,PxSg3|1q-1:11.4,6=_
+2-3	pštidezʹ	_	_	_	_	_	_	_	SpaceAfter=No
+2	pštidezʹ	пштидемс	VERB	V	Derivation=Ozj|Valency=2|VerbForm=Conv	0	root	_	GTtags=TV,Der/Озь,Ger
+3	_	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=3|Tense=Pres	2	cop	_	GTtags=Prs,ScSg3
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	natʹ	нать	ADV	Adv	_	10	advmod	_	GTtags=Parenthetic|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7	avasʹ	ава	NOUN	N	Case=Nom|Definite=Def|Number=Sing	10	nsubj	_	GTtags=Sem/Kin,Sg,Nom,Def
+8	alkuks	алкукс	ADV	Adv	_	10	advmod	_	_
+9	kudo	кудо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	obj	_	GTtags=Sem/Plc,Sg,Nom,Indef
+10	šlilʹ	шлямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt2|Valency=2	2	conj	_	GTtags=TV,Ind,Prt2,ScSg3|1q-1:11.4,6=_|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:61
+# text = Škasʹ jutasʹ avolʹ alamo.
+1	Škasʹ	шка	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Def
+2	jutasʹ	ютамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3
+3	avolʹ	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	4	aux:neg	_	GTtags=Neg,Emphatic
+4	alamo	аламо	ADV	Adv	_	2	advmod	_	GTtags=Qnt|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:338
+# text = «— Palʹko...
+1	«	«	PUNCT	PUNCT	_	3	punct	_	GTtags=LEFT|SpaceAfter=No
+2	—	—	PUNCT	PUNCT	_	3	punct	_	_
+3	Palʹko	Палько	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Prop,Sem/Sur,Sg,Nom,Indef|SpaceAfter=No
+4	...	...	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:1107
+# text = Vana tese idem tuvo karasʹ, bažasʹ, natʹ, zdyjentʹ alga jutamo tarka tejems, dy stjako: domkasto sovavtozʹ synst pultazʹ-čentjazʹ petne — iljazt naksado — moda pots.
+# text_en = Look there was a wild boar over here, it was trying to burrow under the piles but to no avail; their burnt ends have been sunken deep in the earth where they will not rot.
+# text_fi = Kas tuossa on tonkinut villisika, joka on kai yrittänyt kaivautua aidan ali, mutta turhaan: paalujen tyvet on kuumennettu ja poltettu mätänemisen estämiseksi, ja ne on upotettu syvälle maahan.
+1	Vana	вана	PART	Pcle	_	2	discourse	_	_
+2	tese	тесэ	ADV	Adv	AdvType=Loc|Case=Ine|PronType=Dem	5	advmod	_	GTtags=Spat,Adv,Dem,Ine
+3	idem	идем	ADJ	A	_	4	amod	_	_
+4	tuvo	туво	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+5	karasʹ	карамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,ScSg3|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	bažasʹ	бажамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	5	conj	_	GTtags=Ind,Prt1,ScSg3|SpaceAfter=No
+8	,	,	PUNCT	CLB	_	9	punct	_	_
+9	natʹ	нать	ADV	Adv	_	7	advmod	_	GTtags=Parenthetic|SpaceAfter=No
+10	,	,	PUNCT	CLB	_	9	punct	_	_
+11	zdyjentʹ	здый	NOUN	N	Case=Gen|Definite=Def|Number=Sing	13	obl	_	GTtags=Sem/Inanim_Cnt,Sg,Gen,Def
+12	alga	алга	ADP	Adp	AdpType=Post|Case=Prl	11	case	_	GTtags=Po,Prl
+13	jutamo	ютамо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing|Valency=1	14	compound	_	GTtags=IV,Sg,Nom,Indef
+14	tarka	тарка	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	15	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+15	tejems	теемс	VERB	V	VerbForm=Inf	7	xcomp	_	GTtags=Inf|SpaceAfter=No
+16	,	,	PUNCT	CLB	_	18	punct	_	_
+17	dy	ды	CCONJ	CC	_	18	cc	_	_
+18	stjako	стяко	ADJ	A	_	7	advmod	_	GTtags=_|SpaceAfter=No
+19	:	:	PUNCT	CLB	_	7	punct	_	_
+20	domkasto	домка	ADV	Adv	Derivation=AdvstO	21	advmod	_	GTtags=Der/A_стО,Adv
+21	sovavtozʹ	совавтомс	VERB	V	Case=Nom|Definite=Ind|Derivation=Ozj|Number=Sing|Valency=2|VerbForm=Conv	7	xcomp	_	GTtags=TV,Der/Озь,Ger,Sg,Nom,Indef
+22	synst	сон	PRON	Pron	Case=Gen|Number=Plur|Person=3|PronType=Prs	24	det	_	GTtags=Pers,Pl,Person
+23	pultazʹ-čentjazʹ	пултамс-чентямс	VERB	V	Derivation=Ozj|VerbForm=Conv	24	acl	_	GTtags=Der/Озь,Ger
+24	petne	пе	NOUN	N	Case=Nom|Definite=Def|Number=Plur	21	nsubj	_	GTtags=Sem/Inanim_Cnt,Pl,Nom,Def
+25	—	—	PUNCT	CLB	_	27	punct	_	_
+26	iljazt	иля	AUX	V	Mood=Opt|Number[subj]=Plur|Person[subj]=3|Polarity=Neg	27	aux:neg	_	GTtags=Neg,Opt,ScPl3
+27	naksado	наксадомс	VERB	V	Connegative=Yes|Valency=1	21	advcl	_	GTtags=IV,ConNeg
+28	—	—	PUNCT	CLB	_	29	punct	_	_
+29	moda	мода	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	27	obl	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+30	pots	потмо	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	29	case	_	GTtags=Sem/Inanim_Cnt,SP,Ill,Indef|SpaceAfter=No
+31	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:2717
+# text = Avazo kol avolʹ ansjak čakšonʹ tejneme dy jarsamopelenʹ anokstamo — erʹva mezenʹ valomojak.
+# text_en = Not only was Kechai's mother good at making pots and preparing food, she was a skilled caster.
+# text_fi = Ketšain äiti oli taitava ei ainoastaan ruukkujen ja ruoanteossa, hän osasi myös valaa kaikenlaisia esineitä.
+1	Avazo	ава	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nsubj	_	GTtags=Sem/Kin,Sg,Nom,PxSg3
+2	kol	кол	ADJ	A	_	0	root	_	_
+3	avolʹ	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	4	aux:neg	_	GTtags=Neg,Emphatic
+4	ansjak	ансяк	ADV	Adv	_	6	advmod	_	_
+5	čakšonʹ	чакш	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	6	obj	_	GTtags=Sem/Inanim_Cnt,SP,Gen,Indef
+6	tejneme	тейнемс	VERB	V	Case=Loc|VerbForm=Inf	2	xcomp	_	GTtags=Inf,Loc
+7	dy	ды	CCONJ	CC	_	9	cc	_	_
+8	jarsamopelenʹ	ярсамопелень	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	9	obj	_	GTtags=SP,Gen,Indef
+9	anokstamo	анокстамс	VERB	V	Case=Loc|VerbForm=Inf	6	conj	_	GTtags=Inf,Loc
+10	—	—	PUNCT	CLB	_	13	punct	_	_
+11	erʹva	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing	12	det	_	GTtags=Sg,Nom,Indef
+12	mezenʹ	мезень	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	13	obj	_	GTtags=SP,Gen,Indef
+13	valomojak	валомс	VERB	V	Case=Loc|Clitic=Gak|VerbForm=Inf	6	conj	_	GTtags=Inf,Loc,Clt/Gak|SpaceAfter=No
+14	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:319
+# text = Vadrjalʹtʹ lomatne.
+1-2	Vadrjalʹtʹ	_	_	_	_	_	_	_	_
+1	Vadrja	вадря	ADJ	A	_	0	root	_	_
+2	lʹtʹ	оль	AUX	Cop	Number[subj]=Plur|Person[subj]=3|Tense=Prt2	1	cop	_	GTtags=Prt2,ScPl3
+3	lomatne	ломань	NOUN	N	Case=Nom|Definite=Def|Number=Plur	1	nsubj	_	GTtags=Err/Orth,Pl,Nom,Def|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:146
+# text = ― Ox, avinem-korminem!
+1	―	―	PUNCT	PUNCT	_	4	punct	_	_
+2	Ox	ох	INTJ	Interj	_	4	discourse	_	GTtags=_|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	2	punct	_	_
+4-6	avinem-korminem	_	_	_	_	_	_	_	SpaceAfter=No
+4	avinem	авине	NOUN	N	Case=Nom|Derivation=Dimin|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	GTtags=Der/НЕ,Der/Dimin,N,Sg,Nom,PxSg1
+5	-	-	PUNCT	Cmp/Hyph	_	6	punct	_	_
+6	korminem	корма	NOUN	N	Case=Nom|Derivation=Dimin|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	compound	_	GTtags=Der/НЕ,Der/Dimin,N,Sg,Nom,PxSg1
+7	!	!	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3255
+# text = «Tov, kuva čijnesʹ pakša pingem».
+1	«	«	PUNCT	PUNCT	_	2	punct	_	GTtags=_|SpaceAfter=No
+2	Tov	тов	ADV	Adv	Case=Lat	0	root	_	GTtags=Lat|Gloss=to-there|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	5	punct	_	_
+4	kuva	кува	ADV	Adv	AdvType=Loc|Case=Prl|PronType=Rel	5	advmod	_	GTtags=Rel,Spat,Prl|Gloss=where
+5	čijnesʹ	чийнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	2	advcl	_	GTtags=TV,Ind,Prt1,ScSg3|Gloss=run-around
+6	pakša	пакша	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	compound	_	GTtags=Sg,Nom,Indef|Gloss=child
+7	pingem	пинге	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	GTtags=Sg,Nom,PxSg1|Gloss=time|SpaceAfter=No
+8	»	»	PUNCT	PUNCT	_	2	punct	_	GTtags=_|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:5908
+# text = Vadrja, buti vasenʹ mirdesʹ, xotʹ merems, pek čavovlimim ansjak, ojmem avolize saje.
+1	Vadrja	вадря	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Der/MWN,N,Sg,Nom,Indef|SpaceAfter=No
+2	,	,	PUNCT	CLB	_	11	punct	_	_
+3	buti	бути	SCONJ	CS	_	11	mark	_	_
+4	vasenʹ	васень	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	5	amod	_	GTtags=Der/MWN,N,Sg,Nom,Indef
+5	mirdesʹ	мирде	NOUN	N	Case=Nom|Definite=Def|Number=Sing	11	nsubj	_	GTtags=Sem/Kin_Mal,Sg,Nom,Def|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	8	punct	_	_
+7	xotʹ	хоть	SCONJ	CS	_	8	mark	_	_
+8	merems	меремс	VERB	V	Valency=1|VerbForm=Inf	11	parataxis	_	GTtags=IV,Inf|SpaceAfter=No
+9	,	,	PUNCT	CLB	_	8	punct	_	_
+10	pek	пек	ADV	Adv	AdvType=Deg	11	advmod	_	GTtags=Degree
+11	čavovlimim	чавомс	VERB	V	Mood=Cnj|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Valency=2	1	ccomp	_	GTtags=TV,Conj,ScSg3,OcSg1
+12	ansjak	ансяк	ADV	Adv	_	11	advmod	_	GTtags=Exclusive|SpaceAfter=No
+13	,	,	PUNCT	CLB	_	16	punct	_	_
+14	ojmem	ойме	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	16	obj	_	GTtags=Sg,Gen,PxSg1
+15	avolize	аволь	AUX	V	Mood=Cnj|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Polarity=Neg	16	aux:neg	_	GTtags=Neg,Conj,ScSg3,OcSg3
+16	saje	саемс	VERB	V	Connegative=Yes|Valency=2	11	conj	_	GTtags=TV,ConNeg|SpaceAfter=No
+17	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:5758
+# text = Rakšanʹ pulo pes, kelja, sodoztjado.
+# text_en = They say you are tied on to the tail end of those animals.
+# text_fi = Sanottiin, että heidät oli sidottu eläinten häntään kiinni.
+1	Rakšanʹ	ракша	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	nmod	_	GTtags=Sem/Anim_Cnt,SP,Gen,Indef
+2	pulo	пуло	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	compound	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+3	pes	пе	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	7	obl	_	GTtags=Sem/Inanim_Cnt,SP,Ill,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	kelja	келя	PART	Pcle	Evident=Nfh	7	advmod	_	GTtags=Evid,Parenthetic|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7-8	sodoztjado	_	_	_	_	_	_	_	SpaceAfter=No
+7	sodoz	содомс	VERB	V	Derivation=Ozj|VerbForm=Conv	0	root	_	GTtags=Der/Озь
+8	tjado	оль	AUX	Cop	Number[subj]=Plur|Person[subj]=2|Tense=Pres	7	cop	_	GTtags=Prs,ScPl2
+9	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2383
+# text = Kona jono ašoso leksitʹ umarʹ piretne?
+1	Kona	кона	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	4	obl	_	GTtags=Interr,Sg,Nom,Indef
+2	jono	ёно	ADP	Adp	AdvType=Loc|Case=Loc	1	case	_	GTtags=Spat,Loc
+3	ašoso	ашо	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	4	obl	_	GTtags=SP,Ine,Indef
+4	leksitʹ	лексемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3
+5	umarʹ	умарь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	compound	_	GTtags=Sg,Nom,Indef
+6	piretne	пиретне	NOUN	N	Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	GTtags=Pl,Nom,Def|SpaceAfter=No
+7	?	?	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:270
+# text = Oršazʹ paro šinelʹse, bokasonzo revolʹver.
+1	Oršazʹ	оршамс	VERB	V	Derivation=Ozj|Valency=2|VerbForm=Conv	0	root	_	GTtags=TV,Der/Озь,Ger
+2	paro	паро	ADJ	A	_	3	amod	_	_
+3	šinelʹse	шинель	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	1	obl	_	GTtags=SP,Ine,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	bokasonzo	бока	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	1	conj	_	GTtags=Sem/Plc,SP,Ine,PxSg3
+6	revolʹver	револьвер	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:35
+# text = Te kinigantʹ lovnycjanzo uleme karmitʹ avolʹ alamo.
+1	Te	те	DET	Det	Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg|Gloss=this
+2	kinigantʹ	кинига	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	nmod	_	GTtags=Sg,Gen,Def|Gloss=book
+3	lovnycjanzo	ловныця	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	GTtags=Pl,Nom,PxSg3|Gloss=reader
+4	uleme	улемс	AUX	V	Case=Loc|Valency=1|VerbForm=Inf	7	cop	_	GTtags=IV,Inf,Loc|Gloss=be
+5	karmitʹ	кармамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3|Gloss=begin
+6	avolʹ	аволь	AUX	Pcle	PartType=Emp|Polarity=Neg	7	aux:neg	_	GTtags=Neg,Intensive|Gloss=other-than
+7	alamo	аламо	DET	Det	Case=Nom|Definite=Ind|Number=Sing	5	xcomp	_	GTtags=Qnt,N,Sg,Nom,Indef|Gloss=a-little|SpaceAfter=No
+8	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:142
+# text = A kuš, a kaš.
+1	A	а	AUX	Pcle	Polarity=Neg	0	root	_	GTtags=Neg
+2	kuš	куш	SCONJ	CS	_	1	fixed	_	GTtags=_|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	1	punct	_	_
+4	a	а	AUX	Pcle	Polarity=Neg	1	fixed	_	GTtags=Neg
+5	kaš	каш	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	fixed	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:4152
+# text = — Meks?
+1	—	—	PUNCT	PUNCT	_	2	punct	_	_
+2	Meks	мекс	ADV	Adv	Case=Tra|PronType=Int	0	root	_	GTtags=Interr,Tra|Gloss=why|SpaceAfter=No
+3	?	?	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:1174
+# text = Kužotne pirjazʹ pezemksenʹ serej zdyjse.
+# text_en = The lanes were fenced of with tall piles.
+# text_fi = Asutusaukiot on aidattu korkeilla puupaaluilla.
+1	Kužotne	кужо	NOUN	N	Case=Nom|Definite=Def|Number=Plur	2	nsubj	_	GTtags=Sem/Inanim_Cnt,Pl,Nom,Def
+2	pirjazʹ	пирямс	VERB	V	Derivation=Ozj|VerbForm=Conv	0	root	_	GTtags=Der/Озь,Ger
+3	pezemksenʹ	пезэмкс	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=Sem/Inanim_Cnt,SP,Gen,Indef
+4	serej	сэрей	ADJ	A	_	5	amod	_	_
+5	zdyjse	здый	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	2	obl	_	GTtags=Sem/Inanim_Cnt,SP,Ine,Indef|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:215
+# text = Vasnjajak, sajsʹ sjovonʹ komoro dy tejsʹ ejstenze sjukoro.
+# text_en = First of all, she took a handful of clay and made a patty out of it.
+# text_fi = Ensin äiti otti kourallisen savea ja muovasi siitä kakkaran.
+1	Vasnjajak	Васняяк	ADV	Adv	_	3	advmod	_	GTtags=Parenthetic|SpaceAfter=No
+2	,	,	PUNCT	CLB	_	1	punct	_	_
+3	sajsʹ	саемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,ScSg3
+4	sjovonʹ	сёвонь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	compound	_	GTtags=Sem/Inanim,Sem/NCnt,Sg,Nom,Indef
+5	komoro	коморо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+6	dy	ды	CCONJ	CC	_	7	cc	_	_
+7	tejsʹ	теемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	3	conj	_	GTtags=Ind,Prt1,ScSg3
+8	ejstenze	эйстэ	ADP	Adp	Case=Ela|Number[psor]=Sing|Person[psor]=3	7	obl	_	GTtags=Ela,PxSg3
+9	sjukoro	сюкоро	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:259
+# text = Čurosto vastnevicja valtnenʹ sjormadomanʹ koctontenʹ sovavtomsto ulʹnesʹ prevsem ve melʹ: sjupalgavtoms, koda maštan, teči istja seredicja čačoma kelem.
+1	Čurosto	чуросто	ADV	Adv	_	2	advmod	_	GTtags=Qnt
+2	vastnevicja	вастневемс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Tense=Pres|Valency=1|VerbForm=Part	3	acl	_	GTtags=IV,Act,Prs,VerbForm
+3	valtnenʹ	вал	NOUN	N	Case=Gen|Definite=Def|Number=Plur	6	obj	_	GTtags=Pl,Gen,Def
+4	sjormadomanʹ	сёрмадомс	VERB	V	Case=Gen|Definite=Ind|Number=Plur,Sing|Valency=2|VerbForm=Vnoun	5	nmod	_	GTtags=TV,NomAct,SP,Gen,Indef
+5	koctontenʹ	коцт	NOUN	N	Case=Dat|Definite=Def|Number=Sing	6	obl	_	GTtags=Sg,Dat,Def
+6	sovavtomsto	совавтомс	VERB	V	Case=Ela|Valency=2|VerbForm=Conv	8	advcl	_	GTtags=TV,Ger,Ela
+7	ulʹnesʹ	ульнемс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	8	cop	_	GTtags=IV,Ind,Prt1,ScSg3
+8	prevsem	прев	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	GTtags=SP,Ine,Err/Orth,PxSg1
+9	ve	ве	NUM	Num	NumType=Card	10	nummod	_	GTtags=Qnt,Adn
+10	melʹ	мель	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	nsubj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+11	:	:	PUNCT	CLB	_	8	punct	_	_
+12	sjupalgavtoms	сюпалгавтомс	VERB	V	Valency=2|VerbForm=Inf	8	parataxis	_	GTtags=TV,Inf|SpaceAfter=No
+13	,	,	PUNCT	CLB	_	15	punct	_	_
+14	koda	кода	ADV	Adv	AdvType=Man|PronType=Int	15	advmod	_	GTtags=Interr,Manner
+15	maštan	маштан	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=1	8	advcl	_	GTtags=IV,Ind,Prs,ScSg1|SpaceAfter=No
+16	,	,	PUNCT	CLB	_	15	punct	_	_
+17	teči	течи	ADV	Adv	AdvType=Tim	19	advmod	_	GTtags=Sem/Time
+18	istja	истя	ADV	Adv	AdvType=Man	19	advmod	_	GTtags=Manner
+19	seredicja	сэредемс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Tense=Pres|Valency=1|VerbForm=Part	21	acl	_	GTtags=IV,Act,Prs,VerbForm
+20	čačoma	чачома	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	21	compound	_	GTtags=Sg,Nom,Indef
+21	kelem	кель	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	12	obj	_	GTtags=Sg,Gen,PxSg1|SpaceAfter=No
+22	.	.	PUNCT	CLB	_	8	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:10
+# text = Minʹ anokstatano paro orudijat.
+1	Minʹ	минь	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	GTtags=Pers,Pl1,Nom
+2	anokstatano	анокстамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl1
+3	paro	паро	ADJ	A	_	4	amod	_	_
+4	orudijat	орудия	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	2	obj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:772
+# text = ― A tonʹ menʹ tev kijan mon?..
+# text_en = ― What business is that of yours who I am?..
+1	―	―	PUNCT	PUNCT	_	3	punct	_	_
+2	A	а	CCONJ	CC	_	3	cc	_	_
+3	tonʹ	тон	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	5	nmod	_	GTtags=Pers,Sg2,Gen
+4	menʹ	мень	ADJ	A	Derivation=GenAttr|PronType=Int	5	amod	_	GTtags=Interr,Der/GenAttr,A
+5	tev	тев	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef
+6-7	kijan	_	_	_	_	_	_	_	_
+6	ki	кие	PRON	Pron	Animacy=Hum|PronType=Int	5	csubj	_	GTtags=Interr,Hum
+7	jan	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=1|Tense=Pres	6	cop	_	GTtags=Prs,ScSg1
+8	mon	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	GTtags=Pers,Sg1,Nom|SpaceAfter=No
+9	?..	?..	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:3
+# text = Erjavsʹ kajavtoms prodrazverstka, uskovtoms volostev pengtʹ.
+1	Erjavsʹ	эрявомс	AUX	Aux	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	2	aux	_	_
+2	kajavtoms	каявтомс	VERB	V	Valency=2|VerbForm=Inf	0	root	_	GTtags=TV,Inf
+3	prodrazverstka	продразвёрстка	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	obj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	uskovtoms	усковтомс	VERB	V	Valency=2|VerbForm=Inf	2	conj	_	GTtags=TV,Inf
+6	volostev	волость	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=Sem/Plc,SP,Lat,Indef
+7	pengtʹ	пенге	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	5	obj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+8	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:175
+# text = Targatanok, Mikol, eščo vestʹ venze lanks.
+1	Targatanok	таргамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Err/Orth,Ind,Prs,ScPl1|SpaceAfter=No
+2	,	,	PUNCT	CLB	_	3	punct	_	_
+3	Mikol	Микол	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	1	vocative	_	GTtags=Prop,Ant_Mal,Sg,Nom,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	eščo	ещё	ADV	Adv	AdvType=Tim	1	advmod	_	GTtags=Err/Lex,Temp
+6	vestʹ	весть	ADV	Adv	NumType=Mult	1	advmod	_	GTtags=Iter
+7	venze	ве	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	obl	_	GTtags=Sg,Gen,PxSg3
+8	lanks	лангс	ADP	Adp	AdvType=Loc|Case=Ill	7	case	_	GTtags=Spat,Ill|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:3074
+# text = Okojniki, udomazo doprok sezevsʹ.
+# text_en = Finally, you might say, his sleep left him.
+# text_fi = Lopulta, uni oli poissa.
+1	Okojniki	окойники	ADV	Adv	AdvType=Tim	5	advmod	_	GTtags=Sem/Time|SpaceAfter=No
+2	,	,	PUNCT	CLB	_	1	punct	_	_
+3	udomazo	удома	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	5	nsubj	_	GTtags=V,NomAct,Sg,Nom,PxSg3|PqxRef=1:1.1,1
+4	doprok	допрок	PART	Pcle	Case=Nom|Definite=Ind|Number=Sing	5	advmod	_	GTtags=Sg,Nom,Indef
+5	sezevsʹ	сезевемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,ScSg3|SubjRef=1:1.5,3|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:11
+# text = Avolʹ pek šumazʹ oxajesʹ dy kuvsesʹ.
+1	Avolʹ	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	2	aux:neg	_	GTtags=Neg,Emphatic
+2	pek	пек	ADV	Adv	AdvType=Deg	3	advmod	_	GTtags=Degree
+3	šumazʹ	шумамс	VERB	V	Derivation=Ozj|Valency=1|VerbForm=Conv	4	advcl	_	GTtags=IV,Der/Озь,Ger
+4	oxajesʹ	охаемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+5	dy	ды	CCONJ	CC	_	6	cc	_	_
+6	kuvsesʹ	кувсемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	4	conj	_	GTtags=IV,Ind,Prt1,ScSg3|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:463
+# text = — Koda eno?
+# text_en = What do you think?
+1	—	—	PUNCT	PUNCT	_	2	punct	_	_
+2	Koda	кода	ADV	Adv	AdvType=Man|PronType=Int	0	root	_	GTtags=Interr,Manner
+3	eno	эно	PART	Pcle	_	2	discourse	_	GTtags=Epist|SpaceAfter=No
+4	?	?	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:68
+# text = Partizantne sedejak nusmanjasto noldtnizʹ prjast meštezest.
+1	Partizantne	партизан	NOUN	N	Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	GTtags=Pl,Nom,Def
+2	sedejak	седеяк	ADV	Adv	Clitic=Gak|Degree=Cmp	3	advmod	_	GTtags=Comp,Clt/Gak
+3	nusmanjasto	нусманясто	ADV	Adv	AdvType=Man|Case=Ela	4	advmod	_	GTtags=Manner,Ela
+4	noldtnizʹ	нолдтнемс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3,OcPl3
+5	prjast	пря	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=3	4	obj	_	GTtags=Sem/Plc,Pl,Gen,PxPl3
+6	meštezest	меште	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	4	obl	_	GTtags=SP,Ill,PxPl3|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:191
+# text = Kirjonʹ jovtnimatnede mejle Mikolonʹ sedejeze a tarkaso.
+1	Kirjonʹ	Кирё	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Giv|Number=Plur,Sing	2	nmod	_	GTtags=Ant_Mal,Prop,SP,Gen,Indef
+2	jovtnimatnede	ёвтнемс	VERB	V	Case=Abl|Definite=Def|Number=Plur|Valency=2|VerbForm=Vnoun	3	obl	_	GTtags=TV,NomAct,N,Pl,Abl,Def
+3	mejle	мейле	ADV	Adv	AdvType=Tim	7	obl	_	GTtags=Temp
+4	Mikolonʹ	Микол	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Giv|Number=Plur,Sing	5	nmod	_	GTtags=Prop,Ant_Mal,SP,Gen,Indef
+5	sedejeze	седей	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	GTtags=Sg,Nom,PxSg3
+6	a	а	AUX	Pcle	Polarity=Neg	7	aux:neg	_	GTtags=Neg
+7	tarkaso	тарка	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	0	root	_	GTtags=Sem/Plc,SP,Ine,Indef|SpaceAfter=No
+8	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:257
+# text = ― Vide!
+1	―	―	PUNCT	PUNCT	_	2	punct	_	_
+2	Vide	виде	INTJ	Interj	_	0	root	_	GTtags=_|SpaceAfter=No
+3	!	!	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:50a
+# text = Jastrebov tol pandjantʹ vaksso kortnesʹ mestʹ buti kolmo partizantnenʹ marto.
+1	Jastrebov	Ястребов	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	5	nsubj	_	GTtags=Sur_Mal,Prop,Sg,Nom,Indef
+2	tol	тол	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	compound	_	GTtags=Sg,Nom,Indef
+3	pandjantʹ	пандя	NOUN	N	Case=Gen|Definite=Def|Number=Sing	5	obl	_	GTtags=Sg,Gen,Def
+4	vaksso	вакссо	ADP	Adp	AdvType=Loc|Case=Ine	2	case	_	GTtags=Spat,Ine
+5	kortnesʹ	кортнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+6	mestʹ	мезе	PRON	Pron	Case=Nom|Number=Plur|PronType=Int	5	obj	_	GTtags=Interr,Orth/PhonInfl,Nom,Pl
+7	buti	бути	PART	Pcle	_	6	fixed	_	_
+8	kolmo	колмо	NUM	Num	NumType=Card	9	nummod	_	GTtags=Card
+9	partizantnenʹ	партизан	NOUN	N	Case=Gen|Definite=Def|Number=Plur	5	obl	_	GTtags=Pl,Gen,Def
+10	marto	марто	ADP	Adp	_	9	case	_	GTtags=COM|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:3768
+# text = Selʹme pese kajasʹ vanovt avanzo jonov, ezize redja li tona, meze lapaksasʹ Kečaj dy keženʹ pačk moderdize.
+# text_en = He looked at his mother out the corner of his eye, she hadn't noticed what Kechai had been making, had she? Kechai crumpled up his pot in a fit of fury.
+# text_fi = Ketšai vilkaisi silmäkulmastaan äitinsä suuntaan, olikohan tämän havainnut, mitä poika oli taitamattomasti tehnyt. Sitten hän vihoissaan särki ruukun.
+1	Selʹme	сельме	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	compound	_	GTtags=Sem/Body_part,Sg,Nom,Indef
+2	pese	пе	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=Sem/Inanim_Cnt,SP,Ine,Indef
+3	kajasʹ	каямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,ScSg3
+4	vanovt	вановт	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	obj	_	GTtags=Sg,Nom,Indef
+5	avanzo	ава	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	nmod	_	GTtags=Sem/Kin,Sg,Gen,PxSg3
+6	jonov	ёно	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=Sem/Relat,SP,Lat,Indef|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	ezize	эзь	AUX	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Polarity=Neg|Tense=Prt1	9	aux:neg	_	GTtags=Neg,Ind,Prt1,ScSg3,OcSg3
+9	redja	редямс	VERB	V	Connegative=Yes	3	xcomp	_	GTtags=ConNeg
+10	li	ли	AUX	Pcle	_	9	aux:q	_	GTtags=Qst,ForeignNew
+11	tona	тона	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	9	obj	_	GTtags=Dem,Sg,Nom,Indef|SpaceAfter=No
+12	,	,	PUNCT	CLB	_	14	punct	_	_
+13	meze	мезе	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	14	obj	_	GTtags=Interr,Sg,Nom
+14	lapaksasʹ	лапаксамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	11	acl:relcl	_	GTtags=Ind,Prt1,ScSg3
+15	Kečaj	Кечай	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	14	nsubj	_	GTtags=Ant_Mal,Sg,Nom,Indef
+16	dy	ды	CCONJ	CC	_	19	cc	_	_
+17	keženʹ	кеж	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	19	obl	_	GTtags=Sem/Inanim_Cnt,SP,Gen,Indef
+18	pačk	пачк	ADP	Adp	AdpType=Post	17	case	_	GTtags=Po
+19	moderdize	модердямс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	3	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3|SpaceAfter=No
+20	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:11629
+# text = Vitʹ komorso lepštjazʹ nulantʹ ejste rudaz vedesʹ čudi kirʹgavanzo.
+1	Vitʹ	вить	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	2	amod	_	GTtags=Sg,Nom,Indef
+2	komorso	комор	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=SP,Ine,Indef
+3	lepštjazʹ	лепштямс	VERB	V	Derivation=Ozj|Valency=2|VerbForm=Conv	4	acl	_	GTtags=TV,Der/Озь,Ger
+4	nulantʹ	нула	NOUN	N	Case=Gen|Definite=Def|Number=Sing	8	obl	_	GTtags=Sg,Gen,Def
+5	ejste	эйстэ	ADP	Adp	AdpType=Post|Case=Ela	4	case	_	GTtags=Po,Ela
+6	rudaz	рудаз	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	compound	_	GTtags=Sg,Nom,Indef
+7	vedesʹ	ведь	NOUN	N	Case=Nom|Definite=Def|Number=Sing	8	nsubj	_	GTtags=Sg,Nom,Def
+8	čudi	чудемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3|1q-1:11.6,7=_
+9	kirʹgavanzo	кирьга	NOUN	N	Case=Prl|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	GTtags=SP,Prl,PxSg3|1q-1:11.4,6=_|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	8	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:3902
+# text = A maksytʹ tenze kšninʹ nal prjat.
+# text_en = They do not let him have iron arrowheads.
+# text_fi = Hänelle ei anneta rautaisia nuolenkärkiä.
+1	A	а	AUX	Pcle	Polarity=Neg	2	aux:neg	_	GTtags=Neg
+2	maksytʹ	максомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,ScPl3
+3	tenze	сон	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	2	obl	_	GTtags=Pers,Sg3,Dat,Short
+4	kšninʹ	кшни	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=Sem/Mat,SP,Gen,Indef
+5	nal	нал	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	compound	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+6	prjat	пря	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	2	obj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:355
+# text = Kosto saik sonze?
+1	Kosto	косто	ADV	Adv	Case=Ela|PronType=Int	2	obl	_	GTtags=Interr,Ela
+2	saik	саемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg2,OcSg3
+3	sonze	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	obj	_	GTtags=Pers,Sg3,Gen|SpaceAfter=No
+4	?	?	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:186
+# text = Synʹ lakavctʹ čaj, jarsastʹ alamnede dy syrʹgastʹ erʹvejke esʹ kijavanzo.
+1	Synʹ	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Pl3,Nom
+2	lakavctʹ	лакавтомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3
+3	čaj	чай	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	obj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	jarsastʹ	ярсамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	2	conj	_	GTtags=IV,Ind,Prt1,ScPl3
+6	alamnede	аламне	DET	Det	Case=Abl|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=SP,Abl,Indef
+7	dy	ды	CCONJ	CC	_	8	cc	_	_
+8	syrʹgastʹ	сыргамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	2	conj	_	GTtags=TV,Ind,Prt1,ScPl3
+9	erʹvejke	эрьвейке	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	8	nsubj	_	GTtags=Tot,Sg,Nom,Indef
+10	esʹ	эсь	PRON	Pron	PronType=Refl	11	det	_	GTtags=Refl,Adn
+11	kijavanzo	ки	NOUN	N	Case=Prl|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	GTtags=Hom1,Sg,Prl,PxSg3|SpaceAfter=No
+12	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3910
+# text = Vanan langozost, dy marjavi tenʹ, morytʹ ansjak monenʹ marjavicja moro.
+1	Vanan	ваномс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg1
+2	langozost	лангсо	ADP	Adp	Case=Ill|Number[psor]=Plur|Person[psor]=3	1	obl	_	GTtags=Ill,PxPl3|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	5	punct	_	_
+4	dy	ды	CCONJ	CC	_	5	cc	_	_
+5	marjavi	марявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	1	conj	_	GTtags=IV,Ind,Prs,ScSg3
+6	tenʹ	мон	PRON	Pron	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	5	obl	_	GTtags=Pers,Sg1,Dat,Short|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	8	punct	_	_
+8	morytʹ	морамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	5	csubj	_	GTtags=TV,Ind,Prs,ScPl3
+9	ansjak	ансяк	ADV	Adv	_	10	advmod	_	GTtags=Exclusive
+10	monenʹ	мон	PRON	Pron	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Long	11	obl	_	GTtags=Pers,Sg1,Dat,Variant
+11	marjavicja	марявомс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Tense=Pres|Valency=1|VerbForm=Part	12	acl	_	GTtags=IV,Act,Prs,VerbForm
+12	moro	моро	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	obj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+13	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:643
+# text = Vedʹ mon Listar bratot od cjoraksčinʹ jalga.
+# text_en = Why I'm a friend of your brother Listar's from when he was young.
+1	Vedʹ	ведь	PART	Pcle	_	7	advmod	_	_
+2	mon	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	GTtags=Pers,Sg1,Nom
+3	Listar	листар	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	compound	_	GTtags=Sg,Nom,Indef
+4	bratot	брат	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	nmod	_	GTtags=Sg,Gen,PxSg2
+5	od	од	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	7	nmod	_	GTtags=Sg,Nom,Indef
+6	cjoraksčinʹ	цёраксчинь	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	fixed	_	GTtags=SP,Gen,Indef
+7	jalga	ялга	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+8	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:159
+# text = Kosto buti vasoldo-vasoldo sergedsʹ gudok, ine vajgelʹ čudesʹ tusto tajgantʹ potmova, prok stjavty, nusmanjasto arsezevezʹ tajgantʹ ejse.
+1	Kosto	косто	ADV	Adv	Case=Ela|PronType=Int	4	obl	_	GTtags=Interr,Ela
+2	buti	бути	PART	Pcle	_	1	fixed	_	_
+3	vasoldo-vasoldo	васолдо-васолдо	ADV	Adv	_	4	obl	_	GTtags=Abl
+4	sergedsʹ	серьгедемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3
+5	gudok	гудок	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	nsubj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	9	punct	_	_
+7	ine	ине	ADJ	A	_	8	amod	_	_
+8	vajgelʹ	вайгель	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	nsubj	_	GTtags=Sg,Nom,Indef
+9	čudesʹ	чудесь	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	4	conj	_	GTtags=IV,Ind,Prt1,ScSg3
+10	tusto	тусто	ADJ	A	_	11	amod	_	_
+11	tajgantʹ	тайга	NOUN	N	Case=Gen|Definite=Def|Number=Sing	9	obl	_	GTtags=Sg,Gen,Def
+12	potmova	потмо	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	11	case	_	GTtags=Sem/Plc,SP,Prl,Indef|SpaceAfter=No
+13	,	,	PUNCT	CLB	_	15	punct	_	_
+14	prok	прок	ADV	Adv	_	15	mark	_	_
+15	stjavty	стявтомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	4	conj	_	GTtags=TV,Ind,Prs,ScSg3|SpaceAfter=No
+16	,	,	PUNCT	CLB	_	19	punct	_	_
+17	nusmanjasto	нусманясто	ADV	Adv	_	18	advmod	_	_
+18	arsezevezʹ	арсезевемс	VERB	V	Derivation=Ozj|Valency=1|VerbForm=Conv	19	advcl	_	GTtags=IV,Inch,Der/Озь,Ger
+19	tajgantʹ	тайга	NOUN	N	Case=Gen|Definite=Def|Number=Sing	15	obj	_	GTtags=Sg,Gen,Def
+20	ejse	эйсэ	ADP	Adp	Case=Ine	19	case	_	GTtags=Ine|SpaceAfter=No
+21	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:124
+# text = Vese tajgasʹ udy keme, plotna udomaso.
+1	Vese	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	2	det	_	GTtags=Tot,Sg,Nom,Indef
+2	tajgasʹ	тайга	NOUN	N	Case=Nom|Definite=Def|Number=Sing	3	nsubj	_	GTtags=Sg,Nom,Def
+3	udy	удомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3
+4	keme	кеме	ADJ	A	_	7	amod	_	GTtags=_|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	6	punct	_	_
+6	plotna	плотна	ADJ	A	_	7	amod	_	_
+7	udomaso	удома	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=SP,Ine,Indef|SpaceAfter=No
+8	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:6082
+# text = — Te tak plant...
+1	—	—	PUNCT	PUNCT	_	4	punct	_	_
+2	Te	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	4	expl	_	GTtags=Dem,Sg,Nom,Indef|Gloss=it
+3	tak	так	ADV	Adv	_	4	advmod	_	GTtags=_|Gloss=let-me-see
+4-5	plant	_	_	_	_	_	_	_	SpaceAfter=No
+4	plan	план	NOUN	N	Case=Nom|Definite=Ind	0	root	_	GTtags=Pl,Nom,Indef|Gloss=plan
+5	t	оль	AUX	Cop	Number[subj]=Plur|Person[subj]=3|Tense=Pres	4	cop	_	GTtags=Prs,ScPl3|Gloss=plan
+6	...	...	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:39
+# text = ― Ox, pek! ― škanʹ škanʹ estʹ čarkodevtʹ Ljubanʹ valonzo, sornozʹ kedʹsenze tulkadize Jastrebovonʹ kedenze.
+1	―	―	PUNCT	PUNCT	_	4	punct	_	_
+2	Ox	ох	INTJ	Interj	_	4	discourse	_	GTtags=_|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	2	punct	_	_
+4	pek	пек	ADV	Adv	AdvType=Deg	0	root	_	GTtags=Degree|SpaceAfter=No
+5	!	!	PUNCT	CLB	_	4	punct	_	_
+6	―	―	PUNCT	PUNCT	_	10	punct	_	_
+7	škanʹ	шка	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	10	obl	_	GTtags=SP,Gen,Indef
+8	škanʹ	шка	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	7	fixed	_	GTtags=SP,Gen,Indef
+9	estʹ	эзь	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	10	aux:neg	_	GTtags=VerbType
+10	čarkodevtʹ	чарькодевемс	VERB	V	Connegative=Yes|Mood=Ind|Valency=1	4	parataxis	_	GTtags=IV,Ind,ConNeg
+11	Ljubanʹ	Люба	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	12	nmod	_	GTtags=Ant_Fem,Prop,SP,Gen,Indef
+12	valonzo	вал	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	GTtags=Pl,Nom,PxSg3|SpaceAfter=No
+13	,	,	PUNCT	CLB	_	16	punct	_	_
+14	sornozʹ	сорномс	VERB	V	Derivation=Ozj|Valency=2|VerbForm=Conv	16	advcl	_	GTtags=TV,Der/Озь,Ger
+15	kedʹsenze	кедь	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	16	obl	_	GTtags=SP,Ine,PxSg3
+16	tulkadize	тулкадемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	10	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3
+17	Jastrebovonʹ	Ястребов	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Sur|Number=Plur,Sing	18	nmod	_	GTtags=Prop,Sur_Mal,SP,Gen,Indef
+18	kedenze	кедь	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obj	_	GTtags=Sg,Gen,PxSg3|SpaceAfter=No
+19	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:442
+# text = Lapšov jalganzo marto ozastʹ jarsamo.
+1	Lapšov	Лапшов	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	4	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef
+2	jalganzo	ялга	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	1	nmod	_	GTtags=Pl,Gen,PxSg3
+3	marto	марто	ADP	Adp	_	2	case	_	GTtags=COM
+4	ozastʹ	озамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
+5	jarsamo	ярсамс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	4	xcomp	_	GTtags=IV,Inf,Loc|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:84
+# text = ― A!
+1	―	―	PUNCT	PUNCT	_	2	punct	_	_
+2	A	а	INTJ	Interj	_	0	root	_	GTtags=_|SpaceAfter=No
+3	!	!	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:372
+# text = Vedesʹ kijakska valovsʹ.
+1	Vedesʹ	ведь	NOUN	N	Case=Nom|Definite=Def|Number=Sing	3	nsubj	_	GTtags=Sg,Nom,Def
+2	kijakska	киякс	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=SP,Prl,Indef
+3	valovsʹ	валовомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:818
+# text = Leditʹ kuvtoldycja čaxratnede nar pankskentʹ.
+1	Leditʹ	ледемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl3|Gloss=mow
+2	kuvtoldycja	кувтолдомс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Tense=Pres|Valency=1|VerbForm=Part	3	acl	_	GTtags=IV,Act,Prs,VerbForm
+3	čaxratnede	чахра	NOUN	N	Case=Abl|Definite=Def|Number=Plur	1	obl	_	GTtags=Pl,Abl,Def|Gloss=flower
+4	nar	нар	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	compound	_	GTtags=Sg,Nom,Indef|Gloss=grass
+5	pankskentʹ	панкске	NOUN	N	Case=Gen|Definite=Def|Number=Sing	1	obj	_	GTtags=Sg,Gen,Def|Gloss=patch|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:8399
+# text = Sonsʹ jala sorakalesʹ apak učo tamašantʹ ejste prjasto pilʹgs, učosʹ — vitʹksty kijak sonze ombocede mirdenenʹ lisemadontʹ Jelesʹkanenʹ — ušodovi sjovnoma dy tjurezevemajak.
+1	Sonsʹ	сонсь	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	nsubj	_	GTtags=Refl,Sg3,Nom
+2	jala	яла	ADV	Adv	AdvType=Tim	3	advmod	_	GTtags=Sem/Time
+3	sorakalesʹ	соракалемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+4	apak	апак	AUX	Pcle	Polarity=Neg	5	aux:neg	_	GTtags=Neg
+5	učo	учомс	VERB	V	Connegative=Yes|Valency=2	6	advcl	_	GTtags=TV,ConNeg
+6	tamašantʹ	тамаша	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	obl	_	GTtags=Sg,Gen,Def
+7	ejste	эйстэ	ADP	Adp	Case=Ela	6	case	_	GTtags=Ela
+8	prjasto	пря	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=Sem/Plc,SP,Ela,Indef
+9	pilʹgs	пильге	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	8	fixed	_	GTtags=SP,Ill,Indef|SpaceAfter=No
+10	,	,	PUNCT	CLB	_	11	punct	_	_
+11	učosʹ	учомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	3	conj	_	GTtags=TV,Ind,Prt1,ScSg3
+12	—	—	PUNCT	PUNCT	_	13	punct	_	_
+13	vitʹksty	витькстамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	11	ccomp	_	GTtags=IV,Ind,Prs,ScSg3
+14	kijak	кияк	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	GTtags=Indef,Sg,Nom
+15	sonze	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	18	nmod:gsubj	_	GTtags=Pers,Sg3,Gen
+16	ombocede	омбоцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=Ord	18	advmod	_	GTtags=Ord,Sem/Time,Abl
+17	mirdenenʹ	мирде	NOUN	N	Case=Dat|Definite=Ind|Number=Plur,Sing	18	obl	_	GTtags=Sem/Kin_Mal,SP,Dat,Indef
+18	lisemadontʹ	лисемс	VERB	V	Case=Abl|Definite=Def|Number=Sing|Valency=1|VerbForm=Vnoun	13	obl	_	GTtags=IV,NomAct,Sg,Abl,Def
+19	Jelesʹkanenʹ	Елеська	PROPN	N	Case=Dat|Definite=Ind|Number=Plur,Sing	13	obl	_	GTtags=Sem/Plc,SP,Dat,Indef
+20	—	—	PUNCT	PUNCT	_	21	punct	_	_
+21	ušodovi	ушодовомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	13	conj	_	GTtags=IV,Ind,Prs,ScSg3
+22	sjovnoma	сёвномс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Valency=2|VerbForm=Vnoun	21	nsubj	_	GTtags=TV,NomAct,Sg,Nom,Indef
+23	dy	ды	CCONJ	CC	_	24	cc	_	_
+24	tjurezevemajak	тюрезевемс	VERB	V	Case=Nom|Clitic=Gak|Definite=Ind|Number=Sing|Valency=1|VerbForm=Vnoun	22	conj	_	GTtags=IV,NomAct,Sg,Nom,Indef,Clitic|SpaceAfter=No
+25	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:214
+# text = — Nevtika, mezetʹ istja uli, — mersʹ Mikol dy molʹsʹ cjoranzo melʹga cjulans.
+1	—	—	PUNCT	PUNCT	_	2	punct	_	_
+2	Nevtika	невтемс	VERB	V	Clitic=Ga|Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Valency=2	0	root	_	GTtags=TV,Imprt,ScSg2,OcSg3,Clt/Га|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	6	punct	_	_
+4	mezetʹ	мезе	PRON	Pron	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Int	6	nsubj	_	GTtags=Interr,Sem/Obj,Sg,Nom,PxSg2
+5	istja	истя	ADV	Adv	AdvType=Man	6	advmod	_	GTtags=Manner
+6	uli	улемс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	2	ccomp	_	GTtags=IV,Ind,Prs,ScSg3|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	6	punct	_	_
+8	—	—	PUNCT	PUNCT	_	9	punct	_	_
+9	mersʹ	меремс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	2	parataxis	_	GTtags=TV,Ind,Prt1,ScSg3
+10	Mikol	Микол	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	9	nsubj	_	GTtags=Prop,Ant_Mal,Sg,Nom,Indef
+11	dy	ды	CCONJ	CC	_	12	cc	_	_
+12	molʹsʹ	молемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	9	conj	_	GTtags=IV,Ind,Prt1,ScSg3
+13	cjoranzo	цёра	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	GTtags=Sg,Gen,PxSg3
+14	melʹga	мельга	ADP	Adp	AdvType=Loc|Case=Prl	13	case	_	GTtags=Spat,Prl
+15	cjulans	цюлан	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	12	obl	_	GTtags=SP,Ill,Indef|SpaceAfter=No
+16	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:2590
+# text = Teste žo, verčke tarkastontʹ, redjavi parste, prok velesʹ ašti kedetʹ langso.
+# text_en = From up here, at this high vantage point, you can see it well, just like the village were restin in you hand.
+# text_fi = Täältä korkealta huomaa hyvin sen, että kylä lepää kuin kämmenellä.
+1	Teste	тестэ	ADV	Adv	AdvType=Loc|Case=Ela	7	obl	_	GTtags=Spat,Ela
+2	žo	жо	PART	Pcle	_	1	discourse	_	GTtags=Emph|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	5	punct	_	_
+4	verčke	верчке	ADJ	A	_	5	amod	_	_
+5	tarkastontʹ	тарка	NOUN	N	Case=Ela|Definite=Def|Number=Sing	7	obl	_	GTtags=Sem/Inanim_Cnt,Sg,Ela,Def|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7	redjavi	редявомс	VERB	V	Derivation=OvtOms|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=Der/ОвОмс,IV,Ind,Prs,ScSg3
+8	parste	парсте	ADV	Adv	AdvType=Man	7	advmod	_	GTtags=Manner|SpaceAfter=No
+9	,	,	PUNCT	CLB	_	12	punct	_	_
+10	prok	прок	PART	Pcle	_	12	mark	_	_
+11	velesʹ	веле	NOUN	N	Case=Nom|Definite=Def|Number=Sing	12	nsubj	_	GTtags=Sg,Nom,Def
+12	ašti	аштемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	7	advcl	_	GTtags=Ind,Prs,ScSg3
+13	kedetʹ	кедь	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	12	obl	_	GTtags=Sg,Gen,PxSg2
+14	langso	ланго	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	13	case	_	GTtags=Sem/Relat,SP,Ine,Indef|SpaceAfter=No
+15	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:260
+# text = ― Šumbra uleze Gudok!
+1	―	―	PUNCT	PUNCT	_	2	punct	_	_
+2	Šumbra	шумбра	ADJ	A	_	0	root	_	_
+3	uleze	улемс	AUX	V	Mood=Opt|Number[subj]=Sing|Person[subj]=3|Valency=1	2	cop	_	GTtags=IV,Opt,ScSg3
+4	Gudok	гудок	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+5	!	!	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:305
+# text = — Andymizʹ mezdejak! — merstʹ Marjanenʹ banditne.
+1	—	—	PUNCT	PUNCT	_	2	punct	_	_
+2	Andymizʹ	андомс	VERB	V	Mood=Imp|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=1|Person[subj]=2|Valency=2	0	root	_	GTtags=TV,Imprt,ScSg2,OcPl1
+3	mezdejak	мезеяк	PRON	Pron	Case=Abl|Definite=Ind|Number=Plur,Sing|PronType=Ind	2	obj	_	GTtags=Indef,SP,Abl,Indef|SpaceAfter=No
+4	!	!	PUNCT	CLB	_	2	punct	_	_
+5	—	—	PUNCT	PUNCT	_	6	punct	_	_
+6	merstʹ	меремс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	2	parataxis	_	GTtags=TV,Ind,Prt1,ScPl3
+7	Marjanenʹ	Маря	PROPN	N	Animacy=Hum|Case=Dat|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	6	obl	_	GTtags=Prop,Ant_Fem,SP,Dat,Indef
+8	banditne	бандит	NOUN	N	Case=Nom|Definite=Def|Number=Plur	6	nsubj	_	GTtags=Pl,Nom,Def|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:234
+# text = ― Ezinʹ žalja sonzejak.
+1	―	―	PUNCT	PUNCT	_	3	punct	_	_
+2	Ezinʹ	эзь	AUX	Aux	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Polarity=Neg|Tense=Prt1|VerbType=Aux	3	aux:neg	_	_
+3	žalja	жалямс	VERB	V	Connegative=Yes|Valency=2	0	root	_	GTtags=TV,ConNeg
+4	sonzejak	сон	PRON	Pron	Case=Gen|Clitic=Gak|Number=Sing|Person=3|PronType=Prs	3	obj	_	GTtags=Pers,Sg3,Gen,Clt/Gak|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:41
+# text = Dunjašin kosto-kosto ezʹ baža paro valonʹ purnamo, son ezʹ staraja mazyste sjormadomo.
+1	Dunjašin	Дуняшин	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	4	nsubj	_	GTtags=Sur_Mal,Prop,Sg,Nom,Indef
+2	kosto-kosto	косто-косто	ADV	Adv	AdvType=Tim|NumType=Dist	4	advmod	_	GTtags=Sem/Time,Distr
+3	ezʹ	эзь	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	4	aux:neg	_	GTtags=VerbType
+4	baža	бажамс	VERB	V	Connegative=Yes|Valency=1	0	root	_	GTtags=IV,ConNeg
+5	paro	паро	ADJ	A	_	6	amod	_	_
+6	valonʹ	вал	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	7	nmod:gobj	_	GTtags=SP,Gen,Indef
+7	purnamo	пурнамс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	4	xcomp	_	GTtags=TV,Inf,Loc|SpaceAfter=No
+8	,	,	PUNCT	CLB	_	11	punct	_	_
+9	son	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	GTtags=Pers,Sg3,Nom
+10	ezʹ	эзь	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	11	aux:neg	_	GTtags=VerbType
+11	staraja	стараямс	VERB	V	Connegative=Yes|Valency=1	4	conj	_	GTtags=IV,ConNeg
+12	mazyste	мазыстэ	ADV	Adv	AdvType=Man|Case=Ela	13	advmod	_	GTtags=Manner,Ela
+13	sjormadomo	сёрмадомс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	11	xcomp	_	GTtags=TV,Inf,Loc|SpaceAfter=No
+14	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:2663
+# text = Avolitʹ varštajak langozonzo.
+# text_en = You wouldn't even want to look at it.
+# text_fi = Sitä ei viitsisi edes katsoa.
+1	Avolitʹ	аволь	AUX	V	Mood=Cnj|Number[subj]=Sing|Person[subj]=2|Polarity=Neg	2	aux:neg	_	GTtags=Neg,Conj,ScSg2
+2	varštajak	варштамс	VERB	V	Clitic=Gak|Connegative=Yes	0	root	_	GTtags=ConNeg,Clt/Gak
+3	langozonzo	ланго	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	2	obl	_	GTtags=Sem/Relat,SP,Ill,PxSg3|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:8048
+# text = Mirinze pelʹkstycjatnenʹ Urvan:
+1	Mirinze	мирямс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3,OcPl3
+2	pelʹkstycjatnenʹ	пелькстамс	VERB	V	Case=Gen|Definite=Def|Derivation=NomAg|Number=Plur|Valency=1	1	obj	_	GTtags=IV,NomAg,N,Pl,Gen,Def
+3	Urvan	Урван	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	1	nsubj	_	GTtags=Ant_Mal,Sg,Nom,Indef|SpaceAfter=No
+4	:	:	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = AuthorIDAbramovK:PublicationIDЭрзянь-Валкс:ArticleIDве:
+# text = Vazontʹ vanomo jakan ve mon.
+# text_eng = The only one who goes and visits the calf is me.
+1	Vazontʹ	ваз	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	obj	_	GTtags=Sg,Gen,Def|Gloss=calf
+2	vanomo	ваномс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	3	xcomp	_	GTtags=TV,Inf,Loc|Gloss=look.at
+3	jakan	якамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg1|Gloss=go
+4	ve	ве	NUM	Num	NumType=Card	5	nummod	_	GTtags=Card,Adn|Gloss=only
+5	mon	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	GTtags=Pers,Sg1,Nom|Gloss=I|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:2418
+# text = Tona uš syrgakšnosʹ kudo jonov.
+# text_en = His grandfather was already heading home.
+# text_fi = Isoisä oli jo matkalla kotiin päin.
+1	Tona	тона	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	3	nsubj	_	GTtags=Dem,Sg,Nom,Indef
+2	uš	уш	ADV	Adv	AdvType=Tim	3	advmod	_	GTtags=Sem/Time
+3	syrgakšnosʹ	сыргакшномс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,ScSg3
+4	kudo	кудо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	obl	_	GTtags=Sem/Build,N,Sg,Nom,Indef
+5	jonov	ёно	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	4	case	_	GTtags=Sem/Relat,SP,Lat,Indef|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:51
+# text = Setʹmeste karmasʹ purnavomo tusto čopudasʹ.
+1	Setʹmeste	сэтьместэ	ADV	Adv	AdvType=Man|Case=Ela	2	advmod	_	GTtags=Manner,Ela
+2	karmasʹ	кармамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+3	purnavomo	пурнавомс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	2	xcomp	_	GTtags=IV,Inf,Loc
+4	tusto	тусто	ADJ	A	_	5	amod	_	_
+5	čopudasʹ	чопуда	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Def|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:736
+# text = Jortozʹ jortovsʹ kudostontʹ.
+# text_en = She flew out of the house full speed.
+# text_fi = Heittämällä heittäytyi majasta.
+1	Jortozʹ	ёртомс	VERB	V	Case=Nom|Definite=Ind|Derivation=Ozj|Number=Sing|VerbForm=Part	2	advcl	_	GTtags=Der/Озь,Prc,Sg,Nom,Indef
+2	jortovsʹ	ёртовомс	VERB	V	Derivation=OvtOms|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=Der/ОвОмс,IV,Ind,Prt1,ScSg3|SubjRef=1:2.3,11
+3	kudostontʹ	кудо	NOUN	N	Case=Ela|Definite=Def|Number=Sing	2	obl	_	GTtags=Sem/Build,N,Sg,Ela,Def|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:288
+# text = Pazavasʹ...
+1	Pazavasʹ	пазава	NOUN	N	Case=Nom|Definite=Def|Number=Sing	0	root	_	GTtags=Sg,Nom,Def|SpaceAfter=No
+2	...	...	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:2788
+# text = Ilʹvetʹks a marjavi sonze valtnese?
+1	Ilʹvetʹks	ильветькс	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	nsubj	_	GTtags=Sg,Nom,Indef|Gloss=error
+2	a	а	AUX	Pcle	Polarity=Neg	3	aux:neg	_	GTtags=Neg|Gloss=not
+3	marjavi	марявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3|Gloss=be-heard
+4	sonze	сон	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	det	_	GTtags=Pers,Sg3,Gen|Gloss=its
+5	valtnese	вал	NOUN	N	Case=Ine|Definite=Def|Number=Plur	3	obl	_	GTtags=Pl,Ine,Def|Gloss=word|SpaceAfter=No
+6	?	?	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:649
+# text = Vetstentʹ teize sjardonʹ čova sansto.
+# text_en = Then he made a string for the necklace out of thin moose sinew.
+# text_fi = Nauhan hän teki ohuesta hirvenjänteestä.
+1	Vetstentʹ	ветсть	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	obj	_	GTtags=Sem/Inanim_Сnt,Sg,Gen,Def
+2	teize	теемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3|SubjRef=1:10.7,2|ObjRef=1:10.10,1
+3	sjardonʹ	сярдо	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	nmod	_	GTtags=Sem/Anim_Cnt,SP,Gen,Indef
+4	čova	чова	ADJ	A	_	5	amod	_	_
+5	sansto	сан	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	2	obl	_	GTtags=Sem/Inanim_Cnt,SP,Ela,Indef|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:227
+# text = — Nej a marjavitʹ kosot banditne?
+1	—	—	PUNCT	PUNCT	_	4	punct	_	_
+2	Nej	ней	ADV	Adv	AdvType=Tim	4	advmod	_	GTtags=Temp
+3	a	а	AUX	Pcle	Polarity=Neg	4	aux:neg	_	GTtags=Neg
+4	marjavitʹ	марявомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3
+5-6	kosot	_	_	_	_	_	_	_	_
+5	koso	косо	ADV	Adv	AdvType=Loc|Case=Ine	4	advcl	_	GTtags=Spat,Ine
+6	t	оль	AUX	Cop	Number[subj]=Plur|Person[subj]=3|Tense=Pres	5	cop	_	GTtags=Prs,ScPl3
+7	banditne	бандит	NOUN	N	Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	GTtags=Pl,Nom,Def|SpaceAfter=No
+8	?	?	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:428
+# text = Te škane kudos sovasʹ jakstere armejec.
+1	Te	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg,Nom,Indef
+2	škane	шка	NOUN	N	Case=Temp|Definite=Ind|Number=Plur,Sing	4	obl:tmod	_	GTtags=SP,TempCx,Indef
+3	kudos	кудо	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	4	obl	_	GTtags=Sem/Plc,SP,Ill,Indef
+4	sovasʹ	совамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+5	jakstere	якстере	ADJ	A	_	6	amod	_	_
+6	armejec	армеец	NOUN	N	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	4	nsubj	_	GTtags=Hum,Sg,Nom,Indef|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:521
+# text = Čakšonʹ tejemste rožodomkšnosʹ, arsesʹ, sonzejak lisi avanzotnenʹ kondjamo, dy ansjak zjardo kaštaznesʹkak mendjazelʹ, neize: kedʹgeze lissʹ čirʹ, minenʹ-sjunonʹ purdtnezʹ, teke mokej lomanʹ kišteme lissʹ — elʹ pry.
+# text_en = While making the pot he became totally emphatuated, he thought his would turn out just like the ones his mother was making, and only when the wreath at the top had been bent did he realize that his vessel was crooked, sort of twisted, like a one-legged man going out to dance and just about falling over.
+# text_fi = Ruukkua tehdessään hän innostui työstään. Hän ajatteli, että hänenkin ruukkunsa onnistuisivat samalla tavalla kuin äidin, mutta vasta silloin, kun seppelekin oli taivutettu, hän huomasi, että astiasta oli tullut vino, kaikin tavoin vääntynyt. Se oli kuin rampa, joka oli noussut tanssimaan, ja oli kaatumaisillaan.
+1	Čakšonʹ	чакш	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	2	obj	_	GTtags=Sem/Inanim_Cnt,SP,Gen,Indef
+2	tejemste	теемс	VERB	V	Case=Ela|Definite=Ind|VerbForm=Conv	3	advcl	_	GTtags=mstOInf,Ela,Indef
+3	rožodomkšnosʹ	рожодомкшномс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,ScSg3|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	arsesʹ	арсемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	3	conj	_	GTtags=Ind,Prt1,ScSg3|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	8	punct	_	_
+7	sonzejak	сон	PRON	Pron	Case=Gen|Clitic=Gak|Number=Sing|Person=3|PronType=Prs	8	obl	_	GTtags=Pers,Sg,Person
+8	lisi	лисемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	5	ccomp	_	GTtags=Ind,Prs,ScSg3
+9-10	avanzotnenʹ	_	_	_	_	_	_	_	_
+9	avanzo	ава	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	nmod	_	GTtags=Sg,Gen,PxSg3
+10	tnenʹ	ось	PRON	Pron	Case=Gen|Definite=Def|Number=Plur	11	nmod	_	GTtags=Pl,Gen,Def
+11	kondjamo	кондямо	ADJ	A	AdpType=Post|Case=Nom|Definite=Ind|Number=Sing	8	nsubj	_	GTtags=Po,Sg,Nom,Indef|SpaceAfter=No
+12	,	,	PUNCT	CLB	_	17	punct	_	_
+13	dy	ды	CCONJ	CC	_	17	cc	_	_
+14	ansjak	ансяк	ADV	Adv	_	17	advmod	_	_
+15	zjardo	зярдо	ADV	Adv	AdvType=Tim	17	advmod	_	GTtags=Sem/Time
+16	kaštaznesʹkak	каштазнэ	NOUN	N	Case=Nom|Clitic=Gak|Definite=Def|Derivation=DimNe|Number=Sing	17	nsubj	_	GTtags=DimNE,Sem/Inanim,Сnt,Sg,Nom,Def,Clt/Gak
+17-18	mendjazelʹ	_	_	_	_	_	_	_	SpaceAfter=No
+17	mendjaz	мендямс	VERB	V	Derivation=Ozj|VerbForm=Conv	8	conj	_	GTtags=Der/Озь
+18	jelʹ	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=3|Tense=Prt2	17	cop	_	GTtags=Prt2,ScSg3
+19	,	,	PUNCT	CLB	_	20	punct	_	_
+20	neize	неемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	3	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3|SpaceAfter=No
+21	:	:	PUNCT	CLB	_	23	punct	_	_
+22	kedʹgeze	кедьге	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	23	nsubj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,PxSg3
+23	lissʹ	лисемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	20	ccomp	_	GTtags=Ind,Prt1,ScSg3
+24	čirʹ	чирь	ADJ	A	_	23	acl	_	GTtags=_|SpaceAfter=No
+25	,	,	PUNCT	CLB	_	27	punct	_	_
+26	minenʹ-sjunonʹ	минень-сюнонь	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	27	nmod	_	GTtags=SP,Gen,Indef
+27	purdtnezʹ	пурдтнемс	VERB	V	Derivation=Ozj|VerbForm=Conv	24	appos	_	GTtags=Der/Озь,Ger|SpaceAfter=No
+28	,	,	PUNCT	CLB	_	27	punct	_	_
+29	teke	теке	ADV	CS	_	33	advmod	_	_
+30	mokej	мокей	ADJ	A	_	31	amod	_	_
+31	lomanʹ	ломань	NOUN	N	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	GTtags=Hum,Sg,Nom,Indef
+32	kišteme	киштемс	VERB	V	Case=Loc|VerbForm=Inf	33	xcomp	_	GTtags=Inf,Loc
+33	lissʹ	лисемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	23	appos	_	GTtags=Ind,Prt1,ScSg3
+34	—	—	PUNCT	CLB	_	36	punct	_	_
+35	elʹ	эль	ADV	Adv	_	36	advmod	_	_
+36	pry	прамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	33	appos	_	GTtags=Ind,Prs,ScSg3|SpaceAfter=No
+37	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:5659
+# text = Ezinze marjajak.
+# text_en = He had not even heard them.
+# text_fi = Eipä hän ollut kuullutkaan.
+1	Ezinze	эзь	AUX	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Polarity=Neg|Tense=Prt1	2	aux	_	GTtags=Neg,Ind,Prt1,ScSg3,OcPl3|SubjRef=1:2.7,1|ObjRef=1:3.4,7
+2	marjajak	марямс	VERB	V	Clitic=Gak|Connegative=Yes	0	root	_	GTtags=ConNeg,Clt/Gak|SpaceAfter=No
+3	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:109
+# text = ― Konat ašotnede orgolestʹ kudov, konat jutastʹ partizantnenʹ jutks.
+1	―	―	PUNCT	PUNCT	_	4	punct	_	_
+2	Konat	кона	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Rel	4	nsubj	_	GTtags=Rel,Sel,Pl,Nom,Indef
+3	ašotnede	ашо	NOUN	N	Case=Abl|Definite=Def|Number=Plur	2	obl	_	GTtags=Pl,Abl,Def
+4	orgolestʹ	орголемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
+5	kudov	кудо	NOUN	N	Case=Lat|Definite=Ind|Number=Plur,Sing	4	obl	_	GTtags=Sem/Plc,SP,Lat,Indef|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	8	punct	_	_
+7	konat	кона	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Rel	8	nsubj	_	GTtags=Rel,Sel,Pl,Nom,Indef
+8	jutastʹ	ютамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	4	conj	_	GTtags=TV,Ind,Prt1,ScPl3
+9	partizantnenʹ	партизан	NOUN	N	Case=Gen|Definite=Def|Number=Plur	8	obl	_	GTtags=Pl,Gen,Def
+10	jutks	юткс	ADP	Adp	AdvType=Loc|Case=Ill	9	case	_	GTtags=Spat,Ill|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:5139
+# text = Saitʹ jala martost teste erzjanʹ najmuntne tumo sudke — ponanʹ, surenʹ, kedenʹ artoms, medʹ saitʹ, šta, tikšetʹ-ljukšat.
+# text_en = The Erzya merchants always take oak bark from here for dying wool, yarn and skins, as well as honey, bees wax and herbs.
+# text_fi = Ersäläiset kauppiaat ottavat täältä aina mukaansa tammenkaarnaa?/?kuorta villan, langan ja nahan värjäämiseksi sekä hunajaa, vahaa ja yrttejä ja rohdoskasveja.
+1	Saitʹ	саемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl3
+2	jala	яла	ADV	Adv	AdvType=Tim	1	advmod	_	GTtags=Sem/Time
+3	martost	марто	ADP	Adp	AdpType=Post|Number[psor]=Plur|Person[psor]=3	1	obl	_	GTtags=Po,PxPl3
+4	teste	тестэ	ADV	Adv	AdvType=Loc|Case=Ela	1	advmod	_	GTtags=Spat,Ela
+5	erzjanʹ	эрзя	NOUN	N	Animacy=Hum|Case=Gen|Definite=Ind|Number=Plur,Sing	6	nmod	_	GTtags=Hum,SP,Gen,Indef
+6	najmuntne	наймун	NOUN	N	Case=Nom|Definite=Def|Number=Plur	1	nsubj	_	GTtags=Sem/Anim_Cnt,Pl,Nom,Def
+7	tumo	тумо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	compound	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+8	sudke	судке	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+9	—	—	PUNCT	CLB	_	10	punct	_	_
+10	ponanʹ	пона	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	15	nmod:gobj	_	GTtags=SP,Gen,Indef|SpaceAfter=No
+11	,	,	PUNCT	CLB	_	12	punct	_	_
+12	surenʹ	суре	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	10	conj	_	GTtags=SP,Gen,Indef|SpaceAfter=No
+13	,	,	PUNCT	CLB	_	14	punct	_	_
+14	kedenʹ	кедь	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	10	conj	_	GTtags=SP,Gen,Indef
+15	artoms	артомс	VERB	V	VerbForm=Inf	1	advcl	_	GTtags=Inf|SpaceAfter=No
+16	,	,	PUNCT	CLB	_	18	punct	_	_
+17	medʹ	медь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	18	obj	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+18	saitʹ	саемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	1	conj	_	GTtags=TV,Ind,Prs,ScPl3|SpaceAfter=No
+19	,	,	PUNCT	CLB	_	20	punct	_	_
+20	šta	шта	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	17	conj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+21	,	,	PUNCT	CLB	_	22	punct	_	_
+22	tikšetʹ-ljukšat	тикшеть-люкшат	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	17	conj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+23	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:327
+# text = Palʹko varšty langozost kašlanksto dy mekev ugols eci.
+1	Palʹko	Палько	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	GTtags=Sem/Sur,Prop,Sg,Nom,Indef
+2	varšty	варштамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3
+3	langozost	ланго	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	2	obl	_	GTtags=SP,Ill,PxPl3
+4	kašlanksto	кашланго	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	2	obl	_	GTtags=SP,Ela,Indef
+5	dy	ды	CCONJ	CC	_	8	cc	_	_
+6	mekev	мекев	ADV	Adv	AdvType=Loc	7	advmod	_	GTtags=Spat
+7	ugols	угол	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	8	obl	_	GTtags=SP,Ill,Indef
+8	eci	эцемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	2	conj	_	GTtags=TV,Ind,Prs,ScSg3|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1982
+# text = Koda vanstoms melʹganok sycjatnenenʹ?
+1	Koda	кода	ADV	Adv	AdvType=Man|PronType=Int	2	advmod	_	GTtags=Interr,Manner|Gloss=how
+2	vanstoms	ванстомс	VERB	V	Valency=2|VerbForm=Inf	0	root	_	GTtags=TV,Inf|Gloss=preserve
+3	melʹganok	мельга	ADP	Adp	AdvType=Loc|Number[psor]=Plur|Person[psor]=1	4	obl	_	GTtags=Spat,PxPl1|Gloss=after-us
+4	sycjatnenenʹ	самс	VERB	V	Case=Dat|Definite=Def|Derivation=NomAg|Number=Plur|Valency=1	2	obl	_	GTtags=IV,NomAg,N,Pl,Dat,Def|Gloss=come|SpaceAfter=No
+5	?	?	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:6962
+# text = Udosʹ.
+# text_en = He was sleeping.
+1	Udosʹ	удомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3|SpaceAfter=No
+2	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:156
+# text = Jastrebov aštesʹ pulʹzjado, vadešasʹ Ljubanʹ čertnenʹ, konjanzo, prok arsesʹ maksomanzo vese vijenze Ljubanenʹ.
+1	Jastrebov	Ястребов	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	2	nsubj	_	GTtags=Sur_Mal,Prop,Sg,Nom,Indef
+2	aštesʹ	аштемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+3	pulʹzjado	пульзядо	ADV	Adv	AdvType=Sta	2	advcl	_	GTtags=Pred2|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	vadešasʹ	вадешамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	2	conj	_	GTtags=TV,Ind,Prt1,ScSg3
+6	Ljubanʹ	Люба	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	7	nmod	_	GTtags=Prop,Ant_Fem,SP,Gen,Indef
+7	čertnenʹ	черь	NOUN	N	Case=Gen|Definite=Def|Number=Plur	5	obj	_	GTtags=Pl,Gen,Def|SpaceAfter=No
+8	,	,	PUNCT	CLB	_	9	punct	_	_
+9	konjanzo	коня	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	conj	_	GTtags=Sg,Gen,PxSg3|SpaceAfter=No
+10	,	,	PUNCT	CLB	_	12	punct	_	_
+11	prok	прок	ADV	Adv	_	12	mark	_	_
+12	arsesʹ	арсемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	2	conj	_	GTtags=Hom1,TV,Ind,Prt1,ScSg3
+13	maksomanzo	максомс	VERB	V	Case=Loc|Number[psor]=Sing|Person[psor]=3|Valency=2|VerbForm=Inf	12	xcomp	_	GTtags=Err/Orth,TV,Inf,Loc,PxSg3
+14	vese	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	15	det	_	GTtags=Tot,Sg,Nom,Indef
+15	vijenze	вий	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	obj	_	GTtags=Sg,Gen,PxSg3
+16	Ljubanenʹ	Люба	PROPN	N	Animacy=Hum|Case=Dat|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	13	obl	_	GTtags=Prop,Ant_Fem,SP,Dat,Indef|SpaceAfter=No
+17	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:391
+# text = Kodamo son iljazo ule, vide eli kadyk tej-tov menčevicja, kozonʹgak dy vetjatanzat.
+# text_en = Regardless of what kind it is, straight or even meandering, it will take you somewhere.
+1	Kodamo	кодамо	ADJ	A	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	14	acl:relcl	_	GTtags=Interr,Sg,Nom,Indef
+2	son	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	GTtags=Pers,Sg3,Nom
+3	iljazo	иля	AUX	V	Mood=Opt|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Valency=1	1	aux:neg	_	GTtags=IV,Neg,Opt,ScSg3
+4	ule	улемс	AUX	V	Connegative=Yes|Valency=1	1	cop	_	GTtags=IV,ConNeg|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	6	punct	_	_
+6	vide	виде	ADJ	A	_	1	appos	_	_
+7	eli	эли	CCONJ	CC	_	10	cc	_	_
+8	kadyk	кадомс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Valency=2	10	discourse	_	GTtags=TV,Imprt,ScSg2,OcSg3
+9	tej-tov	тей-тов	ADV	Adv	AdvType=Loc	10	obl	_	GTtags=Spat
+10	menčevicja	менчевемс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Tense=Pres|Valency=1|VerbForm=Part	6	conj	_	GTtags=IV,Act,Prs,VerbForm|SpaceAfter=No
+11	,	,	PUNCT	CLB	_	14	punct	_	_
+12	kozonʹgak	козоньгак	ADV	Adv	Case=Ill|Definite=Ind	14	obl	_	GTtags=Indef,Ill
+13	dy	ды	PART	Pcle	_	14	advmod	_	_
+14	vetjatanzat	ветямс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=2|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3,OcSg2|SpaceAfter=No
+15	.	.	PUNCT	CLB	_	14	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:2
+# text = Lopatnenʹ peste pizemenʹ petnjavksoks peverʹstʹ langozost rosantʹ bajgetne.
+1	Lopatnenʹ	лопа	NOUN	N	Case=Gen|Definite=Def|Number=Plur	5	obl	_	GTtags=Pl,Gen,Def
+2	peste	пе	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	1	case	_	GTtags=Sem/Plc,SP,Ela,Indef
+3	pizemenʹ	пиземе	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	4	nmod	_	GTtags=SP,Gen,Indef
+4	petnjavksoks	петнявкс	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=SP,Tra,Indef
+5	peverʹstʹ	певеремс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3
+6	langozost	лангс	ADP	Adp	Case=Ill|Number[psor]=Plur|Person[psor]=3	5	obl	_	GTtags=Ill,PxPl3
+7	rosantʹ	роса	NOUN	N	Case=Gen|Definite=Def|Number=Sing	8	nmod	_	GTtags=Sg,Gen,Def
+8	bajgetne	байге	NOUN	N	Case=Nom|Definite=Def|Number=Plur	5	nsubj	_	GTtags=Pl,Nom,Def|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:1753
+# text = Vedʹ Jelesʹka, keženʹ sazʹ, a lomanʹks mezejak tei langsonzo».
+1	Vedʹ	ведь	PART	Pcle	_	2	advmod	_	_
+2	Jelesʹka	Елеська	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	10	nsubj	_	GTtags=Sem/Plc,Sg,Nom,Indef|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	5	punct	_	_
+4	keženʹ	кеж	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	5	obj	_	GTtags=SP,Gen,Indef
+5	sazʹ	самс	VERB	V	Derivation=Ozj|Valency=1|VerbForm=Conv	10	advcl	_	GTtags=IV,Der/Озь,Ger|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	5	punct	_	_
+7	a	а	AUX	Pcle	Polarity=Neg	8	aux:neg	_	GTtags=Neg
+8	lomanʹks	ломань	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	10	obl	_	GTtags=SP,Tra,Indef
+9	mezejak	мезеяк	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	obj	_	GTtags=Indef,Sg,Nom,Indef
+10	tei	теемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3
+11	langsonzo	лангсо	ADP	Adp	AdpType=Post|Case=Ine|Number[psor]=Sing|Person[psor]=3	10	obl	_	GTtags=Po,Ine,PxSg3|SpaceAfter=No
+12	»	»	PUNCT	CLB	_	10	punct	_	GTtags=_|SpaceAfter=No
+13	.	.	PUNCT	CLB	_	10	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:478
+# text = Redimizʹ monʹgak.
+1	Redimizʹ	редямс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=1|Person[subj]=2|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl2,OcSg1
+2	monʹgak	мон	PRON	Pron	Case=Gen|Clitic=Gak|Number=Sing|Person=1|PronType=Prs	1	obj	_	GTtags=Pers,Sg1,Gen,Clt/Gak|SpaceAfter=No
+3	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:252
+# text = ― Valskenʹ Gudok!
+1	―	―	PUNCT	PUNCT	_	3	punct	_	_
+2	Valskenʹ	валске	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod	_	GTtags=SP,Gen,Indef
+3	Gudok	гудок	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+4	!	!	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:241
+# text = ― «Viška partizan!» ― sergedsʹ Maskin.
+1	―	―	PUNCT	PUNCT	_	4	punct	_	_
+2	«	«	PUNCT	CLB	_	4	punct	_	GTtags=_|SpaceAfter=No
+3	Viška	вишка	ADJ	A	_	4	amod	_	_
+4	partizan	партизан	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+5	!	!	PUNCT	CLB	_	4	punct	_	GTtags=_|SpaceAfter=No
+6	»	»	PUNCT	CLB	_	4	punct	_	_
+7	―	―	PUNCT	PUNCT	_	8	punct	_	_
+8	sergedsʹ	серьгедемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	4	parataxis	_	GTtags=TV,Ind,Prt1,ScSg3
+9	Maskin	Маскин	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	8	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4729
+# text = Zjardo, kona škane, videjak, perʹkanok sede alamo tejevitʹ zyjantnede dy nulgotʹks tevtnede?
+1	Zjardo	зярдо	ADV	Adv	AdvType=Tim|PronType=Int	11	advmod	_	GTtags=Interr,Sem/Time|Gloss=when|SpaceAfter=No
+2	,	,	PUNCT	CLB	_	4	punct	_	_
+3	kona	кона	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Int	4	det	_	GTtags=Interr,Sg,Nom,Indef|Gloss=what
+4	škane	шка	NOUN	N	Case=Temp|Definite=Ind|Number=Plur,Sing	1	appos	_	GTtags=SP,TempCx,Indef|Gloss=time|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	4	punct	_	_
+6	videjak	видеяк	ADV	Adv	_	11	advmod	_	GTtags=Parenthetic|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	6	punct	_	_
+8	perʹkanok	перька	ADP	Adp	AdvType=Loc|Case=Prl|Number[psor]=Plur|Person[psor]=1	11	obl	_	GTtags=Spat,Prl,PxPl1|Gloss=around-us
+9	sede	седе	ADV	Adv	Degree=Cmp	10	advmod	_	GTtags=Comp|Gloss=more
+10	alamo	аламо	ADV	Adv	_	11	advmod	_	GTtags=Qnt|Gloss=less
+11	tejevitʹ	теевемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3|Gloss=happen
+12	zyjantnede	зыян	NOUN	N	Case=Abl|Definite=Def|Number=Plur	10	obl	_	GTtags=Pl,Abl,Def|Gloss=accident
+13	dy	ды	CCONJ	CC	_	15	cc	_	GTtags=_|Gloss=and
+14	nulgotʹks	нулготькс	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	15	compound	_	GTtags=Sg,Nom,Indef|Gloss=discusting
+15	tevtnede	тев	NOUN	N	Case=Abl|Definite=Def|Number=Plur	12	conj	_	GTtags=Pl,Abl,Def|Gloss=thing|SpaceAfter=No
+16	?	?	PUNCT	CLB	_	11	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:300
+# text = Banditesʹ pelezevsʹ čopuda kasʹkas valgomo.
+1	Banditesʹ	бандит	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Def
+2	pelezevsʹ	пелезевемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+3	čopuda	чопуда	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	amod	_	GTtags=Sg,Nom,Indef
+4	kasʹkas	каська	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=SP,Ill,Indef
+5	valgomo	валгомс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	2	xcomp	_	GTtags=TV,Inf,Loc|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:4782
+# text = Kurok marjasʹ nudejzerʹ dy vajgelʹga sodyze bodjanzo čivalgoma morontʹ.
+# text_en = Soon he heard the sound of a reed whistle and he recognized his grandfather's sunset song.
+# text_fi = Pian Ketšai kuuli pillinäänen ja sen soinnin perusteella hän tunnisti isoisänsä auringonlaskulaulun.
+1	Kurok	курок	ADV	Adv	AdvType=Tim	2	advmod	_	GTtags=Sem/Time_dur
+2	marjasʹ	марямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,ScSg3
+3	nudejzerʹ	нудейзэрь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	GTtags=Sem/Inanim,Sem/NCnt,Sg,Nom,Indef
+4	dy	ды	CCONJ	CC	_	6	cc	_	_
+5	vajgelʹga	вайгель	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	6	obl	_	GTtags=Sem/Inanim_Cnt,SP,Prl,Indef
+6	sodyze	содамс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1	2	conj	_	GTtags=Ind,Prt1,ScSg3,OcSg3
+7	bodjanzo	бодя	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	nmod	_	GTtags=Sem/Kin,Sg,Gen,PxSg3
+8	čivalgoma	чивалгома	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	9	compound	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+9	morontʹ	моро	NOUN	N	Case=Gen|Definite=Def|Number=Sing	6	obj	_	GTtags=Sg,Gen,Def|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:99
+# text = ― Minʹ lamo meze-meze marinek, Jastrebov jalgaj ― otvečasʹ Maskin.
+1	―	―	PUNCT	PUNCT	_	5	punct	_	_
+2	Minʹ	мон	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	GTtags=Pers,Pl1,Nom
+3	lamo	ламо	DET	Det	Case=Nom|Definite=Ind|Number=Sing	4	det	_	GTtags=Qnt,N,Sg,Nom,Indef
+4	meze-meze	мезе-мезе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing	5	obj	_	GTtags=Distr
+5	marinek	марямс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl1|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	8	punct	_	_
+7	Jastrebov	Ястребов	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	5	vocative	_	GTtags=Sur_Mal,Prop,Sg,Nom,Indef
+8	jalgaj	ялгай	NOUN	N	Derivation=Voc	7	nmod	_	GTtags=Voc
+9	―	―	PUNCT	PUNCT	_	10	punct	_	_
+10	otvečasʹ	отвечамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	5	parataxis	_	GTtags=IV,Ind,Prt1,ScSg3
+11	Maskin	Маскин	PROPN	PROPN	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	10	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef|SpaceAfter=No
+12	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:9518
+# text = Nu?
+# text_en = Well?
+1	Nu	ну	INTJ	Interj	_	0	root	_	GTtags=_|SpaceAfter=No
+2	?	?	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:768
+# text = ― Kijat lomanesʹ?
+1	―	―	PUNCT	PUNCT	_	2	punct	_	_
+2-3	Kijat	_	_	_	_	_	_	_	_
+2	Kijat	кие	PRON	Pron	Animacy=Hum|PronType=Int	0	root	_	GTtags=Interr,Hum|Gloss=who
+3	jat	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=2|PronType=Int|Tense=Pres	2	cop	_	GTtags=Prs,ScSg2|Gloss=who
+4	lomanesʹ	ломань	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	dislocated	_	GTtags=Sg,Nom,Def|Gloss=person|SpaceAfter=No
+5	?	?	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:261
+# text = ― Son kasy, dy gromasynze vesi kadovikstnenʹ naksado taštontʹ ejste.
+1	―	―	PUNCT	PUNCT	_	3	punct	_	_
+2	Son	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	GTtags=Pers,Sg3,Nom
+3	kasy	касомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	6	punct	_	_
+5	dy	ды	CCONJ	CC	_	6	cc	_	_
+6	gromasynze	громамс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|Valency=2	3	conj	_	GTtags=TV,Ind,Prs,ScSg3,OcPl3
+7	vesi	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	8	det	_	GTtags=Tot,Sg,Nom,Indef
+8	kadovikstnenʹ	кадовикс	NOUN	N	Case=Gen|Definite=Def|Number=Plur	6	obj	_	GTtags=Pl,Gen,Def
+9	naksado	наксадо	ADJ	A	_	10	amod	_	_
+10	taštontʹ	ташто	NOUN	N	Case=Gen|Definite=Def|Number=Sing	8	nmod	_	GTtags=Sg,Gen,Def
+11	ejste	эйстэ	ADP	Adp	AdvType=Loc|Case=Ela	10	case	_	GTtags=Spat,Ela|SpaceAfter=No
+12	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:253
+# text = — Netʹ bandit, Marja!
+1	—	—	PUNCT	PUNCT	_	3	punct	_	_
+2	Netʹ	неть	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	3	nsubj	_	GTtags=Dem,Pl,Nom,Indef
+3	bandit	бандит	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	Marja	Маря	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Fem|NameType=Giv|Number=Sing	3	vocative	_	GTtags=Prop,Ant_Fem,Sg,Nom,Indef|SpaceAfter=No
+6	!	!	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:2843
+# text = — Nama monsʹ.
+# text_en = Of course, it's me.
+1	—	—	PUNCT	PUNCT	_	3	punct	_	_
+2	Nama	нама	ADV	Adv	_	3	advmod	_	GTtags=Epist|Gloss=of-course
+3	monsʹ	монсь	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	0	root	_	GTtags=Refl,Sg1,Nom|Gloss=me|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:441
+# text = Jaksterearmejecesʹ lissʹ kudostontʹ.
+1	Jaksterearmejecesʹ	якстереармеец	NOUN	N	Case=Nom|Definite=Def|Number=Sing	2	nsubj	_	GTtags=Sg,Nom,Def
+2	lissʹ	лисемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+3	kudostontʹ	кудо	NOUN	N	Case=Ela|Definite=Def|Number=Sing	2	obl	_	GTtags=Sem/Plc,Sg,Ela,Def|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:56
+# text = Dunjašinenʹ pelʹdejak učotano master-sroicja.
+1	Dunjašinenʹ	Дуняшин	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Sur|Number=Plur,Sing	3	obl	_	GTtags=Prop,Sur_Mal,SP,Gen,Indef
+2	pelʹdejak	пельде	ADP	Adp	AdvType=Loc|Case=Abl|Clitic=Gak	1	case	_	GTtags=Spat,Abl,Clitic
+3	učotano	учомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl1
+4	master-sroicja	мастер-сроиця	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	obj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:402
+# text = Banditesʹ prjas ponksʹ: avoldavsʹ ketʹnese dy vintovkanzo marto resʹtedevsʹ mastor vakss.
+1	Banditesʹ	бандит	NOUN	N	Case=Nom|Definite=Def|Number=Sing	3	nsubj	_	GTtags=Sg,Nom,Def
+2	prjas	пря	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=Sem/Plc,SP,Ill,Indef
+3	ponksʹ	понгомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3|SpaceAfter=No
+4	:	:	PUNCT	CLB	_	3	punct	_	_
+5	avoldavsʹ	аволдавомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	3	conj	_	GTtags=IV,Ind,Prt1,ScSg3
+6	ketʹnese	кедь	NOUN	N	Case=Ine|Definite=Def|Number=Plur	5	obl	_	GTtags=Pl,Ine,Def
+7	dy	ды	CCONJ	CC	_	8	cc	_	_
+8	vintovkanzo	винтовка	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	GTtags=Sg,Gen,PxSg3
+9	marto	марто	ADP	Adp	_	8	case	_	GTtags=COM
+10	resʹtedevsʹ	рестедевемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	3	conj	_	GTtags=IV,Ind,Prt1,ScSg3
+11	mastor	мастор	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	obl	_	GTtags=Sem/Plc,Sg,Nom,Indef
+12	vakss	ваксс	ADP	Adp	AdvType=Loc|Case=Ill	11	case	_	GTtags=Spat,Ill|SpaceAfter=No
+13	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:5116
+# text = — «Ansjak»...
+1	—	—	PUNCT	PUNCT	_	3	punct	_	_
+2	«	«	PUNCT	PUNCT	_	3	punct	_	GTtags=_|SpaceAfter=No
+3	Ansjak	ансяк	ADV	Adv	_	0	root	_	GTtags=_|Gloss=but|SpaceAfter=No
+4	»	»	PUNCT	PUNCT	_	3	punct	_	GTtags=_|SpaceAfter=No
+5	...	...	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:368
+# text = Te škane sovasʹ kudos Marja vedra marto.
+1	Te	те	DET	Det	Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg
+2	škane	шка	NOUN	N	Case=Temp|Definite=Ind|Number=Plur,Sing	3	obl:tmod	_	GTtags=SP,TempCx,Indef
+3	sovasʹ	совамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+4	kudos	кудо	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	3	obl	_	GTtags=Sem/Plc,SP,Ill,Indef
+5	Marja	Маря	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Fem|NameType=Giv|Number=Sing	3	nsubj	_	GTtags=Ant_Fem,Prop,Sg,Nom,Indef
+6	vedra	ведра	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	obl	_	GTtags=Sg,Nom,Indef
+7	marto	марто	ADP	Adp	_	6	case	_	GTtags=COM|SpaceAfter=No
+8	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:427
+# text = Vese pejdezevstʹ.
+1	Vese	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	2	nsubj	_	GTtags=Tot,Sg,Nom,Indef
+2	pejdezevstʹ	пейдезевемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3|SpaceAfter=No
+3	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:320
+# text = Palʹko marto jala nalksestʹ.
+1	Palʹko	Палько	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	4	obl	_	GTtags=Prop,Sem/Sur,Sg,Nom,Indef
+2	marto	марто	ADP	Adp	_	1	case	_	GTtags=COM
+3	jala	яла	ADV	Adv	AdvType=Tim	4	advmod	_	GTtags=Temp
+4	nalksestʹ	налксемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:221
+# text = Palʹko, kadyk udytʹ.
+1	Palʹko	Палько	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	3	vocative	_	GTtags=Prop,Sem/Sur,Sg,Nom,Indef|SpaceAfter=No
+2	,	,	PUNCT	CLB	_	1	punct	_	_
+3	kadyk	кадомс	VERB	V	Mood=Imp|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2|Valency=2	0	root	_	GTtags=TV,Imprt,ScSg2,OcSg3
+4	udytʹ	удомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	3	xcomp:ds	_	GTtags=IV,Ind,Prs,ScPl3|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:263
+# text = Bertjaz dy Volčok ongitʹ sovicjatnenʹ lanks, a noldytʹ kardajs.
+1	Bertjaz	Бертяз	PROPN	N	Animacy=Anim|Case=Nom|Definite=Ind|Number=Sing	4	nsubj	_	GTtags=Sem/Ani,Prop,Sg,Nom,Indef
+2	dy	ды	CCONJ	CC	_	3	cc	_	_
+3	Volčok	Волчок	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	1	conj	_	GTtags=Prop,Sem/Sur,Sg,Nom,Indef
+4	ongitʹ	онгомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3
+5	sovicjatnenʹ	совиця	NOUN	N	Case=Gen|Definite=Def|Number=Plur	4	obl	_	GTtags=Pl,Gen,Def
+6	lanks	лангс	ADP	Adp	AdvType=Loc|Case=Ill	5	case	_	GTtags=Spat,Ill|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	a	а	AUX	Pcle	Polarity=Neg	9	aux:neg	_	GTtags=Neg
+9	noldytʹ	нолдамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	4	conj	_	GTtags=TV,Ind,Prs,ScPl3
+10	kardajs	кардаз	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	9	obl	_	GTtags=SP,Ill,Indef|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:4822
+# text = Koda avazo, anokstasʹ lapuža kirʹkst, istja žo pedjavtninze, valasʹkavtninze pedjavtoma tarkatnenʹ načko kedʹse.
+# text_en = Like his mother, he prepared flat rings, and stuck them onto the patty in the same way, and smoothed out the seams with his wet hands.
+# text_fi = Samalla tavalla kuin äitinsä Ketšai valmisti litteitä rinkuloita liitti ne samalla tavalla, ja siloitti liitoksen märällä kädellä.
+1	Koda	кода	ADV	Adv	AdvType=Man|PronType=Int	2	case	_	GTtags=Interr,Manner
+2	avazo	ава	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	advcl	_	GTtags=Sem/Kin,Sg,Nom,PxSg3|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	2	punct	_	_
+4	anokstasʹ	анокстамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1	0	root	_	GTtags=Ind,Prt1,ScSg3
+5	lapuža	лапужа	ADJ	A	_	6	amod	_	_
+6	kirʹkst	кирькс	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	4	obj	_	GTtags=Sem/Inanim_Cnt,Pl,Nom,Indef|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	10	punct	_	_
+8	istja	истя	ADV	Adv	_	10	advmod	_	_
+9	žo	жо	PART	Pcle	_	8	discourse	_	GTtags=Emph
+10	pedjavtninze	педявтнемс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	4	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcPl3|SpaceAfter=No
+11	,	,	PUNCT	CLB	_	10	punct	_	_
+12	valasʹkavtninze	валаськавтнемс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	4	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcPl3
+13	pedjavtoma	педявтома	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	14	compound	_	GTtags=Sg,Nom,Indef
+14	tarkatnenʹ	тарка	NOUN	N	Case=Gen|Definite=Def|Number=Plur	12	obj	_	GTtags=Sem/Inanim_Cnt,Pl,Gen,Def
+15	načko	начко	ADJ	A	_	16	amod	_	_
+16	kedʹse	кедь	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	12	obl	_	GTtags=Sem/Body_part,SP,Ine,Indef|SpaceAfter=No
+17	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:1726
+# text = Barjakanʹ a viškine kudosontʹ jala divsicja lomantne kurgost avtezʹ, valonʹ apak menstne, kunsolostʹ Jelesʹkanʹ.
+1	Barjakanʹ	Баряка	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	4	nmod	_	GTtags=Sem/Plc,SP,Gen,Indef
+2	a	а	AUX	Pcle	Polarity=Neg	3	aux:neg	_	GTtags=Neg
+3	viškine	вишкине	ADJ	A	_	4	amod	_	_
+4	kudosontʹ	кудо	NOUN	N	Case=Ine|Definite=Def|Number=Sing	15	obl	_	GTtags=Sem/Plc,Sg,Ine,Def
+5	jala	яла	ADV	Adv	AdvType=Tim	6	advmod	_	GTtags=Sem/Time
+6	divsicja	дивсемс	VERB	V	Derivation=NomAg|Tense=Pres|Valency=1|VerbForm=Part	7	acl	_	GTtags=IV,Der/Ыця,Act,Prs,VerbForm
+7	lomantne	ломань	NOUN	N	Case=Nom|Definite=Def|Number=Plur	15	nsubj	_	GTtags=Pl,Nom,Def
+8	kurgost	курго	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Plur|Person[psor]=3	9	obj	_	GTtags=Pl,Gen,PxPl3
+9	avtezʹ	автемс	VERB	V	Derivation=Ozj|Valency=2|VerbForm=Conv	15	advcl	_	GTtags=TV,Der/Озь,Ger|SpaceAfter=No
+10	,	,	PUNCT	CLB	_	13	punct	_	_
+11	valonʹ	вал	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	13	obj	_	GTtags=SP,Gen,Indef
+12	apak	апак	AUX	Pcle	Polarity=Neg	13	aux:neg	_	GTtags=Neg
+13	menstne	менстнемс	VERB	V	Connegative=Yes|Valency=2	15	advcl	_	GTtags=TV,ConNegII|SpaceAfter=No
+14	,	,	PUNCT	CLB	_	13	punct	_	_
+15	kunsolostʹ	кунсоломс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3
+16	Jelesʹkanʹ	Елеська	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Giv|Number=Plur,Sing	15	obj	_	GTtags=Ant_Mal,SP,Gen,Indef|SpaceAfter=No
+17	.	.	PUNCT	CLB	_	15	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:386
+# text = — Lisede sede kurok — jaksteretʹne sytʹ! — sergecʹ tandadozʹ vajgelʹ dy sedejak pek ardozʹ tusʹ ulʹcjavantʹ.
+1	—	—	PUNCT	PUNCT	_	2	punct	_	_
+2	Lisede	лисемс	VERB	V	Mood=Imp|Number[subj]=Plur|Person[subj]=2|Valency=1	0	root	_	GTtags=IV,Imprt,ScPl2
+3	sede	седе	ADV	Adv	Degree=Cmp	4	advmod	_	GTtags=Comp
+4	kurok	курок	ADV	Adv	AdvType=Tim	2	obl:tmod	_	GTtags=Temp
+5	—	—	PUNCT	PUNCT	_	7	punct	_	_
+6	jaksteretʹne	якстере	ADJ	A	Case=Nom|Definite=Def|Number=Plur	7	nsubj	_	GTtags=Pl,Nom,Def
+7	sytʹ	самс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	2	conj	_	GTtags=IV,Ind,Prs,ScPl3|SpaceAfter=No
+8	!	!	PUNCT	CLB	_	2	punct	_	_
+9	—	—	PUNCT	PUNCT	_	10	punct	_	_
+10	sergecʹ	серьгедемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	2	parataxis	_	GTtags=TV,Ind,Prt1,ScSg3
+11	tandadozʹ	тандадомс	VERB	V	Derivation=Ozj|Valency=1|VerbForm=Conv	12	acl	_	GTtags=IV,Der/Озь,Ger
+12	vajgelʹ	вайгель	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	nsubj	_	GTtags=Sg,Nom,Indef
+13	dy	ды	CCONJ	CC	_	17	cc	_	_
+14	sedejak	седе	ADV	Adv	Clitic=Gak|Degree=Cmp	15	advmod	_	GTtags=Comp,Clt/Gak
+15	pek	пек	ADV	Adv	AdvType=Deg	16	advmod	_	GTtags=Degree
+16	ardozʹ	ардомс	VERB	V	Derivation=Ozj|Valency=1|VerbForm=Conv	17	advcl	_	GTtags=IV,Der/Озь,Ger
+17	tusʹ	туемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	10	conj	_	GTtags=IV,Ind,Prt1,ScSg3
+18	ulʹcjavantʹ	ульця	NOUN	N	Case=Prl|Definite=Def|Number=Sing	17	obl	_	GTtags=Sem/Plc,Sg,Prl,Def|SpaceAfter=No
+19	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:115
+# text = Prevstenʹ targamosʹ čop a lisʹni.
+1	Prevstenʹ	прев	NOUN	N	Case=Ela|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=1	5	obl	_	GTtags=SP,Ela,PxSg1
+2	targamosʹ	таргамо	NOUN	N	Case=Nom|Definite=Def|Number=Sing	5	nsubj	_	GTtags=Sg,Nom,Def
+3	čop	чоп	ADV	Adv	AdvType=Tim	5	advmod	_	GTtags=Temp
+4	a	а	AUX	Pcle	Polarity=Neg	5	aux:neg	_	GTtags=Neg
+5	lisʹni	лиснемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:253
+# text = ― Valskenʹ Gudok! ― vese partizantne kemenʹškakstʹ melʹsek jovtyzʹ te od lementʹ.
+1	―	―	PUNCT	PUNCT	_	3	punct	_	_
+2	Valskenʹ	валске	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	3	nmod	_	GTtags=SP,Gen,Indef
+3	Gudok	гудок	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+4	!	!	PUNCT	CLB	_	3	punct	_	_
+5	―	―	PUNCT	PUNCT	_	10	punct	_	_
+6	vese	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	7	det	_	GTtags=Tot,Sg,Nom,Indef
+7	partizantne	партизан	NOUN	N	Case=Nom|Definite=Def|Number=Plur	10	nsubj	_	GTtags=Pl,Nom,Def
+8	kemenʹškakstʹ	кемень	ADV	Adv	NumType=Mult	10	advmod	_	GTtags=Appr,Iter
+9	melʹsek	мельцек	ADV	Adv	_	10	advmod	_	GTtags=Err/Orth
+10	jovtyzʹ	ёвтамс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	3	parataxis	_	GTtags=TV,Ind,Prt1,ScPl3,OcSg3
+11	te	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	13	det	_	GTtags=Dem,Sg,Nom,Indef
+12	od	од	ADJ	A	_	13	amod	_	_
+13	lementʹ	лем	NOUN	N	Case=Gen|Definite=Def|Number=Sing	10	obj	_	GTtags=Hom1,Sg,Gen,Def|SpaceAfter=No
+14	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:1159
+# text = ... Avolitʹ peljumasost školanʹ umarʹ pirese kavto cjorat.
+1	...	...	PUNCT	CLB	_	2	punct	_	_
+2	Avolitʹ	аволямс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3|Gloss=swing
+3	peljumasost	пелюма	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Plur|Person[psor]=3	2	obl	_	GTtags=SP,Ine,PxPl3|Gloss=scythe
+4	školanʹ	школа	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	6	nmod	_	GTtags=Sem/Plc,SP,Gen,Indef|Gloss=school
+5	umarʹ	умарь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	6	compound	_	GTtags=Sg,Nom,Indef|Gloss=apple
+6	pirese	пиресэ	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	2	obl	_	GTtags=SP,Ine,Indef|Gloss=orchard
+7	kavto	кавто	NUM	Num	NumType=Card	8	nummod	_	GTtags=Card|Gloss=two
+8	cjorat	цёра	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	2	nsubj	_	GTtags=Pl,Nom,Indef|Gloss=man|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:238
+# text = Palʹko kujsʹ vaksozonzo.
+1	Palʹko	Палько	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Sur,Sg,Nom,Indef
+2	kujsʹ	куземс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+3	vaksozonzo	вакссо	ADP	Adp	Case=Ill|Number[psor]=Sing|Person[psor]=3	2	obl	_	GTtags=Ill,PxSg3|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3501
+# text = Buti, alkukskak, a istja dy lamotne ejstenek netʹ ašo moronʹ morycja škatneva tejnitʹ čopoda tevtʹ... seste kitʹ minʹ?
+1	Buti	бути	SCONJ	CS	_	6	mark	_	GTtags=_|Gloss=if|SpaceAfter=No
+2	,	,	PUNCT	CLB	_	3	punct	_	_
+3	alkukskak	алкукс	ADV	Adv	Clitic=Gak	6	advmod	_	GTtags=Clitic|Gloss=actually|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	a	а	AUX	Pcle	Polarity=Neg	6	aux:neg	_	GTtags=Neg|Gloss=not
+6	istja	истя	ADV	Adv	AdvType=Man	0	root	_	GTtags=Manner|Gloss=like-that
+7	dy	ды	CCONJ	CC	_	15	cc	_	GTtags=_|Gloss=and
+8	lamotne	ламо	DET	Det	Case=Nom|Definite=Def|Number=Plur	15	nsubj	_	GTtags=Qnt,Der/MWN,N,Pl,Nom,Def|Gloss=many
+9	ejstenek	эйстэ	ADP	Adp	Case=Ela|Number[psor]=Plur|Person[psor]=1	8	obl	_	GTtags=Ela,PxPl1|Gloss=of-us
+10	netʹ	неть	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	14	det	_	GTtags=Dem,Pl,Nom,Indef|Gloss=those
+11	ašo	ашо	ADJ	A	_	12	amod	_	GTtags=_|Gloss=white
+12	moronʹ	моро	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	13	nmod	_	GTtags=SP,Gen,Indef|Gloss=song
+13	morycja	морамс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Tense=Pres|Valency=2|VerbForm=Part	14	acl	_	GTtags=TV,Act,Prs,VerbForm|Gloss=sing
+14	škatneva	шка	NOUN	N	Case=Prl|Definite=Def|Number=Plur	15	obl	_	GTtags=Pl,Prl,Def|Gloss=time
+15	tejnitʹ	тейнемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=2	6	conj	_	GTtags=TV,Ind,Prs,ScPl3|Gloss=do
+16	čopoda	чопода	ADJ	A	_	17	amod	_	GTtags=_|Gloss=dark
+17	tevtʹ	тев	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	15	obj	_	GTtags=Pl,Nom,Indef|Gloss=deed|SpaceAfter=No
+18	...	...	PUNCT	CLB	_	21	punct	_	_
+19	seste	сестэ	ADV	Adv	Case=Ela	21	advmod	_	GTtags=Ela|Gloss=then
+20	kitʹ	кие	PRON	Pron	Animacy=Hum|Case=Nom|Number=Plur|PronType=Int	21	nsubj	_	GTtags=Interr,Hum,Pl,Nom|Gloss=who
+21	minʹ	минь	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	parataxis	_	GTtags=Pers,Pl1,Nom|Gloss=we|SpaceAfter=No
+22	?	?	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:261
+# text = Marjavi lotkastʹ znjaro butim lomatʹ Mikolonʹ kudontʹ ikelev.
+# text_en = It can be heard that a number of people stopped in front of Mikol's house.
+1	Marjavi	марявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3|Gloss=can-be-heard
+2	lotkastʹ	лоткамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	1	csubj	_	GTtags=IV,Ind,Prt1,ScPl3|Gloss=stop
+3	znjaro	зняро	ADV	Adv	PronType=Rel	5	advmod	_	GTtags=Rel|Gloss=small-number-of
+4	butim	бутим	ADV	Adv	_	3	fixed	_	_
+5	lomatʹ	ломань	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	2	nsubj	_	GTtags=Pl,Nom,Indef,Err/Orth|Gloss=person
+6	Mikolonʹ	Микол	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Giv|Number=Plur,Sing	7	nmod	_	GTtags=Prop,Ant_Mal,SP,Gen,Indef|Gloss=Mikol
+7	kudontʹ	кудо	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	obl	_	GTtags=Sem/Plc,Sg,Gen,Def|Gloss=house
+8	ikelev	икеле	ADP	Adp	AdvType=Loc|Case=Lat	7	case	_	GTtags=Spat,Lat|Gloss=in-front|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:1283
+# text = — Erʹ...
+# text_en = Well
+# text_fi = – No…
+1	—	—	PUNCT	CLB	_	2	punct	_	_
+2	Erʹ	эрь	PART	Pcle	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+3	...	...	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:229
+# text = ― Mon a mujan valt, koda bu jovtams, zjaroška monʹ ucjaskam, monenʹ a jovtavitʹ vese, meze ašti melʹsenʹ.
+1	―	―	PUNCT	PUNCT	_	4	punct	_	_
+2	Mon	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	GTtags=Pers,Sg1,Nom
+3	a	а	AUX	Pcle	Polarity=Neg	4	aux:neg	_	GTtags=Neg
+4	mujan	муемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg1
+5	valt	вал	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	4	obj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	9	punct	_	_
+7	koda	кода	ADV	Adv	AdvType=Man|PronType=Rel	9	mark	_	GTtags=Rel,Manner
+8	bu	бу	AUX	Pcle	_	9	aux:cnd	_	_
+9	jovtams	ёвтамс	VERB	V	Valency=2|VerbForm=Inf	5	acl:relcl	_	GTtags=TV,Inf|SpaceAfter=No
+10	,	,	PUNCT	CLB	_	11	punct	_	_
+11	zjaroška	зярошка	ADV	Adv	_	9	ccomp	_	_
+12	monʹ	мон	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	nmod	_	GTtags=Pers,Sg1,Gen
+13	ucjaskam	уцяска	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	11	nsubj	_	GTtags=Sg,Nom,PxSg1|SpaceAfter=No
+14	,	,	PUNCT	CLB	_	17	punct	_	_
+15	monenʹ	мон	PRON	Pron	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	obl:agent	_	GTtags=Pers,Sg1,Dat
+16	a	а	AUX	Pcle	Polarity=Neg	17	aux:neg	_	GTtags=Neg
+17	jovtavitʹ	ёвтавомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	4	conj	_	GTtags=IV,Ind,Prs,ScPl3
+18	vese	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	17	obj	_	GTtags=Tot,Sg,Nom,Indef|SpaceAfter=No
+19	,	,	PUNCT	CLB	_	21	punct	_	_
+20	meze	мезе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	21	nsubj	_	GTtags=Rel,Sg,Nom,Indef
+21	ašti	аштемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	18	acl:relcl	_	GTtags=IV,Ind,Prs,ScSg3
+22	melʹsenʹ	мель	NOUN	N	Case=Ine|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=1	21	obl	_	GTtags=SP,Ine,PxSg1|SpaceAfter=No
+23	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3628
+# text = Son tonavtymim virʹga-ukštorga jakamo, paro tevenʹ tejeme.
+1	Son	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
+2	tonavtymim	тонавтомс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=1|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg1
+3	virʹga-ukštorga	вирть-укшторт	NOUN	N	Case=Prl|Definite=Ind|Number=Plur,Sing	4	obl	_	GTtags=Cmp/Hyph/Coll,SP,Prl,Indef
+4	jakamo	якамс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	2	xcomp:ds	_	GTtags=TV,Inf,Loc|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	8	punct	_	_
+6	paro	паро	ADJ	A	_	7	amod	_	_
+7	tevenʹ	тев	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	8	obj	_	GTtags=SP,Gen,Indef
+8	tejeme	теемс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	2	xcomp:ds	_	GTtags=TV,Inf,Loc|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:189
+# text = Muja velentʹ vese nilenʹgemenʹ kudonzo aštitʹ Muja lejentʹ kuvalt.
+1	Muja	Муя	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	5	nmod	_	GTtags=Sem/Plc,Prop,Sg,Nom,Indef
+2	velentʹ	веле	NOUN	N	Case=Gen|Definite=Def|Number=Sing	1	nmod	_	GTtags=Sem/Plc,Sg,Gen,Def
+3	vese	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	5	det	_	GTtags=Tot,Sg,Nom,Indef
+4	nilenʹgemenʹ	ниленьгемень	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	GTtags=Card,Sg,Nom,Indef
+5	kudonzo	кудо	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	GTtags=Sem/Plc,Pl,Nom,PxSg3
+6	aštitʹ	аштемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3
+7	Muja	Муя	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	6	obl	_	GTtags=Sem/Plc,Prop,Sg,Nom,Indef
+8	lejentʹ	лей	NOUN	N	Case=Gen|Definite=Def|Number=Sing	7	nmod	_	GTtags=Sg,Gen,Def
+9	kuvalt	кувалт	ADP	Adp	_	8	case	_	GTtags=_|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:218
+# text = Vestʹ istjamo tamaša lisnesʹ.
+1	Vestʹ	весть	ADV	Adv	NumType=Mult	4	advmod	_	GTtags=Iter
+2	istjamo	истямо	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	3	det	_	GTtags=Dem,Der/MWN,Sg,Nom,Indef
+3	tamaša	тамаша	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	nsubj	_	GTtags=Sg,Nom,Indef
+4	lisnesʹ	лиснемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:49
+# text = Graždanskoj vojnantʹ pingste akonaškane ulʹnesʹ dumams od puškado.
+1	Graždanskoj	гражданской	ADJ	A	_	2	amod	_	_
+2	vojnantʹ	война	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obl	_	GTtags=Sg,Gen,Def
+3	pingste	пингстэ	ADP	Adp	AdvType=Tim|Case=Ela	2	case	_	GTtags=Ela,Sem/Time
+4	akonaškane	аконашкане	ADV	Adv	AdvType=Tim	0	root	_	GTtags=Sem/Time
+5	ulʹnesʹ	ульнемс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	4	cop	_	GTtags=IV,Ind,Prt1,ScSg3
+6	dumams	думамс	VERB	V	Valency=2|VerbForm=Inf	4	csubj	_	GTtags=TV,Inf
+7	od	од	ADJ	A	_	8	amod	_	_
+8	puškado	пушка	NOUN	N	Case=Abl|Definite=Ind|Number=Plur,Sing	6	obl	_	GTtags=SP,Abl,Indef|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:48
+# text = Erjavstʹ kežej, turema valt.
+1	Erjavstʹ	эрявомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
+2	kežej	кежей	ADJ	A	_	5	amod	_	GTtags=_|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	4	punct	_	_
+4	turema	тюремс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Valency=1|VerbForm=Vnoun	5	amod	_	GTtags=IV,NomAct,N,Sg,Nom,Indef
+5	valt	вал	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	1	nsubj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:193
+# text = Sovasʹ kardajs.
+1	Sovasʹ	совамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+2	kardajs	кардаз	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	1	obl	_	GTtags=SP,Ill,Indef|SpaceAfter=No
+3	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:1215
+# text = Te škane, zjardo vese eriksesʹ ški-tri: narvi, levksyi, vazyi, tri-kasty ejdenze — ocinjamosʹ kandy pokš zyjan.
+# text_en = When all the creatures are nurturing and rearing young: setting, giving birth, calving and raising their babies, hunting can encure the greatest damage.
+# text_fi = Silloin, kun kaikki eläväiset lisääntyvät ja kasvattavat jälkeläisiään: hautovat, poikivat, porsivat, vasovat, metsästyksellä on tuhoisa jälki.
+1	Te	те	DET	Det	Case=Nom|Definite=Ind|Number=Sing	2	det	_	GTtags=Sg,Nom,Indef
+2	škane	шка	NOUN	N	Case=Temp|Definite=Ind|Number=Plur,Sing	19	obl	_	GTtags=Sem/Time,SP,Temp,Indef|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	7	punct	_	_
+4	zjardo	зярдо	ADV	Adv	AdvType=Tim|PronType=Rel	7	mark	_	GTtags=Rel,Sem/Time
+5	vese	весе	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	6	det	_	GTtags=Tot,Sg,Nom,Indef
+6	eriksesʹ	эрикс	ADJ	A	Case=Nom|Definite=Def|Number=Sing	7	nsubj	_	GTtags=Sg,Nom,Def
+7	ški-tri	шкамс-трямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	19	xcomp	_	GTtags=Ind,Prs,ScSg3|SpaceAfter=No
+8	:	:	PUNCT	CLB	_	9	punct	_	_
+9	narvi	нарвамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	7	conj	_	GTtags=Ind,Prs,ScSg3|SpaceAfter=No
+10	,	,	PUNCT	CLB	_	11	punct	_	_
+11	levksyi	левксыямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	7	conj	_	GTtags=Ind,Prs,ScSg3|SpaceAfter=No
+12	,	,	PUNCT	CLB	_	13	punct	_	_
+13	vazyi	вазыямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	7	conj	_	GTtags=Ind,Prs,ScSg3|SpaceAfter=No
+14	,	,	PUNCT	CLB	_	15	punct	_	_
+15	tri-kasty	трямс-кастомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	7	conj	_	GTtags=Ind,Prs,ScSg3
+16	ejdenze	эйде	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3	15	obj	_	GTtags=Pl,Gen,PxSg3
+17	—	—	PUNCT	CLB	_	19	punct	_	_
+18	ocinjamosʹ	оцинямо	NOUN	N	Case=Nom|Definite=Def|Number=Sing	19	nsubj	_	GTtags=Sg,Nom,Def
+19	kandy	кандомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,ScSg3
+20	pokš	покш	ADJ	A	_	21	amod	_	_
+21	zyjan	зыян	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	19	obj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+22	.	.	PUNCT	CLB	_	19	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4007
+# text = Modantʹ langso uli mastor, kona moli ašoso kopačazʹ umarʹ čuvto jonov.
+1	Modantʹ	мода	NOUN	N	Case=Gen|Definite=Def|Number=Sing	0	root	_	GTtags=Sg,Gen,Def
+2	langso	лангсо	ADP	Adp	Case=Ine	1	case	_	GTtags=Ine
+3	uli	улемс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	1	cop	_	GTtags=IV,Ind,Prs,ScSg3
+4	mastor	мастор	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	nsubj	_	GTtags=Sem/Plc,Sg,Nom,Indef|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	7	punct	_	_
+6	kona	кона	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Rel	7	nsubj	_	GTtags=Rel,Sel,Sg,Nom,Indef
+7	moli	молемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	4	acl:relcl	_	GTtags=IV,Ind,Prs,ScSg3
+8	ašoso	ашо	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	9	obl	_	GTtags=SP,Ine,Indef
+9	kopačazʹ	копачамс	VERB	V	Derivation=Ozj|Valency=1|VerbForm=Conv	11	acl:relcl	_	GTtags=IV,Der/Озь,Ger,A,Attr
+10	umarʹ	умарь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	11	compound	_	GTtags=Sg,Nom,Indef
+11	čuvto	чувто	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	obl	_	GTtags=Sg,Nom,Indef
+12	jonov	ёнов	ADP	Adp	AdvType=Loc|Case=Lat	11	case	_	GTtags=Spat,Lat|SpaceAfter=No
+13	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:400
+# text = Mikol smetjasʹ langozonzo.
+1	Mikol	Микол	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	GTtags=Prop,Ant_Mal,Sg,Nom,Indef
+2	smetjasʹ	сметямс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+3	langozonzo	ланго	NOUN	N	Case=Ill|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	2	obl	_	GTtags=SP,Ill,PxSg3|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:429
+# text = — Kamandir jalgaj, eščo kavto bandit kundynek dy kolmo lišmetʹ kambraz marto ponkstʹ.
+1	—	—	PUNCT	CLB	_	2	punct	_	_
+2	Kamandir	Камандир	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	vocative	_	GTtags=Sg,Nom,Indef
+3	jalgaj	ялгай	INTJ	Interj	Derivation=J	2	compound	_	GTtags=Voc|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	2	punct	_	_
+5	eščo	ещё	ADV	Adv	AdvType=Tim	8	advmod	_	GTtags=Err/Lex,Temp
+6	kavto	кавто	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	7	nummod	_	GTtags=Card,Sg,Nom,Indef
+7	bandit	бандит	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	8	obj	_	GTtags=Pl,Nom,Indef
+8	kundynek	кундамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=1|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl1
+9	dy	ды	CCONJ	CC	_	14	cc	_	_
+10	kolmo	колмо	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	11	nummod	_	GTtags=Card,Sg,Nom,Indef
+11	lišmetʹ	лишме	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	14	nsubj	_	GTtags=Pl,Nom,Indef
+12	kambraz	камбраз	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	11	nmod	_	GTtags=Sg,Nom,Indef
+13	marto	марто	ADP	Adp	_	12	case	_	GTtags=COM
+14	ponkstʹ	понгомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	8	conj	_	GTtags=IV,Ind,Prt1,ScPl3|SpaceAfter=No
+15	.	.	PUNCT	CLB	_	8	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:303
+# text = ― Vanado, paznenʹ akemicjat, vanodo! ― rangstasʹ Fedorov: ― Vanodo dy kemede.
+1	―	―	PUNCT	PUNCT	_	2	punct	_	_
+2	Vanado	ваномс	VERB	V	Mood=Imp|Number[subj]=Plur|Person[subj]=2|Valency=2	0	root	_	GTtags=TV,Imprt,ScPl2|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	5	punct	_	_
+4	paznenʹ	паз	NOUN	N	Case=Dat|Definite=Ind|Number=Plur,Sing	5	acl	_	GTtags=SP,Dat,Indef
+5	akemicjat	акемиця	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	2	vocative	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	7	punct	_	_
+7	vanodo	ваномс	VERB	V	Mood=Imp|Number[subj]=Plur|Person[subj]=2|Valency=2	2	conj	_	GTtags=TV,Imprt,ScPl2|SpaceAfter=No
+8	!	!	PUNCT	CLB	_	2	punct	_	_
+9	―	―	PUNCT	PUNCT	_	10	punct	_	_
+10	rangstasʹ	рангстамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	2	parataxis	_	GTtags=IV,Ind,Prt1,ScSg3
+11	Fedorov	Фёдоров	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	10	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef|SpaceAfter=No
+12	:	:	PUNCT	CLB	_	10	punct	_	_
+13	―	―	PUNCT	PUNCT	_	14	punct	_	_
+14	Vanodo	ваномс	VERB	V	Mood=Imp|Number[subj]=Plur|Person[subj]=2|Valency=2	2	conj	_	GTtags=TV,Imprt,ScPl2
+15	dy	ды	CCONJ	CC	_	16	cc	_	_
+16	kemede	кемемс	VERB	V	Mood=Imp|Number[subj]=Plur|Person[subj]=2|Valency=2	14	conj	_	GTtags=TV,Imprt,ScPl2|SpaceAfter=No
+17	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:142
+# text = Ramams — vijem a saty.
+1	Ramams	рамамс	VERB	V	Valency=2|VerbForm=Inf	5	dislocated	_	GTtags=TV,Inf
+2	—	—	PUNCT	PUNCT	_	1	punct	_	_
+3	vijem	вий	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	GTtags=Sg,Nom,PxSg1
+4	a	а	AUX	Pcle	Polarity=Neg	5	aux:neg	_	GTtags=Neg
+5	saty	сатомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:390
+# text = Serej rjaboj banditesʹ jukstize karksstonzo granatantʹ dy jortyze kasʹkas.
+1	Serej	сэрей	ADJ	A	_	3	amod	_	_
+2	rjaboj	рябой	ADJ	A	_	3	amod	_	_
+3	banditesʹ	бандит	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	GTtags=Sg,Nom,Def
+4	jukstize	юкстемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3
+5	karksstonzo	каркс	NOUN	N	Case=Ela|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	GTtags=SP,Ela,PxSg3
+6	granatantʹ	граната	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obj	_	GTtags=Sg,Gen,Def
+7	dy	ды	CCONJ	CC	_	8	cc	_	_
+8	jortyze	ёртомс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	4	conj	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3
+9	kasʹkas	каська	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	8	obl	_	GTtags=SP,Ill,Indef|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:133
+# text = Son kolonʹgemenʹ lomanʹ marto ašolgadmo langa koda eci virentʹ jondo velentʹ lanks!
+1	Son	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	GTtags=Pers,Sg3,Nom
+2	kolonʹgemenʹ	колмоньгемень	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	3	nummod	_	GTtags=Card,Sg,Nom,Indef
+3	lomanʹ	ломань	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	1	nmod	_	GTtags=Sg,Nom,Indef
+4	marto	марто	ADP	Adp	_	3	case	_	GTtags=COM
+5	ašolgadmo	ашолгадомс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	8	obl	_	GTtags=IV,Err/Orth,Inf,Loc
+6	langa	ланга	ADV	Adv	AdvType=Loc|Case=Prl	5	case	_	GTtags=Spat,Prl
+7	koda	кода	ADV	Adv	AdvType=Man|PronType=Int	8	advmod	_	GTtags=Interr,Manner
+8	eci	эцемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3
+9	virentʹ	вирь	NOUN	N	Case=Gen|Definite=Def|Number=Sing	8	obl	_	GTtags=Sem/Plc,Sg,Gen,Def
+10	jondo	ёндо	ADP	Adp	AdvType=Loc|Case=Abl	9	case	_	GTtags=Spat,Abl
+11	velentʹ	веле	NOUN	N	Case=Gen|Definite=Def|Number=Sing	9	appos	_	GTtags=Sem/Plc,Sg,Gen,Def
+12	lanks	лангс	ADP	Adp	AdvType=Loc|Case=Ill	11	case	_	GTtags=Spat,Ill|SpaceAfter=No
+13	!	^excl	PUNCT	CLB	_	8	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:191
+# text = Zboj čize Jastrebovonʹgak pek lamolʹ, vojenno strategijantʹ sodylisse parste, a stjak Germanskoj vojnasontʹ ulʹnesʹ unter.
+1	Zboj	Збой	ADJ	A	_	2	amod	_	_
+2	čize	чи	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	GTtags=Sg,Nom,PxSg3
+3	Jastrebovonʹgak	Ястребов	PROPN	N	Animacy=Hum|Case=Gen|Clitic=Gak|Definite=Ind|Gender=Masc|NameType=Sur|Number=Plur,Sing	5	obl	_	GTtags=Sur_Mal,Prop,SP,Gen,Indef,Clt/Gak
+4	pek	пек	ADV	Adv	AdvType=Deg	5	advmod	_	GTtags=Degree
+5-6	lamolʹ	_	_	_	_	_	_	_	SpaceAfter=No
+5	lamo	ламо	ADV	Adv	_	0	root	_	GTtags=Qnt
+6	lʹ	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=3|Tense=Prt2	5	cop	_	GTtags=Prt2,ScSg3
+7	,	,	PUNCT	CLB	_	10	punct	_	_
+8	vojenno	военно	PART	Pcle	_	9	compound	_	_
+9	strategijantʹ	стратегия	NOUN	N	Case=Gen|Definite=Def|Number=Sing	10	obj	_	GTtags=Sg,Gen,Def
+10	sodylisse	содылиссе	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt2|Valency=2	5	conj	_	GTtags=TV,Ind,Prt2,ScSg3,OcSg3
+11	parste	парсте	ADV	Adv	_	10	advmod	_	GTtags=_|SpaceAfter=No
+12	,	,	PUNCT	CLB	_	18	punct	_	_
+13	a	а	AUX	Pcle	Polarity=Neg	14	aux:neg	_	GTtags=Neg
+14	stjak	стямс	ADV	Adv	_	18	advmod	_	_
+15	Germanskoj	германской	ADJ	A	_	16	amod	_	_
+16	vojnasontʹ	война	NOUN	N	Case=Ine|Definite=Def|Number=Sing	18	obl	_	GTtags=Sg,Ine,Def
+17	ulʹnesʹ	ульнемс	AUX	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	18	cop	_	GTtags=IV,Ind,Prt1,ScSg3
+18	unter	унтер	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	conj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+19	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:20
+# text = ― Kavonest kundyzʹ Ljubanʹ kavto jondo.
+1	―	―	PUNCT	PUNCT	_	3	punct	_	_
+2	Kavonest	кавонест	ADV	Num	Number[psor]=Plur|NumType=Sets|Person[psor]=3	3	advcl	_	GTtags=AssocColl,PxPl3
+3	kundyzʹ	кундамс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3,OcSg3
+4	Ljubanʹ	Люба	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Fem|NameType=Giv|Number=Plur,Sing	3	obj	_	GTtags=Ant_Fem,Prop,SP,Gen,Indef
+5	kavto	кавто	NUM	Num	NumType=Card	6	nummod	_	GTtags=Card
+6	jondo	ёндо	ADP	Adp	AdvType=Loc|Case=Abl	3	obl	_	GTtags=Spat,Abl|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:102
+# text = ― Zvezdov jovtnesʹ, koda poptne anokstastʹ velevantʹ jutavtomo velenʹ ozkst, jaksteretnenʹ sede kurok maštovomast kis dy Kolčakonʹ armijantʹ šumbra činze kis.
+1	―	―	PUNCT	PUNCT	_	3	punct	_	_
+2	Zvezdov	звездов	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	nsubj	_	GTtags=Sg,Nom,Indef
+3	jovtnesʹ	ёвтнемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	7	punct	_	_
+5	koda	кода	ADV	Adv	AdvType=Man|PronType=Int	7	advmod	_	GTtags=Interr,Manner
+6	poptne	поп	NOUN	N	Case=Nom|Definite=Def|Number=Plur	7	nsubj	_	GTtags=Pl,Nom,Def
+7	anokstastʹ	анокстамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	3	xcomp	_	GTtags=TV,Ind,Prt1,ScPl3
+8	velevantʹ	веле	NOUN	N	Case=Prl|Definite=Def|Number=Sing	7	obl	_	GTtags=Sem/Plc,Sg,Prl,Def
+9	jutavtomo	ютавтомс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	7	xcomp	_	GTtags=TV,Inf,Loc
+10	velenʹ	веле	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	11	nmod	_	GTtags=Sem/Plc,SP,Gen,Indef
+11	ozkst	озкс	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	9	obj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+12	,	,	PUNCT	CLB	_	16	punct	_	_
+13	jaksteretnenʹ	якстере	ADJ	A	Case=Gen|Definite=Def|Number=Plur	16	nmod	_	GTtags=Pl,Gen,Def
+14	sede	седе	ADV	Adv	Degree=Cmp	15	advmod	_	GTtags=Comp
+15	kurok	курок	ADV	Adv	AdvType=Tim	16	advmod	_	GTtags=Temp
+16	maštovomast	маштовома	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=3	11	conj	_	GTtags=Sg,Gen,PxPl3
+17	kis	кис	ADP	Adp	_	16	case	_	_
+18	dy	ды	CCONJ	CC	_	22	cc	_	_
+19	Kolčakonʹ	Колчак	PROPN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	20	nmod	_	GTtags=Prop,Sem/Sur,SP,Gen,Indef
+20	armijantʹ	армия	NOUN	N	Case=Gen|Definite=Def|Number=Sing	22	nmod	_	GTtags=Sg,Gen,Def
+21	šumbra	шумбра	ADJ	A	_	22	compound	_	_
+22	činze	чи	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	conj	_	GTtags=Sg,Gen,PxSg3
+23	kis	кис	ADP	Adp	_	22	case	_	GTtags=_|SpaceAfter=No
+24	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:252
+# text = Nejsy-okulʹcjatnenʹ vic pačkoditʹ lastetne.
+1	Nejsy	неемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3,OcSg3|SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	5	punct	_	GTtags=_|SpaceAfter=No
+3	okulʹcjatnenʹ	окульця	NOUN	N	Case=Gen|Definite=Def|Number=Plur	5	obl	_	GTtags=Pl,Gen,Def
+4	vic	видь	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	3	case	_	GTtags=SP,Ill,Indef
+5	pačkoditʹ	пачкодемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	1	ccomp	_	GTtags=IV,Ind,Prs,ScPl3
+6-7	lastetne	_	_	_	_	_	_	_	SpaceAfter=No
+6	laste	ласте	ADV	Adv	_	7	acl	_	GTtags=Pred2
+7	tne	ось	PRON	Pron	Case=Nom|Definite=Def|Number=Plur	5	nsubj	_	GTtags=Pl,Nom,Def
+8	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:4745
+# text = Dy avolʹ ansjak idem rakšado pelʹtʹ.
+# text_en = But do not just worry about wild animals.
+# text_fi = Eikä pidä pelätä ainoastaan villieläimiä.
+1	Dy	ды	CCONJ	CC	_	6	cc	_	_
+2	avolʹ	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	3	aux:neg	_	GTtags=Neg,Emphatic
+3	ansjak	ансяк	ADV	Adv	_	5	advmod	_	_
+4	idem	идем	ADJ	A	_	5	amod	_	_
+5	rakšado	ракша	NOUN	N	Case=Abl|Definite=Ind|Number=Plur,Sing	6	obl	_	GTtags=Sem/Anim_Cnt,SP,Abl,Indef
+6	pelʹtʹ	пелемс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Valency=1	0	root	_	GTtags=IV,Imprt,ScSg2|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:481
+# text = Arctʹ vaksozon.
+1	Arctʹ	ардомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
+2	vaksozon	ваксс	ADP	Adp	Case=Ill|Number[psor]=Sing|Person[psor]=1	1	obl	_	GTtags=Ill,PxSg1|SpaceAfter=No
+3	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:278
+# text = Dy kolijak avolinʹ karma kortamo, avolʹ nejavtderjaj tenʹ isenʹ vene vejke videnija.
+1	Dy	ды	CCONJ	CC	_	4	cc	_	_
+2	kolijak	колияк	ADV	Adv	AdvType=Tim|Definite=Ind	4	advmod	_	GTtags=Indef,Temp
+3	avolinʹ	аволь	AUX	Aux	Mood=Cnj|Number[subj]=Sing|Person[subj]=1|Polarity=Neg|VerbType=Aux	4	aux:neg	_	_
+4	karma	кармамс	VERB	V	Connegative=Yes|Valency=1	0	root	_	GTtags=IV,ConNeg
+5	kortamo	кортамс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	4	xcomp	_	GTtags=IV,Inf,Loc|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	8	punct	_	_
+7	avolʹ	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	8	aux:neg	_	GTtags=Neg,Emphatic
+8	nejavtderjaj	неявомс	VERB	V	Connegative=Yes|Mood=Cnd|Valency=1	4	advcl	_	GTtags=IV,Ind,Connegative
+9	tenʹ	мон	PRON	Pron	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	8	obl	_	GTtags=Pers,Sg1,Dat,Short
+10	isenʹ	исень	ADJ	A	Derivation=GenAttr	11	amod	_	GTtags=Der/GenAttr
+11	vene	вене	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	obl	_	GTtags=Sg,Nom,Indef
+12	vejke	вейке	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	13	nummod	_	GTtags=Card,Sg,Nom,Indef
+13	videnija	видения	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	nsubj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+14	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:4581
+# text = Mejle sonsʹ Isaj vitʹkstasʹ Mazurinnenʹ, zjardo dy ki tenze lezdasʹ kuzeme polok langs.
+1	Mejle	мейле	ADV	Adv	AdvType=Tim	4	advmod	_	GTtags=Sem/Time
+2	sonsʹ	сонсь	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	det	_	GTtags=Refl,Sg3,Nom
+3	Isaj	Исай	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	4	nsubj	_	GTtags=Ant_Mal,Prop,Sg,Nom,Indef
+4	vitʹkstasʹ	витькстамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3
+5	Mazurinnenʹ	Мазурин	PROPN	N	Animacy=Hum|Case=Dat|Definite=Ind|Gender=Masc|NameType=Sur|Number=Plur,Sing	4	obl	_	GTtags=Sur_Mal,Prop,SP,Dat,Indef|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	11	punct	_	_
+7	zjardo	зярдо	ADV	Adv	AdvType=Tim|PronType=Int	11	advmod	_	GTtags=Interr,Sem/Time
+8	dy	ды	CCONJ	CC	_	9	cc	_	_
+9	ki	кие	PRON	Pron	Animacy=Hum|Case=Nom|Number=Sing|PronType=Int	11	nsubj	_	GTtags=Interr,Hum,Sg,Nom
+10	tenze	сон	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obl	_	GTtags=Pers,Sg3,Dat,Short
+11	lezdasʹ	лездамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	4	ccomp	_	GTtags=TV,Ind,Prt1,ScSg3
+12	kuzeme	куземс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	11	xcomp:ds	_	GTtags=IV,Inf,Loc
+13	polok	полок	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	12	obl	_	GTtags=Sg,Nom,Indef
+14	langs	лангс	ADP	Adp	Case=Ill	13	case	_	GTtags=Ill|SpaceAfter=No
+15	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:101
+# text = Ansjak sakšnosʹ son jakamsto ― pakamsto.
+1	Ansjak	ансяк	ADV	Adv	_	2	advmod	_	GTtags=Exclusive
+2	sakšnosʹ	самс	VERB	V	Derivation=OkshnOms|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Der/ОкшнОмс,V,IV,Ind,Prt1,ScSg3
+3	son	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
+4	jakamsto	якамс	VERB	V	Case=Ela|Valency=2|VerbForm=Conv	2	advcl	_	GTtags=TV,Ger,Ela
+5	―	―	PUNCT	PUNCT	_	6	punct	_	_
+6	pakamsto	пакамс	VERB	V	Case=Ela|Valency=1|VerbForm=Conv	4	conj	_	GTtags=IV,Ger,Ela|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:298
+# text = Komsʹ ijetʹ uš ašti ugolsontʹ te pazavasʹ.
+1	Komsʹ	комсь	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	2	nummod	_	GTtags=Card,Sg,Nom,Indef
+2	ijetʹ	ие	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	4	obj	_	GTtags=Pl,Nom,Indef
+3	uš	уш	ADV	Adv	AdvType=Tim	4	advmod	_	GTtags=Temp
+4	ašti	аштемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3
+5	ugolsontʹ	угол	NOUN	N	Case=Ine|Definite=Def|Number=Sing	4	obl	_	GTtags=Sg,Ine,Def
+6	te	те	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	7	det	_	GTtags=Dem,Sg,Nom,Indef
+7	pazavasʹ	пазава	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	GTtags=Sg,Nom,Def|SpaceAfter=No
+8	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:230
+# text = Toso synʹ arʹsekšnestʹ kooperativentʹ dy zagotkontorantʹ grabamo dy ezizʹ nolda.
+1	Toso	тосо	ADV	Adv	Case=Ine	3	obl	_	GTtags=Ine|Gloss=there
+2	synʹ	сон	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	GTtags=Pers,Pl3,Nom|Gloss=they
+3	arʹsekšnestʹ	арсемс	VERB	V	Derivation=OkshnOms|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=Hom1,TV,Der/ОкшнОмс,V,TV,Ind,Prt1,ScPl3|Gloss=intend
+4	kooperativentʹ	кооператив	NOUN	N	Case=Gen|Definite=Def|Number=Sing	7	obj	_	GTtags=Sg,Gen,Def|Gloss=cooperative-and-
+5	dy	ды	CCONJ	CC	_	6	cc	_	_
+6	zagotkontorantʹ	заготконтора	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	conj	_	GTtags=Sg,Gen,Def
+7	grabamo	грабамс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	3	xcomp	_	GTtags=TV,Inf,Loc|Gloss=rob
+8	dy	ды	CCONJ	CC	_	10	cc	_	GTtags=_|Gloss=but
+9	ezizʹ	эзь	AUX	Aux	Mood=Ind|Number[obj]=Plur|Number[subj]=Plur|Person[obj]=3|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	10	aux:neg	_	GTtags=_|Gloss=did-not
+10	nolda	нолдамс	VERB	V	Connegative=Yes|Valency=2	7	conj	_	GTtags=TV,ConNeg|Gloss=let|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:4515
+# text = Jutastʹ mazyj škanzo ljomzjor čuvtynentʹ.
+1	Jutastʹ	ютамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3|Gloss=pass
+2	mazyj	мазый	ADJ	A	_	3	amod	_	GTtags=_|Gloss=beautiful
+3	škanzo	шка	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	1	nsubj	_	GTtags=Pl,Nom,PxSg3|Gloss=time
+4	ljomzjor	лёмзёр	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	amod	_	GTtags=Sg,Nom,Indef|Gloss=bird-cherry
+5	čuvtynentʹ	чувтыне	NOUN	N	Case=Gen|Definite=Def|Number=Sing	3	nmod	_	GTtags=Sg,Gen,Def|Gloss=tree|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:47
+# text = Jurčenko purnasʹ umbravt, roštjantʹ potsto, targasʹ syvelʹ dy karmasʹ anokstamo jamonʹ pidema.
+1	Jurčenko	Юрченко	PROPN	N	Case=Nom|Definite=Ind|Number=Sing	2	nsubj	_	GTtags=Prop,Sem/Sur,Sg,Nom,Indef
+2	purnasʹ	пурнамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3
+3	umbravt	умбрав	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	2	obj	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	roštjantʹ	роштя	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	obl	_	GTtags=Sg,Gen,Def
+6	potsto	потсто	ADP	Adp	AdvType=Loc|Case=Ela	5	case	_	GTtags=Spat,Ela|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	8	punct	_	_
+8	targasʹ	таргамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	2	conj	_	GTtags=TV,Ind,Prt1,ScSg3
+9	syvelʹ	сывель	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	obj	_	GTtags=Sg,Nom,Indef
+10	dy	ды	CCONJ	CC	_	11	cc	_	_
+11	karmasʹ	кармамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	2	conj	_	GTtags=IV,Ind,Prt1,ScSg3
+12	anokstamo	анокстамс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	11	xcomp	_	GTtags=TV,Inf,Loc
+13	jamonʹ	ям	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	14	obj	_	GTtags=SP,Gen,Indef
+14	pidema	пидемс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Valency=2|VerbForm=Vnoun	12	obj	_	GTtags=TV,NomAct,N,Sg,Nom,Indef|SpaceAfter=No
+15	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# -:- coding = UTF-8 -:-
+# <?xml version = "1.0" encoding="utf-8"?>
+# title_myv = ""
+# title_fin = ""
+# title_eng = ""
+# xml:lang = "myv"
+# genre_myv = ""
+# genre_fin = ""
+# genre_eng = ""
+# author_first_name = ""
+# author_last_name = ""
+# author_patronym = ""
+# native_language = "myv"
+# publication_status = "published"
+# publisher = ""
+# publicationPlace = ""
+# publicationYear = ""
+# firstPage = ""
+# lastPage = ""
+# wordCount = ""
+# characterCount = ""
+# corrector_first_name = "Jack"
+# corrector_last_name = "Rueter"
+# correctionYear = "2017"
+# status_eng = "scientific"
+# status_fin = "tieteellinen"
+# license = "">
+# sent_id = AuthorIDАбрамов:PublicationIDПургаз:PublicationYearID1988:pgNo="91"
+# text = — Mon avolʹ ilja pižne, nejke moljan jovtan tetjatenʹ.
+# text_eng = You know, none of this \"don't\" scream, I'm gonna go right now and tell your father.
+1	—	—	PUNCT	PUNCT	_	2	punct	_	_
+2	Mon	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	GTtags=Pers,Sg1,Nom|Gloss=I
+3	avolʹ	аволь	AUX	Pcle	Polarity=Neg	8	parataxis	_	GTtags=Neg,Emphatic|Gloss=none-of-this
+4	ilja	иля	AUX	V	Mood=Imp|Polarity=Neg	5	aux:neg	_	GTtags=Imprt,Neg|Gloss=do-not
+5	pižne	пижнемс	VERB	V	Connegative=Yes|Valency=1	3	xcomp	_	GTtags=IV,ConNeg|Gloss=scream|SpaceAfter=No
+6	,	,	PUNCT	CLB	_	8	punct	_	_
+7	nejke	нейке	ADV	Adv	AdvType=Tim	8	advmod	_	GTtags=Temp|Gloss=right.now
+8	moljan	молемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg1|Gloss=go
+9	jovtan	ёвтамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=1|Tense=Pres|Valency=2	8	conj	_	GTtags=TV,Ind,Prs,ScSg1|Gloss=tell
+10	tetjatenʹ	тетя	NOUN	N	Animacy=Hum|Case=Dat|Number=Plur,Sing|Number[psor]=Sing|Person[psor]=2	9	obl	_	GTtags=Sem/Kin,SP,Dat,PxSg2|Gloss=father|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	8	punct	_	_
+
+# sent_id = KutorkinAndrej_LazhnicyaSuraII_1976:4882
+# text = Ramkojak odsto istjamo žo mazylʹ.
+# text_en = Ramko was just as handsome when he was young, too.
+1	Ramkojak	Рамко	PROPN	N	Animacy=Hum|Case=Nom|Clitic=Gak|Definite=Ind|Gender=Masc|NameType=Giv|Number=Sing	5	nsubj	_	GTtags=Ant_Mal,Sg,Nom,Indef,Clitic|Gloss=Ramko
+2	odsto	одсто	ADV	Adv	AdvType=Tim|Case=Ela	5	advmod	_	GTtags=Sem/Time,Ela|Gloss=when-young
+3	istjamo	истямо	ADV	Adv	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	5	advmod	_	GTtags=Dem,Der/MWN,Sg,Nom,Indef|Gloss=in-that-way
+4	žo	жо	PART	Pcle	_	3	mark	_	_
+5-6	mazylʹ	_	_	_	_	_	_	_	SpaceAfter=No
+5	mazy	мазы	ADJ	A	Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Sg,Nom,Indef|1q-1:9.2,1=_|Gloss=handsom
+6	lʹ	оль	AUX	Cop	Number[subj]=Sing|Person[subj]=3|Tense=Prt2	5	cop	_	GTtags=Prt2,ScSg3|1q-1:9.2,1=_|Gloss=handsom
+7	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:66
+# text = Dunjašin ― felʹjetonist.
+1	Dunjašin	Дуняшин	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	3	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef
+2	―	―	PUNCT	PUNCT	_	3	punct	_	_
+3	felʹjetonist	фельетонист	NOUN	N	Animacy=Hum|Case=Nom|Definite=Ind|Number=Sing	0	root	_	GTtags=Hum,Sg,Nom,Indef|SpaceAfter=No
+4	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:444
+# text = Kolmonʹ-kolmonʹ bandit ozado erʹva ulavsontʹ.
+1	Kolmonʹ-kolmonʹ	колмонь-колмонь	NUM	Num	NumType=Dist	2	nummod	_	GTtags=Qnt,Distr
+2	bandit	бандит	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	nsubj	_	GTtags=Sg,Nom,Indef
+3	ozado	озадо	ADV	Adv	AdvType=Sta	5	advcl	_	GTtags=Pred2
+4	erʹva	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	5	det	_	GTtags=Tot,Sg,Nom,Indef
+5	ulavsontʹ	улав	NOUN	N	Case=Ine|Definite=Def|Number=Sing	0	root	_	GTtags=Sg,Ine,Def|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:33
+# text = ― A kirdevimaška...
+1	―	―	PUNCT	PUNCT	_	3	punct	_	_
+2	A	а	AUX	Pcle	Polarity=Neg	3	aux:neg	_	GTtags=Neg
+3	kirdevimaška	кирдевемашка	NOUN	N	Case=Nom|Definite=Ind|Number=Plur,Sing	0	root	_	GTtags=SP,Cmpr,Indef|SpaceAfter=No
+4	...	...	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:135
+# text = Udomost pačk ki kov ponksʹ orgolestʹ.
+1	Udomost	удомс	VERB	V	Case=Loc|Number[psor]=Plur|Person[psor]=3|Valency=1|VerbForm=Inf	6	obl	_	GTtags=IV,Inf,Loc,PxPl3
+2	pačk	пачк	ADP	Adp	AdvType=Loc	1	case	_	GTtags=Spat
+3	ki	кие	PRON	Pron	Animacy=Hum|Case=Nom|Number=Sing|PronType=Int	5	nsubj	_	GTtags=Interr,Hum,Sg,Nom
+4	kov	ков	ADV	Adv	Case=Lat|PronType=Int	5	obl	_	GTtags=Interr,Lat
+5	ponksʹ	понгомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	6	advcl	_	GTtags=IV,Ind,Prt1,ScSg3
+6	orgolestʹ	орголемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:55
+# text = ― Tejsynek! ― otvečasʹ Rjabov.
+1	―	―	PUNCT	PUNCT	_	2	punct	_	_
+2	Tejsynek	теемс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScPl1,OcSg3|SpaceAfter=No
+3	!	!	PUNCT	CLB	_	2	punct	_	_
+4	―	―	PUNCT	PUNCT	_	5	punct	_	_
+5	otvečasʹ	отвечамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	2	parataxis	_	GTtags=IV,Ind,Prt1,ScSg3
+6	Rjabov	Рябов	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	5	nsubj	_	GTtags=Sur_Mal,Prop,Sg,Nom,Indef|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:46
+# text = Vostrin lakavtsʹ tol pandjantʹ velʹksse sodov čajnikse kostjazʹ inzej marto vedʹ.
+1	Vostrin	Вострин	NOUN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	2	nsubj	_	GTtags=Sur_Mal,Sg,Nom,Indef
+2	lakavtsʹ	лакавтомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3
+3	tol	тол	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	4	compound	_	GTtags=Sg,Nom,Indef
+4	pandjantʹ	пандя	NOUN	N	Case=Gen|Definite=Def|Number=Sing	2	obl	_	GTtags=Sg,Gen,Def
+5	velʹksse	велькс	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	3	case	_	GTtags=SP,Ine,Indef
+6	sodov	содов	ADJ	A	_	7	amod	_	_
+7	čajnikse	чайник	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	2	obl	_	GTtags=SP,Ine,Indef
+8	kostjazʹ	костямс	VERB	V	Derivation=Ozj|Valency=2|VerbForm=Conv	9	acl	_	GTtags=TV,Der/Озь,Ger
+9	inzej	инзей	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	11	nmod	_	GTtags=Sg,Nom,Indef
+10	marto	марто	ADP	Adp	_	9	case	_	GTtags=COM
+11	vedʹ	ведь	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	obj	_	GTtags=Sg,Nom,Indef|SpaceAfter=No
+12	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:136
+# text = Seste čavstʹ banditnede kemnileje lomanʹ dy kolonʹgemenʹška lišmetʹ sajstʹ.
+1	Seste	сестэ	ADV	Adv	Case=Ela	2	advmod	_	GTtags=Ela
+2	čavstʹ	чавомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScPl3
+3	banditnede	бандит	NOUN	N	Case=Abl|Definite=Def|Number=Plur	2	obl	_	GTtags=Pl,Abl,Def
+4	kemnileje	кемнилее	NUM	Num	Case=Nom|Definite=Ind|Number=Sing|NumType=Card	5	nummod	_	GTtags=Card,Sg,Nom,Indef
+5	lomanʹ	ломань	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	2	obj	_	GTtags=Sg,Nom,Indef
+6	dy	ды	CCONJ	CC	_	9	cc	_	_
+7	kolonʹgemenʹška	колмоньгемень	NUM	Num	Case=Comp|Definite=Ind|Number=Plur,Sing|NumType=Card	8	nummod	_	GTtags=Card,SP,Cmpr,Indef
+8	lišmetʹ	лишме	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	9	obj	_	GTtags=Pl,Nom,Indef
+9	sajstʹ	саемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	2	conj	_	GTtags=TV,Ind,Prt1,ScPl3|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = ChetvergovJevgenij_Velenj-vajgeljtj_1992:3833
+# text = Te mastorsontʹ vasencede marija, koda kaštordytʹ pšti selʹme teštne.
+1	Te	те	DET	Det	Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Sg
+2	mastorsontʹ	мастор	NOUN	N	Case=Ine|Definite=Def|Number=Sing	4	obl	_	GTtags=Sem/Plc,Sg,Ine,Def
+3	vasencede	васенцеде	ADV	Adv	AdvType=Tim|Case=Abl|NumType=Ord	4	advmod	_	GTtags=Ord,Abl
+4	marija	марямс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg1,OcSg3|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	7	punct	_	_
+6	koda	кода	ADV	Adv	AdvType=Man|PronType=Int	7	advmod	_	GTtags=Interr,Manner
+7	kaštordytʹ	каштордомс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	4	ccomp	_	GTtags=IV,Ind,Prs,ScPl3
+8	pšti	пшти	ADJ	A	_	9	amod	_	_
+9	selʹme	сельме	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	10	nmod	_	GTtags=Sg,Nom,Indef
+10	teštne	теште	NOUN	N	Case=Nom|Definite=Def|Number=Plur	7	nsubj	_	GTtags=Pl,Nom,Def|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:221
+# text = Son šačsʹ avolʹ poptnenʹ pejdema ― narʹgamo tarkas.
+1	Son	сон	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	GTtags=Pers,Sg3,Nom
+2	šačsʹ	чачомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Dial,Ind,Prt1,ScSg3
+3	avolʹ	аволь	AUX	Pcle	NegationType=Contrastive|Polarity=Neg	8	aux:neg	_	GTtags=Neg,Emphatic
+4	poptnenʹ	поп	NOUN	N	Case=Gen|Definite=Def|Number=Plur	8	nmod	_	GTtags=Pl,Gen,Def
+5	pejdema	пейдема	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	8	nmod	_	GTtags=Sg,Nom,Indef
+6	―	―	PUNCT	PUNCT	_	7	punct	_	_
+7	narʹgamo	нарьгамо	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	5	compound:svc	_	GTtags=Sg,Nom,Indef
+8	tarkas	таркас	ADP	Adp	_	2	obl	_	GTtags=_|SpaceAfter=No
+9	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:15
+# text = Nejenʹ škasʹ karmavty ejsenek lijaks tejeme, lijaks arseme.
+1	Nejenʹ	неень	ADJ	A	Derivation=GenAttr|Number=Sing	2	amod	_	GTtags=Der/GenAttr,Sg
+2	škasʹ	шка	NOUN	N	Case=Nom|Definite=Def|Number=Sing	3	nsubj	_	GTtags=Sg,Nom,Def
+3	karmavty	кармавтомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	0	root	_	GTtags=TV,Ind,Prs,ScSg3
+4	ejsenek	эйсэ	ADP	Adp	Case=Ine|Number[psor]=Plur|Person[psor]=1	3	obj	_	GTtags=Ine,PxPl1
+5	lijaks	лиякс	ADV	Adv	Case=Tra	6	advmod	_	GTtags=Tra
+6	tejeme	теемс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	3	xcomp:ds	_	GTtags=TV,Inf,Loc|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	lijaks	лиякс	ADV	Adv	Case=Tra	9	advmod	_	GTtags=Tra
+9	arseme	арсемс	VERB	V	Case=Loc|Valency=1|VerbForm=Inf	6	conj	_	GTtags=IV,Inf,Loc|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:414
+# text = Ponavsʹ songak jaksterearmejecnenʹ jutks i kundasʹ ledneme banditnenʹ melʹga.
+1	Ponavsʹ	понавомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+2	songak	сон	PRON	Pron	Case=Nom|Clitic=Gak|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	GTtags=Pers,Sg3,Nom,Clt/Gak
+3	jaksterearmejecnenʹ	якстереармеец	NOUN	N	Case=Gen|Definite=Def|Number=Plur	1	obl	_	GTtags=Pl,Gen,Def
+4	jutks	ютко	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	3	case	_	GTtags=Sem/Plc,SP,Ill,Indef
+5	i	и	CCONJ	CC	_	6	cc	_	GTtags=ABBR
+6	kundasʹ	кундамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	1	conj	_	GTtags=TV,Ind,Prt1,ScSg3
+7	ledneme	леднемс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	6	xcomp	_	GTtags=TV,Inf,Loc
+8	banditnenʹ	бандит	NOUN	N	Case=Gen|Definite=Def|Number=Plur	7	obl	_	GTtags=Pl,Gen,Def
+9	melʹga	мельга	ADP	Adp	AdvType=Loc|Case=Prl	8	case	_	GTtags=Spat,Prl|SpaceAfter=No
+10	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:419
+# text = Marja marto Mikolt azdytʹkak, koda sede parste kavanjams večkima inžetnenʹ.
+1	Marja	Маря	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Fem|NameType=Giv|Number=Sing	3	nmod	_	GTtags=Prop,Ant_Fem,Sg,Nom,Indef
+2	marto	марто	ADP	Adp	_	1	case	_	GTtags=COM
+3	Mikolt	Микол	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Giv|Number=Plur	4	nsubj	_	GTtags=Prop,Ant_Mal,Pl,Nom,Indef
+4	azdytʹkak	аздомс	VERB	V	Clitic=Gak|Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScPl3,Clt/Gak|SpaceAfter=No
+5	,	,	PUNCT	CLB	_	9	punct	_	_
+6	koda	кода	ADV	Adv	AdvType=Man|PronType=Int	9	advmod	_	GTtags=Interr,Manner
+7	sede	седе	ADV	Adv	Degree=Cmp	8	advmod	_	GTtags=Comp
+8	parste	парсте	ADV	Adv	_	9	advmod	_	_
+9	kavanjams	каванямс	VERB	V	Valency=2|VerbForm=Inf	4	ccomp	_	GTtags=TV,Inf
+10	večkima	вечкемс	VERB	V	Case=Nom|Definite=Ind|Number=Sing|Valency=2|VerbForm=Vnoun	11	nmod	_	GTtags=TV,NomAct,N,Sg,Nom,Indef
+11	inžetnenʹ	инже	NOUN	N	Case=Gen|Definite=Def|Number=Plur	9	obj	_	GTtags=Pl,Gen,Def|SpaceAfter=No
+12	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:70
+# text = Ansjak mejelʹsʹ pelev Dunjašin kundasʹ jovtnemanʹ sjormadomo («Mikitanʹ grexeze»).
+1	Ansjak	ансяк	ADV	Adv	_	3	advmod	_	GTtags=Exclusive
+2	mejelʹsʹ	меельце	ADJ	A	Case=Nom|Definite=Def|Number=Sing	3	compound	_	GTtags=Ord,Sg,Nom,Def
+3	pelev	пелев	ADV	Adv	AdvType=Loc|Case=Lat	5	advmod	_	GTtags=Spat,Lat
+4	Dunjašin	Дуняшин	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	5	nsubj	_	GTtags=Sur_Mal,Prop,Sg,Nom,Indef
+5	kundasʹ	кундамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3
+6	jovtnemanʹ	ёвтнемс	VERB	V	Case=Gen|Definite=Ind|Number=Plur,Sing|Valency=2|VerbForm=Vnoun	7	obj	_	GTtags=TV,NomAct,N,SP,Gen,Indef
+7	sjormadomo	сёрмадомс	VERB	V	Case=Loc|Valency=2|VerbForm=Inf	5	xcomp	_	GTtags=TV,Inf,Loc
+8	(	(	PUNCT	PUNCT	_	11	punct	_	GTtags=LEFT|SpaceAfter=No
+9	«	«	PUNCT	CLB	_	11	punct	_	GTtags=_|SpaceAfter=No
+10	Mikitanʹ	Микита	PROPN	N	Animacy=Hum|Case=Gen|Definite=Ind|Gender=Masc|NameType=Giv|Number=Plur,Sing	11	nmod	_	GTtags=Prop,Ant_Mal,SP,Gen,Indef
+11	grexeze	грех	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	appos	_	GTtags=Sg,Nom,PxSg3|SpaceAfter=No
+12	»	»	PUNCT	CLB	_	11	punct	_	GTtags=_|SpaceAfter=No
+13	)	)	PUNCT	PUNCT	_	11	punct	_	GTtags=RIGHT|SpaceAfter=No
+14	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:161
+# text = Mon bandit Černov».
+# text_en = I'm the one they call bandit Chernov.
+1	Mon	мон	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	GTtags=Pers,Sg1,Nom
+2	bandit	бандит	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	3	compound	_	GTtags=Sg,Nom,Indef
+3	Černov	Чернов	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	1	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef|SpaceAfter=No
+4	»	»	PUNCT	PUNCT	_	1	punct	_	GTtags=RIGHT|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:4414
+# text = Okojniki, sjovonesʹ marjavsʹ tenze anok.
+# text_en = Finally, the clay felt like it was ready.
+# text_fi = Lopulta savi tuntui hänestä valmiilta.
+1	Okojniki	окойники	ADV	Adv	AdvType=Tim	4	advmod	_	GTtags=Sem/Time|SpaceAfter=No
+2	,	,	PUNCT	CLB	_	1	punct	_	_
+3	sjovonesʹ	сёвонь	NOUN	N	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	GTtags=Sem/Inanim_NCnt,Sg,Nom,Def
+4	marjavsʹ	марявомс	VERB	V	Derivation=OvtOms|Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=Der/ОвОмс,IV,Ind,Prt1,ScSg3
+5	tenze	сон	PRON	Pron	Case=Dat|Number=Sing|Person=3|PronType=Prs|Variant=Short	4	obl	_	GTtags=Pers,Sg3,Dat,Short
+6	anok	анок	ADJ	A	_	4	xcomp	_	GTtags=_|SpaceAfter=No
+7	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:235
+# text = Sajems kutʹ tečinʹ čintʹ: Fedorov služasʹ obednjatnenʹ istja parste, istja parste, koda kolijak ezʹ služa.
+1	Sajems	саемс	VERB	V	Valency=2|VerbForm=Inf	7	advcl	_	GTtags=TV,Inf
+2	kutʹ	куть	ADV	Adv	_	1	advmod	_	_
+3	tečinʹ	течи	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	4	nmod	_	GTtags=Sem/Time,SP,Gen,Indef
+4	čintʹ	чи	NOUN	N	Case=Gen|Definite=Def|Number=Sing	1	obj	_	GTtags=Sg,Gen,Def|SpaceAfter=No
+5	:	:	PUNCT	CLB	_	1	punct	_	_
+6	Fedorov	Фёдоров	PROPN	N	Animacy=Hum|Case=Nom|Definite=Ind|Gender=Masc|NameType=Sur|Number=Sing	7	nsubj	_	GTtags=Prop,Sur_Mal,Sg,Nom,Indef
+7	služasʹ	служамс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScSg3
+8	obednjatnenʹ	обедня	NOUN	N	Case=Gen|Definite=Def|Number=Plur	7	obj	_	GTtags=Pl,Gen,Def
+9	istja	истя	ADV	Adv	AdvType=Man	10	advmod	_	GTtags=Manner
+10	parste	парсте	ADV	Adv	_	7	advmod	_	GTtags=_|SpaceAfter=No
+11	,	,	PUNCT	CLB	_	18	punct	_	_
+12	istja	истя	ADV	Adv	AdvType=Man	13	advmod	_	GTtags=Manner
+13	parste	парсте	ADV	Adv	_	18	advmod	_	GTtags=_|SpaceAfter=No
+14	,	,	PUNCT	CLB	_	13	punct	_	_
+15	koda	кода	ADV	Adv	AdvType=Man|PronType=Int	18	advmod	_	GTtags=Interr,Manner
+16	kolijak	колияк	ADV	Adv	AdvType=Tim|Definite=Ind	18	advmod	_	GTtags=Indef,Temp
+17	ezʹ	эзь	AUX	Aux	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	18	aux:neg	_	_
+18	služa	служамс	VERB	V	Connegative=Yes|Valency=1	7	conj	_	GTtags=IV,ConNeg|SpaceAfter=No
+19	.	.	PUNCT	CLB	_	7	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:118
+# text = Ovse meštenze jožos lepštize pulemjotonʹ prikladontʹ, turvanzo tokastʹ patrondo ecezʹ pačalgontenʹ.
+1	Ovse	овсе	ADV	Adv	_	2	advmod	_	_
+2	meštenze	меште	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	GTtags=Sg,Gen,PxSg3|Gloss=chest
+3	jožos	ёжос	ADP	N	Case=Ill|Definite=Ind|Number=Plur,Sing	2	case	_	GTtags=Relat
+4	lepštize	лепштямс	VERB	V	Mood=Ind|Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3,OcSg3
+5	pulemjotonʹ	пулемёт	NOUN	N	Case=Gen|Definite=Ind|Number=Plur,Sing	6	nmod	_	GTtags=SP,Gen,Indef
+6	prikladontʹ	приклад	NOUN	N	Case=Gen|Definite=Def|Number=Sing	4	obj	_	GTtags=Sg,Gen,Def|SpaceAfter=No
+7	,	,	PUNCT	CLB	_	9	punct	_	_
+8	turvanzo	турва	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	nsubj	_	GTtags=Pl,Nom,PxSg3
+9	tokastʹ	токамс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=2	4	conj	_	GTtags=TV,Ind,Prt1,ScPl3
+10	patrondo	патрон	NOUN	N	Case=Abl|Definite=Ind|Number=Plur,Sing	11	obl	_	GTtags=SP,Abl,Indef
+11	ecezʹ	эцемс	VERB	V	Derivation=Ozj|Valency=2|VerbForm=Conv	12	acl	_	GTtags=TV,Der/Озь,Ger
+12	pačalgontenʹ	пачалго	NOUN	N	Case=Dat|Definite=Def|Number=Sing	9	obl	_	GTtags=Sg,Dat,Def|SpaceAfter=No
+13	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:163
+# text = ― Čijemste ešksevstʹ vejkest-vejkest langs.
+1	―	―	PUNCT	PUNCT	_	3	punct	_	_
+2	Čijemste	чиемс	VERB	V	Case=Ela|Valency=1|VerbForm=Conv	3	advcl	_	GTtags=IV,Ger,Ela
+3	ešksevstʹ	эшксевемс	VERB	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Tense=Prt1|Valency=1	0	root	_	GTtags=IV,Ind,Prt1,ScPl3
+4	vejkest-vejkest	вейкест-вейкест	PRON	Pron	Number[psor]=Plur|Person[psor]=3|PronType=Rcp	3	obl	_	GTtags=Recip,PxPl3
+5	langs	лангс	ADP	Adp	AdvType=Loc|Case=Ill	4	case	_	GTtags=Spat,Ill|SpaceAfter=No
+6	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = GluxovP_KedrovojPeshtj_1929:364
+# text = — Kommunistesʹ kasʹkas ecesʹ.
+1	—	—	PUNCT	PUNCT	_	4	punct	_	_
+2	Kommunistesʹ	коммунист	NOUN	N	Animacy=Hum|Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	GTtags=Hum,Sg,Nom,Def
+3	kasʹkas	каська	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	4	obl	_	GTtags=SP,Ill,Indef
+4	ecesʹ	эцемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:2071
+# text = Netʹ kujmetnenʹgak, koda valske martonsentʹ, istja žo čukadinze kudost perʹka pirjavksontʹ potso karazʹ latkinentenʹ.
+# text_en = These wickers he dumped in the trench, dug inside the fence around the house, just like he had done with the one before breakfast.
+# text_fi = Nämäkin kontilliset, aamuisen tapaan, Ketšai tyhjensi heidän talonsa ympäri kaivettuun ojaan.
+1	Netʹ	не	PRON	Pron	Case=Nom|Definite=Ind|Number=Plur|PronType=Dem	2	det	_	GTtags=Dem,Pl,Nom,Indef
+2	kujmetnenʹgak	куйме	NOUN	N	Case=Gen|Clitic=Gak|Definite=Def|Number=Plur	11	obj	_	GTtags=Sem/Inanim_Cnt,Pl,Gen,Def,Clt/Gak|SpaceAfter=No
+3	,	,	PUNCT	CLB	_	4	punct	_	_
+4	koda	кода	ADV	Adv	AdvType=Man|PronType=Int	6	mark	_	GTtags=Interr,Manner
+5	valske	валске	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	7	nmod	_	GTtags=Sem/Inanim_Cnt,Sg,Nom,Indef
+6-7	martonsentʹ	_	_	_	_	_	_	_	SpaceAfter=No
+6	marton	мартонь	ADJ	A	Derivation=GenAttr	5	flat	_	GTtags=Der/GenAttr
+7	sentʹ	сесь	PRON	Pron	Case=Gen|Definite=Def|Number=Sing	2	conj	_	GTtags=Sg,Gen,Def
+8	,	,	PUNCT	CLB	_	7	punct	_	_
+9	istja	истя	ADV	Adv	_	11	advmod	_	_
+10	žo	жо	PART	Pcle	_	9	fixed	_	GTtags=Emph
+11	čukadinze	чукадемс	VERB	V	Mood=Ind|Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3|Tense=Prt1|Valency=2	0	root	_	GTtags=TV,Ind,Prt1,ScSg3,OcPl3
+12	kudost	кудо	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=3	14	obl	_	GTtags=Sg,Gen,PxPl3
+13	perʹka	перька	ADP	Adp	AdpType=Post|Case=Prl|Definite=Ind|Number=Sing	12	case	_	GTtags=Po,Prl,Sg,Nom,Indef
+14	pirjavksontʹ	пирявкс	NOUN	N	Case=Gen|Definite=Def|Number=Sing	16	obl	_	GTtags=Sem/Inanim_Cnt,Sg,Gen,Def
+15	potso	потмо	NOUN	N	Case=Ine|Definite=Ind|Number=Plur,Sing	14	case	_	GTtags=Sem/Inanim_Cnt,SP,Ine,Indef
+16	karazʹ	карамс	VERB	V	Derivation=Ozj|VerbForm=Conv	17	acl	_	GTtags=Der/Озь,Ger
+17	latkinentenʹ	латкине	NOUN	N	Case=Dat|Definite=Def|Number=Sing	11	obl	_	GTtags=Sem/Inanim_Cnt,Sg,Dat,Def|SpaceAfter=No
+18	.	.	PUNCT	CLB	_	11	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:47
+# text = Mazyj valtne eztʹ erjavtkak.
+1	Mazyj	мазый	ADJ	A	_	2	amod	_	_
+2	valtne	вал	NOUN	N	Case=Nom|Definite=Def|Number=Plur	4	nsubj	_	GTtags=Pl,Nom,Def
+3	eztʹ	эзь	AUX	V	Mood=Ind|Number[subj]=Plur|Person[subj]=3|Polarity=Neg|Tense=Prt1|VerbType=Aux	4	aux:neg	_	GTtags=VerbType
+4	erjavtkak	эрявомс	VERB	V	Clitic=Gak|Connegative=Yes|Valency=1	0	root	_	GTtags=IV,ConNeg,Clitic|SpaceAfter=No
+5	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = BryzhinskijMixail_Kirdazht_manu:5002
+# text = Sonsʹ pistʹs-kilʹkšs eci, ansjak ilja nuzjaldo, vitnek tuvortnenʹ.
+# text_en = They are just pushing to get into the snares, all you have to do is to keep your traps set.
+# text_fi = Ei tarvitse kuin virittää ansa, niin ne käyvät siihen ihan itse.
+1	Sonsʹ	сонсь	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	nsubj	_	GTtags=Refl,Sg3,Nom
+2	pistʹs-kilʹkšs	пистеть-килькшт	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=Sem/Inanim_Cnt,SP,Ill,Indef
+3	eci	эцемс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres	0	root	_	GTtags=Ind,Prs,ScSg3|SpaceAfter=No
+4	,	,	PUNCT	CLB	_	3	punct	_	_
+5	ansjak	ансяк	ADV	Adv	_	7	advmod	_	_
+6	ilja	иля	AUX	V	Mood=Proh|Number[subj]=Sing|Person[subj]=2	7	aux:neg	_	GTtags=Proh,ScSg2
+7	nuzjaldo	нузялдомс	VERB	V	Connegative=Yes	3	conj	_	GTtags=ConNeg|SpaceAfter=No
+8	,	,	PUNCT	CLB	_	9	punct	_	_
+9	vitnek	витнемс	VERB	V	Mood=Imp|Number[subj]=Sing|Person[subj]=2|Valency=2	3	conj	_	GTtags=TV,Imprt,ScSg2
+10	tuvortnenʹ	тувор	NOUN	N	Case=Gen|Definite=Def|Number=Plur	9	obj	_	GTtags=Sem/Inanim_Cnt,Pl,Gen,Def|SpaceAfter=No
+11	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = DunjashinAlex_Pidsi-palakst_1930:195
+# text = Istjamo škasto erʹva stjako čisʹ nejavi praznikeks, erʹva stjako čisʹ kandy pokšt melʹs parot mastor langso ericjatnenenʹ.
+1	Istjamo	истямо	PRON	Pron	Case=Nom|Definite=Ind|Number=Sing|PronType=Dem	2	det	_	GTtags=Dem,Der/MWN,Sg,Nom,Indef
+2	škasto	шка	NOUN	N	Case=Ela|Definite=Ind|Number=Plur,Sing	5	obl	_	GTtags=SP,Ela,Indef
+3	erʹva	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	4	det	_	GTtags=Tot,Sg,Nom,Indef
+4	stjako	стяко	ADJ	A	_	5	amod	_	_
+5	čisʹ	чи	NOUN	N	Case=Nom|Definite=Def|Number=Sing	6	nsubj	_	GTtags=Sg,Nom,Def
+6	nejavi	неявомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=1	0	root	_	GTtags=IV,Ind,Prs,ScSg3
+7	praznikeks	празник	NOUN	N	Case=Tra|Definite=Ind|Number=Plur,Sing	6	advcl	_	GTtags=SP,Tra,Indef|SpaceAfter=No
+8	,	,	PUNCT	CLB	_	12	punct	_	_
+9	erʹva	эрьва	DET	Det	Case=Nom|Definite=Ind|Number=Sing|PronType=Tot	10	det	_	GTtags=Tot,Sg,Nom,Indef
+10	stjako	стяко	ADJ	A	_	11	amod	_	_
+11	čisʹ	чи	NOUN	N	Case=Nom|Definite=Def|Number=Sing	12	nsubj	_	GTtags=Sg,Nom,Def
+12	kandy	кандомс	VERB	V	Mood=Ind|Number[subj]=Sing|Person[subj]=3|Tense=Pres|Valency=2	6	conj	_	GTtags=TV,Ind,Prs,ScSg3
+13	pokšt	покш	ADJ	A	Case=Nom|Definite=Ind|Number=Plur	14	amod	_	GTtags=Pl,Nom,Indef
+14	melʹs	мельс	NOUN	N	Case=Ill|Definite=Ind|Number=Plur,Sing	15	nmod	_	GTtags=SP,Ill,Indef
+15	parot	паро	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	12	obj	_	GTtags=Pl,Nom,Indef
+16	mastor	мастор	NOUN	N	Case=Nom|Definite=Ind|Number=Sing	18	nmod	_	GTtags=Sem/Plc,Sg,Nom,Indef
+17	langso	лангсо	ADP	Adp	AdvType=Loc|Case=Ine	16	case	_	GTtags=Spat,Ine
+18	ericjatnenenʹ	эриця	NOUN	N	Case=Dat|Definite=Def|Number=Plur	12	obl	_	GTtags=Pl,Dat,Def|SpaceAfter=No
+19	.	.	PUNCT	CLB	_	6	punct	_	_
+
+# sent_id = AnoshkinV_ValskenjGudok_1936:166
+# text = ― Jalgat!
+1	―	―	PUNCT	PUNCT	_	2	punct	_	_
+2	Jalgat	ялга	NOUN	N	Case=Nom|Definite=Ind|Number=Plur	0	root	_	GTtags=Pl,Nom,Indef|SpaceAfter=No
+3	!	!	PUNCT	CLB	_	2	punct	_	_
+

@@ -1,0 +1,249 @@
+# sent_id = bxr-ud3::685
+# text = Магдан нютаг – шэдитэ газар
+1	Магдан	Магдан	PROPN	_	Case=Nom|Gender=Masc	2	compound	_	_
+2	нютаг	нютаг	NOUN	_	Case=Nom	5	nsubj	_	_
+3	–	–	PUNCT	_	_	2	punct	_	_
+4	шэдитэ	шэдитэ	ADJ	_	_	5	amod	_	_
+5	газар	газар	NOUN	_	Case=Nom	0	root	_	_
+
+# sent_id = bxr-ud3::270
+# text = Хэн мэдэхэ аргатайб?
+1	Хэн	хэн	NOUN	_	Case=Nom	2	nsubj	_	_
+2	мэдэхэ	мэдэ	VERB	_	_	0	root	_	_
+3	аргатайб	аргатай	NOUN	_	Case=Nom	2	aux	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bxr-ud3::519
+# text = Энэ киногоо Түнхэнэй аймагай Хойтогол нютагта, Зэдын, Захааминай аймагуудта буулгажа, 6 һарын туршада киностудинь ехэхэн ажал дүүргэһэн байна.
+1	Энэ	энэ	DET	_	PronType=Dem	2	det	_	_
+2	киногоо	кино	NOUN	_	Case=Nom|Reflex=Yes	12	obj	_	_
+3	Түнхэнэй	Түнхэн	PROPN	_	Case=Gen	4	compound	_	_
+4	аймагай	аймаг	NOUN	_	Case=Gen	6	nmod	_	_
+5	Хойтогол	Хойтогол	ADJ	_	_	6	compound	_	_
+6	нютагта	нютаг	NOUN	_	Case=Dat	12	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Зэдын	Зэдэ	PROPN	_	Case=Gen	11	compound	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	Захааминай	Захаамин	PROPN	_	Case=Gen	8	conj	_	_
+11	аймагуудта	аймаг	NOUN	_	Case=Dat|Number=Plur	6	conj	_	_
+12	буулгажа	буулга	VERB	_	VerbForm=Coverb	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	6	6	NUM	_	NumType=Card	15	nummod	_	_
+15	һарын	һара	NOUN	_	Case=Gen	16	nmod	_	_
+16	туршада	турша	NOUN	_	Case=Dat	20	nmod	_	_
+17	киностудинь	киностуди	NOUN	_	Case=Nom|Number[psor]=Sing|Person[psor]=3	19	nmod	_	_
+18	ехэхэн	ехэ	ADJ	_	_	19	amod	_	_
+19	ажал	ажал	NOUN	_	Case=Nom	20	obj	_	_
+20	дүүргэһэн	дүүргэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+21	байна	бай	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	20	aux	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = bxr-ud3::662
+# text = - Нёдондо алтанхан намарай намжаа үдэрнүүдтэ Усть-Ордын үндэһэтэ арадай уран һайханай түбэй мэргэжэлтэд Хаашаг дайда руу этнографическа экспедицеэр ошоһон байна.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	Нёдондо	нёдондо	ADV	_	_	4	advmod	_	_
+3	алтанхан	алтанхан	ADJ	_	_	4	amod	_	_
+4	намарай	намар	NOUN	_	Case=Gen	6	nmod	_	_
+5	намжаа	намжаа	ADJ	_	_	6	amod	_	_
+6	үдэрнүүдтэ	үдэр	NOUN	_	Case=Dat|Number=Plur	19	nmod	_	_
+7	Усть-Ордын	Усть-Орда	PROPN	_	Case=Gen	9	nmod	_	_
+8	үндэһэтэ	үндэһэтэ	ADJ	_	_	9	amod	_	_
+9	арадай	арад	NOUN	_	Case=Gen	12	nmod	_	_
+10	уран	уран	ADJ	_	_	12	amod	_	_
+11	һайханай	һайхан	ADJ	_	_	12	amod	_	_
+12	түбэй	түбэй	NOUN	_	Case=Nom	13	nmod	_	_
+13	мэргэжэлтэд	мэргэжэлтэ	NOUN	_	Case=Nom|Number=Plur	19	nsubj	_	_
+14	Хаашаг	Хаашаг	PROPN	_	Case=Nom	15	compound	_	_
+15	дайда	дайда	NOUN	_	Case=Nom	19	nmod	_	_
+16	руу	руу	ADP	_	_	15	case	_	_
+17	этнографическа	этнографическа	ADJ	_	_	18	amod	_	_
+18	экспедицеэр	экспедици	NOUN	_	_	19	nmod	_	_
+19	ошоһон	ошо	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	байна	бай	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	19	aux	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = bxr-ud3::603
+# text = Үнэхөөрөө, буряад хэлэ шудалха программа түрэл ба гүрэнэй гэжэ хуубааһан ушар ямар зорилгодо табигдаһан байгаа гээшэб?
+1	Үнэхөөрөө	үнэхөөрөө	ADV	_	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	буряад	буряад	ADJ	_	_	4	amod	_	_
+4	хэлэ	хэлэн	NOUN	_	Case=Nom	5	obj	_	_
+5	шудалха	шудал	VERB	_	_	6	acl	_	_
+6	программа	программа	NOUN	_	Case=Nom	15	nsubj	_	_
+7	түрэл	түрэл	ADJ	_	_	12	amod	_	_
+8	ба	ба	CCONJ	_	_	7	cc	_	_
+9	гүрэнэй	гүрэнэй	NOUN	_	Case=Nom	7	conj	_	_
+10	гэжэ	гэ	VERB	_	VerbForm=Coverb	15	discourse	_	_
+11	хуубааһан	хуу	ADJ	_	_	12	amod	_	_
+12	ушар	ушар	NOUN	_	Case=Nom	14	nmod	_	_
+13	ямар	ямар	DET	_	PronType=Int	14	det	_	_
+14	зорилгодо	зорилго	NOUN	_	Case=Dat	15	obj	_	_
+15	табигдаһан	табигда	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	байгаа	бай	AUX	_	_	15	discourse	_	_
+17	гээшэб	гээшэ	AUX	_	Number=Sing|Person=1	15	discourse	_	SpaceAfter=No
+18	?	?	PUNCT	_	_	15	punct	_	_
+
+# sent_id = bxr-ud3::486
+# text = - Тимофей Лавренюк зүжэгтэ бидэнэй гүйсэдхэхэдэ, хаанашье, Москвадашье хатархаар бэлигтэй, шадабаритай артистнар байнат, гэжэ магтаа.
+1	-	-	PUNCT	_	_	2	punct	_	_
+2	Тимофей	Тимофей	PROPN	_	Case=Nom|Gender=Masc	19	nsubj	_	_
+3	Лавренюк	Лавренюк	PROPN	_	Case=Nom	2	flat	_	_
+4	зүжэгтэ	зүжэг	NOUN	_	Case=Dat	6	nmod	_	_
+5	бидэнэй	бидэ	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	гүйсэдхэхэдэ	гүйсэдхэ	VERB	_	Case=Dat|VerbForm=Ger	19	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	хаанашье	хаанашье	ADV	_	_	11	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	Москвадашье	Москва	PROPN	_	Case=Dat	11	nmod	_	_
+11	хатархаар	хатар	VERB	_	_	12	acl	_	_
+12	бэлигтэй	бэлиг	NOUN	_	Case=Com	15	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	шадабаритай	шадабари	NOUN	_	Case=Com	12	conj	_	_
+15	артистнар	артистнар	NOUN	_	Case=Nom	16	nsubj	_	_
+16	байнат	бай	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Aor|VerbForm=Fin	19	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	гэжэ	гэ	VERB	_	VerbForm=Coverb	19	discourse	_	_
+19	магтаа	магта	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = bxr-ud3::893
+# text = Хэрбээ удаан сагта нютагаа ошоогүй һаа, намда муу байдаг.
+1	Хэрбээ	хэрбэ	AUX	_	_	5	mark	_	_
+2	удаан	удаан	ADJ	_	_	3	amod	_	_
+3	сагта	саг	NOUN	_	Case=Dat	5	nmod	_	_
+4	нютагаа	нютаг	NOUN	_	Case=Nom|Reflex=Yes	5	nmod	_	_
+5	ошоогүй	ошо	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	_
+6	һаа	һаа	PART	_	_	5	discourse	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	намда	би	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	nmod	_	_
+9	муу	муу	ADJ	_	_	10	advmod	_	_
+10	байдаг	бай	VERB	_	_	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = bxr-ud3::587
+# text = Интернет гээшэ үхибүүдые ехээр татана.
+1	Интернет	интернет	NOUN	_	Case=Nom	5	nsubj	_	_
+2	гээшэ	гээшэ	VERB	_	Mood=Imp|VerbForm=Fin	5	discourse	_	_
+3	үхибүүдые	үхибүүн	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
+4	ехээр	ехээр	ADV	_	_	5	advmod	_	_
+5	татана	тата	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::325
+# text = Зохёогшо һонирхолтойгоор хөөрэдэг һэн.
+1	Зохёогшо	зохёогшо	NOUN	_	Case=Nom	3	nsubj	_	_
+2	һонирхолтойгоор	һонирхолтойгоор	ADV	_	_	3	advmod	_	_
+3	хөөрэдэг	хөөрэ	VERB	_	_	0	root	_	_
+4	һэн	һэн	PART	_	_	3	discourse	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = bxr-ud3::627
+# text = 30 оюутад бултал суута артистын хатар хараха дуратайл байгаа бэзэ.
+1	30	30	NUM	_	NumType=Card	2	nummod	_	_
+2	оюутад	оюутан	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
+3	бултал	булта	DET	_	PronType=Ind	2	det	_	_
+4	суута	суута	ADV	_	_	8	advmod	_	_
+5	артистын	артист	NOUN	_	Case=Gen	6	nmod	_	_
+6	хатар	хатар	NOUN	_	Case=Nom	7	nmod	_	_
+7	хараха	хара	VERB	_	_	8	xcomp	_	_
+8	дуратайл	дура	VERB	_	VerbForm=Coverb	0	root	_	_
+9	байгаа	бай	AUX	_	_	8	aux	_	_
+10	бэзэ	бэзэ	PART	_	_	8	discourse	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::237
+# text = Тиимэһээ гадна, Агын, Эрхүүгэй үхибүүд һурадаг һэн.
+1	Тиимэһээ	тиимэһээ	SCONJ	_	_	8	cc	_	_
+2	гадна	гадна	CCONJ	_	_	6	cc	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Агын	Ага	PROPN	_	Case=Gen	7	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Эрхүүгэй	Эрхүүгэй	PROPN	_	Case=Nom	4	conj	_	_
+7	үхибүүд	үхибүүн	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
+8	һурадаг	һура	VERB	_	_	0	root	_	_
+9	һэн	һэн	PART	_	_	8	discourse	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::388
+# text = Албан еһоной хэлэнүүд — пашту ба дари.
+1	Албан	Албан	PROPN	_	Case=Nom	3	nmod:own	_	_
+2	еһоной	еһоной	ADJ	_	_	3	amod	_	_
+3	хэлэнүүд	хэлэн	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
+4	—	—	PUNCT	_	_	3	punct	_	_
+5	пашту	пашту	NOUN	_	Case=Nom	0	root	_	_
+6	ба	ба	CCONJ	_	_	5	cc	_	_
+7	дари	дари	NOUN	_	Case=Nom	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::611
+# text = Арбагархан платитай бишыхан басаган хүдөөгэй соёлой байшан соо суглаанда ерэһэн гэртэхинээ хүлеэхэ үедөө һамбаашалан, тайзан дээрэ гүйжэ гараад эрьелдэнэ.
+1	Арбагархан	арбагар	ADJ	_	_	2	amod	_	_
+2	платитай	плати	NOUN	_	Case=Com	4	nmod	_	_
+3	бишыхан	бишыхан	ADJ	_	_	4	amod	_	_
+4	басаган	басаган	NOUN	_	Case=Nom	20	nsubj	_	_
+5	хүдөөгэй	хүдөөгэй	ADJ	_	_	6	amod	_	_
+6	соёлой	соёл	NOUN	_	Case=Gen	7	nmod	_	_
+7	байшан	байшан	NOUN	_	Case=Nom	9	nmod	_	_
+8	соо	соо	ADP	_	_	7	case	_	_
+9	суглаанда	суглаан	NOUN	_	Case=Dat	10	nmod	_	_
+10	ерэһэн	ерэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	_
+11	гэртэхинээ	гэртэхин	NOUN	_	Case=Nom|Reflex=Yes	12	obj	_	_
+12	хүлеэхэ	хүлеэ	VERB	_	_	14	xcomp	_	_
+13	үедөө	үе	NOUN	_	Case=Dat|Reflex=Yes	14	obj	_	_
+14	һамбаашалан	һамбаашал	VERB	_	VerbForm=Ger	20	xcomp	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	тайзан	тайзан	NOUN	_	Case=Nom	19	nmod	_	_
+17	дээрэ	дээрэ	ADP	_	_	16	case	_	_
+18	гүйжэ	гүйжэ	ADV	_	_	19	advmod	_	_
+19	гараад	гара	VERB	_	Mood=Des|Number=Plur|Person=3	20	xcomp	_	_
+20	эрьелдэнэ	эрьелдэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = bxr-ud3::53
+# text = Маттиин гонзогорхон хобто түмэр морин соо орхигдоһон байна.
+1	Маттиин	Матти	PROPN	_	Case=Gen|Gender=Masc	3	nmod	_	_
+2	гонзогорхон	гонзогорхон	ADJ	_	_	3	compound	_	_
+3	хобто	хобто	NOUN	_	Case=Nom	7	nsubj	_	_
+4	түмэр	түмэр	ADJ	_	_	7	nmod	_	_
+5	морин	морин	NOUN	_	Case=Nom	4	fixed	_	_
+6	соо	соо	ADP	_	_	5	case	_	_
+7	орхигдоһон	орхигдоһон	ADJ	_	_	0	root	_	_
+8	байна	бай	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	7	cop	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = bxr-ud3::618
+# text = Цыпелма басагаханай дунда классуудта һуража байхада, нютагайнь Вера Ракшаева гэжэ басаган дуу дууладаг, шүлэг уран гоёор уншадаг болон нугархай һайханаар хатардаг һэн.
+1	Цыпелма	Цыпелма	PROPN	_	Case=Nom|Gender=Fem	5	nsubj	_	_
+2	басагаханай	басагахан	NOUN	_	Case=Gen	1	appos	_	_
+3	дунда	дунда	ADJ	_	_	4	amod	_	_
+4	классуудта	класс	NOUN	_	Case=Dat|Number=Plur	5	nmod	_	_
+5	һуража	һура	VERB	_	VerbForm=Coverb	0	root	_	_
+6	байхада	бай	AUX	_	Case=Dat|VerbForm=Ger	5	aux	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	нютагайнь	нютаг	NOUN	_	Case=Gen|Number[psor]=Sing|Person[psor]=3	10	nmod	_	_
+9	Вера	Вера	PROPN	_	Case=Nom|Gender=Masc	14	nsubj	_	_
+10	Ракшаева	Ракшаев	PROPN	_	Case=Nom|Gender=Fem	9	flat	_	_
+11	гэжэ	гэ	VERB	_	VerbForm=Coverb	12	discourse	_	_
+12	басаган	басаган	NOUN	_	Case=Nom	10	appos	_	_
+13	дуу	дуу	NOUN	_	Case=Nom	14	obj	_	_
+14	дууладаг	дуула	VERB	_	_	5	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	шүлэг	шүлэг	NOUN	_	Case=Nom	19	obj	_	_
+17	уран	уран	ADJ	_	_	18	advmod	_	_
+18	гоёор	гоёор	ADV	_	_	19	advmod	_	_
+19	уншадаг	унша	VERB	_	_	14	conj	_	_
+20	болон	болон	CCONJ	_	_	19	cc	_	_
+21	нугархай	нугархай	ADJ	_	_	22	advmod	_	_
+22	һайханаар	һайханаар	ADV	_	_	23	advmod	_	_
+23	хатардаг	хатар	VERB	_	_	19	conj	_	_
+24	һэн	һэн	PART	_	_	5	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::354
+# text = Эрхүүгэй зайн галнууд ялараа.
+1	Эрхүүгэй	Эрхүүгэй	PROPN	_	Case=Nom	3	nmod	_	_
+2	зайн	зайн	ADJ	_	_	3	amod	_	_
+3	галнууд	гал	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+4	ялараа	ялар	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+

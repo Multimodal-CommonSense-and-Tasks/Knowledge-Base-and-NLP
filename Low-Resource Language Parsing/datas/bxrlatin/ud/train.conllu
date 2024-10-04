@@ -1,0 +1,210 @@
+# sent_id = bxr-ud3::895
+# text = Minii hanaxada, boroo orožo bajna.
+1	Minii	би	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	det	_	_
+2	hanaxada	һанаха	NOUN	_	Case=Dat	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	boroo	бороо	NOUN	_	Case=Nom	5	nsubj	_	_
+5	orožo	оро	VERB	_	VerbForm=Coverb	0	root	_	_
+6	bajna	бай	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	5	aux	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::896
+# text = Tere xün arxi tamxijaa xajaža üzebe.
+1	Tere	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	xün	хүн	NOUN	_	Case=Nom	6	nsubj	_	_
+3	arxi	архи	NOUN	_	Case=Nom	5	obj	_	_
+4	tamxijaa	тамхи	NOUN	_	Case=Nom|Reflex=Yes	3	conj	_	_
+5	xajaža	хая	VERB	_	VerbForm=Coverb	6	xcomp	_	_
+6	üzebe	үзэ	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = bxr-ud3::897
+# text = Ošoxoo hanana güš?
+1	Ošoxoo	ошо	VERB	_	Case=Nom|Reflex=Yes|VerbForm=Ger	2	xcomp	_	_
+2	hanana	һана	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+3	güš	гү	PART	_	Number=Sing|Person=2	2	discourse	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bxr-ud3::898
+# text = Sem, sonxo ongojlgo!
+1	Sem	Сэм	PROPN	_	Case=Nom|Gender=Masc	4	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	sonxo	сонхо	NOUN	_	Case=Nom	4	obj	_	_
+4	ongojlgo	онгойлго	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::899
+# text = Tere hamgan übgejee mašinaa ugaagyš geže baalaba.
+1	Tere	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	hamgan	һамган	NOUN	_	Case=Nom	7	nsubj	_	_
+3	übgejee	үбгэн	NOUN	_	Case=Nom|Reflex=Yes	7	iobj	_	_
+4	mašinaa	машина	NOUN	_	Case=Nom|Reflex=Yes	5	obj	_	_
+5	ugaagyš	үгэ	VERB	_	_	7	xcomp	_	_
+6	geže	гэ	VERB	_	VerbForm=Coverb	7	discourse	_	_
+7	baalaba	баала	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::900
+# text = Pjetiin xürše xorjoogoo šerdebe.
+1	Pjetiin	Пети	PROPN	_	Case=Gen|Gender=Masc	2	nmod:own	_	_
+2	xürše	хүршэ	NOUN	_	Case=Nom	4	nsubj	_	_
+3	xorjoogoo	хорёо	NOUN	_	Case=Nom|Reflex=Yes	4	obj	_	_
+4	šerdebe	шэрдэ	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::901
+# text = Minii baabaj šiniixihee berxe.
+1	Minii	би	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	det	_	_
+2	baabaj	баабай	NOUN	_	Case=Nom	4	nsubj	_	_
+3	šiniixihee	ши	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	nmod	_	_
+4	berxe	бэрхэ	ADJ	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::902
+# text = Meri – xürel, Pitjer – müngen, xarin Džjejn – altan mjedalʹ tus tus ababa.
+1	Meri	Мэри	PROPN	_	Case=Nom|Gender=Fem	10	orphan	_	_
+2	–	–	PUNCT	_	_	16	punct	_	_
+3	xürel	хүрэл	NOUN	_	Case=Nom	12	orphan	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	16	punct	_	_
+5	Pitjer	Питер	PROPN	_	Case=Nom|Gender=Masc	10	orphan	_	_
+6	–	–	PUNCT	_	_	16	punct	_	_
+7	müngen	мүнгэн	NOUN	_	Case=Nom	12	orphan	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	16	punct	_	_
+9	xarin	харин	CCONJ	_	_	16	cc	_	_
+10	Džjejn	Джейн	PROPN	_	Case=Nom|Gender=Fem	16	nsubj	_	_
+11	–	–	PUNCT	_	_	10	punct	_	_
+12	altan	алтан	NOUN	_	Case=Nom	13	amod	_	_
+13	mjedalʹ	медаль	NOUN	_	Case=Nom	16	obj	_	_
+14	tus	тус	PART	_	_	16	discourse	_	_
+15	tus	тус	PART	_	_	14	fixed	_	_
+16	ababa	аба	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = bxr-ud3::903
+# text = Igauzu geeše tomo güren gü, baga gü?
+1	Igauzu	Игаузу	PROPN	_	Case=Nom	4	nsubj	_	_
+2	geeše	гээшэ	VERB	_	Mood=Imp|VerbForm=Fin	4	discourse	_	_
+3	tomo	томо	ADJ	_	_	4	amod	_	_
+4	güren	гүрэн	NOUN	_	Case=Nom	0	root	_	_
+5	gü	гү	PART	_	Number=Sing|Person=3	4	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	baga	бага	ADJ	_	_	4	amod	_	_
+8	gü	гү	PART	_	Number=Sing|Person=3	4	discourse	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::904
+# text = Pitjer Smit, Meri Braun xojoroj aliijenʹšʹje šelexyn argagüj bajba.
+1	Pitjer	Питер	PROPN	_	Case=Nom|Gender=Masc	8	obj	_	_
+2	Smit	Смит	PROPN	_	Case=Nom	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Meri	Мэри	PROPN	_	Case=Nom|Gender=Fem	2	conj	_	_
+5	Braun	Браун	PROPN	_	Case=Nom	4	flat	_	_
+6	xojoroj	хоёрой	CCONJ	_	_	5	cc	_	_
+7	aliijenʹšʹje	алииеньшье	PRON	_	_	5	appos	_	Morf=Unknown
+8	šelexyn	шэлэ	VERB	_	Case=Gen|VerbForm=Ger	9	xcomp	_	_
+9	argagüj	арга	ADJ	_	_	0	root	_	_
+10	bajba	бай	AUX	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = bxr-ud3::905
+# text = Xenejšʹje bešehen xynʹ orojdoo medenegüj.
+1	Xenejšʹje	хэнэй	PRON	_	_	2	nsubj	_	Morf=Unknown
+2	bešehen	бэшэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	xynʹ	хынь	PART	_	_	5	nsubj	_	_
+4	orojdoo	оройдоо	ADV	_	_	5	advmod	_	_
+5	medenegüj	мэдэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = bxr-ud3::906
+# text = Juugee xaranabši?
+1	Juugee	юу	PRON	_	_	2	obj	_	Morf=Unknown
+2	xaranabši	хара	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Aor|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = bxr-ud3::907
+# text = Xezee jereže šadaxajaa medene güš?
+1	Xezee	хэзээ	ADV	_	PronType=Int	2	advmod	_	_
+2	jereže	ерэ	VERB	_	VerbForm=Coverb	3	xcomp	_	_
+3	šadaxajaa	шада	VERB	_	Case=Acc|VerbForm=Ger	4	advcl	_	_
+4	medene	мэдэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+5	güš	гү	PART	_	Number=Sing|Person=2	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::908
+# text = Tere xün mašina abaa, xarin düünʹ orojdool vjelosipjed abaža šadaa.
+1	Tere	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	xün	хүн	NOUN	_	Case=Nom	4	nsubj	_	_
+3	mašina	машина	NOUN	_	Case=Nom	4	obj	_	_
+4	abaa	аба	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	xarin	харин	CCONJ	_	_	2	cc	_	_
+7	düünʹ	дүү	NOUN	_	Case=Nom|Number[psor]=Sing|Person[psor]=3	10	nsubj	_	_
+8	orojdool	оройдоол	ADV	_	_	10	advmod	_	_
+9	vjelosipjed	велосипед	NOUN	_	Case=Nom	10	obj	_	_
+10	abaža	аба	VERB	_	VerbForm=Coverb	4	conj	_	_
+11	šadaa	шада	AUX	_	Mood=Des|Number=Sing|Person=3	10	aux	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = bxr-ud3::909
+# text = Pitjer Meri xojor teberildeed, tahalgahaa garaba.
+1	Pitjer	Питер	PROPN	_	Case=Nom|Gender=Masc	7	nsubj	_	_
+2	Meri	Мэри	PROPN	_	Case=Nom|Gender=Fem	1	conj	_	_
+3	xojor	хоёр	CCONJ	_	_	2	cc	_	_
+4	teberildeed	тэбэрил	VERB	_	VerbForm=Coverb	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	tahalgahaa	таһалга	NOUN	_	Case=Abl	7	nmod	_	_
+7	garaba	гара	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::910
+# text = Ühejee zahuulxa xün aad, tere üder juunde xynʹ bü mede, zalxuunʹ xürebe.
+1	Ühejee	үһэн	NOUN	_	Case=Nom|Reflex=Yes	2	obj	_	_
+2	zahuulxa	заһуул	VERB	_	_	0	root	_	_
+3	xün	хүн	NOUN	_	Case=Nom	2	nsubj	_	_
+4	aad	аад	CCONJ	_	_	2	cc	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	tere	тэрэ	DET	_	PronType=Dem	7	det	_	_
+7	üder	үдэр	NOUN	_	Case=Nom	14	nmod	_	_
+8	juunde	юундэ	ADV	_	PronType=Int	11	mark	_	_
+9	xynʹ	хынь	PART	_	_	11	discourse	_	_
+10	bü	бү	PART	_	_	11	advmod:neg	_	_
+11	mede	мэдэ	VERB	_	Mood=Imp|VerbForm=Fin	14	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	zalxuunʹ	залхуунь	NOUN	_	Case=Nom	14	nsubj	_	_
+14	xürebe	хүрэ	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = bxr-ud3::911
+# text = Jexe xurdaar güjxedenʹ xüseže jadaab.
+1	Jexe	ехэ	ADV	_	_	2	advmod	_	_
+2	xurdaar	хурдаар	ADV	_	_	3	advmod	_	_
+3	güjxedenʹ	гүй	VERB	_	Case=Dat|Number[psor]=Sing|Person[psor]=3|VerbForm=Ger	4	ccomp	_	_
+4	xüseže	хүсэ	VERB	_	VerbForm=Coverb	0	root	_	_
+5	jadaab	яда	AUX	_	Mood=Des|Number=Sing|Person=1	4	aux	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = bxr-ud3::912
+# text = Ene Pjotroj bešeg, üsegelder asarža ügöö hen.
+1	Ene	энэ	PRON	_	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	Pjotroj	Пётр	PROPN	_	Case=Gen|Gender=Masc	3	nmod:own	_	_
+3	bešeg	бэшэг	NOUN	_	Case=Nom	7	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	üsegelder	үсэгэлдэр	ADV	_	_	7	advmod	_	_
+6	asarža	асар	VERB	_	VerbForm=Coverb	7	compound	_	_
+7	ügöö	үгэ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Aor|VerbForm=Fin	0	root	_	_
+8	hen	һэн	PART	_	_	7	discourse	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = bxr-ud3::913
+# text = Tere basagan Franciin niislel xoto Parista öödöö boloo hen.
+1	Tere	тэрэ	DET	_	PronType=Dem	2	det	_	_
+2	basagan	басаган	NOUN	_	Case=Nom	8	nsubj	_	_
+3	Franciin	Франци	PROPN	_	Case=Gen	5	nmod:own	_	_
+4	niislel	ниислэл	NOUN	_	Case=Nom	5	compound	_	_
+5	xoto	хото	NOUN	_	Case=Nom	6	nmod	_	_
+6	Parista	Парис	PROPN	_	Case=Dat	8	nmod	_	_
+7	öödöö	өөдөө	PRON	_	Case=Nom|Reflex=Yes	8	compound	_	_
+8	boloo	боло	VERB	_	Mood=Des|Number=Sing|Person=3	0	root	_	_
+9	hen	һэн	PART	_	_	8	discourse	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
