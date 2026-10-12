@@ -176,3 +176,7 @@
 * Predicting branch retinal vein occlusion development using multimodal deep learning and pre-onset fundus hemisection images (Scientific Reports 2025) - Eun Young Choi, Dongyoung Kim, Jinyeong Kim, Eunjin Kim, Hyunseo Lee, Jinyoung Yeo, Tae Keun Yoo, and Min Kim.
 
   * This paper predicts future branch retinal vein occlusion from pre-onset, metadata-matched fundus hemisection images, segmenting the optic disc and retinal blood vessels with a U-net and combining fundus and vessel images in a BV-enhanced multimodal EfficientNetB0 model whose predictions focus on arteriovenous crossing regions in the retinal vascular arcade.
+
+* ToolHaystack: Stress-Testing Tool-Augmented Language Models in Realistic Long-Term Interactions (arXiv 2025) - Beong-woo Kwak, Minju Kim, Dongha Lim, Hyungjoo Chae, Dongjin Kang, Sunghwan Kim, Dongil Yang, and Jinyoung Yeo.
+
+  * The proposed ToolHaystack is a benchmark that evaluates tool-augmented language models in long-term interactions, where the information needed for a tool call is scattered across many sessions and buried among unrelated tasks, testing Context Recall, Information Shift, and Missing Context.
