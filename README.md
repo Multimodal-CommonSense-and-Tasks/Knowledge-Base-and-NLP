@@ -180,3 +180,7 @@
 * ToolHaystack: Stress-Testing Tool-Augmented Language Models in Realistic Long-Term Interactions (arXiv 2025) - Beong-woo Kwak, Minju Kim, Dongha Lim, Hyungjoo Chae, Dongjin Kang, Sunghwan Kim, Dongil Yang, and Jinyoung Yeo.
 
   * The proposed ToolHaystack is a benchmark that evaluates tool-augmented language models in long-term interactions, where the information needed for a tool call is scattered across many sessions and buried among unrelated tasks, testing Context Recall, Information Shift, and Missing Context.
+
+* ANI: Adaptive Numerical Injection for Unifying Semantic and Arithmetic Representations in Numerical Reasoning (EMNLP 2026) - Jinsung Jeon and Seung-won Hwang.
+
+  * This paper proposes ANI (Adaptive Numerical Injection), which uses context-aware gating to selectively inject numerical embeddings into LLM representations, improving arithmetic reasoning while preserving the semantic roles of numbers and general language capabilities.
